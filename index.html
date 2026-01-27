@@ -1,836 +1,574 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Menu</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant POS System | Streamline Your Restaurant Operations</title>
+    <meta
+      name="description"
+      content="Complete restaurant management system for orders, tables, inventory, payments, and reporting. Easy to use, fast, and reliable."
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+      :root {
+        --primary: #0f766e;
+        --primary-dark: #115e59;
+        --primary-light: #ccfbf1;
+        --accent: #f59e0b;
+        --accent-dark: #d97706;
+        --success: #10b981;
+        --bg: #f8fafc;
+        --text: #0f172a;
+        --muted: #475569;
+        --card: #ffffff;
+        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        --radius: 1rem;
+        --transition: all 0.3s ease;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+
+      header {
+        background: linear-gradient(
+          135deg,
+          var(--primary),
+          var(--primary-dark)
+        );
+        color: white;
+        padding: 5rem 1.5rem;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      .highlight {
+        color: var(--accent);
+        display: inline-block;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto 2rem;
+        opacity: 0.9;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background: var(--accent);
+        color: black;
+        padding: 1rem 2.5rem;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: var(--transition);
+        border: none;
+        cursor: pointer;
+      }
+
+      .cta-button:hover {
+        background: var(--accent-dark);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      section {
+        padding: 4rem 0;
+      }
+
+      .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        font-weight: 700;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .feature-card {
+        background: var(--card);
+        padding: 2rem;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+        border-top: 4px solid var(--primary);
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-lg);
+      }
+
+      .feature-icon {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        display: inline-block;
+      }
+
+      .feature-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: var(--primary-dark);
+      }
+
+      .feature-list {
+        list-style: none;
+        margin-top: 1rem;
+      }
+
+      .feature-list li {
+        padding: 0.3rem 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .feature-list li:before {
+        content: "✓";
+        color: var(--success);
+        font-weight: bold;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        text-align: center;
+        background: var(--primary-light);
+        padding: 3rem;
+        border-radius: var(--radius);
+        margin: 3rem auto;
+        max-width: 1000px;
+      }
+
+      .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary);
+        display: block;
+      }
+
+      .stat-label {
+        color: var(--muted);
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      .testimonial {
+        background: white;
+        padding: 2rem;
+        border-radius: var(--radius);
+        margin: 2rem auto;
+        max-width: 800px;
+        box-shadow: var(--shadow);
+        border-left: 4px solid var(--accent);
+      }
+
+      .testimonial-text {
+        font-style: italic;
+        margin-bottom: 1rem;
+        color: var(--text);
+      }
+
+      .testimonial-author {
+        font-weight: 600;
+        color: var(--primary);
+      }
+
+      .contact-form {
+        max-width: 600px;
+        margin: 2rem auto;
+        background: white;
+        padding: 2.5rem;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+      }
+
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: var(--text);
+      }
+
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 0.875rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        font-family: inherit;
+        font-size: 1rem;
+      }
+
+      .form-group input:focus,
+      .form-group select:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.1);
+      }
+
+      footer {
+        background: #0f172a;
+        color: #cbd5e1;
+        padding: 3rem 0;
+        text-align: center;
+      }
+
+      .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+      }
+
+      .footer-links a {
+        color: var(--accent);
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .footer-links a:hover {
+        color: white;
+      }
+
+      .copyright {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: #94a3b8;
+      }
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2.2rem;
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: #1a1a1a;
-            color: white;
-            height: 100vh;
-            overflow: hidden;
+        .section-title {
+          font-size: 2rem;
         }
 
-        .container {
-            display: flex;
-            height: 100vh;
+        .stats {
+          padding: 2rem 1rem;
         }
 
-        /* Left Sidebar - Families */
-        .sidebar {
-            width: 250px;
-            background-color: #2d2d2d;
-            border-right: 1px solid #404040;
-            display: flex;
-            flex-direction: column;
+        .footer-links {
+          flex-direction: column;
+          gap: 1rem;
         }
-
-        .sidebar-header {
-            padding: 20px;
-            border-bottom: 1px solid #404040;
-            background-color: #333;
-        }
-
-        .sidebar-header h2 {
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        .family-list {
-            padding: 15px;
-            flex: 1;
-            overflow-y: auto;
-        }
-
-        .family-item {
-            background-color: #404040;
-            margin-bottom: 10px;
-            padding: 15px;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .family-item:hover {
-            background-color: #4a4a4a;
-        }
-
-        .family-item.active {
-            background-color: #0066cc;
-        }
-
-        .family-name {
-            font-weight: 500;
-            font-size: 14px;
-        }
-
-        .family-code {
-            font-size: 12px;
-            opacity: 0.7;
-            margin-top: 2px;
-        }
-
-        /* Main Content */
-        .main-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Quantity Buttons */
-        .quantity-buttons {
-    background-color: #2d2d2d;
-    padding: 15px 20px;
-    border-bottom: 1px solid #404040;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    width: 100%;
-}
-
-
-
-        .quantity-btn {
-            background: linear-gradient(135deg, #404040, #333);
-            border: none;
-            border-radius: 10px;
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-            font-weight: 700;
-            color: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .quantity-btn:hover {
-            background: linear-gradient(135deg, #505050, #444);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        }
-
-        .quantity-btn.active {
-            background: linear-gradient(135deg, #0066cc, #004d99);
-            box-shadow: 0 6px 12px rgba(0, 102, 204, 0.3);
-        }
-
-        /* Top Bar - SubFamilies */
-        .subfamilies-bar {
-            background-color: #2d2d2d;
-            border-bottom: 1px solid #404040;
-            padding: 20px;
-        }
-
-        .subfamilies-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
-        }
-
-        .subfamily-card {
-            padding: 20px;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            text-align: left;
-            border: 2px solid transparent;
-        }
-
-        .subfamily-card:hover {
-            transform: translateY(-2px);
-        }
-
-        .subfamily-card.active {
-            border-color: white;
-        }
-
-        .subfamily-card.red { background-color: #dc3545; }
-        .subfamily-card.blue { background-color: #0066cc; }
-        .subfamily-card.purple { background-color: #6f42c1; }
-        .subfamily-card.yellow { background-color: #ffc107; color: #000; }
-        .subfamily-card.green { background-color: #28a745; }
-        .subfamily-card.orange { background-color: #fd7e14; }
-        .subfamily-card.teal { background-color: #20c997; }
-        .subfamily-card.pink { background-color: #e83e8c; }
-
-        .subfamily-name {
-            font-weight: 600;
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-
-        .subfamily-count {
-            font-size: 12px;
-            opacity: 0.8;
-        }
-
-        /* Articles Area */
-        .articles-section {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-        }
-
-        .articles-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 15px;
-        }
-
-        .article-card {
-            background-color: #2d2d2d;
-            border: 1px solid #404040;
-            border-radius: 8px;
-            padding: 15px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .article-card:hover {
-            background-color: #3d3d3d;
-            border-color: #0066cc;
-        }
-
-        .article-name {
-            font-weight: 500;
-            font-size: 14px;
-            margin-bottom: 5px;
-        }
-
-        .article-code {
-            font-size: 12px;
-            color: #888;
-        }
-
-        .empty-state {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            color: #666;
-        }
-
-        .empty-icon {
-            font-size: 60px;
-            margin-bottom: 20px;
-        }
-
-        /* Right Sidebar - Orders */
-        .orders-sidebar {
-            width: 350px;
-            background-color: #2d2d2d;
-            border-left: 1px solid #404040;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .orders-header {
-            padding: 20px;
-            border-bottom: 1px solid #404040;
-            background-color: #333;
-        }
-
-        .customer-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .customer-name {
-            font-weight: 600;
-            font-size: 16px;
-        }
-
-        .customer-badge {
-            background-color: #ffc107;
-            color: #000;
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-        .table-info {
-            font-size: 12px;
-            color: #888;
-            margin-bottom: 5px;
-        }
-
-        .date-info {
-            font-size: 12px;
-            color: #888;
-        }
-
-        .order-details-title {
-            font-size: 14px;
-            font-weight: 600;
-            margin-top: 15px;
-        }
-
-        .orders-content {
-            flex: 1;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            overflow-y: auto;
-        }
-
-        .empty-cart {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666;
-            text-align: center;
-            font-size: 14px;
-        }
-
-        .order-list {
-            flex: 1;
-        }
-
-        .order-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px;
-            margin-bottom: 8px;
-            background-color: #404040;
-            border-radius: 6px;
-            border-left: 3px solid #0066cc;
-        }
-
-        .order-item-info {
-            flex: 1;
-        }
-
-        .order-item-name {
-            font-weight: 500;
-            font-size: 14px;
-            margin-bottom: 2px;
-        }
-
-        .order-item-code {
-            font-size: 12px;
-            color: #888;
-        }
-
-        .order-item-price {
-            font-weight: 600;
-            color: #0066cc;
-            margin-left: 10px;
-        }
-
-        .quantity-controls {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-left: 10px;
-        }
-
-        .qty-btn {
-            background-color: #0066cc;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            width: 24px;
-            height: 24px;
-            cursor: pointer;
-            font-size: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .qty-btn:hover {
-            background-color: #0052a3;
-        }
-
-        .quantity {
-            font-weight: 600;
-            min-width: 20px;
-            text-align: center;
-        }
-
-        .remove-btn {
-            background-color: #dc3545;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            font-size: 12px;
-            margin-left: 8px;
-        }
-
-        .remove-btn:hover {
-            background-color: #c82333;
-        }
-
-        .order-summary {
-            border-top: 1px solid #404040;
-            padding: 20px;
-            background-color: #333;
-        }
-
-        .summary-row {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-
-        .summary-row.total {
-            font-weight: 600;
-            border-top: 1px solid #404040;
-            padding-top: 8px;
-            margin-top: 8px;
-        }
-
-        .payment-buttons {
-            display: flex;
-            gap: 10px;
-            margin-top: 15px;
-        }
-
-        .payment-btn {
-            flex: 1;
-            padding: 12px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-
-        .cash-btn {
-            background-color: #0066cc;
-            color: white;
-        }
-
-        .online-btn {
-            background-color: #ffc107;
-            color: #000;
-        }
-
-        .action-buttons {
-            display: flex;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .print-btn {
-            background-color: #0066cc;
-            color: white;
-        }
-
-        .place-order-btn {
-            background-color: #ffc107;
-            color: #000;
-        }
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Left Sidebar - Families -->
-        <div class="sidebar">
-            <div class="sidebar-header">
-                <h2>Categories</h2>
-            </div>
-            <div class="family-list">
-                <div class="family-item active" onclick="selectFamily(1, this)">
-                    <div class="family-name">Drinks</div>
-                    <div class="family-code">DRK</div>
-                </div>
-                <div class="family-item" onclick="selectFamily(2, this)">
-                    <div class="family-name">Food</div>
-                    <div class="family-code">FOD</div>
-                </div>
-                <div class="family-item" onclick="selectFamily(3, this)">
-                    <div class="family-name">Desserts</div>
-                    <div class="family-code">DST</div>
-                </div>
-            </div>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          Run Your Restaurant <span class="highlight">Smarter, Faster</span>
+        </h1>
+        <p>
+          All-in-one system to manage orders, tables, inventory, payments, and
+          reports. Simple enough for small cafes, powerful enough for busy
+          restaurants.
+        </p>
+        <a href="#demo" class="cta-button">See How It Works →</a>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-number">40%</span>
+          <span class="stat-label">Faster Service</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">99.8%</span>
+          <span class="stat-label">Order Accuracy</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">5,000+</span>
+          <span class="stat-label">Restaurants</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">24/7</span>
+          <span class="stat-label">Support</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Everything You Need in One Place</h2>
+
+      <div class="grid">
+        <div class="feature-card">
+          <div class="feature-icon">🍽️</div>
+          <h3>Order Management</h3>
+          <p>
+            Take orders quickly, send to kitchen instantly, and track everything
+            in real-time.
+          </p>
+          <ul class="feature-list">
+            <li>Split orders across multiple checks</li>
+            <li>Merge tables easily</li>
+            <li>Track order history</li>
+            <li>Manage customer details</li>
+          </ul>
         </div>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Quantity Buttons -->
-            <div class="quantity-buttons">
-                <button class="quantity-btn" onclick="setQuantity(1)">1</button>
-                <button class="quantity-btn" onclick="setQuantity(2)">2</button>
-                <button class="quantity-btn" onclick="setQuantity(3)">3</button>
-                <button class="quantity-btn" onclick="setQuantity(4)">4</button>
-                <button class="quantity-btn" onclick="setQuantity(5)">5</button>
-                <button class="quantity-btn" onclick="setQuantity(6)">6</button>
-                <button class="quantity-btn" onclick="setQuantity(7)">7</button>
-                <button class="quantity-btn" onclick="setQuantity(8)">8</button>
-                <button class="quantity-btn" onclick="setQuantity(9)">9</button>
-                <button class="quantity-btn" onclick="setQuantity(0)">0</button>
-            </div>
-
-            <!-- Top Bar - SubFamilies -->
-            <div class="subfamilies-bar">
-                <div class="subfamilies-grid" id="subfamiliesGrid">
-                    <div class="subfamily-card red active" onclick="selectSubFamily(1, this)">
-                        <div class="subfamily-name">🥗 Starters</div>
-                        <div class="subfamily-count">6 Items</div>
-                    </div>
-                    <div class="subfamily-card blue" onclick="selectSubFamily(2, this)">
-                        <div class="subfamily-name">🍽️ Main Course</div>
-                        <div class="subfamily-count">6 Items</div>
-                    </div>
-                    <div class="subfamily-card purple" onclick="selectSubFamily(3, this)">
-                        <div class="subfamily-name">🥤 Beverages</div>
-                        <div class="subfamily-count">6 Items</div>
-                    </div>
-                    <div class="subfamily-card yellow" onclick="selectSubFamily(4, this)">
-                        <div class="subfamily-name">🍲 Soups</div>
-                        <div class="subfamily-count">6 Items</div>
-                    </div>
-                    <div class="subfamily-card green" onclick="selectSubFamily(5, this)">
-                        <div class="subfamily-name">🍕 Pizzas</div>
-                        <div class="subfamily-count">3 Items</div>
-                    </div>
-                    <div class="subfamily-card orange" onclick="selectSubFamily(6, this)">
-                        <div class="subfamily-name">🍺 Alcoholic Drinks</div>
-                        <div class="subfamily-count">6 Items</div>
-                    </div>
-                    <div class="subfamily-card teal" onclick="selectSubFamily(7, this)">
-                        <div class="subfamily-name">🥗 Salads</div>
-                        <div class="subfamily-count">5 Items</div>
-                    </div>
-                    <div class="subfamily-card pink" onclick="selectSubFamily(8, this)">
-                        <div class="subfamily-name">🧁 Desserts</div>
-                        <div class="subfamily-count">4 Items</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Articles Area -->
-            <div class="articles-section">
-                <div class="articles-grid" id="articlesGrid">
-                    <div class="article-card" onclick="addToOrder('Paneer Tikka', 'PTIKKA')">
-                        <div class="article-name">Paneer Tikka</div>
-                        <div class="article-code">PTIKKA</div>
-                    </div>
-                    <div class="article-card" onclick="addToOrder('Chicken Tikka', 'CTIKKA')">
-                        <div class="article-name">Chicken Tikka</div>
-                        <div class="article-code">CTIKKA</div>
-                    </div>
-                    <div class="article-card" onclick="addToOrder('Tandoori Chicken', 'TAND')">
-                        <div class="article-name">Tandoori Chicken</div>
-                        <div class="article-code">TAND</div>
-                    </div>
-                    <div class="article-card" onclick="addToOrder('Samosa', 'SAM')">
-                        <div class="article-name">Samosa</div>
-                        <div class="article-code">SAM</div>
-                    </div>
-                    <div class="article-card" onclick="addToOrder('Aloo Tikka', 'ALOO')">
-                        <div class="article-name">Aloo Tikka</div>
-                        <div class="article-code">ALOO</div>
-                    </div>
-                    <div class="article-card" onclick="addToOrder('Hara Bhara Kebab', 'HBK')">
-                        <div class="article-name">Hara Bhara Kebab</div>
-                        <div class="article-code">HBK</div>
-                    </div>
-                </div>
-            </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Table Management</h3>
+          <p>
+            See your restaurant floor at a glance and manage seating
+            efficiently.
+          </p>
+          <ul class="feature-list">
+            <li>Real-time table status</li>
+            <li>Book reservations in advance</li>
+            <li>Transfer orders between tables</li>
+            <li>Manage multiple seating areas</li>
+          </ul>
         </div>
 
-        <!-- Right Sidebar - Orders -->
-        <div class="orders-sidebar">
-            <div class="orders-header">
-                <div class="customer-info">
-                    <div>
-                        <div class="table-info">Table : N/A</div>
-                        <div class="date-info">June 16, 2025</div>
-                    </div>
-                    <div class="customer-badge">CN</div>
-                </div>
-                <div class="order-details-title">Order Details</div>
-            </div>
-
-            <div class="orders-content">
-                <div class="empty-cart" id="emptyCart">
-                    Your cart is empty. Start adding items!
-                </div>
-                <div class="order-list" id="orderList" style="display: none;">
-                    <!-- Order items will be populated here -->
-                </div>
-            </div>
-
-            <div class="order-summary">
-                <div class="summary-row">
-                    <span>Items()</span>
-                    <span id="itemsTotal">₹0.00</span>
-                </div>
-                <div class="summary-row">
-                    <span>Tax(5.25%)</span>
-                    <span id="taxAmount">₹0.00</span>
-                </div>
-                <div class="summary-row total">
-                    <span>Total With Tax</span>
-                    <span id="totalAmount">₹0.00</span>
-                </div>
-
-                <div class="payment-buttons">
-                    <button class="payment-btn cash-btn">Cash</button>
-                    <button class="payment-btn online-btn">Online</button>
-                </div>
-
-                <div class="action-buttons">
-                    <button class="payment-btn print-btn">Print Receipt</button>
-                    <button class="payment-btn place-order-btn">Place Order</button>
-                </div>
-            </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Menu & Inventory</h3>
+          <p>
+            Keep your menu fresh and inventory stocked without the guesswork.
+          </p>
+          <ul class="feature-list">
+            <li>Create combo meals easily</li>
+            <li>Track stock levels automatically</li>
+            <li>Get low stock alerts</li>
+            <li>Manage suppliers</li>
+          </ul>
         </div>
-    </div>
+      </div>
+
+      <div class="grid">
+        <div class="feature-card">
+          <div class="feature-icon">💳</div>
+          <h3>Payments & Billing</h3>
+          <p>Process payments quickly and keep your finances organized.</p>
+          <ul class="feature-list">
+            <li>Accept all payment types</li>
+            <li>Split bills easily</li>
+            <li>Track tips and discounts</li>
+            <li>Print receipts instantly</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👨‍🍳</div>
+          <h3>Kitchen Communication</h3>
+          <p>Keep the front and back of house connected seamlessly.</p>
+          <ul class="feature-list">
+            <li>Send orders straight to kitchen</li>
+            <li>Update order status in real-time</li>
+            <li>Special instructions clearly shown</li>
+            <li>Kitchen display support</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3>Reports & Insights</h3>
+          <p>Make better decisions with clear, actionable data.</p>
+          <ul class="feature-list">
+            <li>Daily sales reports</li>
+            <li>Popular item tracking</li>
+            <li>Staff performance metrics</li>
+            <li>Profit margin analysis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Designed for Real Restaurants</h2>
+
+      <div class="testimonial">
+        <p class="testimonial-text">
+          "Since switching to this system, our order accuracy is perfect and
+          service is 40% faster. The kitchen knows exactly what's needed, and
+          our staff spends less time on paperwork and more time with customers."
+        </p>
+        <p class="testimonial-author">
+          – Maria Rodriguez, Owner of Bella Vista Restaurant
+        </p>
+      </div>
+
+      <div class="testimonial">
+        <p class="testimonial-text">
+          "The inventory tracking alone saved us 15% on food costs. We now know
+          exactly what's selling and what's not, and can adjust our ordering
+          accordingly."
+        </p>
+        <p class="testimonial-author">– James Chen, Manager of Urban Bistro</p>
+      </div>
+    </section>
+
+    <section id="demo" class="container">
+      <h2 class="section-title">Ready to Simplify Your Restaurant?</h2>
+
+      <div class="contact-form">
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--muted)">
+          Book a personalized demo to see how our system can work for your
+          restaurant.
+        </p>
+
+        <form id="demoForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="John Smith"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="restaurant">Restaurant Name</label>
+            <input
+              type="text"
+              id="restaurant"
+              name="restaurant"
+              required
+              placeholder="Your Restaurant"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="john@restaurant.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+1 (555) 123-4567"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="restaurant-type">Type of Restaurant</label>
+            <select id="restaurant-type" name="restaurant-type">
+              <option value="">Select type</option>
+              <option value="fine-dining">Fine Dining</option>
+              <option value="casual">Casual Dining</option>
+              <option value="fast-casual">Fast Casual</option>
+              <option value="cafe">Cafe</option>
+              <option value="bar">Bar & Lounge</option>
+              <option value="food-truck">Food Truck</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">What challenges are you facing?</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="Slow service, inventory waste, staff management, etc."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="cta-button" style="width: 100%">
+            Book My Free Demo
+          </button>
+        </form>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem; color: var(--muted)">
+        <p>
+          Or contact us directly:<br />
+          📞 +1 (555) 123-4567 | 📧 hello@restaurantpos.com
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <h3 style="color: white; margin-bottom: 1rem">Restaurant POS System</h3>
+        <p>Making restaurant management simple and efficient since 2020.</p>
+
+        <div class="footer-links">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Support</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+
+        <div class="copyright">
+          © 2024 Restaurant POS System. All rights reserved.<br />
+          Designed for restaurants, by restaurant professionals.
+        </div>
+      </div>
+    </footer>
 
     <script>
-        // Sample data with prices
-        const familyData = {
-            1: { // Drinks
-                subfamilies: [
-                    { id: 1, name: '🥤 Soft Drinks', items: 4, color: 'blue' },
-                    { id: 2, name: '🍺 Alcoholic', items: 3, color: 'red' }
-                ]
-            },
-            2: { // Food
-                subfamilies: [
-                    { id: 3, name: '🥗 Starters', items: 6, color: 'red' },
-                    { id: 4, name: '🍽️ Main Course', items: 6, color: 'blue' },
-                    { id: 5, name: '🍕 Pizzas', items: 3, color: 'green' },
-                    { id: 6, name: '🍔 Burgers', items: 4, color: 'orange' },
-                    { id: 7, name: '🍲 Soups', items: 6, color: 'yellow' },
-                    { id: 8, name: '🥗 Salads', items: 5, color: 'teal' }
-                ]
-            },
-            3: { // Desserts
-                subfamilies: [
-                    { id: 9, name: '🧁 Cakes', items: 4, color: 'pink' }
-                ]
-            }
-        };
+      document
+        .getElementById("demoForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
 
-        const articleData = {
-            1: [
-                { name: 'Coca-Cola 500ml', code: 'COKE', price: 50 },
-                { name: 'Fanta Orange 500ml', code: 'FANTA', price: 50 },
-                { name: 'Sprite 500ml', code: 'SPRITE', price: 50 },
-                { name: 'Pepsi 500ml', code: 'PEPSI', price: 50 }
-            ],
-            2: [
-                { name: 'Heineken Beer 330ml', code: 'HEIN', price: 150 },
-                { name: 'Corona Beer 330ml', code: 'CORONA', price: 180 },
-                { name: 'Wine Glass Red', code: 'WINERED', price: 200 }
-            ],
-            3: [
-                { name: 'Paneer Tikka', code: 'PTIKKA', price: 250 },
-                { name: 'Chicken Tikka', code: 'CTIKKA', price: 300 },
-                { name: 'Tandoori Chicken', code: 'TAND', price: 350 },
-                { name: 'Samosa', code: 'SAM', price: 100 },
-                { name: 'Aloo Tikka', code: 'ALOO', price: 120 },
-                { name: 'Hara Bhara Kebab', code: 'HBK', price: 220 }
-            ],
-            4: [
-                { name: 'Butter Chicken', code: 'BUTCHK', price: 380 },
-                { name: 'Dal Makhani', code: 'DALM', price: 280 },
-                { name: 'Biryani', code: 'BIRYANI', price: 420 },
-                { name: 'Naan', code: 'NAAN', price: 80 },
-                { name: 'Rice', code: 'RICE', price: 120 },
-                { name: 'Paneer Makhani', code: 'PANM', price: 320 }
-            ],
-            5: [
-                { name: 'Margherita Pizza', code: 'MARG', price: 450 },
-                { name: 'Pepperoni Pizza', code: 'PEPP', price: 520 },
-                { name: 'Hawaiian Pizza', code: 'HAW', price: 480 }
-            ],
-            6: [
-                { name: 'Classic Burger', code: 'CLAS', price: 280 },
-                { name: 'Cheese Burger', code: 'CHEE', price: 320 },
-                { name: 'Chicken Burger', code: 'CHKB', price: 350 },
-                { name: 'Veggie Burger', code: 'VEG', price: 250 }
-            ],
-            7: [
-                { name: 'Tomato Soup', code: 'TOMS', price: 120 },
-                { name: 'Chicken Soup', code: 'CHKS', price: 150 },
-                { name: 'Mushroom Soup', code: 'MUSH', price: 140 },
-                { name: 'Sweet Corn Soup', code: 'CORN', price: 130 },
-                { name: 'Hot & Sour Soup', code: 'HOTS', price: 135 },
-                { name: 'Manchow Soup', code: 'MANC', price: 145 }
-            ],
-            8: [
-                { name: 'Caesar Salad', code: 'CAES', price: 220 },
-                { name: 'Greek Salad', code: 'GREEK', price: 250 },
-                { name: 'Garden Salad', code: 'GARD', price: 180 },
-                { name: 'Chicken Salad', code: 'CHKS', price: 280 },
-                { name: 'Fruit Salad', code: 'FRUIT', price: 160 }
-            ],
-            9: [
-                { name: 'Chocolate Cake', code: 'CHOC', price: 180 },
-                { name: 'Vanilla Cake', code: 'VAN', price: 160 },
-                { name: 'Red Velvet Cake', code: 'REDV', price: 200 },
-                { name: 'Cheesecake', code: 'CHEESE', price: 220 }
-            ]
-        };
+          // Get form data
+          const name = document.getElementById("name").value;
 
-        let currentOrder = [];
-        let orderIdCounter = 1;
-        let selectedQuantity = 1;
+          // Show success message
+          alert(
+            `Thank you, ${name}! We'll contact you within 24 hours to schedule your demo.`,
+          );
 
-        function setQuantity(quantity) {
-            selectedQuantity = quantity;
-            document.querySelectorAll('.quantity-btn').forEach(btn => btn.classList.remove('active'));
-            event.target.classList.add('active');
-        }
-
-        function selectFamily(familyId, element) {
-            document.querySelectorAll('.family-item').forEach(item => {
-                item.classList.remove('active');
-            });
-            element.classList.add('active');
-            updateSubFamilies(familyId);
-            document.getElementById('articlesGrid').innerHTML = '<div class="empty-state"><div class="empty-icon">🍽️</div><h3>Select a Category</h3><p>Choose a category from the top to view menu items</p></div>';
-        }
-
-        function updateSubFamilies(familyId) {
-            const subfamiliesGrid = document.getElementById('subfamiliesGrid');
-            const subfamilies = familyData[familyId]?.subfamilies || [];
-            subfamiliesGrid.innerHTML = '';
-            subfamilies.forEach(subfamily => {
-                const div = document.createElement('div');
-                div.className = `subfamily-card ${subfamily.color}`;
-                div.onclick = () => selectSubFamily(subfamily.id, div);
-                div.innerHTML = `
-                    <div class="subfamily-name">${subfamily.name}</div>
-                    <div class="subfamily-count">${subfamily.items} Items</div>
-                `;
-                subfamiliesGrid.appendChild(div);
-            });
-        }
-
-        function selectSubFamily(subFamilyId, element) {
-            document.querySelectorAll('.subfamily-card').forEach(card => {
-                card.classList.remove('active');
-            });
-            element.classList.add('active');
-            updateArticles(subFamilyId);
-        }
-
-        function updateArticles(subFamilyId) {
-            const articlesGrid = document.getElementById('articlesGrid');
-            const articles = articleData[subFamilyId] || [];
-            if (articles.length === 0) {
-                articlesGrid.innerHTML = '<div class="empty-state"><div class="empty-icon">🍽️</div><h3>No Items</h3><p>No items available in this category</p></div>';
-                return;
-            }
-            articlesGrid.innerHTML = '';
-            articles.forEach(article => {
-                const div = document.createElement('div');
-                div.className = 'article-card';
-                div.onclick = () => addToOrder(article.name, article.code, article.price);
-                div.innerHTML = `
-                    <div class="article-name">${article.name}</div>
-                    <div class="article-code">${article.code}</div>
-                `;
-                articlesGrid.appendChild(div);
-            });
-        }
-
-        function addToOrder(itemName, itemCode, itemPrice) {
-            if (selectedQuantity === 0) return;
-            const quantity = selectedQuantity;
-            const existingItem = currentOrder.find(item => item.code === itemCode);
-            if (existingItem) {
-                existingItem.quantity += quantity;
-            } else {
-                currentOrder.push({
-                    id: orderIdCounter++,
-                    name: itemName,
-                    code: itemCode,
-                    price: itemPrice,
-                    quantity: quantity
-                });
-            }
-            updateOrderDisplay();
-            selectedQuantity = 1; // Reset to default after adding
-            document.querySelectorAll('.quantity-btn')[0].classList.add('active'); // Reset to 1
-            document.querySelectorAll('.quantity-btn').forEach(btn => {
-                if (btn.textContent !== '1') btn.classList.remove('active');
-            });
-        }
-
-        function updateQuantity(itemId, change) {
-            const item = currentOrder.find(item => item.id === itemId);
-            if (item) {
-                item.quantity += change;
-                if (item.quantity <= 0) {
-                    removeFromOrder(itemId);
-                } else {
-                    updateOrderDisplay();
-                }
-            }
-        }
-
-        function removeFromOrder(itemId) {
-            currentOrder = currentOrder.filter(item => item.id !== itemId);
-            updateOrderDisplay();
-        }
-
-        function updateOrderDisplay() {
-            const emptyCart = document.getElementById('emptyCart');
-            const orderList = document.getElementById('orderList');
-            if (currentOrder.length === 0) {
-                emptyCart.style.display = 'flex';
-                orderList.style.display = 'none';
-                document.getElementById('itemsTotal').textContent = '₹0.00';
-                document.getElementById('taxAmount').textContent = '₹0.00';
-                document.getElementById('totalAmount').textContent = '₹0.00';
-                return;
-            }
-            emptyCart.style.display = 'none';
-            orderList.style.display = 'block';
-            orderList.innerHTML = currentOrder.map(item => `
-                <div class="order-item">
-                    <div class="order-item-info">
-                        <div class="order-item-name">${item.name}</div>
-                        <div class="order-item-code">${item.code}</div>
-                    </div>
-                    <div class="order-item-price">₹${item.price}</div>
-                    <div class="quantity-controls">
-                        <button class="qty-btn" onclick="updateQuantity(${item.id}, -1)">−</button>
-                        <span class="quantity">${item.quantity}</span>
-                        <button class="qty-btn" onclick="updateQuantity(${item.id}, 1)">+</button>
-                    </div>
-                    <button class="remove-btn" onclick="removeFromOrder(${item.id})">×</button>
-                </div>
-            `).join('');
-            const subtotal = currentOrder.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-            const tax = subtotal * 0.0525;
-            const total = subtotal + tax;
-            const totalItems = currentOrder.reduce((sum, item) => sum + item.quantity, 0);
-            document.getElementById('itemsTotal').textContent = `₹${subtotal.toFixed(2)}`;
-            document.getElementById('taxAmount').textContent = `₹${tax.toFixed(2)}`;
-            document.getElementById('totalAmount').textContent = `₹${total.toFixed(2)}`;
-            document.querySelector('.summary-row span').textContent = `Items(${totalItems})`;
-        }
-
-        // Set default quantity to 1
-        document.querySelectorAll('.quantity-btn')[0].classList.add('active');
-
-        updateSubFamilies(2);
+          // Reset form
+          this.reset();
+        });
     </script>
-</body>
+  </body>
 </html>
