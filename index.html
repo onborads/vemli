@@ -9,7 +9,7 @@
       content="Vemli POS - Complete restaurant management system used by Ghanaian restaurants. Core POS Features
 : Order Management, Inventory, Payments, Reporting, User Management, Hardware Integration, Business Intelligence, Integration Ready."
     />
-    <link rel="icon" href="./logo_white.ico" type="image/x-icon" />
+    <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -101,14 +101,15 @@
       }
 
       .logo {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: white;
+        display: flex;
+        align-items: center;
         text-decoration: none;
-      }
-
-      .logo span {
-        color: var(--accent);
+        background-image: url("./logo_white.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 120px;
+        height: 40px;
       }
 
       .nav-links {
@@ -749,15 +750,16 @@
       }
 
       .footer-logo {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: white;
+        display: flex;
+        align-items: center;
         margin-bottom: 1rem;
-        display: block;
-      }
-
-      .footer-logo span {
-        color: var(--accent);
+        text-decoration: none;
+        background-image: url("./logo_dark.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 96px;
+        height: 32px;
       }
 
       .footer-links {
@@ -950,7 +952,7 @@
     <header>
       <div class="container">
         <nav class="nav">
-          <a href="#" class="logo">Vemli<span>POS</span></a>
+          <a href="#" class="logo" title="Vemli POS"></a>
 
           <div class="nav-links">
             <a href="#pricing">Pricing</a>
@@ -1629,7 +1631,7 @@
       <div class="container">
         <div class="footer-content">
           <div>
-            <a href="#" class="footer-logo">Vemli<span>POS</span></a>
+            <a href="#" class="footer-logo" title="Vemli POS"></a>
             <p>
               Professional POS systems for Ghanaian businesses since 2020.
               Making restaurant management simple and efficient.
