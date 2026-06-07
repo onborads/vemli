@@ -1,0 +1,962 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How It Works — Vemli POS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Syne", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: #0a0f1e;
+        color: white;
+        overflow-x: hidden;
+      }
+      .font-display {
+        font-family: "Syne", sans-serif;
+      }
+
+      .nav-blur {
+        background: rgba(10, 15, 30, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        border-radius: 100px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+      .pill-blue {
+        background: rgba(59, 130, 246, 0.15);
+        color: #93c5fd;
+        border: 1px solid rgba(59, 130, 246, 0.25);
+      }
+      .pill-amber {
+        background: rgba(251, 191, 36, 0.12);
+        color: #fcd34d;
+        border: 1px solid rgba(251, 191, 36, 0.2);
+      }
+
+      /* Steps timeline */
+      .steps-section {
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 1.25rem;
+        padding: 3rem 2rem;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      .steps-timeline {
+        position: relative;
+        padding-left: 3.5rem;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+
+      .steps-timeline::before {
+        content: "";
+        position: absolute;
+        left: 1.5rem;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: rgba(59, 130, 246, 0.2);
+        border-radius: 2px;
+      }
+
+      .step {
+        position: relative;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 1rem;
+        padding: 1.5rem 1.75rem;
+        margin-bottom: 1rem;
+        transition: all 0.3s;
+      }
+      .step:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(59, 130, 246, 0.25);
+        transform: translateX(6px);
+      }
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step-restaurant {
+        border-left: 3px solid rgba(251, 191, 36, 0.5);
+      }
+
+      .step-number {
+        position: absolute;
+        left: -3.5rem;
+        top: 1.25rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        background: #1d4ed8;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1rem;
+        box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+        flex-shrink: 0;
+      }
+      .step-restaurant .step-number {
+        background: #d97706;
+        box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+      }
+
+      .step-title {
+        font-size: 1.05rem;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 0.4rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .step-desc {
+        font-size: 0.875rem;
+        color: #94a3b8;
+        margin-bottom: 0.85rem;
+        line-height: 1.6;
+      }
+
+      .step-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+      }
+      .tag {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: #94a3b8;
+        padding: 0.2rem 0.7rem;
+        border-radius: 100px;
+        font-size: 0.72rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+      }
+      .tag-check {
+        color: #34d399;
+        font-size: 0.65rem;
+      }
+
+      .edition-badge {
+        background: rgba(251, 191, 36, 0.12);
+        border: 1px solid rgba(251, 191, 36, 0.25);
+        color: #fbbf24;
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.15rem 0.6rem;
+        border-radius: 100px;
+      }
+
+      /* Scroll reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(28px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .reveal-delay-1 {
+        transition-delay: 0.08s;
+      }
+
+      /* Footer (same as index2) */
+      footer {
+        background: #0f172a;
+        color: #cbd5e1;
+        padding: 4rem 0 2rem;
+      }
+      footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 3rem;
+        margin-bottom: 3rem;
+      }
+      .footer-logo {
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        background-image: url("./logo_dark.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+        width: 96px;
+        height: 32px;
+      }
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .footer-links a {
+        color: #94a3b8;
+        text-decoration: none;
+        transition: color 0.15s;
+        font-size: 0.9rem;
+      }
+      .footer-links a:hover {
+        color: #f59e0b;
+      }
+      .footer-bottom {
+        text-align: center;
+        padding-top: 2rem;
+        border-top: 1px solid #1e293b;
+        font-size: 0.9rem;
+        color: #94a3b8;
+      }
+
+      /* Contact modal (same as index2) */
+      .modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        padding: 1rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+      }
+      .modal-overlay.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .modal-box {
+        background: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        max-width: 500px;
+        width: 100%;
+        max-height: 90vh;
+        overflow-y: auto;
+        transform: translateY(-20px);
+        transition: transform 0.4s ease;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      }
+      .modal-overlay.active .modal-box {
+        transform: translateY(0);
+      }
+
+      @media (max-width: 640px) {
+        .steps-timeline {
+          padding-left: 2.5rem;
+        }
+        .steps-timeline::before {
+          left: 1rem;
+        }
+        .step-number {
+          left: -2.5rem;
+          width: 2.25rem;
+          height: 2.25rem;
+          font-size: 0.85rem;
+        }
+        .step {
+          padding: 1.25rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- WhatsApp Float -->
+    <a
+      href="https://wa.me/233240699506?text=Hello%20Vemli%20POS%20Team%2C%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+      style="
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background: #25d366;
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-decoration: none;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+        transition: transform 0.3s;
+      "
+      onmouseover="this.style.transform = 'scale(1.1)'"
+      onmouseout="this.style.transform = 'scale(1)'"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="contactModal">
+      <div class="modal-box">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+          "
+        >
+          <h3 style="font-size: 1.5rem; font-weight: 700; color: #0f766e">
+            Contact Vemli POS Team
+          </h3>
+          <button
+            onclick="closeContactModal()"
+            style="
+              background: none;
+              border: none;
+              font-size: 1.5rem;
+              cursor: pointer;
+              color: #475569;
+            "
+          >
+            ✕
+          </button>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 1rem">
+          <a
+            href="#"
+            id="whatsappLink"
+            target="_blank"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              background: rgba(37, 211, 102, 0.1);
+              color: #25d366;
+              border: 2px solid transparent;
+            "
+          >
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div>
+              <div
+                style="font-weight: 600; font-size: 1rem; margin-bottom: 0.2rem"
+              >
+                WhatsApp (Fastest Response)
+              </div>
+              <div style="color: #0f172a; font-size: 0.9rem">
+                +233 24 069 9506
+              </div>
+            </div>
+            <i
+              class="fas fa-arrow-right"
+              style="margin-left: auto; color: #ccc"
+            ></i>
+          </a>
+          <a
+            href="#"
+            id="emailLink"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              background: rgba(234, 67, 53, 0.1);
+              color: #ea4335;
+              border: 2px solid transparent;
+            "
+          >
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <div
+                style="font-weight: 600; font-size: 1rem; margin-bottom: 0.2rem"
+              >
+                Email
+              </div>
+              <div style="color: #0f172a; font-size: 0.9rem">info@vemli.co</div>
+            </div>
+            <i
+              class="fas fa-arrow-right"
+              style="margin-left: auto; color: #ccc"
+            ></i>
+          </a>
+          <a
+            href="tel:+233240699506"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              background: rgba(66, 133, 244, 0.1);
+              color: #4285f4;
+              border: 2px solid transparent;
+            "
+          >
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
+              <i class="fas fa-phone"></i>
+            </div>
+            <div>
+              <div
+                style="font-weight: 600; font-size: 1rem; margin-bottom: 0.2rem"
+              >
+                Phone Call
+              </div>
+              <div style="color: #0f172a; font-size: 0.9rem">
+                +233 24 069 9506
+              </div>
+            </div>
+            <i
+              class="fas fa-arrow-right"
+              style="margin-left: auto; color: #ccc"
+            ></i>
+          </a>
+        </div>
+        <p
+          style="
+            margin-top: 1.5rem;
+            text-align: center;
+            color: #475569;
+            font-size: 0.875rem;
+          "
+        >
+          We respond within 1 hour · 8AM–8PM GMT
+        </p>
+      </div>
+    </div>
+
+    <!-- ══ NAV ══ -->
+    <nav class="nav-blur fixed top-0 left-0 right-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
+      >
+        <a
+          href="index.html"
+          title="Vemli POS"
+          style="
+            background-image: url(&quot;./logo_white.jpeg&quot;);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 120px;
+            height: 40px;
+            display: block;
+          "
+        ></a>
+        <div class="hidden md:flex items-center gap-8">
+          <a
+            href="index.html#features"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Features</a
+          >
+          <a
+            href="index.html#ai"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Business Intelligence</a
+          >
+          <a
+            href="index.html#integrations"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Integrations</a
+          >
+          <a
+            href="index.html#pricing"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Pricing</a
+          >
+          <a
+            href="how-it-works.html"
+            class="text-sm text-white font-medium transition-colors"
+            >How It Works</a
+          >
+        </div>
+        <button
+          onclick="openContactModal('Vemli POS System')"
+          class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-all hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-px"
+        >
+          Get Started
+        </button>
+      </div>
+    </nav>
+
+    <!-- ══ PAGE HEADER ══ -->
+    <div class="pt-32 pb-12 px-6 text-center">
+      <div class="pill pill-blue mb-5 mx-auto w-fit">Workflow</div>
+      <h1
+        class="font-display text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-5"
+      >
+        Complete Order Processing<br /><span
+          style="
+            background: linear-gradient(135deg, #60a5fa, #a78bfa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          "
+          >Workflow</span
+        >
+      </h1>
+      <p
+        class="text-slate-400 text-lg md:text-xl max-w-xl mx-auto leading-relaxed font-light"
+      >
+        From table selection to payment — see how Vemli POS streamlines your
+        entire restaurant operation, step by step.
+      </p>
+    </div>
+
+    <!-- ══ STEPS ══ -->
+    <section class="px-6 pb-24 max-w-5xl mx-auto">
+      <div class="steps-section">
+        <div class="steps-timeline">
+          <!-- Step 1 -->
+          <div class="step reveal">
+            <div class="step-number">1</div>
+            <div class="step-title">🪑 Create Table or Select Existing</div>
+            <p class="step-desc">
+              Start by creating a new table with guest information or select an
+              existing table. Perfect for managing walk-ins and reservations.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Guest count tracking</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Reservation management</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Table status tracking</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step reveal reveal-delay-1">
+            <div class="step-number">2</div>
+            <div class="step-title">📋 Browse Menu &amp; Select Items</div>
+            <p class="step-desc">
+              Navigate through organised categories (Drinks, Food, Combos) and
+              select items. Touch-friendly interface for fast ordering.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Category navigation</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Search functionality</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Favourite items</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step reveal">
+            <div class="step-number">3</div>
+            <div class="step-title">🛒 Add to Cart / Basket</div>
+            <p class="step-desc">
+              Click to add selected items. Real-time updates show current order
+              total and item count.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Real-time total</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Quantity adjustment</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Cart preview</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 4 — Restaurant -->
+          <div class="step step-restaurant reveal reveal-delay-1">
+            <div class="step-number">4</div>
+            <div class="step-title">
+              🍳 Select Sides &amp; Extras
+              <span class="edition-badge">Restaurant Edition</span>
+            </div>
+            <p class="step-desc">
+              Pop-up options appear for food items to select sides, cooking
+              preferences, and extras. Customise orders exactly as customers
+              request.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Side selection</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Cooking instructions</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Extra toppings</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Special requests</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="step reveal">
+            <div class="step-number">5</div>
+            <div class="step-title">📤 Place Order</div>
+            <p class="step-desc">
+              Finalise the order and send it to the kitchen instantly. Orders
+              appear immediately on kitchen displays.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Instant kitchen
+                notification</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Order confirmation</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Order number generation</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="step reveal reveal-delay-1">
+            <div class="step-number">6</div>
+            <div class="step-title">💳 Select Payment Method</div>
+            <p class="step-desc">
+              Choose from multiple payment options or integrate with Property
+              Management System to charge to hotel rooms.
+            </p>
+            <div class="step-tags">
+              <span class="tag"><span class="tag-check">✓</span> Cash</span>
+              <span class="tag"><span class="tag-check">✓</span> Card</span>
+              <span class="tag"
+                ><span class="tag-check">✓</span> Mobile money</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> PMS integration</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="step reveal">
+            <div class="step-number">7</div>
+            <div class="step-title">% Apply Discounts</div>
+            <p class="step-desc">
+              Apply full or partial discounts before payment. Flexible discount
+              system for promotions, loyalty, or special occasions.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Percentage discounts</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Fixed amount</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Item-level discounts</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 8 -->
+          <div class="step reveal reveal-delay-1">
+            <div class="step-number">8</div>
+            <div class="step-title">🧾 Settle Bill</div>
+            <p class="step-desc">
+              Complete the payment. System auto-calculates change and updates
+              inventory in real-time.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Auto change calculation</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Split payments</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Tip management</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Inventory update</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 9 -->
+          <div class="step reveal">
+            <div class="step-number">9</div>
+            <div class="step-title">🖨️ Print Receipt</div>
+            <p class="step-desc">
+              Generate and print detailed receipts including item breakdown,
+              taxes, discounts, and payment details.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> Itemised receipt</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Tax breakdown</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Customer copy</span
+              >
+            </div>
+          </div>
+
+          <!-- Step 10 — Restaurant -->
+          <div class="step step-restaurant reveal reveal-delay-1">
+            <div class="step-number">10</div>
+            <div class="step-title">
+              🍽️ Kitchen Automation
+              <span class="edition-badge">Restaurant Edition</span>
+            </div>
+            <p class="step-desc">
+              Automatic Kitchen Order Ticket (KOT) printing and push to Kitchen
+              Display Screen (KDS) for real-time order tracking.
+            </p>
+            <div class="step-tags">
+              <span class="tag"
+                ><span class="tag-check">✓</span> KOT auto-printing</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> KDS integration</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Order status tracking</span
+              >
+              <span class="tag"
+                ><span class="tag-check">✓</span> Prep time tracking</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-12 reveal">
+        <button
+          onclick="openContactModal('Restaurant Edition — GH₵9,000/year')"
+          class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5 text-base"
+        >
+          <i class="fas fa-play-circle"></i> Book a Live Demo
+        </button>
+        <p class="text-slate-500 text-sm mt-4">
+          Free setup &amp; training included
+        </p>
+      </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <a href="index.html" class="footer-logo" title="Vemli POS"></a>
+            <p>
+              Professional POS systems for Ghanaian businesses since 2020.
+              Making restaurant management simple and efficient.
+            </p>
+          </div>
+          <div>
+            <h4 style="color: white; margin-bottom: 1rem">Quick Links</h4>
+            <div class="footer-links">
+              <a href="index.html#pricing">Pricing</a>
+              <a href="how-it-works.html">How It Works</a>
+              <a href="index.html#features">Features</a>
+              <a
+                href="#"
+                onclick="
+                  openContactModal('Vemli POS System');
+                  return false;
+                "
+                >Contact Sales</a
+              >
+            </div>
+          </div>
+          <div>
+            <h4 style="color: white; margin-bottom: 1rem">Contact</h4>
+            <div class="footer-links">
+              <a href="tel:+233240699506"
+                ><i class="fas fa-phone" style="margin-right: 0.5rem"></i>+233
+                24 069 9506</a
+              >
+              <a href="mailto:info@vemli.co"
+                ><i class="fas fa-envelope" style="margin-right: 0.5rem"></i
+                >info@vemli.co</a
+              >
+              <a
+                href="#"
+                onclick="
+                  openContactModal('Vemli POS System');
+                  return false;
+                "
+                ><i class="fas fa-headset" style="margin-right: 0.5rem"></i
+                >Sales Support</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 Vemli POS. All rights reserved. Designed for Ghanaian
+            businesses.
+          </p>
+          <p style="margin-top: 0.5rem">
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
+              >Privacy Policy</a
+            >
+            |
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
+              >Terms of Service</a
+            >
+            |
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
+              >Refund Policy</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Scroll reveal
+      const observer = new IntersectionObserver(
+        (entries) =>
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          }),
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+
+      // Contact modal
+      const contactModal = document.getElementById("contactModal");
+
+      function openContactModal(plan) {
+        const msg = `Hello Vemli POS Team, I'm interested in your ${plan || "Vemli POS System"}. Please share more details.`;
+        const subj = `Vemli POS Inquiry: ${plan || "Vemli POS System"}`;
+        const body = `Hello Vemli Team,\n\nI'm interested in your ${plan || "Vemli POS System"}.\n\nBusiness Name:\nType of Business:\n\nThank you!`;
+        document.getElementById("whatsappLink").href =
+          `https://wa.me/233240699506?text=${encodeURIComponent(msg)}`;
+        document.getElementById("emailLink").href =
+          `mailto:info@vemli.co?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+        contactModal.style.opacity = "1";
+        contactModal.style.visibility = "visible";
+        contactModal.querySelector(".modal-box").style.transform =
+          "translateY(0)";
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeContactModal() {
+        contactModal.style.opacity = "0";
+        contactModal.style.visibility = "hidden";
+        contactModal.querySelector(".modal-box").style.transform =
+          "translateY(-20px)";
+        document.body.style.overflow = "auto";
+      }
+
+      contactModal.addEventListener("click", (e) => {
+        if (e.target === contactModal) closeContactModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeContactModal();
+      });
+    </script>
+  </body>
+</html>

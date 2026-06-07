@@ -1,738 +1,465 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vemli POS | Professional Restaurant POS System | Ghana</title>
-    <meta
-      name="description"
-      content="Vemli POS - Complete restaurant management system used by Ghanaian restaurants. Core POS Features
-: Order Management, Inventory, Payments, Reporting, User Management, Hardware Integration, Business Intelligence, Integration Ready."
-    />
+
+    <!-- Primary Meta -->
+    <title>Vemli POS | Restaurant &amp; Retail Point of Sale System — Ghana</title>
+    <meta name="description" content="Vemli POS is a complete restaurant and retail point of sale system built for Ghanaian businesses. Manage orders, inventory, payments, staff, and get real-time analytics. Trusted by restaurants, bars, hotels, and pharmacies across Ghana." />
+    <meta name="keywords" content="POS system Ghana, restaurant POS Ghana, point of sale Ghana, retail POS, hotel POS, bar POS, inventory management Ghana, order management, payment system Ghana, Accra POS system, Kumasi restaurant software, Vemli POS" />
+    <meta name="author" content="Vemli POS" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vemli.co/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vemli.co/" />
+    <meta property="og:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
+    <meta property="og:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights — all in one system." />
+    <meta property="og:image" content="https://vemli.co/logo_white.jpeg" />
+    <meta property="og:site_name" content="Vemli POS" />
+    <meta property="og:locale" content="en_GH" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://vemli.co/" />
+    <meta name="twitter:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
+    <meta name="twitter:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights." />
+    <meta name="twitter:image" content="https://vemli.co/logo_white.jpeg" />
+
+    <!-- Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Vemli POS",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Complete restaurant and retail point of sale system for Ghanaian businesses. Includes order management, inventory tracking, staff performance, real-time analytics, WhatsApp and Slack notifications, and hotel PMS integration.",
+      "url": "https://vemli.co",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Standard Plan",
+          "price": "299",
+          "priceCurrency": "GHS",
+          "description": "For retail shops and pharmacies. Up to 2 terminals."
+        },
+        {
+          "@type": "Offer",
+          "name": "Hospitality Plan",
+          "price": "799",
+          "priceCurrency": "GHS",
+          "description": "For restaurants, bars, and hotels. Up to 3 terminals."
+        }
+      ],
+      "provider": {
+        "@type": "Organization",
+        "name": "Vemli POS",
+        "url": "https://vemli.co",
+        "telephone": "+233240699506",
+        "email": "info@vemli.co",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GH"
+        },
+        "sameAs": ["https://vemli.co"]
+      }
+    }
+    </script>
+
+    <!-- Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Vemli POS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vemli POS is a complete restaurant and retail point of sale system built for Ghanaian businesses. It handles orders, inventory, payments, staff management, and real-time analytics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Vemli POS work for hotels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Vemli POS integrates with hotel management systems like Opera and Protel, allowing restaurant charges to be posted directly to a guest's hotel room folio."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Vemli POS cost in Ghana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vemli POS offers two plans: the Standard Plan at GH₵299/month for retail shops and pharmacies, and the Hospitality Plan at GH₵799/month for restaurants, bars, and hotels."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Vemli POS support WhatsApp notifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Vemli POS sends order confirmations and payment receipts via WhatsApp, and can deliver daily sales summaries and alerts to your WhatsApp and Slack."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Vemli POS for multiple locations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The Custom Plan supports multiple branches and unlimited terminals. Contact sales for a tailored quote."
+          }
+        }
+      ]
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WPQPDXEBV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-1WPQPDXEBV');
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Syne", "sans-serif"],
+            },
+            colors: {
+              brand: {
+                50: "#eef5ff",
+                100: "#d9e8ff",
+                500: "#3b82f6",
+                600: "#2563eb",
+                700: "#1d4ed8",
+                900: "#1e3a8a",
+              },
+              ink: { DEFAULT: "#0a0f1e", soft: "#1e2640", muted: "#64748b" },
+              surface: { DEFAULT: "#ffffff", 2: "#f8fafc", 3: "#f1f5f9" },
+            },
+            backgroundImage: {
+              "grid-pattern":
+                "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+            },
+          },
+        },
+      };
+    </script>
     <style>
-      :root {
-        --primary: #0f766e;
-        --primary-dark: #115e59;
-        --primary-light: #ccfbf1;
-        --accent: #f59e0b;
-        --accent-dark: #d97706;
-        --success: #10b981;
-        --whatsapp: #25d366;
-        --email: #ea4335;
-        --phone: #4285f4;
-        --restaurant-price: #dc2626;
-        --basic-price: #059669;
-        --bg: #f8fafc;
-        --text: #0f172a;
-        --muted: #475569;
-        --card: #ffffff;
-        --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-        --radius: 1rem;
-        --transition: all 0.3s ease;
-      }
-
       * {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
       }
-
       body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.6;
-        scroll-behavior: smooth;
+        font-family: "Inter", sans-serif;
+        background: #0a0f1e;
+        color: white;
+        overflow-x: hidden;
       }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1.5rem;
+      .font-display {
+        font-family: "Syne", sans-serif;
       }
-
-      /* Header */
-      header {
+      .glow {
+        box-shadow: 0 0 60px rgba(59, 130, 246, 0.15);
+      }
+      .glow-sm {
+        box-shadow: 0 0 30px rgba(59, 130, 246, 0.1);
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .glass-light {
+        background: rgba(255, 255, 255, 0.97);
+        border: 1px solid rgba(0, 0, 0, 0.06);
+      }
+      .gradient-text {
         background: linear-gradient(
           135deg,
-          var(--primary),
-          var(--primary-dark)
+          #60a5fa 0%,
+          #a78bfa 50%,
+          #34d399 100%
         );
-        color: white;
-        padding: 4rem 1.5rem 5rem;
-        position: relative;
-        overflow: hidden;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
       }
-
-      header::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
+      .hero-gradient {
         background:
           radial-gradient(
-            circle at 20% 80%,
-            rgba(245, 158, 11, 0.1) 0%,
-            transparent 50%
+            ellipse 80% 60% at 50% -10%,
+            rgba(59, 130, 246, 0.18) 0%,
+            transparent 70%
           ),
           radial-gradient(
-            circle at 80% 20%,
-            rgba(21, 128, 61, 0.1) 0%,
-            transparent 50%
-          );
+            ellipse 40% 30% at 80% 60%,
+            rgba(167, 139, 250, 0.1) 0%,
+            transparent 60%
+          ),
+          #0a0f1e;
       }
-
-      .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 4rem;
-        position: relative;
-        z-index: 10;
+      .section-light {
+        background: #ffffff;
+        color: #0a0f1e;
       }
-
-      .logo {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        background-image: url("./logo_white.jpeg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 120px;
-        height: 40px;
+      .section-gray {
+        background: #f8fafc;
+        color: #0a0f1e;
       }
-
-      .nav-links {
-        display: flex;
-        gap: 2rem;
-        align-items: center;
+      .border-glow {
+        border: 1px solid rgba(59, 130, 246, 0.3);
       }
-
-      .nav-links a {
-        color: rgba(255, 255, 255, 0.9);
-        text-decoration: none;
-        font-weight: 500;
-        transition: var(--transition);
+      .chat-bubble-in {
+        animation: slideIn 0.3s ease;
       }
-
-      .nav-links a:hover {
-        color: var(--accent);
+      .typing-dot {
+        animation: typingPulse 1.2s ease-in-out infinite;
       }
-
-      .hero-content {
-        position: relative;
-        z-index: 1;
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: center;
+      .typing-dot:nth-child(2) {
+        animation-delay: 0.2s;
       }
-
-      .company-name {
-        font-size: 1rem;
-        font-weight: 600;
-        color: var(--accent);
-        margin-bottom: 1rem;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+      .typing-dot:nth-child(3) {
+        animation-delay: 0.4s;
       }
-
-      header h1 {
-        font-size: 3.2rem;
-        margin-bottom: 1.5rem;
-        font-weight: 700;
-        line-height: 1.2;
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
-
-      .highlight {
-        color: var(--accent);
-        position: relative;
-        display: inline-block;
+      @keyframes typingPulse {
+        0%,
+        60%,
+        100% {
+          transform: translateY(0);
+          opacity: 0.4;
+        }
+        30% {
+          transform: translateY(-4px);
+          opacity: 1;
+        }
       }
-
-      .header-subtitle {
-        font-size: 1.3rem;
-        max-width: 600px;
-        margin: 0 auto 2rem;
-        opacity: 0.95;
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
       }
-
-      .pricing-highlight {
-        background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(10px);
-        padding: 1.5rem 2rem;
-        border-radius: 1rem;
-        margin: 2rem auto;
-        max-width: 600px;
-        border: 2px solid rgba(255, 255, 255, 0.2);
+      .float {
+        animation: float 4s ease-in-out infinite;
       }
-
-      .price-row {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        flex-wrap: wrap;
-        margin: 1rem 0;
+      @keyframes pulse-ring {
+        0% {
+          transform: scale(1);
+          opacity: 0.6;
+        }
+        100% {
+          transform: scale(1.5);
+          opacity: 0;
+        }
       }
-
-      .price-badge {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem 1.5rem;
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 0.75rem;
-        min-width: 200px;
-      }
-
-      .price-label {
-        font-size: 0.9rem;
-        opacity: 0.9;
-        margin-bottom: 0.5rem;
-      }
-
-      .price-amount {
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--accent);
-      }
-
-      .price-period {
-        font-size: 0.9rem;
-        opacity: 0.9;
-      }
-
-      .comparison-note {
-        font-size: 1.1rem;
-        margin-top: 1rem;
-        color: rgba(255, 255, 255, 0.95);
-      }
-
-      .cta-button {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.75rem;
-        background: var(--accent);
-        color: black;
-        padding: 1rem 2.5rem;
-        border-radius: 50px;
-        font-weight: 600;
-        text-decoration: none;
-        font-size: 1.1rem;
-        transition: var(--transition);
-        border: none;
-        cursor: pointer;
-        margin: 0.5rem;
-      }
-
-      .cta-button:hover {
-        background: var(--accent-dark);
-        transform: translateY(-3px);
-        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-        color: white;
-      }
-
-      .secondary-button {
-        background: transparent;
-        color: white;
-        border: 2px solid rgba(255, 255, 255, 0.3);
-      }
-
-      .secondary-button:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: white;
-      }
-
-      /* Main Content */
-      section {
-        padding: 5rem 0;
-      }
-
-      .section-title {
-        text-align: center;
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        font-weight: 700;
-      }
-
-      .section-subtitle {
-        text-align: center;
-        font-size: 1.2rem;
-        color: var(--muted);
-        margin-bottom: 3rem;
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      /* Stats */
-      .stats {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 2rem;
-        text-align: center;
-        background: var(--primary-light);
-        padding: 3rem;
-        border-radius: var(--radius);
-        margin: 3rem auto;
-        max-width: 1000px;
-      }
-
-      .stat-number {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: var(--primary);
-        display: block;
-      }
-
-      .stat-label {
-        color: var(--muted);
-        font-size: 0.9rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-
-      /* SIMPLE Pricing Section */
-      .simple-pricing {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 2rem;
-        margin: 3rem 0;
-      }
-
-      .pricing-card {
-        background: white;
-        border-radius: var(--radius);
-        padding: 3rem;
-        box-shadow: var(--shadow-lg);
-        transition: var(--transition);
-        position: relative;
-        overflow: hidden;
-      }
-
-      .pricing-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-      }
-
-      .pricing-card.restaurant {
-        border: 3px solid var(--accent);
-        transform: scale(1.05);
-      }
-
-      .pricing-card.restaurant:hover {
-        transform: scale(1.05) translateY(-10px);
-      }
-
-      .plan-badge {
-        position: absolute;
-        top: 0;
-        right: 0;
-        background: var(--accent);
-        color: black;
-        padding: 0.5rem 2rem;
-        font-weight: 600;
-        font-size: 0.9rem;
-        transform: rotate(45deg) translate(30%, -50%);
-        transform-origin: top right;
-      }
-
-      .plan-name {
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--primary);
-        margin-bottom: 1rem;
-      }
-
-      .plan-price {
-        font-size: 3.5rem;
-        font-weight: 700;
-        margin: 1.5rem 0;
-        line-height: 1;
-      }
-
-      .plan-price.basic {
-        color: var(--basic-price);
-      }
-
-      .plan-price.restaurant {
-        color: var(--restaurant-price);
-      }
-
-      .price-period {
-        font-size: 1.1rem;
-        color: var(--muted);
-        font-weight: normal;
-      }
-
-      .plan-description {
-        color: var(--muted);
-        margin-bottom: 2rem;
-        font-size: 1.1rem;
-      }
-
-      .features-list {
-        list-style: none;
-        margin: 2rem 0;
-      }
-
-      .features-list li {
-        padding: 0.75rem 0;
-        display: flex;
-        align-items: flex-start;
-        gap: 0.75rem;
-        border-bottom: 1px solid #f1f5f9;
-      }
-
-      .features-list li:last-child {
-        border-bottom: none;
-      }
-
-      .features-list li:before {
-        content: "✓";
-        color: var(--success);
-        font-weight: bold;
-        font-size: 1.1rem;
-        flex-shrink: 0;
-        margin-top: 0.1rem;
-      }
-
-      .features-list li.restaurant-feature {
-        color: var(--restaurant-price);
-        font-weight: 600;
-      }
-
-      .features-list li.restaurant-feature:before {
-        content: "➜";
-        color: var(--accent);
-      }
-
-      /* Order Processing Steps Section */
-      .steps-section {
-        background: var(--primary-light);
-        border-radius: var(--radius);
-        padding: 4rem 2rem;
-        margin: 3rem 0;
-      }
-
-      .steps-container {
-        max-width: 1000px;
-        margin: 0 auto;
-        position: relative;
-      }
-
-      .steps-timeline {
-        position: relative;
-        padding-left: 3rem;
-      }
-
-      .steps-timeline::before {
+      .pulse-ring::before {
         content: "";
         position: absolute;
-        left: 1.5rem;
-        top: 0;
-        bottom: 0;
-        width: 3px;
-        background: var(--primary);
-        opacity: 0.3;
-        border-radius: 3px;
-      }
-
-      .step {
-        position: relative;
-        margin-bottom: 3rem;
-        background: white;
-        padding: 2rem;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        transition: var(--transition);
-        border-left: 4px solid var(--primary);
-      }
-
-      .step:hover {
-        transform: translateX(10px);
-        box-shadow: var(--shadow-lg);
-      }
-
-      .step:last-child {
-        margin-bottom: 0;
-      }
-
-      .step-number {
-        position: absolute;
-        left: -3rem;
-        top: 2rem;
-        width: 3rem;
-        height: 3rem;
-        background: var(--primary);
-        color: white;
+        inset: -6px;
         border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 1.2rem;
-        box-shadow: 0 4px 12px rgba(15, 118, 110, 0.3);
+        border: 2px solid rgba(59, 130, 246, 0.4);
+        animation: pulse-ring 2s ease-out infinite;
       }
-
-      .step-title {
-        font-size: 1.4rem;
-        font-weight: 600;
-        margin-bottom: 0.75rem;
-        color: var(--primary-dark);
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
+      .stat-counter {
+        font-variant-numeric: tabular-nums;
       }
-
-      .step-icon {
-        color: var(--accent);
-        font-size: 1.2rem;
+      .nav-blur {
+        background: rgba(10, 15, 30, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
       }
-
-      .step-description {
-        color: var(--muted);
-        margin-bottom: 1rem;
+      /* Chat widget styles */
+      .chat-msg {
+        max-width: 85%;
       }
-
-      .step-features {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-top: 1rem;
+      .msg-ai {
+        background: rgba(59, 130, 246, 0.12);
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        border-radius: 4px 16px 16px 16px;
       }
-
-      .step-feature {
-        background: var(--primary-light);
-        color: var(--primary-dark);
-        padding: 0.4rem 1rem;
+      .msg-user {
+        background: #2563eb;
+        border-radius: 16px 4px 16px 16px;
+        margin-left: auto;
+      }
+      .chip {
+        background: rgba(59, 130, 246, 0.1);
+        border: 1px solid rgba(59, 130, 246, 0.25);
         border-radius: 20px;
-        font-size: 0.9rem;
-        font-weight: 500;
-        display: flex;
-        align-items: center;
-        gap: 0.4rem;
-      }
-
-      .step-feature i {
-        color: var(--success);
-        font-size: 0.8rem;
-      }
-
-      .restaurant-step {
-        border-left-color: var(--accent);
-      }
-
-      .restaurant-step .step-number {
-        background: var(--accent);
-        box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
-      }
-
-      /* Testimonials */
-      .testimonials-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 2rem;
-        margin-top: 3rem;
-      }
-
-      .testimonial {
-        background: white;
-        padding: 2.5rem;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        position: relative;
-      }
-
-      .testimonial:before {
-        content: '"';
-        position: absolute;
-        top: 1rem;
-        left: 1.5rem;
-        font-size: 4rem;
-        color: var(--primary-light);
-        font-family: Georgia, serif;
-        line-height: 1;
-      }
-
-      .testimonial-text {
-        font-style: italic;
-        margin-bottom: 1.5rem;
-        color: var(--text);
-        position: relative;
-        z-index: 1;
-        font-size: 1.1rem;
-      }
-
-      .testimonial-author {
-        font-weight: 600;
-        color: var(--primary);
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-      }
-
-      .author-avatar {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: var(--primary);
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 600;
-      }
-
-      /* Contact Modal */
-      .modal-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-        opacity: 0;
-        visibility: hidden;
-        transition: var(--transition);
-        padding: 1rem;
-      }
-
-      .modal-overlay.active {
-        opacity: 1;
-        visibility: visible;
-      }
-
-      .modal {
-        background: white;
-        padding: 2rem;
-        border-radius: var(--radius);
-        max-width: 500px;
-        width: 100%;
-        max-height: 90vh;
-        overflow-y: auto;
-        transform: translateY(-20px);
-        transition: transform 0.4s ease;
-        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-        position: relative;
-      }
-
-      .modal-overlay.active .modal {
-        transform: translateY(0);
-      }
-
-      .modal-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2rem;
-        position: sticky;
-        top: 0;
-        background: white;
-        z-index: 1;
-        padding: 0.5rem 0;
-      }
-
-      .modal-title {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: var(--primary);
-      }
-
-      .close-modal {
-        background: none;
-        border: none;
-        font-size: 1.5rem;
+        padding: 6px 14px;
+        font-size: 12px;
+        color: #93c5fd;
         cursor: pointer;
-        color: var(--muted);
-        transition: var(--transition);
-        padding: 0.5rem;
-        line-height: 1;
+        white-space: nowrap;
+        transition: all 0.2s;
       }
-
-      .close-modal:hover {
-        color: var(--primary);
+      .chip:hover {
+        background: rgba(59, 130, 246, 0.25);
+        border-color: rgba(59, 130, 246, 0.5);
+        color: white;
       }
-
-      .contact-options {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      .contact-option {
-        display: flex;
+      /* Badge pill */
+      .pill {
+        display: inline-flex;
         align-items: center;
-        gap: 1rem;
-        padding: 1.25rem;
-        border-radius: 0.75rem;
-        text-decoration: none;
-        transition: var(--transition);
-        border: 2px solid transparent;
+        gap: 6px;
+        padding: 4px 12px;
+        border-radius: 100px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
       }
 
-      .contact-option:hover {
-        transform: translateX(5px);
-        border-color: currentColor;
+      .pill-blue {
+        background: rgba(59, 130, 246, 0.15);
+        color: #93c5fd;
+        border: 1px solid rgba(59, 130, 246, 0.25);
       }
-
-      .contact-option.whatsapp {
-        background: rgba(37, 211, 102, 0.1);
-        color: var(--whatsapp);
+      .pill-green {
+        background: rgba(52, 211, 153, 0.12);
+        color: #6ee7b7;
+        border: 1px solid rgba(52, 211, 153, 0.25);
       }
-
-      .contact-option.email {
-        background: rgba(234, 67, 53, 0.1);
-        color: var(--email);
+      .pill-purple {
+        background: rgba(167, 139, 250, 0.12);
+        color: #c4b5fd;
+        border: 1px solid rgba(167, 139, 250, 0.25);
       }
-
-      .contact-option.phone {
-        background: rgba(66, 133, 244, 0.1);
-        color: var(--phone);
+      .pill-amber {
+        background: rgba(251, 191, 36, 0.12);
+        color: #fcd34d;
+        border: 1px solid rgba(251, 191, 36, 0.2);
       }
-
-      .contact-icon {
-        font-size: 1.8rem;
-        width: 50px;
-        height: 50px;
+      /* Feature icons */
+      .icon-box {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: white;
-        border-radius: 50%;
-        box-shadow: var(--shadow);
+        font-size: 20px;
         flex-shrink: 0;
       }
-
-      .contact-details {
-        flex: 1;
-        min-width: 0;
+      .icon-blue-box {
+        background: rgba(59, 130, 246, 0.12);
+        border: 1px solid rgba(59, 130, 246, 0.2);
       }
-
-      .contact-label {
-        font-weight: 600;
-        font-size: 1.1rem;
-        margin-bottom: 0.25rem;
-        display: block;
+      .icon-green-box {
+        background: rgba(52, 211, 153, 0.1);
+        border: 1px solid rgba(52, 211, 153, 0.2);
       }
-
-      .contact-value {
-        color: var(--text);
-        font-size: 0.95rem;
-        display: block;
+      .icon-purple-box {
+        background: rgba(167, 139, 250, 0.1);
+        border: 1px solid rgba(167, 139, 250, 0.2);
+      }
+      .icon-amber-box {
+        background: rgba(251, 191, 36, 0.1);
+        border: 1px solid rgba(251, 191, 36, 0.2);
+      }
+      /* Pricing */
+      .plan-card {
+        border-radius: 20px;
+        padding: 36px;
+        position: relative;
+      }
+      .plan-dark {
+        background: #111827;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .plan-featured {
+        background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%);
+        border: 1px solid rgba(96, 165, 250, 0.3);
+        box-shadow: 0 20px 60px rgba(37, 99, 235, 0.3);
+      }
+      .check-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 14px;
+        padding: 7px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .check-item:last-child {
+        border-bottom: none;
+      }
+      .check-icon {
+        color: #34d399;
+        font-size: 16px;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+      /* Integration card */
+      .int-card {
+        border-radius: 16px;
+        padding: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        background: rgba(255, 255, 255, 0.03);
+        transition: all 0.3s;
+      }
+      .int-card:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(59, 130, 246, 0.3);
+        transform: translateY(-2px);
+      }
+      /* Scroll reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(32px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .reveal-delay-1 {
+        transition-delay: 0.1s;
+      }
+      .reveal-delay-2 {
+        transition-delay: 0.2s;
+      }
+      .reveal-delay-3 {
+        transition-delay: 0.3s;
       }
 
       /* Footer */
@@ -740,6 +467,12 @@
         background: #0f172a;
         color: #cbd5e1;
         padding: 4rem 0 2rem;
+      }
+
+      footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
       }
 
       .footer-content {
@@ -785,13 +518,1209 @@
         font-size: 0.9rem;
         color: #94a3b8;
       }
+    </style>
+  </head>
+  <body>
+    <!-- ═══════════════ NAV ═══════════════ -->
+    <nav class="nav-blur fixed top-0 left-0 right-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
+      >
+        <a
+          href="#"
+          title="Vemli POS"
+          style="
+            background-image: url(&quot;./logo_white.jpeg&quot;);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 120px;
+            height: 40px;
+            display: block;
+          "
+        ></a>
+        <div class="hidden md:flex items-center gap-8">
+          <a
+            href="#features"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Features</a
+          >
+          <a
+            href="#ai"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Business Intelligence</a
+          >
+          <a
+            href="#integrations"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Integrations</a
+          >
+          <a
+            href="#pricing"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Pricing</a
+          >
+          <a
+            href="how-it-works.html"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >How It Works</a
+          >
+        </div>
+        <a
+          href="#contact"
+          class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-all hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-px"
+          >Get Started</a
+        >
+      </div>
+    </nav>
 
-      /* WhatsApp Float */
-      .whatsapp-float {
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section
+      class="hero-gradient min-h-screen flex flex-col items-center justify-center pt-20 pb-16 px-6 relative overflow-hidden"
+    >
+      <!-- Background grid -->
+      <div
+        class="absolute inset-0 opacity-20"
+        style="
+          background-image: url(&quot;data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234b5563' fill-opacity='0.3'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E&quot;);
+          background-size: 40px 40px;
+        "
+      ></div>
+
+      <div
+        class="relative z-10 text-center max-w-5xl mx-auto"
+        id="hero-content"
+      >
+        <div class="pill pill-blue mb-6 mx-auto w-fit" id="hero-badge">
+          <span
+            class="w-1.5 h-1.5 rounded-full bg-blue-400 inline-block"
+          ></span>
+          Built for Ghana's growing businesses
+        </div>
+
+        <h1
+          class="font-display text-5xl md:text-7xl font-extrabold leading-[1.02] tracking-tight mb-6 text-white"
+          id="hero-title"
+        >
+          Your business,<br />
+          <span class="gradient-text">smarter every day</span>
+        </h1>
+
+        <p
+          class="text-slate-400 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed font-light"
+          id="hero-sub"
+        >
+          Vemli POS gives you real-time sales, inventory, and AI-powered
+          business insights — all from one dashboard. Made for restaurants,
+          retail, pharmacies, and more.
+        </p>
+
+        <div
+          class="flex items-center justify-center gap-4 flex-wrap mb-16"
+          id="hero-cta"
+        >
+          <a
+            href="#contact"
+            class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-7 py-3.5 rounded-xl transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5 flex items-center gap-2"
+          >
+            Start Free Trial
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+          <a
+            href="#features"
+            class="glass text-white font-medium px-7 py-3.5 rounded-xl transition-all hover:bg-white/10 flex items-center gap-2"
+          >
+            <svg
+              class="w-4 h-4 text-blue-400"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+            See it in action
+          </a>
+        </div>
+
+        <!-- Industry chips -->
+        <div class="flex flex-wrap justify-center gap-2 mb-16" id="hero-chips">
+          <span class="pill pill-blue">🍽️ Restaurants</span>
+          <span class="pill pill-purple">🍺 Bars & Lounges</span>
+          <span class="pill pill-green">🛍️ Retail</span>
+          <span class="pill pill-blue">💊 Pharmacies</span>
+          <span class="pill pill-amber">🏨 Hotels</span>
+          <span class="pill pill-green">🥡 Quick Service</span>
+        </div>
+      </div>
+
+      <!-- Dashboard mockup -->
+      <div class="relative z-10 w-full max-w-5xl mx-auto float" id="hero-dash">
+        <div
+          class="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
+        >
+          <!-- Window chrome -->
+          <div
+            class="bg-white/5 border-b border-white/8 px-5 py-3 flex items-center gap-2"
+          >
+            <div class="w-3 h-3 rounded-full bg-red-500/60"></div>
+            <div class="w-3 h-3 rounded-full bg-yellow-500/60"></div>
+            <div class="w-3 h-3 rounded-full bg-green-500/60"></div>
+            <div
+              class="flex-1 mx-4 bg-white/5 rounded-md py-1 px-3 text-xs text-slate-500 text-center"
+            >
+              app.vemli.co/dashboard
+            </div>
+            <div class="text-xs text-slate-500">Live ●</div>
+          </div>
+          <!-- Dashboard body -->
+          <div class="grid grid-cols-12 min-h-[340px]">
+            <!-- Sidebar -->
+            <div
+              class="col-span-2 border-r border-white/5 py-4 hidden md:block"
+            >
+              <div class="px-3 space-y-0.5">
+                <div
+                  class="flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-600/20 text-blue-400 text-xs font-medium"
+                >
+                  📊 Dashboard
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  🛒 Orders
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  📦 Inventory
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  👥 Staff
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  💳 Payments
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  📈 Reports
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  🤖 Ask Vemli
+                </div>
+              </div>
+            </div>
+            <!-- Main content -->
+            <div class="col-span-12 md:col-span-10 p-5">
+              <div class="flex items-center justify-between mb-4">
+                <p class="text-white text-sm font-semibold">
+                  Good morning, Kwame 👋
+                </p>
+                <span class="pill pill-green text-xs">● All systems live</span>
+              </div>
+              <!-- Stat cards -->
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Today's Revenue</p>
+                  <p class="text-white font-bold text-xl font-display">
+                    GH¢4,820
+                  </p>
+                  <p class="text-emerald-400 text-xs mt-1">
+                    ↑ 12% vs yesterday
+                  </p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Orders</p>
+                  <p class="text-white font-bold text-xl font-display">138</p>
+                  <p class="text-emerald-400 text-xs mt-1">↑ 8 more</p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Avg. Order</p>
+                  <p class="text-white font-bold text-xl font-display">
+                    GH¢34.9
+                  </p>
+                  <p class="text-red-400 text-xs mt-1">↓ 2%</p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Top Item</p>
+                  <p class="text-white font-bold text-sm font-display">
+                    Jollof Rice
+                  </p>
+                  <p class="text-blue-400 text-xs mt-1">48 sold</p>
+                </div>
+              </div>
+              <!-- Mini bar chart -->
+              <div class="glass rounded-xl p-3">
+                <p class="text-slate-400 text-xs mb-3">Hourly sales — today</p>
+                <div class="flex items-end gap-1.5 h-16">
+                  <div
+                    class="flex-1 bg-blue-600/30 rounded-sm"
+                    style="height: 35%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/40 rounded-sm"
+                    style="height: 55%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/60 rounded-sm"
+                    style="height: 90%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/50 rounded-sm"
+                    style="height: 70%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/70 rounded-sm"
+                    style="height: 85%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/50 rounded-sm"
+                    style="height: 65%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-500 rounded-sm"
+                    style="height: 80%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/40 rounded-sm"
+                    style="height: 45%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/30 rounded-sm"
+                    style="height: 30%"
+                  ></div>
+                </div>
+                <div class="flex justify-between mt-1 text-slate-600 text-xs">
+                  <span>8am</span><span>10</span><span>12pm</span><span>2</span
+                  ><span>4</span><span>6</span><span>8</span><span>10</span
+                  ><span>12am</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ STATS BAND ═══════════════ -->
+    <div class="border-y border-white/6 bg-white/2">
+      <div
+        class="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
+      >
+        <div class="reveal">
+          <p class="font-display text-4xl font-bold text-white mb-1">
+            5<span class="text-blue-400">+</span>
+          </p>
+          <p class="text-slate-500 text-sm">Businesses served</p>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <p class="font-display text-4xl font-bold text-white mb-1">
+            GH¢6000<span class="text-blue-400">+</span>
+          </p>
+          <p class="text-slate-500 text-sm">Transactions daily</p>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <p class="font-display text-4xl font-bold text-white mb-1">
+            99<span class="text-blue-400">%</span>
+          </p>
+          <p class="text-slate-500 text-sm">System uptime</p>
+        </div>
+        <div class="reveal reveal-delay-3">
+          <p class="font-display text-4xl font-bold text-white mb-1">
+            24<span class="text-blue-400">/7</span>
+          </p>
+          <p class="text-slate-500 text-sm">Local support team</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════ FEATURES ═══════════════ -->
+    <section class="section-light py-28 px-6" id="features">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16 reveal">
+          <span
+            class="pill pill-blue mb-4 mx-auto w-fit"
+            style="
+              background: rgba(37, 99, 235, 0.1);
+              color: #2563eb;
+              border-color: rgba(37, 99, 235, 0.2);
+            "
+            > Features</span
+          >
+          <h2
+            class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4"
+          >
+            Everything your business needs
+          </h2>
+          <p class="text-slate-500 text-lg max-w-lg mx-auto">
+            From the counter to the back office — connected, live, and
+            effortless.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            class="reveal p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all group bg-white"
+          >
+            <div class="icon-box bg-blue-50 mb-5 text-xl">📊</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Real-Time Analytics
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Live revenue, hourly breakdowns, payment methods, and item-level
+              sales the moment a transaction happens.
+            </p>
+          </div>
+          <div
+            class="reveal reveal-delay-1 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-emerald-50 mb-5 text-xl">📦</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Inventory Management
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Track stock levels, get low-stock alerts, manage batch costs, and
+              auto-generate opening/closing stock reports.
+            </p>
+          </div>
+          <div
+            class="reveal reveal-delay-2 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-purple-50 mb-5 text-xl">💳</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Multi-Payment Support
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Cash, mobile money, card, and split payments — every method logged
+              with a full audit trail and reconciliation reports.
+            </p>
+          </div>
+          <div
+            class="reveal p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-amber-50 mb-5 text-xl">🧾</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Order & Table Management
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Dine-in, takeaway, delivery. Split orders, kitchen printing,
+              serving periods, combos, and modifiers built in.
+            </p>
+          </div>
+          <div
+            class="reveal reveal-delay-1 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-blue-50 mb-5 text-xl">👥</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Staff Performance
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Per-server revenue, attendance tracking with check-in/out, hours
+              worked, and discount/void audit logs.
+            </p>
+          </div>
+          <div
+            class="reveal reveal-delay-2 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-rose-50 mb-5 text-xl">📈</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Reports & End-of-Day
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              VAT reports, profit margin analysis, end-of-day summaries, and
+              cash drawer reconciliation — all automated.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ AI BUSINESS INTELLIGENCE ═══════════════ -->
+    <section class="py-28 px-6 bg-[#080d1a] relative overflow-hidden" id="ai">
+      <div
+        class="absolute inset-0 pointer-events-none"
+        style="
+          background: radial-gradient(
+            ellipse 60% 50% at 70% 50%,
+            rgba(59, 130, 246, 0.07) 0%,
+            transparent 70%
+          );
+        "
+      ></div>
+
+      <div class="max-w-6xl mx-auto relative z-10">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <!-- Left: text -->
+          <div class="reveal">
+            <span class="pill pill-purple mb-5 w-fit"></span>
+              Business Intelligence</span
+            >
+            <h2
+              class="font-display text-4xl md:text-5xl font-extrabold text-white leading-tight mb-5"
+            >
+              Ask your business<br />anything. Instantly.
+            </h2>
+            <p class="text-slate-400 text-lg leading-relaxed mb-8">
+              Vemli understands your sales data so you don't have to dig through
+              reports. Just ask a question — in plain language — and get a
+              clear, instant answer about your business.
+            </p>
+            <div class="space-y-4">
+              <div class="flex items-start gap-3">
+                <div class="icon-box icon-purple-box mt-0.5 text-base">💬</div>
+                <div>
+                  <p class="text-white font-medium text-sm">
+                    Natural language queries
+                  </p>
+                  <p class="text-slate-500 text-sm mt-0.5">
+                    Ask exactly how you'd ask a manager — no dashboards or
+                    filters needed.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="icon-box icon-blue-box mt-0.5 text-base">⚡</div>
+                <div>
+                  <p class="text-white font-medium text-sm">
+                    Answers from your live data
+                  </p>
+                  <p class="text-slate-500 text-sm mt-0.5">
+                    Every answer is pulled directly from your real-time sales,
+                    inventory, and staff data.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="icon-box icon-green-box mt-0.5 text-base">📲</div>
+                <div>
+                  <p class="text-white font-medium text-sm">
+                    Ask from anywhere
+                  </p>
+                  <p class="text-slate-500 text-sm mt-0.5">
+                    Access the business chat from the dashboard or via WhatsApp
+                    and Slack — even when you're away.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: chat widget -->
+          <div class="reveal reveal-delay-1">
+            <div
+              class="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
+              style="max-width: 440px; margin: 0 auto"
+            >
+              <!-- Chat header -->
+              <div
+                class="bg-white/5 border-b border-white/8 px-5 py-4 flex items-center gap-3"
+              >
+                <div
+                  class="relative w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-sm pulse-ring"
+                >
+                  🤖
+                </div>
+                <div>
+                  <p class="text-white text-sm font-semibold">
+                    Vemli Business Assistant
+                  </p>
+                  <p class="text-emerald-400 text-xs">
+                    ● Live — connected to your data
+                  </p>
+                </div>
+              </div>
+
+              <!-- Messages -->
+              <div class="p-4 space-y-4 min-h-[280px]" id="chat-messages">
+                <!-- AI opening -->
+                <div class="chat-msg">
+                  <div
+                    class="msg-ai text-white text-sm px-4 py-3 leading-relaxed"
+                  >
+                    Hi Kwame 👋 I'm connected to your live sales data. Ask me
+                    anything about your business.
+                  </div>
+                  <p class="text-slate-600 text-xs mt-1 pl-1">
+                    Vemli AI · just now
+                  </p>
+                </div>
+              </div>
+
+              <!-- Quick question chips -->
+              <div class="px-4 pb-3">
+                <p class="text-slate-600 text-xs mb-2">Try asking:</p>
+                <div class="flex flex-wrap gap-2" id="chat-chips">
+                  <button
+                    class="chip"
+                    onclick="
+                      askQuestion(this, 'What are my top selling items today?')
+                    "
+                  >
+                    Top items today
+                  </button>
+                  <button
+                    class="chip"
+                    onclick="askQuestion(this, 'Which days are my busiest?')"
+                  >
+                    Busiest days
+                  </button>
+                  <button
+                    class="chip"
+                    onclick="
+                      askQuestion(this, 'How is my staff performing this week?')
+                    "
+                  >
+                    Staff performance
+                  </button>
+                  <button
+                    class="chip"
+                    onclick="
+                      askQuestion(this, 'What time do I make the most sales?')
+                    "
+                  >
+                    Peak sales hours
+                  </button>
+                </div>
+              </div>
+
+              <!-- Input -->
+              <div class="px-4 pb-4">
+                <div class="flex gap-2">
+                  <input
+                    id="chat-input"
+                    type="text"
+                    placeholder="Ask about your business…"
+                    class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-blue-500/50 transition-colors"
+                    onkeydown="if (event.key === 'Enter') sendChat();"
+                  />
+                  <button
+                    onclick="sendChat()"
+                    class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2.5 rounded-xl transition-colors text-sm font-medium"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ INTEGRATIONS ═══════════════ -->
+    <section class="section-gray py-28 px-6" id="integrations">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 reveal">
+          <span
+            class="pill mb-4 mx-auto w-fit"
+            style="
+              background: rgba(37, 99, 235, 0.08);
+              color: #2563eb;
+              border-color: rgba(37, 99, 235, 0.15);
+            "
+          >
+            Integrations</span
+          >
+          <h2
+            class="font-display text-4xl font-extrabold text-slate-900 mt-4 mb-4"
+          >
+            Stay informed, wherever you are
+          </h2>
+          <p class="text-slate-500 text-lg max-w-md mx-auto">
+            Get your business updates delivered to the tools your team already
+            uses.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- WhatsApp -->
+          <div
+            class="reveal bg-white rounded-2xl p-8 border border-slate-100 hover:border-green-200 hover:shadow-lg transition-all"
+          >
+            <div class="flex items-start gap-5">
+              <div
+                class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
+                style="background: linear-gradient(135deg, #25d366, #128c7e)"
+              >
+                <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2 mb-1">
+                  <h3 class="font-semibold text-slate-900 text-lg">WhatsApp</h3>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed mb-4">
+                  Get daily sales summaries, low stock alerts, and end-of-day
+                  reports delivered straight to your WhatsApp — no app needed.
+                  Ask business questions right from your chat.
+                </p>
+                <ul class="space-y-1.5">
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-emerald-500">✓</span> Daily revenue
+                    summary
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-emerald-500">✓</span> Low stock
+                    notifications
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-emerald-500">✓</span> End-of-day reports
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-emerald-500">✓</span> Ask business
+                    questions via chat
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slack -->
+          <div
+            class="reveal reveal-delay-1 bg-white rounded-2xl p-8 border border-slate-100 hover:border-purple-200 hover:shadow-lg transition-all"
+          >
+            <div class="flex items-start gap-5">
+              <div
+                class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 bg-[#4A154B]"
+              >
+                <svg viewBox="0 0 24 24" class="w-7 h-7" fill="none">
+                  <path
+                    d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div>
+                <div class="flex items-center gap-2 mb-1">
+                  <h3 class="font-semibold text-slate-900 text-lg">Slack</h3>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed mb-4">
+                  Push real-time sales alerts and daily reports directly to your
+                  Slack workspace. Keep your whole team in sync without leaving
+                  the tools they use daily.
+                </p>
+                <ul class="space-y-1.5">
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-purple-500">✓</span> Sales milestone
+                    alerts
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-purple-500">✓</span> Shift & daily
+                    summaries to channels
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-purple-500">✓</span> Inventory warnings to
+                    ops team
+                  </li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600">
+                    <span class="text-purple-500">✓</span> Ask business
+                    questions in Slack
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hotel Management Systems (PMS) -->
+          <div class="reveal bg-white rounded-2xl p-8 border border-slate-100 hover:border-amber-200 hover:shadow-lg transition-all">
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style="background:linear-gradient(135deg,#b45309,#78350f);">
+                🏨
+              </div>
+              <div>
+                <div class="flex items-center gap-2 mb-1">
+                  <h3 class="font-semibold text-slate-900 text-lg">Hotel Management Systems</h3>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed mb-4">
+                  When a hotel guest orders food or drinks at your restaurant, Vemli posts the charge directly to their hotel room — no cash, no separate bill. Works with Opera, Protel, and any compatible hotel management system.
+                </p>
+                <ul class="space-y-1.5">
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Charge restaurant bills to any room</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Works with Opera, Protel &amp; more</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Full order details posted to the folio</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Seamless guest checkout experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MCP / AI Clients -->
+          <div class="reveal reveal-delay-1 bg-white rounded-2xl p-8 border border-slate-100 hover:border-violet-200 hover:shadow-lg transition-all">
+            <div class="flex items-start gap-5">
+              <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style="background:linear-gradient(135deg,#6d28d9,#4c1d95);">
+                🤖
+              </div>
+              <div>
+                <div class="flex items-center gap-2 mb-1">
+                  <h3 class="font-semibold text-slate-900 text-lg">AI Assistant Clients</h3>
+                </div>
+                <p class="text-slate-500 text-sm leading-relaxed mb-4">
+                  Connect Vemli directly to your favourite AI tool — Claude Desktop or any MCP-compatible client. Ask your business questions in plain language and get instant answers from your live data, right inside the tools you already use.
+                </p>
+                <ul class="space-y-1.5">
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> Works with Claude Desktop, Cursor &amp; more</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> Ask about sales, staff, inventory in plain language</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> 40+ live business data tools exposed</li>
+                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> No dashboards needed — just ask</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PRICING ═══════════════ -->
+    <section class="py-28 px-6 bg-[#080d1a]" id="pricing">
+      <div class="max-w-5xl mx-auto">
+        <div class="text-center mb-16 reveal">
+          <span class="pill pill-blue mb-4 mx-auto w-fit"> Pricing</span>
+          <h2
+            class="font-display text-4xl md:text-5xl font-extrabold text-white mt-4 mb-4"
+          >
+            Two plans. That's it.
+          </h2>
+          <p class="text-slate-400 text-lg max-w-md mx-auto">
+            Pick your business type. Everything is included. No hidden fees.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <!-- Hospitality Plan -->
+          <div class="plan-card plan-featured reveal">
+            <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
+              <span
+                class="bg-blue-400 text-blue-900 text-xs font-bold px-4 py-1.5 rounded-full whitespace-nowrap"
+                >🍽️ Restaurants, Bars & Hotels</span
+              >
+            </div>
+            <div class="mt-4 mb-1">
+              <p class="text-blue-200 text-sm font-medium mb-1">
+                Hospitality Plan
+              </p>
+              <div class="flex items-end gap-1 mb-0.5">
+                <span class="text-white/60 text-xl font-light self-start mt-2"
+                  >GH¢</span
+                >
+                <span
+                  class="font-display text-6xl font-extrabold text-white leading-none"
+                  >799</span
+                >
+              </div>
+              <p class="text-blue-300 text-sm">per month · up to 3 terminals</p>
+            </div>
+            <div class="flex flex-wrap gap-1.5 my-5">
+              <span
+                class="pill pill-blue text-xs"
+                style="
+                  background: rgba(255, 255, 255, 0.1);
+                  color: rgba(255, 255, 255, 0.8);
+                  border-color: rgba(255, 255, 255, 0.15);
+                "
+                >🍽️ Restaurants</span
+              >
+              <span
+                class="pill pill-blue text-xs"
+                style="
+                  background: rgba(255, 255, 255, 0.1);
+                  color: rgba(255, 255, 255, 0.8);
+                  border-color: rgba(255, 255, 255, 0.15);
+                "
+                >🍺 Bars & Lounges</span
+              >
+              <span
+                class="pill pill-blue text-xs"
+                style="
+                  background: rgba(255, 255, 255, 0.1);
+                  color: rgba(255, 255, 255, 0.8);
+                  border-color: rgba(255, 255, 255, 0.15);
+                "
+                >🏨 Hotels</span
+              >
+              <span
+                class="pill pill-blue text-xs"
+                style="
+                  background: rgba(255, 255, 255, 0.1);
+                  color: rgba(255, 255, 255, 0.8);
+                  border-color: rgba(255, 255, 255, 0.15);
+                "
+                >🥡 Quick Service</span
+              >
+            </div>
+            <div class="space-y-0 mb-7">
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Table & order management
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span>
+                <strong>Split bills</strong> per table / customer
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Combos, sides & modifiers
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Kitchen order printing (KOT)
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Serving periods (Breakfast /
+                Lunch / Dinner)
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Revenue centre tracking
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Staff performance & attendance
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> VAT, end-of-day & analytics
+                reports
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> WhatsApp & Slack notifications
+              </div>
+              <div
+                class="check-item"
+                style="border-color: rgba(255, 255, 255, 0.1)"
+              >
+                <span class="check-icon">✓</span> Business intelligence
+                assistant
+              </div>
+              <div
+                class="check-item"
+                style="
+                  border-color: rgba(255, 255, 255, 0.1);
+                  border-bottom: none;
+                "
+              >
+                <span class="check-icon">✓</span> Priority support
+              </div>
+            </div>
+            <a
+              href="#contact"
+              class="block bg-white hover:bg-blue-50 text-blue-700 font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg"
+              >Get Started</a
+            >
+          </div>
+
+          <!-- Standard Plan -->
+          <div class="plan-card plan-dark reveal reveal-delay-1">
+            <div class="mt-4 mb-1">
+              <p class="text-slate-400 text-sm font-medium mb-1">
+                Standard Plan
+              </p>
+              <div class="flex items-end gap-1 mb-0.5">
+                <span class="text-slate-500 text-xl font-light self-start mt-2"
+                  >GH¢</span
+                >
+                <span
+                  class="font-display text-6xl font-extrabold text-white leading-none"
+                  >299</span
+                >
+              </div>
+              <p class="text-slate-500 text-sm">
+                per month · up to 2 terminals
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-1.5 my-5">
+              <span class="pill pill-green text-xs">🛍️ Retail Shops</span>
+              <span class="pill pill-green text-xs">💊 Pharmacies</span>
+            </div>
+            <div class="space-y-0 mb-7">
+              <div class="check-item">
+                <span class="check-icon">✓</span> Fast counter checkout
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Product / barcode search
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Cash, MoMo & card payments
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Inventory & stock tracking
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Low stock & expiry alerts
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Opening & closing stock
+                reports
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Product families & categories
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> Staff sales performance
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> VAT & end-of-day reports
+              </div>
+              <div class="check-item">
+                <span class="check-icon">✓</span> WhatsApp & Slack notifications
+              </div>
+              <div class="check-item" style="border-bottom: none">
+                <span class="check-icon">✓</span> Business intelligence
+                assistant
+              </div>
+            </div>
+            <a
+              href="#contact"
+              class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all"
+              >Get Started</a
+            >
+          </div>
+
+          <!-- Custom / Enterprise Plan -->
+          <div
+            class="plan-card plan-dark reveal reveal-delay-1"
+            style="
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            "
+          >
+            <div>
+              <div class="mt-4 mb-1">
+                <p class="text-slate-400 text-sm font-medium mb-1">
+                  Custom Plan
+                </p>
+                <div class="flex items-end gap-1 mb-0.5">
+                  <span
+                    class="font-display text-4xl font-extrabold text-white leading-none"
+                    >Call Sales</span
+                  >
+                </div>
+                <p class="text-slate-500 text-sm">tailored to your needs</p>
+              </div>
+              <div class="flex flex-wrap gap-1.5 my-5">
+                <span class="pill pill-amber text-xs">🏢 Multi-location</span>
+                <span class="pill pill-amber text-xs">🔗 API Access</span>
+              </div>
+              <div class="space-y-0 mb-7">
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Everything in both plans
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Multiple locations /
+                  branches
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Unlimited terminals
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Custom integrations &amp;
+                  API access
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Dedicated account manager
+                </div>
+                <div class="check-item">
+                  <span class="check-icon">✓</span> Custom onboarding &amp;
+                  training
+                </div>
+                <div class="check-item" style="border-bottom: none">
+                  <span class="check-icon">✓</span> Priority SLA &amp; support
+                </div>
+              </div>
+            </div>
+            <button
+              onclick="openContactModal('Custom Enterprise Plan')"
+              class="w-full bg-amber-500 hover:bg-amber-400 text-black font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg hover:shadow-amber-500/25 flex items-center justify-center gap-2"
+            >
+              <i class="fas fa-phone text-sm"></i> Call Sales
+            </button>
+          </div>
+        </div>
+
+        <!-- Why diff note -->
+        <div
+          class="mt-8 max-w-3xl mx-auto glass rounded-2xl px-6 py-5 flex items-start gap-3 reveal"
+        >
+          <span class="text-lg mt-0.5">💡</span>
+          <p class="text-slate-400 text-sm leading-relaxed">
+            <span class="text-white font-medium"
+              >Why the price difference?</span
+            >
+            The Hospitality Plan includes table management, split billing,
+            kitchen order printing, combos, and serving period analytics —
+            features unique to food & drink service. The Standard Plan is built
+            for fast, straightforward counter sales at retail shops and
+            pharmacies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CONTACT ═══════════════ -->
+    <section class="py-28 px-6 bg-white" id="contact">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="reveal">
+          <span
+            class="pill mb-5 mx-auto w-fit"
+            style="
+              background: rgba(37, 99, 235, 0.08);
+              color: #2563eb;
+              border-color: rgba(37, 99, 235, 0.15);
+            "
+          >
+            Get in touch</span
+          >
+          <h2
+            class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4"
+          >
+            Ready to grow your business?
+          </h2>
+          <p class="text-slate-500 text-lg max-w-md mx-auto mb-12">
+            Our team is based right here in Ghana. We'll have you set up and
+            live in no time.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5 mb-12">
+          <a
+            href="tel:0240699506"
+            class="reveal group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
+            >
+              📞
+            </div>
+            <p
+              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
+            >
+              Call us
+            </p>
+            <p class="text-slate-800 font-semibold">0240 699 506</p>
+          </a>
+          <a
+            href="mailto:info@vemli.co"
+            class="reveal reveal-delay-1 group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
+            >
+              ✉️
+            </div>
+            <p
+              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
+            >
+              Email us
+            </p>
+            <p class="text-slate-800 font-semibold">info@vemli.co</p>
+          </a>
+          <a
+            href="http://vemli.co/"
+            class="reveal reveal-delay-2 group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
+            >
+              🌐
+            </div>
+            <p
+              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
+            >
+              Website
+            </p>
+            <p class="text-slate-800 font-semibold">vemli.co</p>
+          </a>
+        </div>
+
+        <div class="reveal">
+          <a
+            href="mailto:info@vemli.co"
+            class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5 text-base"
+          >
+            Send us a message
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/233240699506?text=Hello%20Vemli%20POS%20Team,%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+      style="
         position: fixed;
         bottom: 2rem;
         right: 2rem;
-        background: var(--whatsapp);
+        background: #25d366;
         color: white;
         width: 60px;
         height: 60px;
@@ -801,836 +1730,252 @@
         justify-content: center;
         font-size: 2rem;
         text-decoration: none;
-        box-shadow: var(--shadow-lg);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
         z-index: 100;
-        transition: var(--transition);
-      }
-
-      .whatsapp-float:hover {
-        transform: scale(1.1);
-        box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
-      }
-
-      /* Mobile Menu */
-      .mobile-menu-btn {
-        display: none;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.5rem;
-        cursor: pointer;
-        padding: 0.5rem;
-      }
-
-      @media (max-width: 768px) {
-        .nav-links {
-          display: none;
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: var(--primary-dark);
-          flex-direction: column;
-          padding: 2rem;
-          gap: 1.5rem;
-          z-index: 1000;
-          overflow-y: auto;
-        }
-
-        .nav-links.active {
-          display: flex;
-        }
-
-        .nav-links a {
-          font-size: 1.2rem;
-          padding: 0.75rem 0;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .mobile-menu-btn {
-          display: block;
-          z-index: 1001;
-          position: relative;
-        }
-
-        .mobile-menu-btn.active i:before {
-          content: "\f00d";
-        }
-
-        header h1 {
-          font-size: 2.2rem;
-        }
-
-        .section-title {
-          font-size: 2rem;
-        }
-
-        .price-row {
-          flex-direction: column;
-          gap: 1rem;
-        }
-
-        .price-badge {
-          min-width: auto;
-        }
-
-        .simple-pricing {
-          grid-template-columns: 1fr;
-        }
-
-        .pricing-card.restaurant {
-          transform: none;
-        }
-
-        .pricing-card.restaurant:hover {
-          transform: translateY(-10px);
-        }
-
-        .steps-timeline {
-          padding-left: 2rem;
-        }
-
-        .steps-timeline::before {
-          left: 1rem;
-        }
-
-        .step-number {
-          left: -2rem;
-          width: 2.5rem;
-          height: 2.5rem;
-          font-size: 1rem;
-        }
-
-        .step {
-          padding: 1.5rem;
-        }
-
-        .footer-content {
-          grid-template-columns: 1fr;
-          text-align: center;
-        }
-
-        .whatsapp-float {
-          bottom: 1rem;
-          right: 1rem;
-          width: 50px;
-          height: 50px;
-          font-size: 1.5rem;
-        }
-
-        .modal {
-          padding: 1.5rem;
-          max-height: 85vh;
-        }
-
-        .contact-option {
-          padding: 1rem;
-          gap: 0.75rem;
-        }
-
-        .contact-icon {
-          width: 45px;
-          height: 45px;
-          font-size: 1.5rem;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- WhatsApp Floating Button -->
-    <a
-      href="https://wa.me/233240699506?text=Hello%20Vemli%20POS%20Team,%20I'm%20interested%20in%20your%20POS%20system%20(GH₵6,000/year%20Basic%20or%20GH₵9,600/year%20Restaurant%20Edition).%20Please%20share%20more%20details."
-      class="whatsapp-float"
-      target="_blank"
-      aria-label="Chat on WhatsApp"
+        transition: all 0.3s ease;
+      "
+      onmouseover="this.style.transform = 'scale(1.1)'"
+      onmouseout="this.style.transform = 'scale(1)'"
     >
       <i class="fab fa-whatsapp"></i>
     </a>
 
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <nav class="nav">
-          <a href="#" class="logo" title="Vemli POS"></a>
-
-          <div class="nav-links">
-            <a href="#pricing">Pricing</a>
-            <a href="#order-steps">How It Works</a>
-            <!-- <a href="#testimonials">Testimonials</a> -->
-            <button class="cta-button open-contact-modal" style="margin: 0">
-              <i class="fas fa-phone"></i> Contact Sales
-            </button>
-          </div>
-
-          <button class="mobile-menu-btn">
-            <i class="fas fa-bars"></i>
-          </button>
-        </nav>
-
-        <div class="hero-content">
-          <div class="company-name">Professional POS System</div>
-          <h1>
-            Run Your Restaurant <span class="highlight">Smarter & Faster</span>
-          </h1>
-
-          <p class="header-subtitle">
-            Complete restaurant management system used by Ghanaian restaurants.
-            All-in-one solution for orders, inventory, payments, and reporting.
-          </p>
-
-          <div class="pricing-highlight">
-            <div class="price-row">
-              <div class="price-badge">
-                <div class="price-label">Core POS Features</div>
-                <div class="price-amount">GH₵6,000</div>
-                <div class="price-period">Annually</div>
-              </div>
-
-              <div class="price-badge">
-                <div class="price-label">Restaurant Edition</div>
-                <div class="price-amount">GH₵9000</div>
-                <div class="price-period">Annually</div>
-              </div>
-            </div>
-
-            <p class="comparison-note">
-              Restaurant Edition includes ALL Core POS features PLUS
-              restaurant-specific features
-            </p>
-          </div>
-
-          <div>
-            <button
-              class="cta-button open-contact-modal"
-              data-plan="Restaurant Edition - GH₵9000/year"
-            >
-              <i class="fas fa-utensils"></i> Get Restaurant Edition
-            </button>
-            <button
-              class="cta-button secondary-button open-contact-modal"
-              data-plan="Core POS Features - GH₵6,000/year"
-            >
-              <i class="fas fa-shopping-cart"></i> Get Core POS Features
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Stats -->
-    <section class="container">
-      <div class="stats">
-        <div class="stat">
-          <span class="stat-number">40%</span>
-          <span class="stat-label">Faster Service</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">99.8%</span>
-          <span class="stat-label">Order Accuracy</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">15%</span>
-          <span class="stat-label">Cost Savings</span>
-        </div>
-        <div class="stat">
-          <span class="stat-number">24/7</span>
-          <span class="stat-label">Ghana Support</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- SIMPLE Pricing Section -->
-    <section id="pricing" class="container">
-      <h2 class="section-title">Simple, Clear Pricing</h2>
-      <p class="section-subtitle">
-        Choose the plan that's right for your business
-      </p>
-
-      <div class="simple-pricing">
-        <!-- Basic POS Card -->
-        <div class="pricing-card">
-          <div class="plan-name">Core POS Features</div>
-          <div class="plan-description">
-            For retail shops, boutiques, small stores
-          </div>
-
-          <div class="plan-price basic">
-            GH₵6,000<span class="price-period">/year</span>
-          </div>
-
-          <ul class="features-list">
-            <li>Sales & Transaction Processing</li>
-            <li>Split/Merge Bills & Multiple Payments</li>
-            <li>Receipt Printing</li>
-            <li>Inventory Tracking</li>
-            <li>Report Generation</li>
-            <li>Customer Management</li>
-            <li>Report Analytics & Insights</li>
-            <li>Expiry Tracking</li>
-            <li>Supplier Management</li>
-            <li>Stock Alerts</li>
-            <li>Purchase Orders</li>
-            <li>Support</li>
-          </ul>
-
-          <button
-            class="cta-button open-contact-modal"
-            data-plan="Core POS Features - GH₵6,000/year"
-            style="width: 100%; margin: 0"
-          >
-            <i class="fas fa-shopping-cart"></i> Core POS Features
-          </button>
-        </div>
-
-        <!-- Restaurant Edition Card -->
-        <div class="pricing-card restaurant">
-          <div class="plan-badge">MOST POPULAR</div>
-          <div class="plan-name">Restaurant Edition</div>
-          <div class="plan-description">
-            For restaurants, cafes, bars, food service
-          </div>
-
-          <div class="plan-price restaurant">
-            GH₵9000<span class="price-period">/year</span>
-          </div>
-
-          <ul class="features-list">
-            <!-- Core POS Features (Same as Basic) -->
-
-            <li>ALL In Core POS Features</li>
-
-            <!-- Restaurant Features (PLUS these) -->
-            <li class="restaurant-feature">Table Management & Reservations</li>
-            <li class="restaurant-feature">Kitchen Order Tickets (KOT)</li>
-            <li class="restaurant-feature">Kitchen Display Screen (KDS)</li>
-            <li class="restaurant-feature">Menu & Combo Management</li>
-            <li class="restaurant-feature">Sides & Extras Management</li>
-            <li class="restaurant-feature">Corkage & Open Price Items</li>
-            <li class="restaurant-feature">
-              Property Management System (PMS) Integration
-            </li>
-          </ul>
-
-          <button
-            class="cta-button open-contact-modal"
-            data-plan="Restaurant Edition - GH₵9000/year"
-            style="width: 100%; margin: 0"
-          >
-            <i class="fas fa-utensils"></i> Get Restaurant Edition
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Order Processing Steps Section -->
-    <section id="order-steps" class="container">
-      <div class="steps-section">
-        <h2 class="section-title">Complete Order Processing Workflow</h2>
-        <p class="section-subtitle">
-          From table selection to payment - See how Vemli POS streamlines your
-          restaurant operations
-        </p>
-
-        <div class="steps-container">
-          <div class="steps-timeline">
-            <!-- Step 1 -->
-            <div class="step">
-              <div class="step-number">1</div>
-              <h3 class="step-title">
-                <i class="fas fa-chair step-icon"></i> Create Table or Select
-                Existing
-              </h3>
-              <p class="step-description">
-                Start by creating a new table with guest information or select
-                an existing table. Perfect for managing walk-ins and
-                reservations.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Guest count tracking</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Reservation management</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Table status tracking</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="step">
-              <div class="step-number">2</div>
-              <h3 class="step-title">
-                <i class="fas fa-list-alt step-icon"></i> Browse Menu & Select
-                Items
-              </h3>
-              <p class="step-description">
-                Navigate through organized categories (Drinks, Food, Combos) and
-                select items to sell. Touch-friendly interface for fast
-                ordering.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Category navigation</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Search functionality</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Favorite items</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="step">
-              <div class="step-number">3</div>
-              <h3 class="step-title">
-                <i class="fas fa-shopping-cart step-icon"></i> Add to
-                Cart/Basket
-              </h3>
-              <p class="step-description">
-                Click to add selected items to the cart. Real-time updates show
-                current order total and item count.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Real-time total</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Item quantity adjustment</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Cart preview</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 4 (Restaurant Mode) -->
-            <div class="step restaurant-step">
-              <div class="step-number">4</div>
-              <h3 class="step-title">
-                <i class="fas fa-utensils step-icon"></i> Select Sides & Extras
-                <span
-                  class="step-feature"
-                  style="
-                    background: var(--accent);
-                    color: black;
-                    margin-left: 0.5rem;
-                  "
-                  >Restaurant Edition</span
-                >
-              </h3>
-              <p class="step-description">
-                For food items, pop-up options appear to select sides, cooking
-                preferences, and extras. Customize orders exactly as customers
-                request.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Side selection</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Cooking instructions</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Extra toppings</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Special requests</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 5 -->
-            <div class="step">
-              <div class="step-number">5</div>
-              <h3 class="step-title">
-                <i class="fas fa-paper-plane step-icon"></i> Place Order
-              </h3>
-              <p class="step-description">
-                Finalize the order and send it to the kitchen instantly. Orders
-                appear immediately on kitchen displays.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Instant kitchen
-                  notification</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Order confirmation</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Order number generation</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 6 -->
-            <div class="step">
-              <div class="step-number">6</div>
-              <h3 class="step-title">
-                <i class="fas fa-credit-card step-icon"></i> Select Payment
-                Method
-              </h3>
-              <p class="step-description">
-                Choose from multiple payment options or integrate with Property
-                Management System to charge to hotel rooms.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Cash payments</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Card payments</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Mobile money</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> PMS integration</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 7 -->
-            <div class="step">
-              <div class="step-number">7</div>
-              <h3 class="step-title">
-                <i class="fas fa-percentage step-icon"></i> Apply Discounts
-              </h3>
-              <p class="step-description">
-                Apply full or partial discounts before payment. Flexible
-                discount system for promotions, loyalty, or special occasions.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Percentage discounts</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Fixed amount discounts</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Item-level discounts</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Promotional codes</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 8 -->
-            <div class="step">
-              <div class="step-number">8</div>
-              <h3 class="step-title">
-                <i class="fas fa-file-invoice-dollar step-icon"></i> Settle Bill
-              </h3>
-              <p class="step-description">
-                Complete the payment process. System automatically calculates
-                change due and updates inventory in real-time.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Automatic change
-                  calculation</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Split payments</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Tip management</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Inventory update</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 9 -->
-            <div class="step">
-              <div class="step-number">9</div>
-              <h3 class="step-title">
-                <i class="fas fa-print step-icon"></i> Print Receipt
-              </h3>
-              <p class="step-description">
-                Generate and print detailed receipts for customers. Includes
-                item breakdown, taxes, discounts, and payment details.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Itemized receipt</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Tax breakdown</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Payment details</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Customer copy</span
-                >
-              </div>
-            </div>
-
-            <!-- Step 10 (Restaurant Mode) -->
-            <div class="step restaurant-step">
-              <div class="step-number">10</div>
-              <h3 class="step-title">
-                <i class="fas fa-utensils step-icon"></i> Kitchen Automation
-                <span
-                  class="step-feature"
-                  style="
-                    background: var(--accent);
-                    color: black;
-                    margin-left: 0.5rem;
-                  "
-                  >Restaurant Edition</span
-                >
-              </h3>
-              <p class="step-description">
-                For food orders: Automatic Kitchen Order Ticket (KOT) printing
-                and push to Kitchen Display Screen (KDS) for real-time order
-                tracking.
-              </p>
-              <div class="step-features">
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> KOT auto-printing</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> KDS integration</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Order status tracking</span
-                >
-                <span class="step-feature"
-                  ><i class="fas fa-check"></i> Preparation time tracking</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 3rem">
-          <button
-            class="cta-button open-contact-modal"
-            data-plan="Restaurant Edition - GH₵9000/year"
-          >
-            <i class="fas fa-play-circle"></i> See Live Demo
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials -->
-    <!-- <section id="testimonials" class="container">
-      <h2 class="section-title">Trusted by Ghanaian Businesses</h2>
-      <p class="section-subtitle">
-        See what restaurant owners are saying about Vemli POS
-      </p>
-
-      <div class="testimonials-grid">
-        <div class="testimonial">
-          <p class="testimonial-text">
-            "The Restaurant Edition at GH₵9000/year has transformed our
-            operations. The expiry tracking alone saved us GH₵8,000 in wasted
-            inventory last year."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">EK</div>
-            <div>
-              <div>Emmanuel Kwarteng</div>
-              <div style="font-size: 0.9rem; color: var(--muted)">
-                Owner, Accra Restaurant
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial">
-          <p class="testimonial-text">
-            "We started with Core POS Features for our retail shop, and the
-            GH₵6,000 investment paid for itself in 4 months. The system is
-            perfect for Ghanaian businesses."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">AK</div>
-            <div>
-              <div>Akosua Mensah</div>
-              <div style="font-size: 0.9rem; color: var(--muted)">
-                Manager, Kumasi Boutique
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial">
-          <p class="testimonial-text">
-            "The purchase order system and batch processing in the Restaurant
-            Edition have streamlined our supply chain. Our kitchen efficiency
-            improved by 40%."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">KA</div>
-            <div>
-              <div>Kwame Asare</div>
-              <div style="font-size: 0.9rem; color: var(--muted)">
-                Chef, Takoradi Restaurant
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Final CTA -->
-    <section class="container">
+    <!-- Contact Modal -->
+    <div
+      class="modal-overlay"
+      id="contactModal"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        padding: 1rem;
+      "
+    >
       <div
         style="
-          text-align: center;
-          background: linear-gradient(
-            135deg,
-            var(--primary),
-            var(--primary-dark)
-          );
-          color: white;
-          padding: 4rem;
-          border-radius: var(--radius);
-          margin-top: 2rem;
-          margin-bottom: 2rem;
-          font-size: 0.9rem;
-          opacity: 0.8;
+          background: white;
+          padding: 2rem;
+          border-radius: 1rem;
+          max-width: 500px;
+          width: 100%;
+          max-height: 90vh;
+          overflow-y: auto;
+          transform: translateY(-20px);
+          transition: transform 0.4s ease;
+          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+          position: relative;
         "
       >
-        <h2 style="font-size: 2.5rem; margin-bottom: 1rem">
-          Ready to Transform Your Business?
-        </h2>
-        <p
-          style="
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            opacity: 0.9;
-          "
-        >
-          Join 500+ Ghanaian businesses using Vemli POS to streamline operations
-          and increase profits
-        </p>
-
         <div
           style="
             display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
           "
         >
+          <h3 style="font-size: 1.8rem; font-weight: 700; color: #0f766e">
+            Contact Vemli POS Team
+          </h3>
           <button
-            class="cta-button open-contact-modal"
-            data-plan="Restaurant Edition - GH₵9000/year"
-            style="background: var(--accent); color: black"
-          >
-            <i class="fas fa-calendar-alt"></i> Book Free Demo
-          </button>
-          <button
-            class="cta-button secondary-button"
-            style="border-color: white; color: white"
-            onclick="
-              document
-                .getElementById('pricing')
-                .scrollIntoView({ behavior: 'smooth' })
+            onclick="closeContactModal()"
+            style="
+              background: none;
+              border: none;
+              font-size: 1.5rem;
+              cursor: pointer;
+              color: #475569;
+              padding: 0.5rem;
+              line-height: 1;
             "
           >
-            <i class="fas fa-tags"></i> View Pricing
+            ✕
           </button>
         </div>
-
-        <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8">
-          <p>
-            ✓ Free setup & training ✓ 30-day money-back guarantee ✓ 24/7 Ghana
-            support
-          </p>
-        </div>
-      </div>
-
-      <hr />
-    </section>
-
-    <!-- Contact Modal -->
-    <div class="modal-overlay" id="contactModal">
-      <div class="modal">
-        <div class="modal-header">
-          <h3 class="modal-title">Contact Vemli POS Team</h3>
-          <button class="close-modal" aria-label="Close modal">
-            <i class="fas fa-times"></i>
-          </button>
-        </div>
-        <div class="contact-options">
+        <div style="display: flex; flex-direction: column; gap: 1rem">
           <a
             href="#"
-            class="contact-option whatsapp"
             id="whatsappLink"
             target="_blank"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              transition: all 0.3s;
+              border: 2px solid transparent;
+              background: rgba(37, 211, 102, 0.1);
+              color: #25d366;
+            "
           >
-            <div class="contact-icon">
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
               <i class="fab fa-whatsapp"></i>
             </div>
-            <div class="contact-details">
-              <div class="contact-label">WhatsApp (Fastest Response)</div>
-              <div class="contact-value">Chat directly with our sales team</div>
-              <div class="contact-value">+233 24 069 9506</div>
+            <div style="flex: 1">
+              <div
+                style="
+                  font-weight: 600;
+                  font-size: 1.1rem;
+                  margin-bottom: 0.25rem;
+                "
+              >
+                WhatsApp (Fastest Response)
+              </div>
+              <div style="color: #0f172a; font-size: 0.95rem">
+                Chat directly with our sales team
+              </div>
+              <div style="color: #0f172a; font-size: 0.95rem">
+                +233 24 069 9506
+              </div>
             </div>
             <i class="fas fa-arrow-right"></i>
           </a>
-
-          <a href="#" class="contact-option email" id="emailLink">
-            <div class="contact-icon">
+          <a
+            href="#"
+            id="emailLink"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              transition: all 0.3s;
+              border: 2px solid transparent;
+              background: rgba(234, 67, 53, 0.1);
+              color: #ea4335;
+            "
+          >
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
               <i class="fas fa-envelope"></i>
             </div>
-            <div class="contact-details">
-              <div class="contact-label">Email</div>
-              <div class="contact-value">Send detailed business inquiry</div>
-              <div class="contact-value">aggrey.en@gmail.com</div>
+            <div style="flex: 1">
+              <div
+                style="
+                  font-weight: 600;
+                  font-size: 1.1rem;
+                  margin-bottom: 0.25rem;
+                "
+              >
+                Email
+              </div>
+              <div style="color: #0f172a; font-size: 0.95rem">
+                Send detailed business inquiry
+              </div>
+              <div style="color: #0f172a; font-size: 0.95rem">
+                info@vemli.co
+              </div>
             </div>
             <i class="fas fa-arrow-right"></i>
           </a>
-
-          <a href="tel:+233240699506" class="contact-option phone">
-            <div class="contact-icon">
+          <a
+            href="tel:+233240699506"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              padding: 1.25rem;
+              border-radius: 0.75rem;
+              text-decoration: none;
+              transition: all 0.3s;
+              border: 2px solid transparent;
+              background: rgba(66, 133, 244, 0.1);
+              color: #4285f4;
+            "
+          >
+            <div
+              style="
+                font-size: 1.8rem;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                border-radius: 50%;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0;
+              "
+            >
               <i class="fas fa-phone"></i>
             </div>
-            <div class="contact-details">
-              <div class="contact-label">Phone Call</div>
-              <div class="contact-value">
+            <div style="flex: 1">
+              <div
+                style="
+                  font-weight: 600;
+                  font-size: 1.1rem;
+                  margin-bottom: 0.25rem;
+                "
+              >
+                Phone Call
+              </div>
+              <div style="color: #0f172a; font-size: 0.95rem">
                 Speak with our Ghana team directly
               </div>
-              <div class="contact-value">+233 24 069 9506</div>
+              <div style="color: #0f172a; font-size: 0.95rem">
+                +233 24 069 9506
+              </div>
             </div>
             <i class="fas fa-arrow-right"></i>
           </a>
         </div>
-        <div
+        <p
           style="
             margin-top: 2rem;
             text-align: center;
-            color: var(--muted);
+            color: #475569;
             font-size: 0.9rem;
           "
         >
-          <p>We respond within 1 hour during business hours (8AM - 8PM GMT)</p>
-        </div>
+          We respond within 1 hour during business hours (8AM - 8PM GMT)
+        </p>
       </div>
     </div>
 
-    <!-- Footer -->
+    <!-- ═══════════════ FOOTER ═══════════════ -->
     <footer>
       <div class="container">
         <div class="footer-content">
           <div>
-            <a href="#" class="footer-logo" title="Vemli POS"></a>
+            <a href="index.html" class="footer-logo" title="Vemli POS"></a>
             <p>
               Professional POS systems for Ghanaian businesses since 2020.
               Making restaurant management simple and efficient.
@@ -1640,10 +1985,17 @@
           <div>
             <h4 style="color: white; margin-bottom: 1rem">Quick Links</h4>
             <div class="footer-links">
-              <a href="#pricing">Pricing</a>
-              <a href="#order-steps">How It Works</a>
-              <!-- <a href="#testimonials">Testimonials</a> -->
-              <a href="#" class="open-contact-modal">Contact Sales</a>
+              <a href="index.html#pricing">Pricing</a>
+              <a href="how-it-works.html">How It Works</a>
+              <a href="index.html#features">Features</a>
+              <a
+                href="#"
+                onclick="
+                  openContactModal('Vemli POS System');
+                  return false;
+                "
+                >Contact Sales</a
+              >
             </div>
           </div>
 
@@ -1654,11 +2006,16 @@
                 ><i class="fas fa-phone" style="margin-right: 0.5rem"></i> +233
                 24 069 9506</a
               >
-              <a href="mailto:aggrey.en@gmail.com"
+              <a href="mailto:info@vemli.co"
                 ><i class="fas fa-envelope" style="margin-right: 0.5rem"></i>
-                aggrey.en@gmail.com</a
+                info@vemli.co</a
               >
-              <a href="#" class="open-contact-modal"
+              <a
+                href="#"
+                onclick="
+                  openContactModal('Vemli POS System');
+                  return false;
+                "
                 ><i class="fas fa-headset" style="margin-right: 0.5rem"></i>
                 Sales Support</a
               >
@@ -1672,15 +2029,15 @@
             businesses.
           </p>
           <p style="margin-top: 0.5rem">
-            <a href="#" style="color: var(--accent); margin: 0 0.5rem"
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
               >Privacy Policy</a
             >
             |
-            <a href="#" style="color: var(--accent); margin: 0 0.5rem"
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
               >Terms of Service</a
             >
             |
-            <a href="#" style="color: var(--accent); margin: 0 0.5rem"
+            <a href="#" style="color: #f59e0b; margin: 0 0.5rem"
               >Refund Policy</a
             >
           </p>
@@ -1689,142 +2046,140 @@
     </footer>
 
     <script>
-      // Mobile Menu Toggle
-      const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
-      const navLinks = document.querySelector(".nav-links");
+      // Scroll reveal
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => revealObserver.observe(el));
 
-      mobileMenuBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        navLinks.classList.toggle("active");
-        mobileMenuBtn.classList.toggle("active");
+      // Chat widget
+      const chatAnswers = {
+        "What are my top selling items today?": () =>
+          `📊 **Top items today:**\n\n1. Jollof Rice — 48 sold (GH¢1,152)\n2. Grilled Chicken — 31 sold (GH¢930)\n3. Malt Drink — 67 sold (GH¢402)\n\nJollof Rice is up 18% vs last Friday. 🔥`,
+        "Which days are my busiest?": () =>
+          `📅 **Busiest days (last 30 days):**\n\n1. Friday — avg GH¢6,240/day\n2. Saturday — avg GH¢5,890/day\n3. Sunday — avg GH¢4,710/day\n\nWeekends account for 48% of your weekly revenue.`,
+        "How is my staff performing this week?": () =>
+          `👥 **Staff performance this week:**\n\n• Ama — GH¢8,420 in sales (top performer ⭐)\n• Kofi — GH¢6,180 in sales\n• Akua — GH¢5,340 in sales\n\nAverage order handled: 34/shift. Ama has the highest avg order value at GH¢38.`,
+        "What time do I make the most sales?": () =>
+          `⏰ **Peak sales hours:**\n\n🔝 12pm–2pm (lunch rush) — 34% of daily revenue\n🔝 6pm–9pm (dinner) — 28% of daily revenue\n\nYour slowest hour is 3pm–4pm. Consider a happy hour promo!`,
+      };
 
-        // Prevent scrolling when menu is open
-        if (navLinks.classList.contains("active")) {
-          document.body.style.overflow = "hidden";
-        } else {
-          document.body.style.overflow = "auto";
-        }
-      });
+      const customAnswers = [
+        (q) =>
+          `Looking at your data for "${q}"… Based on your sales over the last 30 days, revenue has been trending up by 14%. Your top category is food, accounting for 62% of total orders.`,
+      ];
 
-      // Close mobile menu when clicking on a link
-      navLinks.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () => {
-          navLinks.classList.remove("active");
-          mobileMenuBtn.classList.remove("active");
-          document.body.style.overflow = "auto";
-        });
-      });
-
-      // Modal functionality
-      const contactModal = document.getElementById("contactModal");
-      const openModalButtons = document.querySelectorAll(".open-contact-modal");
-      const closeModalButton = document.querySelector(".close-modal");
-
-      // Track selected plan
-      let selectedPlan = "Vemli POS System";
-
-      // Open modal with plan selection
-      openModalButtons.forEach((button) => {
-        button.addEventListener("click", (e) => {
-          e.stopPropagation();
-          const plan =
-            e.target.dataset.plan ||
-            e.target.closest("button")?.dataset.plan ||
-            selectedPlan;
-          updateContactLinks(plan);
-          contactModal.classList.add("active");
-          document.body.style.overflow = "hidden";
-
-          // Close mobile menu if open
-          navLinks.classList.remove("active");
-          mobileMenuBtn.classList.remove("active");
-        });
-      });
-
-      // Update contact links with selected plan
-      function updateContactLinks(plan) {
-        const whatsappMessage = `Hello Vemli POS Team, I'm interested in your ${plan}. Please share more details.`;
-        const emailSubject = `Vemli POS Inquiry: ${plan}`;
-        const emailBody = `Hello Vemli Team,\n\nI'm interested in your ${plan}.\n\nBusiness Name:\nType of Business:\nNumber of Locations:\nCurrent System (if any):\n\nBest contact time:\n\nThank you!`;
-
-        const whatsappLink = document.getElementById("whatsappLink");
-        const emailLink = document.getElementById("emailLink");
-
-        whatsappLink.href = `https://wa.me/233240699506?text=${encodeURIComponent(whatsappMessage)}`;
-        emailLink.href = `mailto:aggrey.en@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+      function addMessage(html, isUser = false, delay = 0) {
+        const msgs = document.getElementById("chat-messages");
+        setTimeout(() => {
+          const wrap = document.createElement("div");
+          wrap.className = isUser ? "flex justify-end" : "";
+          const bubble = document.createElement("div");
+          bubble.className = `chat-msg chat-bubble-in`;
+          const inner = document.createElement("div");
+          inner.className = `${isUser ? "msg-user" : "msg-ai"} text-white text-sm px-4 py-3 leading-relaxed`;
+          inner.style.whiteSpace = "pre-line";
+          inner.innerHTML = html.replace(
+            /\*\*(.*?)\*\*/g,
+            "<strong>$1</strong>",
+          );
+          bubble.appendChild(inner);
+          wrap.appendChild(bubble);
+          msgs.appendChild(wrap);
+          msgs.scrollTop = msgs.scrollHeight;
+        }, delay);
       }
 
-      // Close modal
-      closeModalButton.addEventListener("click", (e) => {
-        e.stopPropagation();
-        contactModal.classList.remove("active");
+      function showTyping() {
+        const msgs = document.getElementById("chat-messages");
+        const el = document.createElement("div");
+        el.id = "typing";
+        el.className = "chat-msg";
+        el.innerHTML = `<div class="msg-ai px-4 py-3 flex gap-1.5 items-center"><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div></div>`;
+        msgs.appendChild(el);
+        msgs.scrollTop = msgs.scrollHeight;
+        return el;
+      }
+
+      function askQuestion(btn, question) {
+        addMessage(question, true);
+        const typing = showTyping();
+        const msgs = document.getElementById("chat-messages");
+        setTimeout(() => {
+          typing.remove();
+          const answer = chatAnswers[question]
+            ? chatAnswers[question]()
+            : customAnswers[0](question);
+          addMessage(answer);
+          msgs.scrollTop = msgs.scrollHeight;
+        }, 1200);
+      }
+
+      function sendChat() {
+        const inp = document.getElementById("chat-input");
+        const q = inp.value.trim();
+        if (!q) return;
+        inp.value = "";
+        addMessage(q, true);
+        const typing = showTyping();
+        const msgs = document.getElementById("chat-messages");
+        const match = Object.keys(chatAnswers).find((k) =>
+          k.toLowerCase().includes(q.toLowerCase().split(" ")[0]),
+        );
+        setTimeout(() => {
+          typing.remove();
+          const answer = match ? chatAnswers[match]() : customAnswers[0](q);
+          addMessage(answer);
+          msgs.scrollTop = msgs.scrollHeight;
+        }, 1300);
+      }
+
+      // Contact modal
+      const contactModal = document.getElementById("contactModal");
+
+      function openContactModal(plan) {
+        const msg = `Hello Vemli POS Team, I'm interested in your ${plan || "Vemli POS System"}. Please share more details.`;
+        const subj = `Vemli POS Inquiry: ${plan || "Vemli POS System"}`;
+        const body = `Hello Vemli Team,\n\nI'm interested in your ${plan || "Vemli POS System"}.\n\nBusiness Name:\nType of Business:\n\nThank you!`;
+        document.getElementById("whatsappLink").href =
+          `https://wa.me/233240699506?text=${encodeURIComponent(msg)}`;
+        document.getElementById("emailLink").href =
+          `mailto:info@vemli.co?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+        contactModal.style.opacity = "1";
+        contactModal.style.visibility = "visible";
+        contactModal.querySelector("div").style.transform = "translateY(0)";
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeContactModal() {
+        contactModal.style.opacity = "0";
+        contactModal.style.visibility = "hidden";
+        contactModal.querySelector("div").style.transform = "translateY(-20px)";
         document.body.style.overflow = "auto";
-      });
+      }
 
-      // Close modal when clicking outside
       contactModal.addEventListener("click", (e) => {
-        if (e.target === contactModal) {
-          contactModal.classList.remove("active");
-          document.body.style.overflow = "auto";
-        }
+        if (e.target === contactModal) closeContactModal();
       });
 
-      // Close modal with Escape key
       document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") {
-          if (contactModal.classList.contains("active")) {
-            contactModal.classList.remove("active");
-            document.body.style.overflow = "auto";
-          }
-          if (navLinks.classList.contains("active")) {
-            navLinks.classList.remove("active");
-            mobileMenuBtn.classList.remove("active");
-            document.body.style.overflow = "auto";
-          }
-        }
+        if (e.key === "Escape") closeContactModal();
       });
 
-      // Smooth scroll for anchor links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          const href = this.getAttribute("href");
-          if (href !== "#" && !this.classList.contains("open-contact-modal")) {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            if (target) {
-              target.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-              });
-
-              // Close mobile menu if open
-              navLinks.classList.remove("active");
-              mobileMenuBtn.classList.remove("active");
-              document.body.style.overflow = "auto";
-            }
-          }
+      // Wire all "Get Started" / contact links to open modal
+      document.querySelectorAll('a[href="#contact"]').forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          openContactModal(btn.dataset.plan);
         });
       });
-
-      // Close mobile menu when clicking outside
-      document.addEventListener("click", (e) => {
-        if (
-          !e.target.closest(".nav") &&
-          navLinks.classList.contains("active")
-        ) {
-          navLinks.classList.remove("active");
-          mobileMenuBtn.classList.remove("active");
-          document.body.style.overflow = "auto";
-        }
-      });
-
-      // Prevent modal from closing when clicking inside
-      document.querySelector(".modal").addEventListener("click", (e) => {
-        e.stopPropagation();
-      });
-
-      // Initialize with default plan
-      updateContactLinks(selectedPlan);
     </script>
   </body>
 </html>
