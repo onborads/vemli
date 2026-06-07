@@ -311,7 +311,7 @@
   <body>
     <!-- WhatsApp Float -->
     <a
-      href="https://wa.me/233240699506?text=Hello%20Vemli%20POS%20Team%2C%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
+      href="https://wa.me/233261427273?text=Hello%20Vemli%20POS%20Team%2C%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
       target="_blank"
       aria-label="Chat on WhatsApp"
       style="
@@ -525,13 +525,14 @@
           href="index.html"
           title="Vemli POS"
           style="
-            background-image: url(&quot;./logo_white.jpeg&quot;);
+            background-image: url(&quot;./logo_white-nobg.png&quot;);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
             width: 120px;
             height: 40px;
             display: block;
+            filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5));
           "
         ></a>
         <div class="hidden md:flex items-center gap-8">
@@ -933,7 +934,7 @@
         const subj = `Vemli POS Inquiry: ${plan || "Vemli POS System"}`;
         const body = `Hello Vemli Team,\n\nI'm interested in your ${plan || "Vemli POS System"}.\n\nBusiness Name:\nType of Business:\n\nThank you!`;
         document.getElementById("whatsappLink").href =
-          `https://wa.me/233240699506?text=${encodeURIComponent(msg)}`;
+          `https://wa.me/233261427273?text=${encodeURIComponent(msg)}`;
         document.getElementById("emailLink").href =
           `mailto:info@vemli.co?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
         contactModal.style.opacity = "1";

@@ -27,7 +27,7 @@
     <meta property="og:url" content="https://vemli.co/" />
     <meta property="og:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
     <meta property="og:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights — all in one system." />
-    <meta property="og:image" content="https://vemli.co/logo_white.jpeg" />
+    <meta property="og:image" content="https://vemli.co/logo_white-nobg.png" />
     <meta property="og:site_name" content="Vemli POS" />
     <meta property="og:locale" content="en_GH" />
 
@@ -36,7 +36,7 @@
     <meta name="twitter:url" content="https://vemli.co/" />
     <meta name="twitter:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
     <meta name="twitter:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights." />
-    <meta name="twitter:image" content="https://vemli.co/logo_white.jpeg" />
+    <meta name="twitter:image" content="https://vemli.co/logo_white-nobg.png" />
 
     <!-- Structured Data: Organization -->
     <script type="application/ld+json">
@@ -68,7 +68,7 @@
         "@type": "Organization",
         "name": "Vemli POS",
         "url": "https://vemli.co",
-        "telephone": "+233240699506",
+        "telephone": "+233261427273",
         "email": "info@vemli.co",
         "address": {
           "@type": "PostalAddress",
@@ -528,16 +528,18 @@
         class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
       >
         <a
+          id="nav-logo"
           href="#"
           title="Vemli POS"
           style="
-            background-image: url(&quot;./logo_white.jpeg&quot;);
+            background-image: url(&quot;./logo_white-nobg.png&quot;);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
             width: 120px;
             height: 40px;
             display: block;
+            transition: filter 0.3s;
           "
         ></a>
         <div class="hidden md:flex items-center gap-8">
@@ -1015,7 +1017,7 @@
                     Ask from anywhere
                   </p>
                   <p class="text-slate-500 text-sm mt-0.5">
-                    Access the business chat from the dashboard or via WhatsApp
+                    Access the business data from the dashboard or via WhatsApp
                     and Slack — even when you're away.
                   </p>
                 </div>
@@ -1542,12 +1544,12 @@
             <div>
               <div class="mt-4 mb-1">
                 <p class="text-slate-400 text-sm font-medium mb-1">
-                  Custom Plan
+                  Custom Plan / One-off Payment
                 </p>
                 <div class="flex items-end gap-1 mb-0.5">
                   <span
                     class="font-display text-4xl font-extrabold text-white leading-none"
-                    >Call Sales</span
+                    >Contact Sales</span
                   >
                 </div>
                 <p class="text-slate-500 text-sm">tailored to your needs</p>
@@ -1587,7 +1589,7 @@
               onclick="openContactModal('Custom Enterprise Plan')"
               class="w-full bg-amber-500 hover:bg-amber-400 text-black font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg hover:shadow-amber-500/25 flex items-center justify-center gap-2"
             >
-              <i class="fas fa-phone text-sm"></i> Call Sales
+              <i class="fas fa-phone text-sm"></i> Contact Sales
             </button>
           </div>
         </div>
@@ -1713,7 +1715,7 @@
 
     <!-- WhatsApp Floating Button -->
     <a
-      href="https://wa.me/233240699506?text=Hello%20Vemli%20POS%20Team,%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
+      href="https://wa.me/233261427273?text=Hello%20Vemli%20POS%20Team,%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
       class="whatsapp-float"
       target="_blank"
       aria-label="Chat on WhatsApp"
@@ -2150,7 +2152,7 @@
         const subj = `Vemli POS Inquiry: ${plan || "Vemli POS System"}`;
         const body = `Hello Vemli Team,\n\nI'm interested in your ${plan || "Vemli POS System"}.\n\nBusiness Name:\nType of Business:\n\nThank you!`;
         document.getElementById("whatsappLink").href =
-          `https://wa.me/233240699506?text=${encodeURIComponent(msg)}`;
+          `https://wa.me/233261427273?text=${encodeURIComponent(msg)}`;
         document.getElementById("emailLink").href =
           `mailto:info@vemli.co?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
         contactModal.style.opacity = "1";
@@ -2181,6 +2183,29 @@
           openContactModal(btn.dataset.plan);
         });
       });
+
+      // Logo: switch to dark on light sections, white on dark sections
+      const navLogo = document.getElementById('nav-logo');
+      const lightSections = document.querySelectorAll('.section-light, .section-gray');
+      function updateLogo() {
+        const navBottom = 64;
+        let onLight = false;
+        lightSections.forEach(sec => {
+          const r = sec.getBoundingClientRect();
+          if (r.top <= navBottom && r.bottom >= 0) onLight = true;
+        });
+        if (onLight) {
+          navLogo.style.backgroundImage = 'url("./logo_dark.jpeg")';
+          navLogo.style.mixBlendMode = 'multiply';
+          navLogo.style.filter = 'none';
+        } else {
+          navLogo.style.backgroundImage = 'url("./logo_white-nobg.png")';
+          navLogo.style.mixBlendMode = 'normal';
+          navLogo.style.filter = 'drop-shadow(0 1px 3px rgba(0,0,0,0.5))';
+        }
+      }
+      window.addEventListener('scroll', updateLogo, { passive: true });
+      updateLogo();
     </script>
   </body>
 </html>
