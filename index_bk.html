@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
@@ -209,39 +210,6 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
       }
-
-      .hero-glow {
-        background:
-          radial-gradient(ellipse 70% 50% at 50% 20%, rgba(59, 130, 246, 0.25), transparent 70%),
-          radial-gradient(circle at 80% 30%, rgba(167, 139, 250, 0.15), transparent 60%),
-          #05070f;
-      }
-      .glass-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.06);
-        border-radius: 28px;
-        backdrop-filter: blur(2px);
-        transition: all 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
-      }
-      .glass-card:hover {
-        border-color: rgba(96, 165, 250, 0.5);
-        transform: translateY(-4px);
-        background: rgba(255, 255, 255, 0.06);
-        box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.4);
-      }
-      .pill-light {
-        background: rgba(255, 255, 255, 0.08);
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        color: #cbd5e1;
-      }
-      .floating {
-        animation: floatSoft 5s ease-in-out infinite;
-      }
-      @keyframes floatSoft {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-8px); }
-        100% { transform: translateY(0px); }
-      }
       .hero-gradient {
         background:
           radial-gradient(
@@ -257,53 +225,12 @@
           #0a0f1e;
       }
       .section-light {
-        background: #f8fafc;
-        background-image: radial-gradient(circle, #cbd5e1 1px, transparent 1px);
-        background-size: 28px 28px;
+        background: #ffffff;
         color: #0a0f1e;
       }
       .section-gray {
-        background: #f1f5f9;
-        color: #0a0f1e;
-      }
-      /* Feature rows */
-      .feature-row {
-        background: #ffffff;
-        border-radius: 28px;
-        padding: 48px;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 24px rgba(0,0,0,0.05), 0 1px 4px rgba(0,0,0,0.04);
-        transition: box-shadow 0.3s, transform 0.3s;
-      }
-      .feature-row:hover {
-        box-shadow: 0 12px 48px rgba(37,99,235,0.1), 0 2px 8px rgba(0,0,0,0.06);
-        transform: translateY(-2px);
-      }
-      @media (max-width: 767px) {
-        .feature-row { padding: 28px 20px; }
-      }
-      .feature-img-wrap {
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 8px 40px rgba(0,0,0,0.12);
-        border: 1px solid #e2e8f0;
         background: #f8fafc;
-      }
-      .feature-img-wrap img {
-        transition: transform 0.4s ease;
-      }
-      .feature-row:hover .feature-img-wrap img {
-        transform: scale(1.02);
-      }
-      .feature-number {
-        font-family: 'Syne', sans-serif;
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #2563eb;
-        opacity: 0.5;
-        margin-bottom: 12px;
+        color: #0a0f1e;
       }
       .border-glow {
         border: 1px solid rgba(59, 130, 246, 0.3);
@@ -653,91 +580,242 @@
 
     <!-- ═══════════════ HERO ═══════════════ -->
     <section
-      class="hero-glow min-h-screen flex flex-col items-center justify-center pt-28 pb-12 px-5 relative overflow-hidden"
+      class="hero-gradient min-h-screen flex flex-col items-center justify-center pt-20 pb-16 px-6 relative overflow-hidden"
     >
+      <!-- Background grid -->
       <div
-        class="absolute inset-0 opacity-20 pointer-events-none"
-        style="background-image: radial-gradient(circle at 20% 40%, #3b82f620 1px, transparent 1px); background-size: 30px 30px;"
+        class="absolute inset-0 opacity-20"
+        style="
+          background-image: url(&quot;data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%234b5563' fill-opacity='0.3'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E&quot;);
+          background-size: 40px 40px;
+        "
       ></div>
-      <div class="relative z-10 text-center max-w-4xl mx-auto">
-        <div class="pill mx-auto w-fit mb-6 animate-pulse">
-          <span class="w-2 h-2 rounded-full bg-blue-400 inline-block mr-2"></span>
-          Trusted by Ghanaian businesses
+
+      <div
+        class="relative z-10 text-center max-w-5xl mx-auto"
+        id="hero-content"
+      >
+        <div class="pill pill-blue mb-6 mx-auto w-fit" id="hero-badge">
+          <span
+            class="w-1.5 h-1.5 rounded-full bg-blue-400 inline-block"
+          ></span>
+          Built for Ghana's growing businesses
         </div>
-        <h1 class="font-display text-5xl sm:text-7xl font-extrabold leading-[1.1] tracking-tight mb-5">
-          Your business,<br /><span class="gradient-text">smarter every day</span>
+
+        <h1
+          class="font-display text-5xl md:text-7xl font-extrabold leading-[1.02] tracking-tight mb-6 text-white"
+          id="hero-title"
+        >
+          Your business,<br />
+          <span class="gradient-text">smarter every day</span>
         </h1>
-        <p class="text-slate-400 text-base md:text-xl max-w-xl mx-auto mb-9 leading-relaxed">
-          Real-time sales, inventory, AI insights, and seamless payments — built for restaurants, retail, and hotels in Ghana.
+
+        <p
+          class="text-slate-400 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed font-light"
+          id="hero-sub"
+        >
+          Vemli POS gives you real-time sales, inventory, and AI-powered
+          business insights — all from one dashboard. Made for restaurants,
+          retail, pharmacies, and more.
         </p>
-        <div class="flex flex-wrap justify-center gap-4 mb-12">
-          <a href="#contact" class="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold px-7 py-3.5 rounded-full shadow-lg transition-all flex items-center gap-2">Start free trial
-            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+
+        <div
+          class="flex items-center justify-center gap-4 flex-wrap mb-16"
+          id="hero-cta"
+        >
+          <a
+            href="#contact"
+            class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-7 py-3.5 rounded-xl transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5 flex items-center gap-2"
+          >
+            Start Free Trial
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
           </a>
-          <button onclick="openVideoModal()" class="glass-card px-7 py-3.5 rounded-full text-white font-medium hover:bg-white/5 transition flex items-center gap-2">
-            <i class="fas fa-play-circle text-blue-400"></i> See it in action
-          </button>
+          <a
+            href="#features"
+            class="glass text-white font-medium px-7 py-3.5 rounded-xl transition-all hover:bg-white/10 flex items-center gap-2"
+          >
+            <svg
+              class="w-4 h-4 text-blue-400"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M8 5v14l11-7z" />
+            </svg>
+            See it in action
+          </a>
         </div>
-        <div class="flex flex-wrap justify-center gap-2">
-          <span class="pill pill-light"><i class="fas fa-utensils text-amber-400 mr-1"></i> Restaurants</span>
-          <span class="pill pill-light"><i class="fas fa-wine-glass-alt text-purple-400"></i> Bars</span>
-          <span class="pill pill-light"><i class="fas fa-store text-emerald-400"></i> Retail</span>
-          <span class="pill pill-light"><i class="fas fa-hotel text-amber-300"></i> Hotels</span>
-          <span class="pill pill-light"><i class="fas fa-capsules text-sky-400"></i> Pharmacies</span>
+
+        <!-- Industry chips -->
+        <div class="flex flex-wrap justify-center gap-2 mb-16" id="hero-chips">
+          <span class="pill pill-blue">🍽️ Restaurants</span>
+          <span class="pill pill-purple">🍺 Bars & Lounges</span>
+          <span class="pill pill-green">🛍️ Retail</span>
+          <span class="pill pill-blue">💊 Pharmacies</span>
+          <span class="pill pill-amber">🏨 Hotels</span>
+          <span class="pill pill-green">🥡 Quick Service</span>
         </div>
       </div>
 
-      <!-- Modern dashboard mockup -->
-      <div class="relative z-10 w-full max-w-5xl mx-auto mt-14 floating px-2">
-        <div class="glass-card rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-          <div class="bg-white/5 px-5 py-3 flex items-center gap-2 border-b border-white/10">
-            <div class="w-3 h-3 rounded-full bg-red-500/70"></div>
-            <div class="w-3 h-3 rounded-full bg-yellow-500/70"></div>
-            <div class="w-3 h-3 rounded-full bg-green-500/70"></div>
-            <div class="flex-1 text-center text-xs text-slate-400 font-mono">app.vemli.co/dashboard</div>
-            <div class="text-emerald-400 text-xs"><i class="fas fa-circle text-[8px]"></i> Live</div>
+      <!-- Dashboard mockup -->
+      <div class="relative z-10 w-full max-w-5xl mx-auto float" id="hero-dash">
+        <div
+          class="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
+        >
+          <!-- Window chrome -->
+          <div
+            class="bg-white/5 border-b border-white/8 px-5 py-3 flex items-center gap-2"
+          >
+            <div class="w-3 h-3 rounded-full bg-red-500/60"></div>
+            <div class="w-3 h-3 rounded-full bg-yellow-500/60"></div>
+            <div class="w-3 h-3 rounded-full bg-green-500/60"></div>
+            <div
+              class="flex-1 mx-4 bg-white/5 rounded-md py-1 px-3 text-xs text-slate-500 text-center"
+            >
+              app.vemli.co/dashboard
+            </div>
+            <div class="text-xs text-slate-500">Live ●</div>
           </div>
-          <div class="p-5">
-            <div class="flex flex-wrap justify-between items-center mb-5">
-              <p class="text-white text-sm font-semibold"><i class="far fa-sun text-yellow-400 mr-2"></i>Good afternoon, Akua</p>
-              <span class="text-emerald-400 text-xs bg-emerald-400/10 px-3 py-1 rounded-full">All systems operational</span>
+          <!-- Dashboard body -->
+          <div class="grid grid-cols-12 min-h-[340px]">
+            <!-- Sidebar -->
+            <div
+              class="col-span-2 border-r border-white/5 py-4 hidden md:block"
+            >
+              <div class="px-3 space-y-0.5">
+                <div
+                  class="flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-600/20 text-blue-400 text-xs font-medium"
+                >
+                  📊 Dashboard
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  🛒 Orders
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  📦 Inventory
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  👥 Staff
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  💳 Payments
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  📈 Reports
+                </div>
+                <div
+                  class="flex items-center gap-2 px-3 py-2 text-slate-500 text-xs"
+                >
+                  🤖 Ask Vemli
+                </div>
+              </div>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Today's revenue</p>
-                <p class="text-white text-2xl font-bold">GH₵4,820</p>
-                <p class="text-emerald-400 text-xs"><i class="fas fa-arrow-up"></i> +12%</p>
+            <!-- Main content -->
+            <div class="col-span-12 md:col-span-10 p-5">
+              <div class="flex items-center justify-between mb-4">
+                <p class="text-white text-sm font-semibold">
+                  Good morning, Kwame 👋
+                </p>
+                <span class="pill pill-green text-xs">● All systems live</span>
               </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Orders</p>
-                <p class="text-white text-2xl font-bold">138</p>
-                <p class="text-emerald-400 text-xs"><i class="fas fa-arrow-up"></i> +8</p>
+              <!-- Stat cards -->
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Today's Revenue</p>
+                  <p class="text-white font-bold text-xl font-display">
+                    GH¢4,820
+                  </p>
+                  <p class="text-emerald-400 text-xs mt-1">
+                    ↑ 12% vs yesterday
+                  </p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Orders</p>
+                  <p class="text-white font-bold text-xl font-display">138</p>
+                  <p class="text-emerald-400 text-xs mt-1">↑ 8 more</p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Avg. Order</p>
+                  <p class="text-white font-bold text-xl font-display">
+                    GH¢34.9
+                  </p>
+                  <p class="text-red-400 text-xs mt-1">↓ 2%</p>
+                </div>
+                <div class="glass rounded-xl p-3">
+                  <p class="text-slate-500 text-xs mb-1">Top Item</p>
+                  <p class="text-white font-bold text-sm font-display">
+                    Jollof Rice
+                  </p>
+                  <p class="text-blue-400 text-xs mt-1">48 sold</p>
+                </div>
               </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Avg. value</p>
-                <p class="text-white text-2xl font-bold">₵34.9</p>
-                <p class="text-rose-400 text-xs"><i class="fas fa-arrow-down"></i> 2%</p>
-              </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Top item</p>
-                <p class="text-white font-bold text-lg">Jollof Rice</p>
-                <p class="text-blue-400 text-xs">48 sold</p>
-              </div>
-            </div>
-            <div class="glass-card p-4 rounded-xl">
-              <p class="text-slate-400 text-xs mb-3">Hourly sales trend</p>
-              <div class="flex items-end gap-1 h-16">
-                <div class="flex-1 bg-blue-600/30 rounded-sm" style="height: 30%"></div>
-                <div class="flex-1 bg-blue-600/40 rounded-sm" style="height: 50%"></div>
-                <div class="flex-1 bg-blue-600/70 rounded-sm" style="height: 85%"></div>
-                <div class="flex-1 bg-blue-600/80 rounded-sm" style="height: 100%"></div>
-                <div class="flex-1 bg-blue-600/70 rounded-sm" style="height: 80%"></div>
-                <div class="flex-1 bg-blue-600/50 rounded-sm" style="height: 60%"></div>
-                <div class="flex-1 bg-blue-500 rounded-sm" style="height: 95%"></div>
-                <div class="flex-1 bg-blue-600/40 rounded-sm" style="height: 40%"></div>
-              </div>
-              <div class="flex justify-between text-[10px] text-slate-500 mt-2">
-                <span>10am</span><span>12pm</span><span>2pm</span><span>4pm</span><span>6pm</span><span>8pm</span>
+              <!-- Mini bar chart -->
+              <div class="glass rounded-xl p-3">
+                <p class="text-slate-400 text-xs mb-3">Hourly sales — today</p>
+                <div class="flex items-end gap-1.5 h-16">
+                  <div
+                    class="flex-1 bg-blue-600/30 rounded-sm"
+                    style="height: 35%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/40 rounded-sm"
+                    style="height: 55%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/60 rounded-sm"
+                    style="height: 90%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/50 rounded-sm"
+                    style="height: 70%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/70 rounded-sm"
+                    style="height: 85%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/50 rounded-sm"
+                    style="height: 65%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-500 rounded-sm"
+                    style="height: 80%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/40 rounded-sm"
+                    style="height: 45%"
+                  ></div>
+                  <div
+                    class="flex-1 bg-blue-600/30 rounded-sm"
+                    style="height: 30%"
+                  ></div>
+                </div>
+                <div class="flex justify-between mt-1 text-slate-600 text-xs">
+                  <span>8am</span><span>10</span><span>12pm</span><span>2</span
+                  ><span>4</span><span>6</span><span>8</span><span>10</span
+                  ><span>12am</span>
+                </div>
               </div>
             </div>
           </div>
@@ -745,7 +823,7 @@
       </div>
     </section>
 
-        <!-- ═══════════════ STATS BAND ═══════════════ -->
+    <!-- ═══════════════ STATS BAND ═══════════════ -->
     <div class="border-y border-white/6 bg-white/2">
       <div
         class="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
@@ -780,136 +858,115 @@
     <!-- ═══════════════ FEATURES ═══════════════ -->
     <section class="section-light py-28 px-6" id="features">
       <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-20 reveal">
-          <span class="pill pill-blue mb-4 mx-auto w-fit" style="background:rgba(37,99,235,0.1);color:#2563eb;border-color:rgba(37,99,235,0.2);">✦ Features</span>
-          <h2 class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4">Everything your business needs</h2>
-          <p class="text-slate-500 text-lg max-w-lg mx-auto">From the counter to the back office — connected, live, and effortless.</p>
+        <div class="text-center mb-16 reveal">
+          <span
+            class="pill pill-blue mb-4 mx-auto w-fit"
+            style="
+              background: rgba(37, 99, 235, 0.1);
+              color: #2563eb;
+              border-color: rgba(37, 99, 235, 0.2);
+            "
+            > Features</span
+          >
+          <h2
+            class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4"
+          >
+            Everything your business needs
+          </h2>
+          <p class="text-slate-500 text-lg max-w-lg mx-auto">
+            From the counter to the back office — connected, live, and
+            effortless.
+          </p>
         </div>
 
-        <div class="space-y-8">
-
-          <!-- Row 1 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/pos screen.png" alt="Vemli POS Order Screen" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">01 — Orders</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Order & Table Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Dine-in, takeaway, delivery. Split orders, kitchen printing, serving periods, combos, and modifiers — all from one intuitive screen.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Split bills</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Table management</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Modifiers</span>
-              </div>
-            </div>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            class="reveal p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all group bg-white"
+          >
+            <div class="icon-box bg-blue-50 mb-5 text-xl">📊</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Real-Time Analytics
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Live revenue, hourly breakdowns, payment methods, and item-level
+              sales the moment a transaction happens.
+            </p>
           </div>
-
-          <!-- Row 2 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/Report dashboard.png" alt="Vemli Real-Time Analytics Dashboard" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">02 — Analytics</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Real-Time Analytics</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Live revenue, hourly breakdowns, payment methods, and item-level sales the moment a transaction happens.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Live revenue</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Hourly charts</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Item-level sales</span>
-              </div>
-            </div>
+          <div
+            class="reveal reveal-delay-1 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-emerald-50 mb-5 text-xl">📦</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Inventory Management
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Track stock levels, get low-stock alerts, manage batch costs, and
+              auto-generate opening/closing stock reports.
+            </p>
           </div>
-
-          <!-- Row 3 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/Inventory Management.png" alt="Vemli Inventory Management" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">03 — Inventory</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Inventory Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Track stock levels, get low-stock alerts, manage batch costs, and auto-generate opening/closing stock reports.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Low-stock alerts</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Batch costing</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Stock reports</span>
-              </div>
-            </div>
+          <div
+            class="reveal reveal-delay-2 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-purple-50 mb-5 text-xl">💳</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Multi-Payment Support
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Cash, mobile money, card, and split payments — every method logged
+              with a full audit trail and reconciliation reports.
+            </p>
           </div>
-
-          <!-- Row 4 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/Closing Stock Report.png" alt="Vemli Closing Stock Report" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">04 — Reports</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Reports & End-of-Day</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">VAT reports, profit margin analysis, end-of-day summaries, and cash drawer reconciliation — all automated.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">VAT reports</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">Profit margins</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">Cash reconciliation</span>
-              </div>
-            </div>
+          <div
+            class="reveal p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-amber-50 mb-5 text-xl">🧾</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Order & Table Management
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Dine-in, takeaway, delivery. Split orders, kitchen printing,
+              serving periods, combos, and modifiers built in.
+            </p>
           </div>
-
-          <!-- Row 5 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/kot screen.png" alt="Vemli Kitchen Order Ticket Screen" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">05 — Kitchen</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Kitchen Display & Multi-Payment</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Kitchen tickets fire instantly to the KOT screen. Cash, mobile money, card, and split payments — every method logged with a full audit trail.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">KOT printing</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">Mobile money</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">Split payments</span>
-              </div>
-            </div>
+          <div
+            class="reveal reveal-delay-1 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-blue-50 mb-5 text-xl">👥</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Staff Performance
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              Per-server revenue, attendance tracking with check-in/out, hours
+              worked, and discount/void audit logs.
+            </p>
           </div>
-
-          <!-- Row 6 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/multistore.png" alt="Vemli Multi-Location Management" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">06 — Multi-location</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Multi-Location Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Run multiple branches from one account. Compare performance across locations, manage menus centrally, and get a consolidated view of your entire business.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Multi-branch</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Central menu</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Consolidated view</span>
-              </div>
-            </div>
+          <div
+            class="reveal reveal-delay-2 p-7 rounded-2xl border border-slate-100 hover:border-blue-200 hover:shadow-lg hover:shadow-blue-50 transition-all bg-white"
+          >
+            <div class="icon-box bg-rose-50 mb-5 text-xl">📈</div>
+            <h3 class="font-semibold text-slate-900 text-lg mb-2">
+              Reports & End-of-Day
+            </h3>
+            <p class="text-slate-500 text-sm leading-relaxed">
+              VAT reports, profit margin analysis, end-of-day summaries, and
+              cash drawer reconciliation — all automated.
+            </p>
           </div>
-
         </div>
       </div>
     </section>
 
     <!-- ═══════════════ AI BUSINESS INTELLIGENCE ═══════════════ -->
     <section class="py-28 px-6 bg-[#080d1a] relative overflow-hidden" id="ai">
-      <!-- Report dashboard as background hero image -->
-      <div class="absolute inset-0 pointer-events-none">
-        <img
-          src="./assets/Report dashboard.png"
-          alt=""
-          aria-hidden="true"
-          class="w-full h-full object-cover object-top opacity-10"
-          style="mix-blend-mode: luminosity;"
-        />
-        <div class="absolute inset-0" style="background: linear-gradient(to right, #080d1a 40%, rgba(8,13,26,0.6) 70%, #080d1a 100%);"></div>
-      </div>
       <div
         class="absolute inset-0 pointer-events-none"
-        style="background: radial-gradient(ellipse 60% 50% at 70% 50%, rgba(59,130,246,0.07) 0%, transparent 70%);"
+        style="
+          background: radial-gradient(
+            ellipse 60% 50% at 70% 50%,
+            rgba(59, 130, 246, 0.07) 0%,
+            transparent 70%
+          );
+        "
       ></div>
 
       <div class="max-w-6xl mx-auto relative z-10">
@@ -1429,8 +1486,8 @@
               </p>
             </div>
             <div class="flex flex-wrap gap-1.5 my-5">
-              <span class="pill pill-light text-xs">🛍️ Retail Shops</span>
-              <span class="pill pill-light text-xs">💊 Pharmacies</span>
+              <span class="pill pill-green text-xs">🛍️ Retail Shops</span>
+              <span class="pill pill-green text-xs">💊 Pharmacies</span>
             </div>
             <div class="space-y-0 mb-7">
               <div class="check-item">
@@ -1499,8 +1556,8 @@
                 <p class="text-slate-500 text-sm">tailored to your needs</p>
               </div>
               <div class="flex flex-wrap gap-1.5 my-5">
-                <span class="pill pill-light text-xs">🏢 Multi-location</span>
-                <span class="pill pill-light text-xs">🔗 API Access</span>
+                <span class="pill pill-amber text-xs">🏢 Multi-location</span>
+                <span class="pill pill-amber text-xs">🔗 API Access</span>
               </div>
               <div class="space-y-0 mb-7">
                 <div class="check-item">
@@ -2151,42 +2208,5 @@
       window.addEventListener('scroll', updateLogo, { passive: true });
       updateLogo();
     </script>
-  <!-- Video Modal -->
-  <div
-    id="videoModal"
-    onclick="if(event.target===this)closeVideoModal()"
-    style="position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:1000;opacity:0;visibility:hidden;transition:all 0.3s ease;backdrop-filter:blur(6px);padding:1rem;"
-  >
-    <div style="position:relative;width:100%;max-width:900px;">
-      <button onclick="closeVideoModal()" style="position:absolute;top:-40px;right:0;background:none;border:none;color:white;font-size:1.8rem;cursor:pointer;line-height:1;">&times;</button>
-      <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:16px;overflow:hidden;box-shadow:0 25px 60px rgba(0,0,0,0.5);">
-        <iframe
-          id="videoFrame"
-          src=""
-          style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
-          allow="autoplay; fullscreen"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    function openVideoModal() {
-      const modal = document.getElementById('videoModal');
-      document.getElementById('videoFrame').src = 'https://drive.google.com/file/d/1trEBvqhps4Mo6czO7ogp5kLkVDVqEj73/preview';
-      modal.style.opacity = '1';
-      modal.style.visibility = 'visible';
-      document.body.style.overflow = 'hidden';
-    }
-    function closeVideoModal() {
-      const modal = document.getElementById('videoModal');
-      modal.style.opacity = '0';
-      modal.style.visibility = 'hidden';
-      document.getElementById('videoFrame').src = '';
-      document.body.style.overflow = 'auto';
-    }
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeVideoModal(); });
-  </script>
   </body>
 </html>
