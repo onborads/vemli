@@ -2168,7 +2168,7 @@
           id="videoFrame"
           src=""
           style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
-          allow="autoplay; fullscreen"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
       </div>
@@ -2178,7 +2178,8 @@
   <script>
     function openVideoModal() {
       const modal = document.getElementById('videoModal');
-      document.getElementById('videoFrame').src = 'https://drive.google.com/file/d/1trEBvqhps4Mo6czO7ogp5kLkVDVqEj73/preview';
+      document.getElementById('videoFrame').src = 'https://www.youtube.com/embed/P3s7kDgc3Wg';
+
       modal.style.opacity = '1';
       modal.style.visibility = 'visible';
       document.body.style.overflow = 'hidden';
