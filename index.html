@@ -699,9 +699,32 @@
           </div>
           <div class="p-5">
             <div class="flex flex-wrap justify-between items-center mb-5">
-              <p class="text-white text-sm font-semibold"><i class="far fa-sun text-yellow-400 mr-2"></i>Good afternoon, Akua</p>
-              <span class="text-emerald-400 text-xs bg-emerald-400/10 px-3 py-1 rounded-full">All systems operational</span>
-            </div>
+<p id="greeting" class="text-white text-sm font-semibold">
+    <i id="greeting-icon" class="mr-2"></i>
+    <span id="greeting-text"></span>, Akua
+</p>
+
+            <script>
+                const hour = new Date().getHours();
+
+                let greeting = "";
+                let iconClass = "";
+
+                if (hour < 12) {
+                    greeting = "Good morning";
+                    iconClass = "far fa-sun text-yellow-400";
+                } else if (hour < 18) {
+                    greeting = "Good afternoon";
+                    iconClass = "far fa-sun text-yellow-400";
+                } else {
+                    greeting = "Good evening";
+                    iconClass = "far fa-moon text-blue-300";
+                }
+
+                document.getElementById("greeting-text").textContent = greeting;
+                document.getElementById("greeting-icon").className = `${iconClass} mr-2`;
+            </script>              <span class="text-emerald-400 text-xs bg-emerald-400/10 px-3 py-1 rounded-full">All systems operational</span>
+                        </div>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
               <div class="glass-card p-3 rounded-xl">
                 <p class="text-slate-400 text-xs">Today's revenue</p>
