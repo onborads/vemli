@@ -1010,6 +1010,42 @@
         <a href="#contact" class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all">Get Started</a>
       </div>
 
+
+      <!-- Standard Plan -->
+      <div class="plan-card plan-dark reveal reveal-delay-1 snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
+        <div class="mt-4 mb-1">
+          <p class="text-slate-400 text-sm font-medium mb-1">Standard Plan</p>
+          <div class="flex items-end gap-1 mb-0.5">
+            <span class="text-slate-500 text-xl font-light self-start mt-2">GH¢</span>
+            <span class="font-display text-6xl font-extrabold text-white leading-none" id="price-std">349</span>
+          </div>
+          <p class="text-slate-500 text-sm" id="period-std">per month · up to 2 terminals</p>
+        </div>
+        <div class="flex flex-wrap gap-1.5 my-5">
+          <span class="pill pill-light text-xs">🛍️ Retail Shops</span>
+          <span class="pill pill-light text-xs">💊 Pharmacies</span>
+        </div>
+        <div class="space-y-0 mb-2">
+          <div class="check-item"><span class="check-icon">✓</span> Fast counter checkout</div>
+          <div class="check-item"><span class="check-icon">✓</span> Product / barcode search</div>
+          <div class="check-item"><span class="check-icon">✓</span> Cash, MoMo & card payments</div>
+          <div class="check-item"><span class="check-icon">✓</span> Inventory & stock tracking</div>
+        </div>
+        <div class="space-y-0 hidden" id="more-std">
+          <div class="check-item"><span class="check-icon">✓</span> Low stock & expiry alerts</div>
+          <div class="check-item"><span class="check-icon">✓</span> Opening & closing stock reports</div>
+          <div class="check-item"><span class="check-icon">✓</span> Product families & categories</div>
+          <div class="check-item"><span class="check-icon">✓</span> Staff sales performance</div>
+          <div class="check-item"><span class="check-icon">✓</span> VAT & end-of-day reports</div>
+          <div class="check-item"><span class="check-icon">✓</span> WhatsApp & Slack notifications</div>
+          <div class="check-item" style="border-bottom:none"><span class="check-icon">✓</span> AI business intelligence assistant</div>
+        </div>
+        <button onclick="toggleMore('std')" id="btn-std" class="text-xs text-blue-400 hover:text-blue-300 mt-2 mb-5 block">+ View more</button>
+        <a href="#contact" class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all">Get Started</a>
+      </div>
+
+
+
       <!-- Hospitality Plan -->
       <div class="plan-card plan-featured reveal snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
         <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
@@ -1048,45 +1084,12 @@
         <a href="#contact" class="block bg-white hover:bg-blue-50 text-blue-700 font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg">Get Started</a>
       </div>
 
-      <!-- Standard Plan -->
-      <div class="plan-card plan-dark reveal reveal-delay-1 snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
-        <div class="mt-4 mb-1">
-          <p class="text-slate-400 text-sm font-medium mb-1">Standard Plan</p>
-          <div class="flex items-end gap-1 mb-0.5">
-            <span class="text-slate-500 text-xl font-light self-start mt-2">GH¢</span>
-            <span class="font-display text-6xl font-extrabold text-white leading-none" id="price-std">349</span>
-          </div>
-          <p class="text-slate-500 text-sm" id="period-std">per month · up to 2 terminals</p>
-        </div>
-        <div class="flex flex-wrap gap-1.5 my-5">
-          <span class="pill pill-light text-xs">🛍️ Retail Shops</span>
-          <span class="pill pill-light text-xs">💊 Pharmacies</span>
-        </div>
-        <div class="space-y-0 mb-2">
-          <div class="check-item"><span class="check-icon">✓</span> Fast counter checkout</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product / barcode search</div>
-          <div class="check-item"><span class="check-icon">✓</span> Cash, MoMo & card payments</div>
-          <div class="check-item"><span class="check-icon">✓</span> Inventory & stock tracking</div>
-        </div>
-        <div class="space-y-0 hidden" id="more-std">
-          <div class="check-item"><span class="check-icon">✓</span> Low stock & expiry alerts</div>
-          <div class="check-item"><span class="check-icon">✓</span> Opening & closing stock reports</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product families & categories</div>
-          <div class="check-item"><span class="check-icon">✓</span> Staff sales performance</div>
-          <div class="check-item"><span class="check-icon">✓</span> VAT & end-of-day reports</div>
-          <div class="check-item"><span class="check-icon">✓</span> WhatsApp & Slack notifications</div>
-          <div class="check-item" style="border-bottom:none"><span class="check-icon">✓</span> AI business intelligence assistant</div>
-        </div>
-        <button onclick="toggleMore('std')" id="btn-std" class="text-xs text-blue-400 hover:text-blue-300 mt-2 mb-5 block">+ View more</button>
-        <a href="#contact" class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all">Get Started</a>
-      </div>
-
       <!-- Custom Plan -->
       <div class="plan-card plan-dark reveal reveal-delay-1 snap-center shrink-0 md:shrink w-[80vw] md:w-auto" style="display:flex;flex-direction:column;justify-content:space-between;">
         <div>
-          <div class="mt-4 mb-1">
-            <p class="text-slate-400 text-sm font-medium mb-1">Custom Plan / One-off Payment</p>
-            <div class="flex items-end gap-1 mb-0.5">
+          <div class="mt-4 mb-1 mt-2">
+            <p class="text-slate-400 text-sm font-medium relative -top-2">Custom Plan / One-off Payment</p>
+            <div class="flex items-end gap-1 mb-0.5 -ml-2">
               <span class="font-display text-4xl font-extrabold text-white leading-none">Contact Sales</span>
             </div>
             <p class="text-slate-500 text-sm">tailored to your needs</p>
@@ -1113,6 +1116,7 @@
           <i class="fas fa-phone text-sm"></i> Contact Sales
         </button>
       </div>
+      
     </div>
 
     <!-- Why diff note -->
