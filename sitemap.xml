@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://vemli.co/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vemli.co/assets/pos_screen.jpg</image:loc>
+      <image:caption>POS system dashboard screen</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/multistore.png</image:loc>
+      <image:caption>Multi-store management system</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/Inventory%20Management.png</image:loc>
+      <image:caption>Inventory management dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/kot_screen.png</image:loc>
+      <image:caption>Kitchen order ticket system</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/Closing%20Stock%20Report.png</image:loc>
+      <image:caption>Closing stock report</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/Report%20dashboard.png</image:loc>
+      <image:caption>Report dashboard</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/assets/menu_page.png</image:loc>
+      <image:caption>Menu Page</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/integrations.html</loc>
+  </url>
+  <url>
+    <loc>https://vemli.co/how-it-works.html</loc>
+  </url>
+</urlset>
