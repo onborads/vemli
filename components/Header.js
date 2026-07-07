@@ -5,8 +5,8 @@ export default function Header() {
         <div className="overheaderin">
           <div className="overheaderpad">
             <div className="rightpart overhead-lang">
-              <div className="signin">
-                {/* <div id="block-communityandblog">
+              {/* <div className="signin">
+                <div id="block-communityandblog">
                   <div>
                     <div className="zero-menu">
                       <a
@@ -18,7 +18,7 @@ export default function Header() {
                       </a>
                     </div>
                   </div>
-                </div> */}
+                </div>
 
                 <div id="block-blockforsign">
                   <div>
@@ -29,7 +29,7 @@ export default function Header() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div
                 className="language-switcher-language-url"
