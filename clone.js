@@ -4,7 +4,7 @@ const path = require("path");
 const https = require("https");
 const http = require("http");
 
-const BASE_URL = "https://loyverse.com";
+const BASE_URL = "https://vemli.co";
 const OUT_DIR = "clone_site";
 
 const visited = new Set();
@@ -22,7 +22,7 @@ function isBlockedLangPath(pathname) {
 }
 
 // Turn a URL into a real folder structure, e.g.
-// https://loyverse.com/de/advanced-inventory -> clone_site/de/advanced-inventory/index.html
+// https://vemli.co/de/advanced-inventory -> clone_site/de/advanced-inventory/index.html
 function urlToFilePath(url) {
   const u = new URL(url);
   let pathname = u.pathname;

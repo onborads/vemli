@@ -107,8 +107,8 @@ export default function Header() {
             >
               <a href="/" rel="home">
                 <img
-                  src="/sites/all/themes/loyversecom/logo.svg"
-                  alt="Loyverse POS"
+                  src="/assets/logo_white-nobg.png"
+                  alt="Vemli POS"
                   fetchPriority="high"
                   width="142"
                   height="38"
@@ -229,7 +229,7 @@ export default function Header() {
                       href="/download-loyverse"
                       data-drupal-link-system-path="node/46"
                     >
-                      Loyverse POS
+                      Vemli POS
                     </a>
                   </li>
                   <li>
@@ -285,6 +285,15 @@ export default function Header() {
                       Inventory Management
                     </a>
                   </li>
+
+                  <li>
+                    <a
+                      href="/anviz-attendance"
+                      data-drupal-link-system-path="node/15"
+                    >
+                      Anviz Attendance
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -294,7 +303,7 @@ export default function Header() {
                   <div>
                     <a
                       className="dash-button logged-off"
-                      href="/en/signup"
+                      href="/get-started"
                       id="get-started"
                     >
                       Get Started <span className="hidden-word"> </span>

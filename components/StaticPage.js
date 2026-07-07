@@ -126,7 +126,7 @@ export default function StaticPage({ sourcePath, title }) {
         {stylesheetLinks}
       </Head>
       <Header />
-      <div>
+      <div className="static-page-content">
         <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
       </div>
       {scriptTags}

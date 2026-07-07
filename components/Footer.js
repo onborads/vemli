@@ -12,52 +12,12 @@ export default function Footer() {
                     Track sales, manage inventory, oversee your team, and build
                     customer loyalty — all in one place.
                   </div>
-                  <div className="appstores">
-                    <a
-                      className="playmarket link-googleplay"
-                      href="https://play.google.com/store/apps/details?id=com.loyverse.sale&amp;hl=en&amp;referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site"
-                      target="_blank"
-                    >
-                      <picture>
-                        <img
-                          alt="Download Loyverse POS Android app"
-                          data-entity-type=""
-                          data-entity-uuid=""
-                          height="40"
-                          src="/sites/all/themes/loyversecom/images/download-button/gplay-en.svg"
-                          width="135"
-                          decoding="async"
-                          loading="lazy"
-                        />
-                      </picture>
-                      &nbsp;
-                    </a>
-                    &nbsp;
-                    <a
-                      className="appstore link-appstore"
-                      href="https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387"
-                      target="_blank"
-                    >
-                      &nbsp;
-                      <picture>
-                        <img
-                          alt="Download Loyverse POS App for iOS"
-                          data-entity-type=""
-                          data-entity-uuid=""
-                          height="40"
-                          src="/sites/all/themes/loyversecom/images/download-button/appstore-en.svg"
-                          width="119"
-                          decoding="async"
-                          loading="lazy"
-                        />
-                      </picture>
-                    </a>
-                  </div>
+
                   <div className="footer-soc">
                     <div className="foo-so">
                       <a
                         className="fb"
-                        href="https://www.facebook.com/loyversepos/?fref=ts"
+                        href="https://web.facebook.com/vemliit"
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
@@ -74,26 +34,19 @@ export default function Footer() {
                     </div>
                     <div className="foo-so">
                       <a
-                        className="tw"
-                        href="https://twitter.com/loyversepos"
+                        className="tiktok inline-flex items-center justify-center"
+                        href="http://tiktok.com/@vemliit"
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
                       >
-                        <img
-                          src="/sites/all/themes/loyversecom/images/icon/foo-tw.svg"
-                          alt="twitter"
-                          width="48"
-                          height="48"
-                          decoding="async"
-                          loading="lazy"
-                        />
+                        <i className="fab fa-tiktok text-white text-3xl mt-2"></i>
                       </a>
                     </div>
                     <div className="foo-so">
                       <a
                         className="youtube"
-                        href="https://www.youtube.com/c/LoyversePOS"
+                        href="https://www.youtube.com/@vemliit"
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
@@ -111,7 +64,7 @@ export default function Footer() {
                     <div className="foo-so">
                       <a
                         className="inst"
-                        href="https://www.instagram.com/loyversepos/"
+                        href="https://www.instagram.com/vemliit"
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
@@ -143,7 +96,7 @@ export default function Footer() {
                         <div className="views-field views-field-title">
                           <span className="field-content">
                             <a href="/download-loyverse" hreflang="en">
-                              Loyverse POS
+                              Vemli POS
                             </a>
                           </span>
                         </div>
@@ -157,15 +110,7 @@ export default function Footer() {
                           </span>
                         </div>
                       </li>
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/dashboard" hreflang="en">
-                              POS Dashboard
-                            </a>
-                          </span>
-                        </div>
-                      </li>
+
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
@@ -207,6 +152,25 @@ export default function Footer() {
                           <span className="field-content">
                             <a href="/advanced-inventory" hreflang="en">
                               Inventory Management
+                            </a>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="views-field views-field-title">
+                          <span className="field-content">
+                            <a href="/anviz-attendance" hreflang="en">
+                              Time &amp; Attendance Solution
+                            </a>
+                          </span>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div className="views-field views-field-title">
+                          <span className="field-content">
+                            <a href="/anviz-attendance" hreflang="en">
+                              Time &amp; Attendance Solution
                             </a>
                           </span>
                         </div>
@@ -340,47 +304,31 @@ export default function Footer() {
                           </span>
                         </div>
                       </li>
-                      <li>
+                      {/* <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
                             <a href="/sumup" hreflang="en">
-                              SumUp
+                              Time & Attendance Solution
                             </a>
                           </span>
                         </div>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
                             <a href="/tyro" hreflang="en">
-                              Tyro
+                              CCTVs & Security Cameras Installation and
+                              Maintenance
                             </a>
                           </span>
                         </div>
-                      </li>
+                      </li> */}
+
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/izettle" hreflang="en">
-                              Zettle
-                            </a>
-                          </span>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/yoco" hreflang="en">
-                              Yoco
-                            </a>
-                          </span>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/loyverse-pos-api" hreflang="en">
-                              Loyverse API
+                            <a href="/vemli-api" hreflang="en">
+                              Vemli API
                             </a>
                           </span>
                         </div>
@@ -405,23 +353,23 @@ export default function Footer() {
                       About
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://loyverse.town/">Community</a>
-                  </li>
-                  <li>
-                    <a href="https://loyverse.com/blog">Blog</a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
+                    <a href="https://vemli.co/blog">Blog</a>
+                  </li> */}
+                  {/* <li>
                     <a href="https://loyverse.town/files/category/4-media-kit/">
                       Media kit
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#">API documentation</a>
                   </li>
-                  <li>
-                    <a href="https://loyverse.statuspage.io">Status</a>
-                  </li>
+                  {/* <li>
+                    <a href="#">Status</a>
+                  </li> */}
                 </ul>
               </nav>
             </div>
@@ -434,11 +382,9 @@ export default function Footer() {
             <div id="block-c2019loyversegb">
               <div>
                 <p itemProp="copyrightYear">
-                  © 2026 Loyverse
+                  © {new Date().getFullYear()} Vemli IT Services
                   <br />
-                  Loyverse Commerce Ltd.
-                  <br />
-                  41 Lothbury, London, EC2R 7HF, United Kingdom
+                  RX9M+8M, Afienya, Ghana
                 </p>
               </div>
             </div>
@@ -453,29 +399,25 @@ export default function Footer() {
               </div>
               <ul className="lmenu">
                 <li>
-                  <a href="https://loyverse.com/cookie-policy">Cookie Policy</a>
+                  <a href="#">Cookie Policy</a>
                 </li>
                 <li>
-                  <a href="https://loyverse.com/data-processing-addendum">
-                    Data Processing Addendum
-                  </a>
+                  <a href="#">Data Processing and Privacy</a>
                 </li>
-                <li>
-                  <a href="https://loyverse.com/privacy-policy">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="https://loyverse.com/terms-use">Terms of Use</a>
-                </li>
-                <li>
-                  <a href="https://loyverse.com/api-terms">API Terms of Use</a>
-                </li>
-                <li>
-                  <a href="https://loyverse.com/terms-third-party-integration">
+                {/* <li>
+                  <a href="#">Privacy Policy</a>
+                </li> */}
+                {/* <li>
+                  <a href="#">Terms of Use</a>
+                </li> */}
+                {/* <li>
+                  <a href="#">#</a>
+                </li> */}
+                {/* <li>
+                  <a href="https://vemli.co/terms-third-party-integration">
                     Terms of Third-Party Integration
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
