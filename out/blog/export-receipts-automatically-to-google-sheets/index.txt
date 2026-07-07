@@ -1,0 +1,689 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T8a2a,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="209">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2022-12/31-main-31.webp?itok=c8a56lJA"
+                          width="845"
+                          height="267"
+                          alt="How to Export Receipts Automatically to Google Sheets"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2022-11-12T12:00:00Z"
+                          >Sat, 11/12/2022 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <h1>
+                          How to Export Receipts Automatically to Google Sheets
+                        </h1>
+                        <p>
+                          In this article, we will give you an example on how to
+                          export receipts automatically from the Back Office to
+                          Google sheets, using
+                          <a
+                            href="https://loyverse.com/marketplace/integromat"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Make</a
+                          >.
+                        </p>
+                        <p>
+                          Generally, it is only needed to create an account on
+                          <strong>Make</strong> and the modules/tools that you
+                          need for this scenario are the following:
+                          <strong
+                            >Flow Control: Iterator, Tools: Text Aggregator, Get
+                            Store, Get POS, Google Sheets: Create a Spreadsheet,
+                            Google Sheets: Add a row</strong
+                          >. Next, simply go to the Make website, sign in after
+                          creating an account and click on the
+                          <strong>Create a New Scenario</strong> button and then
+                          follow the steps provided down below.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image24.png"
+                            alt="Create a Spreadsheet, Google Sheets"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          <strong
+                            >How to connect Loyverse to Make: Note that this is
+                            a general process on connecting an account of other
+                            services to Make, so the steps to add Google Sheet
+                            or Loyverse will be the same as provided
+                            here.</strong
+                          >
+                        </p>
+                        <p>
+                          1. Click on the Connect App button from the
+                          <a href="https://loyverse.com/marketplace"
+                            >Loyverse App Marketplace</a
+                          >
+                          website.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image13.png"
+                            alt="Connect App button from the Loyverse App Marketplace"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          2. It will redirect you to the Make webpage to log in
+                          to your account and then will direct you to their
+                          website where you can create this scenario.
+                        </p>
+                        <p>
+                          3. From the scenario page, click on the “+” button and
+                          select the List Receipts Module.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image12.png"
+                            alt="select the List Receipts Module"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          4. Next, Click on the dropdown bar button that says
+                          <strong>Connection Type</strong>. This menu will allow
+                          you to select and set up the account to connect to
+                          Make from Loyverse (or Google Sheet since they are the
+                          same process). Select the “Loyverse OAuth2.0” and then
+                          add its name and then click on save. Once you have
+                          clicked on save, it will then open another page where
+                          you will have to log in your user credentials for
+                          Loyverse and click on the <strong>Allow</strong>. The
+                          process is the same with Google Sheets as well.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image15.png"
+                            alt="Settings"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image27.png"
+                            alt="Filter date"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          5. Next add the
+                          <strong
+                            >Google Sheets Module for Create a
+                            Spreadsheet</strong
+                          >. You have to connect your Google account onto the
+                          <strong>Make</strong> first by clicking on the Add
+                          button, name the connection and then click on save.
+                          After clicking on the save button, another window will
+                          appear that leads you to Google to allow access for
+                          the information to Make.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image1.png"
+                            alt="appear that leads you to Google to allow access for the information to Make"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          6. Fill up the field for Title of the Spreadsheet and
+                          as well the title field for spreadsheet. You can
+                          follow the naming made in the screenshots.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image17.png"
+                            alt="ill up the field for Title of the Spreadsheet"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          a) The following information in the screenshot
+                          provided above can be found in the pop up window that
+                          will appear once you click on the field. To do this,
+                          click on the Calendar Icon and then select the
+                          <em>formatDate and now</em> then type the date format
+                          that you’d like for them to appear:
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image20.png"
+                            alt="Calendar Icon and then select the formatDate"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          7. Since we have established connection, we can now
+                          set a filter for the List Receipts module so that our
+                          scenario knows what data needs to get in or not. Click
+                          on the dotted line or link and a pop up window will
+                          appear that has the field of condition.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image5.png"
+                            alt="pop up window will appear that has the field of condition"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          8. From the Condition Field, fill it up with the
+                          information of the receipt date that came from the
+                          <strong>List Receipt</strong> and the Calendar. Use
+                          the format date function to change the format of the
+                          date to the format of
+                          <strong>DD/MM/YYYY</strong> (note: this can be in any
+                          format that you desire but please make the format the
+                          same as possible on all the fields.).
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image18.png"
+                            alt="change the format of the date"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          9.To find and fill the condition field of
+                          <em>formatDate</em>, <em>receipt_date</em>, and
+                          <em>now</em> like in the picture provided, you will
+                          have to click on the field and another pop up window
+                          appear. Just like in the screenshot, you are able to
+                          fill out the field and add the <em>formatDate</em>,
+                          <em>receipt_date</em> and <em>now</em> under the
+                          Calendar Icon, click on the Star Icon and from there,
+                          you can find the <em>receipt_date</em>.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image14.png"
+                            alt="able to fill out the field"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          10. Next, add the
+                          <strong>Google Sheets Module</strong> for Add a Row
+                          after the <strong>Create SpreadSheet</strong> Module.
+                          In this module, you will need to change the
+                          <strong>Choose a Method</strong> field to
+                          <strong>Enter Manually</strong>. The
+                          <strong>Select from the list</strong> does not allow
+                          you to add <strong>Spreadsheet ID</strong> that is why
+                          you need to set it to <strong>Enter Manually</strong>.
+                          Then in the Spreadsheet field, select the
+                          <strong>Spreadsheet ID</strong> and fill the Sheet
+                          Name the same as the screenshot. (Note: It is
+                          important to be mindful in order to avoid any error,
+                          the name of the Sheet entered here should match and be
+                          the same with what you entered in step 6).
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image10.png"
+                            alt="change the Choose a Method field"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          11. To find the <strong>Spreadsheet ID</strong>, click
+                          on the field, click on the Star Icon and find the
+                          Spreadsheet ID. And for the Sheet Name, you can go to
+                          the Calendar Icon to do the same. Scroll down and fill
+                          out the remaining fields in the following manner:
+                          <strong
+                            >Date, Receipt Number, Total Amount, Discount,
+                            Taxes, Tips, Cost of Goods, Items, Dining Options,
+                            POS, Stores</strong
+                          >. Note: This is customizable depending on the
+                          preference.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image2.png"
+                            alt="go to the Calendar Icon"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image21.png"
+                            alt="fill out the remaining fields in the following manner"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          12. Next, add the module
+                          <strong>Flow Control: Iterator</strong>. After adding
+                          and connecting the Module, open its menu and add the
+                          information that has the name of “<strong
+                            >Line Items[]” specifically</strong
+                          >. And then click OK.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image28.png"
+                            alt="open menu and add the information that has the name"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          13. Afterwards, add the module
+                          <strong>Tools: Text Aggregator</strong>. This will
+                          combine all the information of the Line Items into 1
+                          cell. In its Source Module field, select
+                          <strong>Iterator[n]</strong> to target the Iterator
+                          module set up earlier, then in the Text Field, Click
+                          on the field and select the
+                          <strong>Item Name</strong> from the
+                          <strong>Flow Control Module</strong> like in the
+                          screenshot. And then Click OK.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image16.png"
+                            alt="combine all the information of the Line Items into 1 cell"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          14. Next, add the <strong>Get a Store</strong> Module
+                          to get the name of the store from Loyverse instead of
+                          some random words. In the Store ID field, look for the
+                          <strong>List Of Receipts</strong>. From there, find
+                          the <strong>Store ID</strong> and place it into the
+                          field. And then click OK.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image19.png"
+                            alt="find the Store ID and place it into the field"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          15. Next, add the <strong>Get a POS</strong> module,
+                          this will allow you to be able to get the name of the
+                          POS. In the same manner on how to find the Store ID to
+                          put in the field, you can find the
+                          <strong>POS Device ID</strong> and place it in the
+                          <strong>POS Device ID field</strong>. And then click
+                          on OK.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image11.png"
+                            alt="find the POS Device ID and place it in the POS Device ID field"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          16. Then, lastly, you can add the
+                          <strong>Add a Row</strong> Module again in order to
+                          send receipts in the Google Sheet. Again, set the
+                          <strong>Choose a Method Field</strong> to
+                          <strong>Enter Manually</strong>, Fill the
+                          <strong>Spreadsheet Field</strong> with the
+                          <strong>Spreadsheet ID</strong>, from the
+                          <strong
+                            >Google Sheets: Create a Spreadsheet Module</strong
+                          >
+                          in the Star Icon, then fill out the Sheet Name field
+                          exactly with the previous google spreadsheet modules.
+                          Note: The Spreadsheet Name should be exactly the same
+                          as what you have entered in the previous Add a row
+                          Module. Otherwise, an error will occur.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image3.png"
+                            alt="add the Add a Row Module again in order to send receipts in the Google Sheet"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          17. Then, scroll down the window to fill out the
+                          following fields of rows as follows in the screenshot
+                          provided. <strong>Note:</strong> In the receipt_date,
+                          the date it represents is not formatted to the date
+                          that you are expecting. If you wish to format it to
+                          your actual date that you are expecting then you can
+                          encase the <strong>receipt_date</strong> with the
+                          funcion:
+                          <strong
+                            >formatDate(receipt_date;DD/MM/YYYY HH;mm;
+                            timezone*)</strong
+                          >
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image.png"
+                            alt="receipt_date with the funcion: formatDate"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image23.png"
+                            alt="scroll down the window to fill out the following fields of rows as follows in the screenshot provided"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image8.png"
+                            alt="scroll down the window to fill out the following fields of rows as follows in the screenshot provided"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image25.png"
+                            alt="scroll down the window to fill out the following fields of rows as follows in the screenshot provided"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image22.png"
+                            alt="scroll down the window to fill out the following fields of rows as follows in the screenshot provided"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          18. If you’d like to also catch errors when the
+                          scenario returns an error in the
+                          <strong>Get a POS Module</strong>, right click the
+                          bubble of the Get a POS module and click on the
+                          <strong>Add an Error Handler</strong> button. The make
+                          will deviate and create a new path for you to do the
+                          following:
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image4.png"
+                            alt="The make will deviate and create a new path"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          a) Creating and adding another
+                          <strong>Add a Row</strong> module that is created
+                          exactly the same way with step 11 to 12.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image9.png"
+                            alt="Creating and adding another Add a Row module"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          b) Except that in the last part, remove the POS Name
+                          or do not add it and leave it blank. That way, there
+                          will be no more errors.
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image7.png"
+                            alt="remove the POS Name or do not add it and leave it blank"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          19. Then, you can use Make’s features to make the work
+                          of this scenario automated. This is entirely up to the
+                          user’s preference so in this example, the scenario for
+                          this is to run this everyday at 7:00 pm:
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image26.png"
+                            alt="use Make’s features to make the work of this scenario automated"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>
+                          20. Run the scenario once to check if everything is in
+                          order and no error appears and this is what it should
+                          look like as a result:
+                        </p>
+                        <p>
+                          <img
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/31-image6.png"
+                            alt="Run the scenario once to check if everything is in order"
+                            width="800"
+                            height="600"
+                          />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-dd1fc74fde90f5d3917ff7ea5048fb6e579b3580ffa8a5c435e296838afa4577"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["export-receipts-automatically-to-google-sheets",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["export-receipts-automatically-to-google-sheets",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","export-receipts-automatically-to-google-sheets","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Export Receipts Automatically To Google Sheets"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

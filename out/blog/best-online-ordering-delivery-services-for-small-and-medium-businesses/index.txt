@@ -1,0 +1,734 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T7dcb,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="175">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2021-07/12-online-ordering.jpg?itok=1hY_Gdba"
+                          width="845"
+                          height="267"
+                          alt="Best online ordering &amp; delivery services for small and medium businesses"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2020-07-23T12:00:00Z"
+                          >Thu, 07/23/2020 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <h1>
+                          Best online ordering &amp; delivery services for small
+                          and medium businesses
+                        </h1>
+
+                        <p>
+                          Online ordering and delivery services are growing in
+                          popularity all over the world. COVID quarantine
+                          measures facilitate ordering food to eat at home
+                          habits.<br />
+                          If you run a restaurant, pizzeria, and cafe, it is
+                          good to open a delivery channel to gain more customers
+                          and facilitate sales.
+                        </p>
+
+                        <p>
+                          There are a lot of suggestions from different
+                          companies in each city and towns. Some of them are
+                          local, some countrywide, and some work across
+                          countries. In this article, we give an overview of
+                          popular services that operate worldwide or covering
+                          several countries.&nbsp;
+                        </p>
+
+                        <p>There are two main categories of such services:</p>
+
+                        <p>
+                          1. <strong>Delivery platforms </strong>They organize
+                          delivery and promotion of your food offers in their
+                          marketplace. Restaurant businesses need to receive
+                          orders, prepare meals, and give to the coming courier.
+                          But the commissions for such services are relatively
+                          high.
+                        </p>
+
+                        <p>
+                          2. <strong>Online ordering systems</strong> - organize
+                          the online ordering process, but without delivery. In
+                          this case, you have to hold the delivery by yourself.
+                          Such systems create an online store and/or app, but
+                          they do not bring you customers. Even though online
+                          ordering systems usually provide users with various
+                          marketing instruments, you have to make marketing
+                          efforts and find customers by yourself.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Uber Eats</strong></p>
+
+                        <p>
+                          <img
+                            alt="Uber Eats"
+                            class="img-in-blog"
+                            height="365"
+                            src="/sites/all/themes/loyversecom/images/blog/12-uber-eats.jpg"
+                            width="537"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.ubereats.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Uber Eats</a
+                          >
+                          is an American mobile food delivery platform launched
+                          by Uber in 2014 and based in San Francisco,
+                          California. Uber Eats is available in over 6000 cities
+                          across 45 countries. All restaurant offers are
+                          collected in one marketplace for customers to choose
+                          from. Users love the simplicity of ordering and
+                          tracking the progress of delivery on the map.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Foodpanda</strong></p>
+
+                        <p>
+                          <img
+                            alt="Foodpanda"
+                            class="img-in-blog"
+                            height="451"
+                            src="/sites/all/themes/loyversecom/images/blog/12-foodpanda.png"
+                            width="600"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.foodpanda.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Foodpanda </a
+                          >is a mobile food delivery marketplace owned by a
+                          Berlin-based company and operates in about 50
+                          countries. It is primarily active in the Asia Pacific,
+                          Bulgaria, and Romania. The service allows users to
+                          select from local restaurants and place orders via its
+                          mobile applications and websites.&nbsp;
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Gloriafood</strong></p>
+
+                        <p>
+                          <img
+                            alt="Gloriafood"
+                            class="img-in-blog"
+                            height="446"
+                            src="/sites/all/themes/loyversecom/images/blog/12-gloriafood.jpg"
+                            width="648"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.gloriafood.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >GloriaFood</a
+                          >
+                          is an online ordering system for restaurants. Service
+                          provides an ordering widget for existing websites or
+                          can create sales optimized websites. GloriaFood, a
+                          Romanian based company, has users from 140 countries.
+                          Their business model is freemium, which offers basic
+                          functionality for free and additional paid services.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Zomato</strong></p>
+
+                        <p>
+                          <img
+                            alt="Zomato"
+                            class="img-in-blog"
+                            height="446"
+                            src="/sites/all/themes/loyversecom/images/blog/12-zomato.jpg"
+                            width="484"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.zomato.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Zomato</a
+                          >
+                          is a restaurant aggregator and food delivery company
+                          from India. Zomato provides information, menus, and
+                          user-reviews of restaurants and food delivery options
+                          from partner restaurants in select cities. The service
+                          is available in 24 countries in more than 10,000
+                          cities.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Glovo</strong></p>
+
+                        <p>
+                          <img
+                            alt="Glovo"
+                            class="img-in-blog"
+                            height="650"
+                            src="/sites/all/themes/loyversecom/images/blog/12-glovo.jpg"
+                            width="300"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://glovoapp.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Glovo</a
+                          >
+                          is a Spanish company that offers on-demand courier
+                          service that purchases, picks up, and delivers
+                          products ordered through its mobile app. It aspires to
+                          be a multi-category lifestyle app with food delivery
+                          being the most popular offering. Glovo works in more
+                          than 20 countries globally.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Deliveroo</strong></p>
+
+                        <p>
+                          <img
+                            alt="Deliveroo"
+                            class="img-in-blog"
+                            height="349"
+                            src="/sites/all/themes/loyversecom/images/blog/12-deliveroo.jpg"
+                            width="680"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://deliveroo.co.uk/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Deliveroo</a
+                          >
+                          is an online food delivery company from London, Great
+                          Britain. It operates in two hundred cities in the UK,
+                          EU countries, Australia, Singapore, the United Arab
+                          Emirates, Hong Kong, and Kuwait. Service offers the
+                          ability for customers to order food from local
+                          restaurants through the app and track delivery.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Ordering</strong></p>
+
+                        <p>
+                          <img
+                            alt="Ordering"
+                            class="img-in-blog"
+                            height="420"
+                            src="/sites/all/themes/loyversecom/images/blog/12-ordering.jpg"
+                            width="650"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.ordering.co/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Ordering</a
+                          >
+                          is an online ordering system, offers restaurants and
+                          groceries specialized in ordering e-commerce websites
+                          and apps. The service also has tools for optimization
+                          delivery processes. Ordering is a US company with
+                          users from more than 80 countries.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Flipdish</strong></p>
+
+                        <p>
+                          <img
+                            alt="Flipdish"
+                            class="img-in-blog"
+                            height="518"
+                            src="/sites/all/themes/loyversecom/images/blog/12-flipdish.jpg"
+                            width="554"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.flipdish.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Flipdish</a
+                          >
+                          is an online ordering system for restaurants and
+                          takeaways. The service creates a website and mobile
+                          app for online food ordering. With the Headquarters in
+                          Dublin, Ireland, service has users in 12 countries
+                          mainly from Europe.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>DoorDash</strong></p>
+
+                        <p>
+                          <img
+                            alt="DoorDash"
+                            class="img-in-blog"
+                            height="468"
+                            src="/sites/all/themes/loyversecom/images/blog/12-door-dash.jpg"
+                            width="492"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.doordash.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >DoorDash</a
+                          >
+                          is an American food delivery service. It works in more
+                          than 4,000 cities and offers a selection of 340,000
+                          stores across the U.S., Canada, and Australia.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>MenuDrive</strong></p>
+
+                        <p>
+                          <img
+                            alt="MenuDrive"
+                            class="img-in-blog"
+                            height="366"
+                            src="/sites/all/themes/loyversecom/images/blog/12-menu-drive.jpg"
+                            width="650"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.menudrive.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >MenuDrive</a
+                          >
+                          is an online ordering system for restaurants and
+                          caterers. The service provides for user branded online
+                          and mobile food ordering systems. MenuDrive, with
+                          headquarters in the USA, has a wide range of customers
+                          across the USA and Canada.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>GrabFood</strong></p>
+
+                        <p>
+                          <img
+                            alt="GrabFood"
+                            class="img-in-blog"
+                            height="451"
+                            src="/sites/all/themes/loyversecom/images/blog/12-grab-food.png"
+                            width="680"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.grab.com/sg/food/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >GrabFood</a
+                          >
+                          is a part of the delivery service Grab from Singapore.
+                          Customers can order food online at the website or app.
+                          Service provides restaurants and grocery stores the
+                          ability to place their offers in the marketplace,
+                          accept payments, and deliver customer orders. GrabFood
+                          operates in Southeast Asia: Singapore, Cambodia,
+                          Indonesia, Malaysia, Myanmar, Philippines, Thailand,
+                          Vietnam.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Menulog</strong></p>
+
+                        <p>
+                          <img
+                            alt="Menulog"
+                            class="img-in-blog"
+                            height="315"
+                            src="/sites/all/themes/loyversecom/images/blog/12-menulog.png"
+                            width="540"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://www.menulog.com.au/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Menulog</a
+                          >
+                          is Australia’s food delivery service. It operates in
+                          Australia and New Zealand. Almost 20,000 local
+                          restaurants can place their offers, and customers can
+                          order via Menulog mobile apps and websites.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Orderspoon</strong></p>
+
+                        <p>
+                          <img
+                            alt="Orderspoon"
+                            class="img-in-blog"
+                            height="340"
+                            src="/sites/all/themes/loyversecom/images/blog/12-orderspoon.jpg"
+                            width="560"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <a
+                            href="https://us.orderspoon.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Orderspoon</a
+                          >
+                          is an online ordering service from the USA and has
+                          more than 1000 restaurants connected. It offers a
+                          customized website as well as a mobile app. There is
+                          also a curbside pickup functionality, the option when
+                          customers can choose for their order to be brought to
+                          their vehicle.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>UrbanPiper</strong></p>
+
+                        <p>
+                          <img
+                            alt="UrbanPiper"
+                            class="img-in-blog"
+                            height="354"
+                            src="/sites/all/themes/loyversecom/images/blog/12-urban-piper.png"
+                            width="556"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.urbanpiper.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >UrbanPiper</a
+                          >
+                          is an online ordering service from India. It has more
+                          than 10 thousand users across India &amp; Middle East.
+                          UrbanPiper offers a white-labeled and customizable
+                          websites and apps for online ordering. The service
+                          also includes a content management system and CRM
+                          dashboard as well as customer segmentation and
+                          campaigning tools.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Takeaway</strong></p>
+
+                        <p>
+                          <img
+                            alt="Takeaway"
+                            class="img-in-blog"
+                            height="386"
+                            src="/sites/all/themes/loyversecom/images/blog/12-takeaway.jpg"
+                            width="500"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.takeaway.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Takeaway</a
+                          >
+                          is an online food delivery marketplace from the
+                          Netherlands, focused on connecting consumers and
+                          restaurants. The marketplace is available for
+                          consumers through mobile applications and via the
+                          website. Service works in 10 European countries
+                          (Netherlands, Germany, Belgium, Austria, Poland,
+                          Bulgaria, Switzerland, Luxembourg, Portugal, Romania)
+                          and Israel.&nbsp;
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Just Eat</strong></p>
+
+                        <p>
+                          <img
+                            alt="Just Eat"
+                            class="img-in-blog"
+                            height="315"
+                            src="/sites/all/themes/loyversecom/images/blog/12-just-eat.png"
+                            width="540"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.just-eat.co.uk/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Just Eat</a
+                          >
+                          is an online food order and delivery service with
+                          headquarters in the United Kingdom. The company
+                          operates in 13 countries: the United Kingdom, Ireland,
+                          Canada, Mexico, Australia, New Zealand, Norway,
+                          Denmark, France, Italy, Brazil, Spain, and
+                          Switzerland.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>GO-JEK</strong></p>
+
+                        <p>
+                          <img
+                            alt="GO-JEK"
+                            class="img-in-blog"
+                            height="334"
+                            src="/sites/all/themes/loyversecom/images/blog/12-go-jek.jpg"
+                            width="680"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <a
+                            href="https://www.gojek.com/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >GO-JEK</a
+                          >
+                          is an Indonesian on-demand multi-service platform and
+                          digital payment technology group based in Jakarta.
+                          Gojek operates in Indonesia, Vietnam, Singapore,
+                          Thailand, and the Philippines. Gojek’s users can
+                          access over 20 services through one platform ranging
+                          from transportation to food delivery, massages,
+                          e-money, and a loyalty program.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-812385aa9659f1a85cd2feadb5020c8babc23a2220cb3b4b523cd76074838db1"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["best-online-ordering-delivery-services-for-small-and-medium-businesses",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["best-online-ordering-delivery-services-for-small-and-medium-businesses",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","best-online-ordering-delivery-services-for-small-and-medium-businesses","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Best Online Ordering Delivery Services For Small And Medium Businesses"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

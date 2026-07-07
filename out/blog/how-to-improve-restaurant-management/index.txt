@@ -1,0 +1,454 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T5b55,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="171">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2021-07/8-improve-management.jpg?itok=J505XBiR"
+                          width="845"
+                          height="267"
+                          alt="How to improve restaurant management"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2020-12-17T12:00:00Z"
+                          >Thu, 12/17/2020 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <h1>How to improve restaurant management</h1>
+
+                        <p>
+                          To run a restaurant in our days, you need to know
+                          about marketing, accounting, economics and finance,
+                          people management, kitchen management, personality
+                          psychology, and other disciplines. It is impossible to
+                          describe all the details of this profession in one
+                          article, so we will give only a few rules that you
+                          should know and apply; otherwise, you could
+                          potentially lose your entire business.
+                        </p>
+
+                        <p>
+                          When the entire business's fate that you have created
+                          or are currently running is at stake, you start
+                          thinking and acting more actively. It is most
+                          appropriate to look at yourself and improve your
+                          restaurant management style because careless and
+                          uneducated managers ruin already established projects
+                          or will not be able to promote potentially worthy
+                          ones.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <h3>Provide comfort to your customers</h3>
+
+                        <p>
+                          <img
+                            alt="Provide comfort to your customers"
+                            class="img-in-blog left"
+                            height="450"
+                            src="/sites/all/themes/loyversecom/images/blog/8-comfort-customers.jpg"
+                            width="300"
+                            loading="lazy"
+                          />The guest should feel good at your restaurant,
+                          whether sitting or standing. He should not experience
+                          any cold, heat, or light directly in his eyes, or even
+                          darkness that would make it impossible to see your
+                          dishes. Stuffiness, smoke, and uncomfortable furniture
+                          do not contribute to the comfort of your guests.
+                        </p>
+
+                        <p>
+                          If, when visiting an establishment, you find sitting
+                          on an uncomfortable chair, then the thought comes:
+                          "Why does this restaurateur want me to suffer during a
+                          visit to his establishment?" The answer suggests
+                          itself: he does not understand what hospitality is, or
+                          he adheres to the belief that it is possible to
+                          increase the seats’ turnover, and therefore the
+                          revenue and profit of the institution. In any case,
+                          with such approaches, the business will not be
+                          profitable.
+                        </p>
+
+                        <p>
+                          It is necessary to start raising your institution's
+                          level, starting with the leading manager in charge
+                          during the shift. The manager should be exceptionally
+                          attentive to provide a comforting environment in the
+                          restaurant for each guest. In this way, the manager’s
+                          approach can even slightly influence other managers
+                          and employees of your restaurant, in a positive way to
+                          work together in the same direction. Otherwise,
+                          everything will be mediocre, and from the guest's
+                          point of view, any failure is a complete failure.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <h3>Be special</h3>
+
+                        <p>
+                          Often, when restaurateurs are asked about the main
+                          idea, a highlight, or a so-called competitive
+                          advantage, restaurateurs answer the same thing:
+                          "Delicious food and excellent service." And only then,
+                          when you specify: "It is the answer for every
+                          restaurateur because this is the basis for this type
+                          of business! And how are you different from others?"-
+                          it turns out that the managers have nothing to say.
+                          And this is sad because having your special moments,
+                          features, "tricks" are essential not only for a
+                          person, but being specific and unique is just also
+                          equally crucial for a restaurant.
+                        </p>
+
+                        <p>
+                          The restaurateurs do not understand that the emotional
+                          atmosphere and its manifestations should be expressed
+                          in concrete actions. For this reason, guests do not
+                          form an attachment to the place and are not ready to
+                          perceive it as "theirs." And managers only "play" with
+                          discounts and price reductions, trying to attract
+                          customers and entirely not realizing that it's not a
+                          matter of price; they are only losing money and
+                          guests.
+                        </p>
+
+                        <p>
+                          Conclusion: take more care to find your zest! In such
+                          restaurants with no specific mission or vision, then a
+                          restaurant’s necessary tasks cannot be fulfilled (this
+                          is just some delicious food with excellent service).
+                          Of course, if there is no zest, then an emotional
+                          atmosphere is also not formed.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <h3>Become a true leader for your employees</h3>
+
+                        <p>
+                          <img
+                            alt="Become a true leader for your employees"
+                            class="img-in-blog right"
+                            height="333"
+                            src="/sites/all/themes/loyversecom/images/blog/8-leader-employees.jpg"
+                            width="500"
+                            loading="lazy"
+                          />It is impossible for a &nbsp;person alone, even the
+                          most ingenious one, to work through the
+                          &nbsp;restaurant shift alone. We need a
+                          well-coordinated and motivated team.
+                        </p>
+
+                        <p>
+                          Our employees often work at high speeds, in difficult,
+                          physically tricky environments. That is why managers,
+                          chefs, and shift leaders need to learn and become
+                          those who can not dryly hand out tasks but inspire
+                          staff to perform small feats every day.
+                        </p>
+
+                        <p>
+                          If you are upset but have to go out to see guests
+                          because you are a waiter, you should not show your
+                          negative emotions. If you are not happy, but you are
+                          angry, you would have to overcome the negative
+                          feelings before starting your work. But often,
+                          employees are not able to cope with such a state by
+                          themselves; therefore, it is crucial for a leader to
+                          be able to inspire, to support, to invigorate, and to
+                          be able to focus on the results. If this is not the
+                          case, then it is evident that employees cannot endure
+                          in such a complex environment such as a restaurant.
+                        </p>
+
+                        <p>
+                          This is often the cause of employee churn and theft.
+                          Do not be surprised, but it depends on the person who
+                          runs the restaurant. If the person in charge can
+                          inspire you with joy and inspiration, the employee
+                          will hold on to the job.
+                        </p>
+
+                        <p>
+                          Any waiters must have at least once experienced a fall
+                          in the restaurant hall or have dropped a tray. Through
+                          failures, we become stronger and more professional.
+                          And at such moments, there should be a leader nearby
+                          who will support and help with the right advice and
+                          not criticize or insult, which will lower self-esteem
+                          and instill fear of being wrong.
+                        </p>
+
+                        <p>
+                          Conclusion: be a leader and inspirer for the
+                          employees. Managers should also be able to inspire the
+                          staff members, instill faith in themselves, grow their
+                          strengths, and help them overcome their fear of making
+                          mistakes.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <h3>
+                          Know the professional details of all areas of the
+                          restaurant
+                        </h3>
+
+                        <p>
+                          <img
+                            alt="Know the professional details of all areas of the restaurant"
+                            class="img-in-blog left"
+                            height="333"
+                            src="/sites/all/themes/loyversecom/images/blog/8-professional-details.jpg"
+                            width="500"
+                            loading="lazy"
+                          />Take into account the words of Arie de Gues, who
+                          believed: "The ability to learn faster than your
+                          competitors may be the only sustainable competitive
+                          advantage." You don't have to be locked into a rigid
+                          box that limits your creativity. You need to strive to
+                          be a bright restaurant manager, pros, and creator!
+                        </p>
+
+                        <p>
+                          Where else can you find so much creativity if not in
+                          management work? We often reinvent the wheel and don't
+                          understand how to solve what has long been the norm
+                          for good managers and market leaders.
+                        </p>
+
+                        <p>
+                          Know how to be critical of the level of your
+                          competencies. Always find directions for development,
+                          and learn. Know how to choose the right teachers,
+                          books, and any training program. Remember, teachers
+                          come when the student is ready!
+                        </p>
+
+                        <p>
+                          Look for training courses - get an in-depth, systemic
+                          education. It's good when restaurant managers become
+                          masters of business administration (MBA).
+                        </p>
+
+                        <p>
+                          Conclusion: learn, be active, and you will succeed!
+                          Learn not only to create and manage your business but
+                          also have something to be able to convey to your
+                          employees for any development. After all, a manager is
+                          also a mentor. You should also study to check
+                          subordinates and control the business in-depth and in
+                          detail if necessary. It's time to grow out of the
+                          status of a leader who has nothing to tell his
+                          colleagues and who can be easily misled.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <h3>Deal with restaurant economics</h3>
+
+                        <p>
+                          Economic literacy, understanding of accounting rules -
+                          both production and financials - are extremely
+                          important for enterprise managers.
+                        </p>
+
+                        <p>
+                          Some managers do not understand the accounting system,
+                          do not see the situation as a whole, and are not ready
+                          to lay the foundations of their enterprise's
+                          accounting policies. Technologists and accountants run
+                          the show in these restaurants.<img
+                            alt="Deal with restaurant economics"
+                            class="img-in-blog right"
+                            height="333"
+                            src="/sites/all/themes/loyversecom/images/blog/8-restaurant-economics.jpg"
+                            width="500"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>There are also a lot of errors:</p>
+
+                        <ul>
+                          <li>Grouped names in the name of the goods;</li>
+                          <li>Ingredients not included in the recipe;</li>
+                          <li>
+                            Unauthorized and unconfirmed transfers between
+                            internal accountings in &nbsp;warehouses.&nbsp;
+                          </li>
+                        </ul>
+
+                        <p>
+                          Also, often, the cases are that there are economic
+                          illiteracies. In such cases, managers cannot identify
+                          the problematic areas and do not understand how they
+                          have arisen, and therefore do not know how to solve
+                          them. Consequently, before analyzing the data, it is
+                          necessary to identify the critical parameters of the
+                          goal:
+                        </p>
+
+                        <ul>
+                          <li>
+                            What tasks you want to solve in the restaurant;
+                          </li>
+                          <li>What problems you are working on now;</li>
+                          <li>What questions you want to find answers to;</li>
+                          <li>What issues you are concerned about.</li>
+                        </ul>
+
+                        <p>
+                          Conclusion: set a goal when working with numbers.
+                          There should be no analysis for the sake of research.
+                          Numbers should help solve a problem and not be an end
+                          in itself or just statistics of your activities.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-544cff76f3a42ce220b1dc6364dd220ef792444c9adf6f8a3f9af5feb54376f0"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["how-to-improve-restaurant-management",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["how-to-improve-restaurant-management",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","how-to-improve-restaurant-management","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"How To Improve Restaurant Management"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

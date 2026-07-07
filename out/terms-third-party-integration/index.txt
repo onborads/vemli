@@ -1,0 +1,348 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T3eff,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <nav
+              itemscope=""
+              itemtype="https://schema.org/SiteNavigationElement"
+              aria-labelledby="block-alltermstest-menu"
+              id="block-alltermstest"
+              class="terms-use-content"
+            >
+              <div class="visually-hidden" id="block-alltermstest-menu">
+                All terms
+              </div>
+
+              <ul class="lmenu">
+                <li>
+                  <a href="https://loyverse.com/cookie-policy">Cookie Policy</a>
+                </li>
+                <li>
+                  <a href="https://loyverse.com/data-processing-addendum"
+                    >Data Processing Addendum</a
+                  >
+                </li>
+                <li>
+                  <a href="https://loyverse.com/privacy-policy"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a href="https://loyverse.com/terms-use">Terms of Use</a>
+                </li>
+                <li>
+                  <a href="https://loyverse.com/api-terms">API Terms of Use</a>
+                </li>
+                <li>
+                  <a href="https://loyverse.com/terms-third-party-integration"
+                    >Terms of Third-Party Integration</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <div id="block-termsofthirdpartyintegrationgb">
+              <div>
+                <div class="center" id="terms-third-party-integration">
+                  <h1 itemprop="name">Terms of Third-Party Integration</h1>
+
+                  <div class="content">
+                    This Agreement between Loyverse Commerce Ltd (<strong
+                      >“Service Provider”</strong
+                    >) and person or entity which accepts the Terms of Use
+                    (<strong>“Principal Agreement”</strong>) as a user of the
+                    Services (<strong>"Customer"</strong>), both parties
+                    together hereinafter referred to as
+                    <strong>“the Parties”</strong>, is effective upon clicking
+                    “Accept” to the Principal Agreement or your use of any of
+                    the Services, whichever of the two occurs first, and forms
+                    part of the Principal Agreement between the Parties.
+                  </div>
+                  &nbsp;
+
+                  <p>
+                    By integrating your Loyverse account with the Third-Party
+                    Application, you acknowledge and accept the obligations
+                    imposed to you in regards to the processing of personal
+                    information by the Third Party, according to the Third
+                    Party’s Terms of Service and Privacy Policy.&nbsp;
+                  </p>
+
+                  <p>
+                    Loyverse has no control on the Third-Party actions or
+                    omissions in regards to the processing of personal data.
+                  </p>
+
+                  <p>
+                    You adhere to these Terms of Third-Party Integration by
+                    integrating with a Third Party and connecting your Loyverse
+                    account and thus you accept any risk and responsibility that
+                    connections may cause to you.&nbsp;<br />
+                    &nbsp;
+                  </p>
+
+                  <p><strong>WHEREAS&nbsp;</strong></p>
+
+                  <p>
+                    (A) The Customer and the Service Provider have engaged into
+                    collaboration, according to the Principal Agreement, which
+                    involves and/or will involve processing of Personal Data of
+                    Data Subjects subject to EU Data Protection Laws in the
+                    context of the Services provided under the Principal
+                    Agreement.<br />
+                    &nbsp;&nbsp; &nbsp;<br />
+                    (B) The Parties have entered into a data processing
+                    agreement (the <strong>“DPA”</strong>) which governs the
+                    processing of Personal Data of Data Subjects subject to EU
+                    Data Protection Laws in the context of the Services provided
+                    under the Principal Agreement.&nbsp;
+                  </p>
+
+                  <p>
+                    (C) The Customer wishes to use an integration party as a
+                    separate controller (<strong
+                      >“Third Party” or “Integration Party”</strong
+                    >) that might involve processing of personal data.&nbsp;
+                  </p>
+
+                  <p>
+                    (D) The Parties wish to establish the rules which shall
+                    govern each Party’s Liability in the event the Customer
+                    incorporates a Third Party with its Loyverse account.
+                  </p>
+
+                  <p>
+                    (E) "GDPR" means Regulation 2016/679 of the European
+                    Parliament and of the Council on the protection of natural
+                    persons with regard to the processing of personal data and
+                    on the free movement of such data, and repealing Directive
+                    95/46/EC.
+                  </p>
+
+                  <p>
+                    (F) The terms "Controller", "Processor", "Personal Data",
+                    "processing", and "Data Subject" have the meanings given to
+                    them in the GDPR.
+                  </p>
+
+                  <p>
+                    (G) All capitalized terms not defined in this Agreement
+                    shall have the meanings set forth in the Principal
+                    Agreement.<br />
+                    &nbsp;&nbsp; &nbsp;<br />
+                    <strong>NOW, THEREFORE,</strong> the Parties agree as
+                    follows:
+                  </p>
+
+                  <p>
+                    <br />
+                    <br />
+                    <strong>1. APPLICABILITY</strong>
+                  </p>
+
+                  <p>
+                    This agreement will apply onwards to the extent that the
+                    Customer grants access to its Loyverse account to a Third
+                    Party and in doing so the Third Party processes Personal
+                    Data, falling within the scope of the GDPR, on behalf and in
+                    accordance to Customer’s instructions, through the Service
+                    Provider’s platform.
+                  </p>
+
+                  <p>
+                    <br />
+                    <strong>2. SCOPE</strong>
+                  </p>
+
+                  <p>
+                    2.1 This Agreement regulates and governs each Party’s
+                    Liability in the event the Customer incorporates a Third
+                    Party with its Loyverse account.&nbsp;
+                  </p>
+
+                  <p>
+                    2.2 This Agreement is supplemental to and becomes a binding
+                    part of the Principal Agreement effective immediately with
+                    the acceptance of the Principal Agreement,&nbsp;
+                  </p>
+
+                  <p>
+                    2.3 The Parties agree that in the event of conflict of any
+                    of the provisions as set out below with Liability in
+                    relation to personal data provisions contained in the
+                    Principal Agreement and/or in the DPA any relevant
+                    confidentiality agreement or other agreement entered and/or
+                    to be entered into between the Parties, pertaining to the
+                    processing of Personal Data subject to EU Data Protection
+                    Laws, and in regards to Third Party’s actions, omissions or
+                    misconduct the provisions of this Agreement as set out below
+                    shall prevail.
+                  </p>
+
+                  <p>
+                    2.4 Except as modified by this Agreement, the provisions of
+                    the Principal Agreement and the provisions of the DPA remain
+                    or shall remain in full force and effect. &nbsp;
+                  </p>
+
+                  <p>
+                    <br />
+                    <strong>3. ROLES OF THE PARTIES</strong>
+                  </p>
+
+                  <p>
+                    3.1 The Parties acknowledge that for the purposes of the EU
+                    Data Protection Laws, the Customer is the Personal Data
+                    Controller and the Service Provider and the Third Party are
+                    considered as Separate Personal Data Processors.&nbsp;
+                  </p>
+
+                  <p>
+                    3.2 Customer and Service Provider warrant that both comply
+                    with all applicable requirements of the EU Data Protection
+                    Laws, as they are contractually obliged under the DPA.
+                    Additionally, the Customer shall take all necessary
+                    endeavors, including signing a DPA with the Third Party,
+                    securing that the latest complies with the provision for the
+                    protection of personal data, as ascribed in the GDPR. This
+                    Agreement is in addition to, and does not relieve, remove or
+                    replace, a Party’s obligations under the EU Data Protection
+                    Laws.&nbsp;<br />
+                    &nbsp;
+                  </p>
+
+                  <p><strong>4. OBLIGATIONS OF THE CUSTOMER</strong></p>
+
+                  <p>
+                    4.1 By integrating with a Third Party the Customer
+                    acknowledges that the Service Provider shall bear no
+                    responsibility for any actions, omissions or misconduct the
+                    Third Party may cause due to the integration with its
+                    Loyverse account and, as a result, with the processing of
+                    the personal data retained in its account.
+                  </p>
+
+                  <p>
+                    4.2 Before allowing any Third Party or Integration Party to
+                    process any Personal Data related to this Agreement, the
+                    Customer:
+                  </p>
+
+                  <p>
+                    4.2.1 must inform the Data Subject’s that their personal
+                    data will be subject to processing by a Third Party;&nbsp;
+                  </p>
+
+                  <p>
+                    4.2.2 is solely responsible for the manner and means by
+                    which personal data are obtained and illustrate the relevant
+                    valid lawful basis is in place for the purpose for which is
+                    used;&nbsp;
+                  </p>
+
+                  <p>
+                    4.2.3 must restrict Third Party’s access to the data that
+                    contains personal data only to what is necessary to maintain
+                    the Services or for the provision of Services and Customer
+                    will prohibit any Third Party from accessing Customer Data
+                    for any other purpose;
+                  </p>
+
+                  <p>
+                    4.2.4 will enter into a written agreement with the Third
+                    Party and will safeguard the protection of personal data in
+                    use by imposing on the Third Party the same contractual
+                    obligations that Service Provider has under the DPA,
+                    pursuant to Article 28 of EU;&nbsp;
+                  </p>
+
+                  <p>
+                    4.2.5 will remain responsible for the Third Party’s
+                    compliance with the obligations of the DPA to be signed, as
+                    per point 5.2.4. and for any acts or omissions of the Third
+                    Party.&nbsp;
+                  </p>
+
+                  <p>
+                    4.3 Third Party or Integration Party shall only process
+                    personal data in accordance and as authorized by the
+                    Customer. It is mutually accepted that such instruction may
+                    not be determined by the Service Provider and in any means
+                    the Service Provider shall have no involvement in that
+                    process.
+                  </p>
+
+                  <p>
+                    4.4 The Customer shall notify the Service Provider
+                    immediately if it has been informed by the Third Party of
+                    any data infringements of the EU Data Protection Laws.
+                  </p>
+
+                  <p>
+                    4.5 For any liability the Service Provider is found to be
+                    responsible, and such liability would have not arisen if not
+                    for the actions, omissions or misconduct of the Third Party
+                    then the Service Provider shall bear no responsibility and
+                    any amount the Service provider is forced to pay shall be
+                    reimbursed by the Customer.
+                  </p>
+
+                  <p>
+                    4.6 In case the Integration Party processes personal data in
+                    a third country as defined by EU GDPR, the Customer, as a
+                    Data Controller, must ensure that the Integration Party
+                    provides appropriate safeguards and enforces data subject
+                    rights and effective legal remedies for data subjects,
+                    pursuant to Articles 46 - 49 of EU GDPR.<br />
+                    &nbsp;
+                  </p>
+
+                  <p><strong>5. APPLICABLE LAW AND JURISDICTION</strong></p>
+
+                  <p>
+                    This Agreement and the rights and obligations of the Рarties
+                    hereto are to be governed and construed in accordance with
+                    English law. Jurisdiction and venue for any claim or cause
+                    of action arising under or relating to this Agreement shall
+                    be exclusively in English courts unless otherwise expressly
+                    provided by EU GDPR. The parties hereto hereby irrevocably
+                    submit to the jurisdiction of the courts of England.<br />
+                    &nbsp;
+                  </p>
+
+                  <p><strong>6. MODIFICATION OF THIS AGREEMENT</strong></p>
+
+                  <p>
+                    The Service Provider reserves the right to update and change
+                    this Agreement by posting updates and changes to the website
+                    https://loyverse.com. You are advised to check the Agreement
+                    from time to time for any updates or changes that may impact
+                    you and if you do not accept such amendments, you must cease
+                    using the Services.<br />
+                    &nbsp;
+                  </p>
+
+                  <p><strong>7. INVALIDITY AND SEVERABILITY</strong></p>
+
+                  <p>
+                    If any provision of this Agreement is found by any court or
+                    administrative body of competent jurisdiction to the invalid
+                    or unenforceable, the invalidity or unenforceability of such
+                    provision shall not affect any other provision of this
+                    Agreement and all provisions not affected by such invalidity
+                    or unenforceability will remain in full force and effect.<br />
+                    &nbsp;
+                  </p>
+                </div>
+              </div>
+            </div>
+            <article data-history-node-id="153">
+              <div></div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["terms-third-party-integration",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["terms-third-party-integration",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-5",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","terms-third-party-integration","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Terms Third Party Integration"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

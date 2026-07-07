@@ -1,0 +1,463 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T5ec3,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="167">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2021-07/4-expand-your-business.jpg?itok=-JsZx1SR"
+                          width="845"
+                          height="267"
+                          alt="How to expand your business from one coffee shop to a chain store"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2020-04-23T12:00:00Z"
+                          >Thu, 04/23/2020 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <p>&nbsp;</p>
+                        <h1>
+                          How to expand your business from one coffee shop to a
+                          chain store?
+                        </h1>
+                        <p>
+                          When we think of coffee, we think of it as a product
+                          that people consume either in their own homes, in the
+                          office, or at a coffee shop. Most of the time,
+                          however, coffee served in a coffee shop has a
+                          socialization component allowing people to receive
+                          more than a portion of caffeine. So let us discuss how
+                          we can develop a coffee shop business that can provide
+                          people with a thriving and joyful environment and
+                          eventually grow into a coffee-chain.
+                        </p>
+
+                        <h3>What are people expecting from a coffee shop?</h3>
+
+                        <p>
+                          First and foremost is to save time - especially for
+                          people with busy schedules, saving time is
+                          fundamental. It is the reason why they usually prefer
+                          to buy their coffee from a coffee shop. The location
+                          of the stores should be strategic, visible, and easy
+                          to access by foot or by car.<br />
+                          Professionals can prepare a product with excellent
+                          quality. Popular coffee shops are striving to make
+                          high-quality coffee from verified suppliers.
+                        </p>
+
+                        <p>
+                          New environment - for those who spend most of their
+                          time working in their offices or their own houses, the
+                          coffee shops come up with a unique setting with
+                          attractive design and atmosphere, where people can
+                          meet, communicate and even work.
+                        </p>
+
+                        <p>
+                          Friendly service - many clients prefer coffee shops
+                          where they feel comfortable with the staff working
+                          there.
+                        </p>
+
+                        <p>
+                          Socialization and connection. In the fifteenth
+                          century, coffee was cultivated and traded by the Arabs
+                          in the Middle East, and soon after, coffee houses
+                          became places of gathering to exchange information. In
+                          the 17th century, coffee was introduced in Europe, and
+                          the coffee houses were preferred by scholars who liked
+                          to meet, read, learn, and debate. Later, this concept
+                          was developed and expanded into coffee chains by
+                          American companies such as Starbucks, Mc Coffee, etc.
+                        </p>
+
+                        <p>
+                          Different elements contribute to the profitability of
+                          this type of business: location, the quality of the
+                          coffee served, the employees, and how they know to
+                          make themselves pleasant.
+                        </p>
+
+                        <p>
+                          <img
+                            alt="How to expand your business from one coffee shop to a chain store"
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/4-people-expecting.jpg"
+                            style="width: 800px; height: 486px"
+                            width="800"
+                          />
+                        </p>
+
+                        <h2>How to grow my coffee business?</h2>
+
+                        <p>
+                          There are three basic strategies to grow a business
+                          from one single store to a chain store:
+                        </p>
+
+                        <ol>
+                          <li>
+                            Franchising is the most popular and straightforward
+                            way to multiply a shop.
+                          </li>
+                          <li>
+                            Acquiring an existing business and developing it -
+                            here, the main difficulty is to find a growing
+                            market for sale.
+                          </li>
+                          <li>
+                            Build from scratch and create a new brand. It is the
+                            most difficult but gives you a lot of flexibility in
+                            creating something new.
+                          </li>
+                        </ol>
+
+                        <h2>
+                          Why do some coffee shops fail while others grow into
+                          successful coffee chains?
+                        </h2>
+
+                        <p>
+                          Many of us are wondering why some businesses become
+                          successful as time passes and are expanding all over
+                          the world while others hardly survive or even close
+                          within the first five years. Some common factors lead
+                          to such results.
+                        </p>
+
+                        <h3>1. Training and experience</h3>
+
+                        <p>
+                          The character of the entrepreneur plays a significant
+                          role. Its passion for investment objects, devotion,
+                          and eagerness to change and take on new ideas are
+                          essential factors to the development of a business. A
+                          competent entrepreneur is the one who loves the
+                          product he brings on to the market and continuously
+                          improves it according to the development of the sphere
+                          he is working. An entrepreneur can study from his
+                          competitors and humbly accept the advice from more
+                          experienced people in the business.
+                        </p>
+
+                        <p>
+                          However, no one is born with all the needed
+                          information and with the necessary abilities to become
+                          successful immediately. Therefore, for an entrepreneur
+                          to become victorious, he/she needs to pass through a
+                          period of training and experience. Such a foundation
+                          is necessary before one's creative ideas can be
+                          implemented, and entrepreneurial vision is realized.
+                        </p>
+
+                        <p>
+                          For instance, Shultz had experience in business before
+                          he purchased Starbucks. He first worked for an
+                          international company, and then, for a few years, he
+                          worked with the founders of Starbucks. After a trip to
+                          Italy, he was inspired to create a coffee house where
+                          coffee was not only sold as freshly roasted beans but
+                          prepared and served in a cup in front of the
+                          customers. His idea was not welcomed, and so he
+                          decided to develop his cafe "Il Giornale." Later, when
+                          the founders of Starbuck chose to sell their business,
+                          Shultz purchased it and expanded it into a worldwide
+                          known coffee chain.
+                        </p>
+
+                        <p>
+                          Another successful example is "5 to Go," founded by
+                          Radu Savopol in Romania. In only three years, Savopol
+                          developed his coffee shop into a chain comprising 150
+                          coffee shops operating across the nation. After 20
+                          years of experience, while running 2 bars, he
+                          understood that his concept of business was old and
+                          needed to change. He studied the trend in the Romanian
+                          market and realized that while coffee shops were a
+                          popular business around the world, it was not
+                          appealing to the Romanian people. He concluded that
+                          Romanians were not ready to spend their time and money
+                          in a coffee shop. It led to Savapol's revolutionary
+                          vision: sell coffee to go for only 5 lei (the most
+                          used Romanian banknote). His ambition was to sell good
+                          coffee at a reasonable price.
+                        </p>
+
+                        <h3>2. Trustful relationships</h3>
+
+                        <p>
+                          <img
+                            alt="Trustful relationships"
+                            class="img-in-blog"
+                            height="267"
+                            src="/sites/all/themes/loyversecom/images/blog/4-trustful-relationships.jpg"
+                            style="margin-left: 10px; float: right"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          For a business to grow, the relationships with the
+                          employees and with the clients are crucial. The
+                          vision, the mission, and the values that the company
+                          promotes inspire employees to become a part of the
+                          team and invest themselves in achieving concrete
+                          objectives while preserving their character and
+                          personal goals. That is why wise entrepreneurs invest
+                          in their partners and employees by continually
+                          investing in their education and providing meetings
+                          where a transparent and honest environment is created.
+                          Such an example of a relationship would be practiced
+                          by the employees when serving the customers as well.
+                        </p>
+
+                        <p>
+                          Howard Schultz believed that strong brands create a
+                          powerful personal connection. It started first with
+                          his people, not with consumers. While most of the
+                          national brands in America are marketing-driven,
+                          Starbucks is product-driven, people-driven, and
+                          value-driven.
+                        </p>
+
+                        <p>
+                          In an interview with Andreea Rosca, Savapol expressed
+                          his belief that "Man sanctifies the place." He first
+                          asks 100% devotion from the person who wants to buy
+                          the franchise "5 to Go" and has him/her work for a
+                          minimum of six hours a day for the first six months.
+                          In the same interview, he says: "We have a location
+                          near Starbucks, much smaller than they are, and we do
+                          a better job than Starbucks because of the person. The
+                          person matters enormously.
+                        </p>
+
+                        <h3>3. Become a strong Brand</h3>
+
+                        <p>
+                          <img
+                            alt="Become a strong Brand"
+                            class="img-in-blog"
+                            height="333"
+                            src="/sites/all/themes/loyversecom/images/blog/4-strong-brand.jpg"
+                            style="margin-right: 10px; float: left"
+                            width="500"
+                            loading="lazy"
+                          />
+                          What is a brand? A product becomes a brand when many
+                          people recognize its quality and when many people feel
+                          joy from using it. Simply put, a brand is constituted
+                          by the perceptions of those who experienced it, such
+                          as employees, investors, media, and perhaps most
+                          importantly, customers. As long as these perceptions
+                          live in people's minds, the brand has a great impact.
+                        </p>
+
+                        <p>
+                          It would then be interesting to know what the elements
+                          that create a brand are? Often brand researchers are
+                          talking about "brand compass," which is made up of 5
+                          components: purpose, vision, mission, values, and
+                          objectives, respectively. Brand compass includes a
+                          fundamental tool for the striving of the company, and
+                          it can guide through the "waves of competition.
+                        </p>
+
+                        <p>
+                          So, why is it essential to become a brand?<br />
+                          It has been said that a brand can sell better, attract
+                          more customers, and can ask for higher prices. These
+                          are the advantages of a brand from the viewpoint of
+                          profitability. However, a strong brand tells not only
+                          about the product but also about the fundamental
+                          truths included in the brand compass. Hence, by
+                          selling their products, the business can implement its
+                          ideas and become a trendsetter in a society.
+                        </p>
+
+                        <h3>
+                          How coffee-chain can operate in a challenging time
+                        </h3>
+
+                        <p>
+                          Currently, we are facing a difficult period, when in
+                          many countries, coffee shops are not allowed to work
+                          and serve customers as usual, because of the
+                          quarantine measures.
+                        </p>
+
+                        <p>
+                          To continue their businesses, experienced
+                          entrepreneurs are pioneering new ways to respond to
+                          the customers' expectations. Online sales,
+                          partnerships with other apps and providing delivery
+                          services, diversification of menu by adding necessary
+                          daily foods, social projects like delivering coffee
+                          for medical staff, sanitizing the environment so that
+                          everyone can stay healthy. These are only a few ideas
+                          implemented by entrepreneurs in order to continue
+                          their activity during this time of quarantine.
+                        </p>
+
+                        <p>
+                          However, the wisdom of entrepreneurs, the trustful
+                          relationships with employees and customers, as well as
+                          the quality of the product, remain actual for business
+                          development even in challenging times.
+                        </p>
+
+                        <p>
+                          <img
+                            alt="How coffee-chain can operate in a challenging time"
+                            class="img-in-blog"
+                            src="/sites/all/themes/loyversecom/images/blog/4-challenging-time.jpg"
+                            style="height: auto"
+                            width="800"
+                          />
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-4e274be3762360565569ab2560d847b116cbdbeb5efb4aed56201226e0982385"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"How To Expand Your Business From One Coffee Shop To A Chain Store"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

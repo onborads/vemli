@@ -1,0 +1,540 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T62b5,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="15">
+              <div>
+                <div>
+                  <div class="inventory-new">
+                    <section class="main-pos">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <div class="title-of-section">
+                            Inventory Management
+                          </div>
+
+                          <h1 class="title">
+                            From simple tracking to full control
+                          </h1>
+
+                          <p class="body2">
+                            Manage stock for free and unlock advanced inventory
+                            tools as your business grows — so you never miss a
+                            sale or overspend on supplies.
+                          </p>
+
+                          <div class="appstores get-start">
+                            <a
+                              id="get-started"
+                              class="dash-button logged-off"
+                              href="/en/signup"
+                              >get started</a
+                            >
+                            <a
+                              id="chat-button-home"
+                              class="dash-button chat_button chat_off logged-off"
+                              target="_blank"
+                              rel="noreferrer"
+                              >chat with us</a
+                            >
+                          </div>
+                        </div>
+
+                        <picture>
+                          <source
+                            type="image/webp"
+                            media="(max-width: 600px)"
+                            sizes="(max-width: 600px) 600px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/inventory/main-banner-600.webp
+                            "
+                          />
+                          <img
+                            alt="Inventory Loyverse POS - Point of sale system"
+                            src="/sites/all/themes/loyversecom/images/product/inventory/main-banner.webp"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="block-inventory-features">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              type="image/webp"
+                              media="(max-width: 600px)"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/inventory-features-600.webp 600w
+                              "
+                              sizes="(max-width: 600px) 600px, 100vw"
+                            />
+                            <img
+                              alt="Loyverse POS Essential inventory features"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/inventory-features.webp"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <h3 class="title">
+                            Essential inventory features to keep your business
+                            on track
+                          </h3>
+                          <p class="features">
+                            Loyverse POS comes with free inventory tools to help
+                            you track items, manage components and keep your
+                            stock under control.
+                          </p>
+                          <ul>
+                            <li class="inventory-features-list">
+                              Keep an eye on your products and their components,
+                              so you always know what’s in stock.
+                            </li>
+                            <li class="inventory-features-list">
+                              Get instant alerts when items run low or out of
+                              stock, helping you restock on time and avoid
+                              missed sales.
+                            </li>
+                            <li class="inventory-features-list">
+                              Keep your inventory organized by grouping variants
+                              — such as sizes, colors or materials — under a
+                              single item.
+                            </li>
+                            <li class="inventory-features-list">
+                              Create combo items or recipes from multiple
+                              components with stock automatically deducted when
+                              they’re sold.
+                            </li>
+                            <li class="inventory-features-list">
+                              Save time by adding hundreds of items at once
+                              using simple CSV spreadsheets.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-inventory-tools">
+                      <div class="wrapper">
+                        <div class="section-text first-part">
+                          <h2 class="title">
+                            Advanced inventory tools designed for growing
+                            businesses
+                          </h2>
+                          <p class="body2">
+                            When your business needs more precision and control,
+                            upgrade to Advanced Inventory, a paid add-on with
+                            tools to manage purchase orders, transfers, stock
+                            adjustments, and gain deeper insights into your
+                            inventory.
+                          </p>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              type="image/webp"
+                              media="(max-width: 600px)"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/inventory-tools-600.webp 600w
+                              "
+                              sizes="(max-width: 600px) 600px, 100vw"
+                            />
+
+                            <img
+                              alt="Advanced inventory tools"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/inventory-tools.webp"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text second-part">
+                          <ul class="grid-list">
+                            <li class="inventory-features-list">
+                              <strong>Purchase orders</strong><br />Create and
+                              send purchase orders directly to suppliers with
+                              smart autofill options that speed up reordering.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Transfer orders</strong><br />Move stock
+                              across locations with clear tracking of what’s
+                              sent and received, eliminating guesswork.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Stock adjustments</strong><br />Update
+                              stock levels with tracked reasons like damage,
+                              loss or corrections — keeping records auditable.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Inventory counts</strong><br />Reconcile
+                              expected and actual stock with full or partial
+                              counts to identify and resolve discrepancies.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Production</strong><br />Track produced
+                              items and automatically deduct components to keep
+                              inventory accurate.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Inventory history</strong><br />Monitor
+                              every inventory change over time and stay in full
+                              control of stock movements.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Inventory valuation</strong><br />View the
+                              report to understand inventory costs and assess
+                              potential profits and margins.
+                            </li>
+                            <li class="inventory-features-list">
+                              <strong>Label printing</strong><br />Print barcode
+                              labels to add items faster to sales, purchase
+                              orders and inventory counts.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-inventory-pricing">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <h2 class="title">Pricing</h2>
+                          <p class="body2">
+                            Inventory features for every stage of your business
+                          </p>
+                        </div>
+                        <div class="price-wrapper-in">
+                          <div class="essential">
+                            <p class="title">Essential inventory</p>
+                            <p class="price">Free</p>
+                            <p class="per">for all stores</p>
+                            <p>
+                              Essential tools to track stock and stay organized.
+                            </p>
+
+                            <ul>
+                              <li class="inventory-pricing-list">
+                                Real-time inventory tracking
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Low-stock notifications
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Composite items
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Item variants
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Bulk item import/export via CSV
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div class="advanced">
+                            <p class="title">Advanced inventory</p>
+                            <p class="price">$25 USD/month</p>
+                            <p class="per">per store</p>
+                            <p>
+                              Advanced tools for greater inventory control and
+                              deeper visibility.
+                            </p>
+
+                            <ul>
+                              <li class="inventory-pricing-list">
+                                Purchase orders and suppliers
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Transfer orders
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Stock adjustments
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Inventory counts
+                              </li>
+                              <li class="inventory-pricing-list">Production</li>
+                              <li class="inventory-pricing-list">
+                                Inventory history
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Inventory valuation
+                              </li>
+                              <li class="inventory-pricing-list">
+                                Label printing
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-testimonials">
+                      <h2>Testimonials</h2>
+                      <div class="wrapper">
+                        <picture class="first-img">
+                          <img
+                            src="/sites/all/themes/loyversecom/images/product/inventory/taro-haus-mexico1.webp"
+                            alt="Testimonials Taro Haus, Mexico"
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        </picture>
+
+                        <div class="section-text">
+                          <div class="description">
+                            <p>
+                              Advanced Inventory has been a huge help for our
+                              business. The stock management and purchase order
+                              features are perfect for our fast-moving
+                              inventory, and the system’s stability makes our
+                              day-to-day work much smoother.
+                            </p>
+                            <p>
+                              <strong class="author">Taro Haus, Mexico</strong>
+                            </p>
+                          </div>
+
+                          <picture class="second-img">
+                            <img
+                              src="/sites/all/themes/loyversecom/images/product/inventory/taro-haus-mexico2.webp"
+                              alt="Testimonials Taro Haus, Mexico"
+                              loading="lazy"
+                              decoding="async"
+                              width="566"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-get-started">
+                      <h3>Stay in control with your inventory</h3>
+                      <p class="body2">
+                        Always know what’s in stock and keep your operations
+                        running smoothly
+                      </p>
+                      <p>
+                        <a
+                          class="get-started-button dash-button logged-off"
+                          href="/en/signup"
+                          >get started</a
+                        >
+                      </p>
+                    </section>
+
+                    <section class="products">
+                      <h3>Discover other Loyverse products</h3>
+                      <div class="grid-products">
+                        <div
+                          class="block-products pos"
+                          data-href="/download-loyverse"
+                        >
+                          <div class="ic"></div>
+                          <p><a href="/download-loyverse">Loyverse POS</a></p>
+                        </div>
+
+                        <div
+                          class="block-products dashboard"
+                          data-href="/dashboard"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/dashboard"
+                              >Loyverse <br />
+                              Dashboard</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products kds"
+                          data-href="/kitchen-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/kitchen-display-system"
+                              >Loyverse KDS<br />
+                              Kitchen Display</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products cds"
+                          data-href="/customer-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/customer-display-system"
+                              >Loyverse CDS<br />
+                              Customer Display</a
+                            >
+                          </p>
+                        </div>
+                        <div class="block-products bo" data-href="/back-office">
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/back-office"
+                              >Loyverse<br />
+                              Back Office</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products employee"
+                          data-href="/employee-management"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/employee-management"
+                              >Employee<br />
+                              management</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="section-faq">
+                      <h2 class="title-frequently">
+                        Frequently asked questions
+                      </h2>
+                      <div
+                        class="accordion-faq"
+                        data-stats-ve="1"
+                        itemscope=""
+                        itemtype="https://schema.org/FAQPage"
+                      >
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Is Loyverse POS inventory management free?
+                            <i class="arrow"></i>
+                          </h3>
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Essential inventory features are available for
+                              free, including real-time inventory tracking,
+                              low-stock alerts, composite items, variants, and
+                              item import.
+                            </div>
+                          </div>
+                        </article>
+
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            When should I upgrade to Advanced Inventory?
+                            <i class="arrow"></i>
+                          </h3>
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Upgrade when you need more control and precision —
+                              such as managing purchase orders, transferring
+                              stock between stores, and maintaining accurate
+                              inventory with counts and adjustments.
+                            </div>
+                          </div>
+                        </article>
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Is Loyverse inventory management suitable for
+                            restaurants as well as retail? <i class="arrow"></i>
+                          </h3>
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Yes, from recipes and ingredients to bundled
+                              products, you can manage both retail goods and
+                              food and beverage inventory with ease.
+                            </div>
+                          </div>
+                        </article>
+
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Can my team use inventory features with different
+                            access levels? <i class="arrow"></i>
+                          </h3>
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Yes, you can define which employees can perform
+                              specific inventory tasks — such as editing items,
+                              viewing item costs, or accessing Advanced
+                              Inventory features.
+                            </div>
+                          </div>
+                        </article>
+
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Is there a free trial for Advanced Inventory?
+                            <i class="arrow"></i>
+                          </h3>
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Yes, you can try Advanced Inventory free for 14
+                              days to see all available features. No credit card
+                              is required to start the trial.
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["advanced-inventory",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["advanced-inventory",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","advanced-inventory","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Advanced Inventory"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

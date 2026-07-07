@@ -1,0 +1,441 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T53d1,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="194">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2021-09/28-main.png?itok=XYho8LLy"
+                          width="845"
+                          height="267"
+                          alt="How to create and develop a nail salon in Ghana from scratch using online technology"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2021-08-04T12:00:00Z"
+                          >Wed, 08/04/2021 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <h1>
+                          How to create and develop a nail salon in Ghana from
+                          scratch using online technology
+                        </h1>
+
+                        <p>
+                          <a
+                            href="https://www.instagram.com/mimoberry/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Mimo Berry</a
+                          >
+                          is a beauty business based in Accra, Ghana. Having
+                          started from humble beginnings 3-years ago, Mimo Berry
+                          has experienced a lot of growth and is now known for
+                          its colorful hand-drawn nail art. We met with Mirian,
+                          a self-taught nail technician and owner of Mimo Berry,
+                          to learn more about her business and experience so
+                          far.
+                        </p>
+
+                        <p>
+                          <img
+                            alt="How to create and develop a nail salon in Ghana"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/28-mimo-berry.jpg"
+                            width="800"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong>How did you start Mimo Berry?</strong>
+                        </p>
+
+                        <p>
+                          I am a self-taught nail technician. The business
+                          started from my living room with one chair, one table,
+                          and a few products - practicing on myself, my mother,
+                          and friends. Within the same year, I moved on to
+                          offering home services. Later, I partnered with
+                          someone and rented a space in their salon. With a
+                          table and a chair, I ran my business and paid monthly
+                          rent.
+                        </p>
+
+                        <p>
+                          After a year, the person I partnered with wanted to
+                          close her business. I decided to take the space and
+                          had three more people join me. The following year,
+                          there was a need for expansion so, we took more space
+                          and expanded to having the hair, nails, and pedicure
+                          section. This year, we will take on new space because
+                          our client base has grown remarkably. In September, we
+                          will be moving to a location 6 times bigger than our
+                          current place. We would also be adding more services.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >How did you teach yourself? Did you have to watch
+                            lots of videos on YouTube?</strong
+                          >
+                        </p>
+
+                        <p>
+                          It was 10% YouTube videos along with a lot of reading.
+                          It was easier for me to read and replay in my head
+                          than for me to watch videos. So, I did a lot of
+                          reading and practicing. For example, I will read why
+                          things are a certain way, then try to practice. This
+                          method helped me understand better.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>
+                          <strong
+                            >What makes your business unique or stand out from
+                            others?</strong
+                          >
+                        </p>
+
+                        <p>
+                          We at Mimo berry do not see other people as a
+                          competition since we focus on our customers. Because
+                          of our quality of work, we get good feedback from our
+                          customers expressing how we pay good attention to them
+                          and offer the best service. We do great designs that
+                          our customers love. We have our product line as well,
+                          and other salons buy from our brand.<br />
+                          We try to build a family so that it is easier for us
+                          to communicate and work together to give the best
+                          service to our customers.
+                        </p>
+
+                        <p>
+                          <img
+                            alt="Mimo Berry is a beauty business"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/28-nail-salon.png"
+                            width="800"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >How was your business affected by the covid-19
+                            pandemic?</strong
+                          >
+                        </p>
+
+                        <p>
+                          I am grateful for the blessings that came along with
+                          COVID for our business. We were only closed for the
+                          lockdown enforced by the government. I think it was
+                          about 3-weeks and we were able to pay our employees
+                          full salary. We had to get a hand-wash station outside
+                          the shop for customers and observe other safety
+                          protocols.<br />
+                          Some of our clients got sick and were kind enough to
+                          inform us. Sales might have dropped a little because
+                          people were scared, but it was still enough to get us
+                          by.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >Do you use an online platform for sales?</strong
+                          >
+                        </p>
+
+                        <p>
+                          I have had a lot of my customers from Instagram as
+                          well as Google business. Instagram has been one of the
+                          mediums I have used to showcase my work. We have a lot
+                          of foreign clients, and they mostly find us on Google
+                          search. When they come to Accra and search for the
+                          best nail salon in Accra, they locate my business.<br />
+                          On
+                          <a
+                            href="https://www.instagram.com/mimoberry/"
+                            rel="noopener external nofollow"
+                            target="_blank"
+                            >Instagram</a
+                          >, people have also seen my work, followed me, and
+                          also come to experience the service.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >Did you experience any increase in sales from your
+                            online channels?</strong
+                          >
+                        </p>
+
+                        <p>
+                          Before the pandemic, I was doing press-on nails
+                          customized to fit. I would send this out through a
+                          dispatch service to customers. When the pandemic hit,
+                          I used Instagram as a platform to market the press-on
+                          nails. As a result, even when I was home, we were
+                          still making some money because even though no one was
+                          going out, people could not do without their nails
+                          done.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >What is the philosophy behind your
+                            business?</strong
+                          >
+                        </p>
+
+                        <p>
+                          I want to create a great workforce. Something that is
+                          going to make us take over the nail and beauty
+                          industry. It is all about giving back to society,
+                          helping women in Accra and the world to understand
+                          that you can start something small and make it big.<br />
+                          So, in the long run, we want to create job
+                          opportunities for women and the future to run training
+                          programs. I do that now but at a fee because we cannot
+                          have the freebies for now.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong>How did you find Loyverse?</strong>
+                        </p>
+
+                        <p>
+                          I found Loyverse through my brother. He is an IT
+                          person, and I had complained to him about my finances.
+                          He helped me install security cameras and set up
+                          Loyverse POS with a thermal printer. It tracks
+                          everything - our costs and revenue. I use the
+                          <a href="/dashboard">dashboard</a> when I am not at
+                          the shop and need to see how the business is doing for
+                          the day. Since I do nail supplies, I always advise
+                          other businesses that buy products from us to use
+                          Loyverse.
+                        </p>
+
+                        <p>
+                          When they do not know how to set it up, I call my
+                          brother or give them his number, and then they contact
+                          him for help. I think so far we have got in several
+                          people who use it.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >What Loyverse features did you find useful for your
+                            business?</strong
+                          >
+                        </p>
+
+                        <p>
+                          When I can issue a receipt, it creates no room for
+                          loss, and everything is tracked. Also, the
+                          <a href="/features">stock-taking</a> is very accurate
+                          for me, and it leaves no room for mistakes.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >You mentioned earlier that you read a lot, can you
+                            tell me more about that?</strong
+                          >
+                        </p>
+
+                        <p>
+                          I did a lot of forums and articles. I could go on
+                          Google search and type “Why do acrylic nails lift” and
+                          then I will have to find different examples. This
+                          method worked for me.
+                        </p>
+
+                        <p>
+                          A video is one person telling you one thing, and you
+                          have to watch 1000 videos to get different opinions.
+                          Whereas in a forum, everybody could agree on one thing
+                          and present several examples. That is why it works for
+                          me. What also changed my way of thinking was reading a
+                          popular book called The Alchemist by Paulo Coelho. The
+                          book is not in the line of business, but it changed my
+                          mindset, and it made me believe that I could do
+                          anything. Another book was The Secret by Rhonda Byrne,
+                          it helped me on my journey as well.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong
+                            >What advice do you have for anyone just starting
+                            their own beauty business?</strong
+                          >
+                        </p>
+
+                        <p>
+                          Start small, be focused, and be consistent. It gets
+                          sad sometimes, it gets very lonely, sometimes you do
+                          not understand certain things, but with time you will
+                          get it, you will be better. There will be hard times,
+                          good times, and times you feel like nobody can help,
+                          and then there will be times where everything will
+                          fall into place.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-722238288a169fde2dd2aadc93e2bf548fa4359df1502f17e254f9cc4012ded2"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["how-to-create-and-develop-a-nail-salon-in-ghana-from-scratch-using-online-technology",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["how-to-create-and-develop-a-nail-salon-in-ghana-from-scratch-using-online-technology",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","how-to-create-and-develop-a-nail-salon-in-ghana-from-scratch-using-online-technology","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"How To Create And Develop A Nail Salon In Ghana From Scratch Using Online Technology"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

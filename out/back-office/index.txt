@@ -1,0 +1,505 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T5a7f,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="11">
+              <div>
+                <div>
+                  <div class="backoffice">
+                    <section class="main-block">
+                      <div class="wrapper">
+                        <div class="title-content">
+                          <div class="title-of-section">
+                            Loyverse back office
+                          </div>
+                          <h1>Streamline your business operations</h1>
+                          <p class="foreword">
+                            Loyverse Back Office provides comprehensive sales
+                            reports and tools to manage inventory, employees,
+                            and customers. It empowers you with valuable
+                            insights and enhanced control for the growth of your
+                            business.
+                          </p>
+                          <div class="appstores get-start">
+                            <a
+                              id="get-started"
+                              class="dash-button logged-off"
+                              href="/en/signup"
+                              >get started</a
+                            >
+                            <a
+                              id="chat-button-home"
+                              class="dash-button chat_button chat_off logged-off"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >chat with us</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="banner">
+                      <picture>
+                        <source
+                          media="(max-width: 600px)"
+                          type="image/webp"
+                          sizes="(max-width: 600px) 600px, 100vw"
+                          srcset="
+                            /sites/all/themes/loyversecom/images/product/back-office/en/600/sales-summary.webp 600w
+                          "
+                        />
+                        <img
+                          class="mob-shadow"
+                          alt="Point of Sale Analytics in Loyverse Back office"
+                          src="/sites/all/themes/loyversecom/images/product/back-office/en/sales-summary.webp"
+                          width="2480"
+                          height="1604"
+                          loading="lazy"
+                        />
+                      </picture>
+                    </section>
+
+                    <section class="block-sales-analytics">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <div class="title-of-section">Sales analytics</div>
+                          <h3>
+                            Stay in control wherever you are with real-time
+                            reporting
+                          </h3>
+
+                          <ul class="list">
+                            <li>
+                              Track sales trends and react promptly to changes
+                            </li>
+                            <li>Determine top selling items and categories</li>
+                            <li>View complete sales history</li>
+                            <li>
+                              Browse reports on payment types, modifiers,
+                              discounts and taxes
+                            </li>
+                            <li>
+                              Track expected cash amount at the end of each
+                              shift and identify discrepancies
+                            </li>
+                            <li>Export sales data to the spreadsheets</li>
+                          </ul>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/sales-analytics-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt="POS Data  Analytics sales in Loyverse Back Office"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/sales-analytics.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-item-management">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/item-management-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Manage import and export items"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/item-management.webp"
+                            />
+                          </picture>
+                        </div>
+                        <div class="section-text">
+                          <div class="title-of-section">Item management</div>
+                          <h3>Simplify item management and customization</h3>
+                          <ul class="list">
+                            <li>
+                              Easily manage items with various options like size
+                              and color
+                            </li>
+                            <li>
+                              Bulk import and export items using CSV files
+                            </li>
+                            <li>
+                              Use modifiers to customize items with add-ons and
+                              special requests
+                            </li>
+                            <li>
+                              Tailor discounts to your needs with options for
+                              fixed amounts or percentages
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-stock-control">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <div class="title-of-section">Stock control</div>
+                          <h3>
+                            Have the right products in stock at the right time
+                          </h3>
+                          <ul class="list">
+                            <li>Track inventory in real time</li>
+                            <li>
+                              Set stock levels and receive automatic low stock
+                              alerts
+                            </li>
+                            <li>
+                              Send purchase orders to suppliers and monitor
+                              stock receipts
+                            </li>
+                            <li>
+                              Perform full or partial inventory counts with a
+                              barcode scanner or manually
+                            </li>
+                            <li>
+                              Gain insights into the flow of your inventory by
+                              viewing complete adjustment log
+                            </li>
+                            <li>
+                              View report on the cost and potential profit of
+                              your inventory
+                            </li>
+                          </ul>
+                          <p class="link">
+                            <a class="link-more" href="/advanced-inventory"
+                              >Explore inventory management</a
+                            >
+                          </p>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/optimize-inventory-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Track inventory with Loyverse products"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/optimize-inventory.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-employee-management">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture class="section img">
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/employee-management-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt=" Receive POS analytics and sales reports of your employees"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/employee-management.webp"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <div class="title-of-section">
+                            Employee management
+                          </div>
+                          <h3>
+                            Efficiently manage your staff with better visibility
+                            and control
+                          </h3>
+                          <ul class="list">
+                            <li>
+                              Track sales by employee to evaluate individual
+                              performance
+                            </li>
+                            <li>
+                              Enable smooth time tracking for your team as they
+                              clock in and out, with automated calculation of
+                              their total work hours
+                            </li>
+                            <li>
+                              Assign varying access levels to safeguard
+                              sensitive data
+                            </li>
+                          </ul>
+                          <p class="link">
+                            <a class="link-more" href="/employee-management"
+                              >Explore employee management</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-customer-loyalty">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <div class="title-of-section">Customer loyalty</div>
+                          <h3>Turn occasional visitors into loyal customers</h3>
+                          <ul class="list">
+                            <li>
+                              Set loyalty program to reward customers for their
+                              recurring purchases
+                            </li>
+                            <li>
+                              Analyze the number of visits and the customer
+                              purchases amount to identify your loyal customers
+                            </li>
+                            <li>
+                              View customer purchase history to provide
+                              personalized service
+                            </li>
+                            <li>Keep notes on valuable customer preferences</li>
+                          </ul>
+                          <p class="link">
+                            <a class="link-more" href="/loyalty-program"
+                              >Explore loyalty program</a
+                            >
+                          </p>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/customer-loyalty-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt="View customer purchase history"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/customer-loyalty.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-multi-store">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture class="section img">
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/multi-store-600.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Get POS analytics and reports from multiple stores"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/multi-store.webp"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <div class="title-of-section">
+                            Multi store management
+                          </div>
+                          <h3>
+                            Expand your business across multiple locations
+                          </h3>
+                          <ul class="list">
+                            <li>
+                              Manage multiple stores and POS devices from a
+                              single account
+                            </li>
+                            <li>
+                              Gain instant insights into the performance of all
+                              your stores
+                            </li>
+                            <li>
+                              Easily oversee items, employees, and customers
+                              across multiple locations
+                            </li>
+                          </ul>
+                          <p class="link">
+                            <a class="link-more" href="/multi-store-pos"
+                              >Explore multi-store management</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-testimonies">
+                      <h2>Testimonials</h2>
+                      <div class="grid">
+                        <div class="item f">
+                          <picture class="section img">
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 520px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/back-office/en/testimonies-1.webp 542w
+                              "
+                            />
+                            <img
+                              alt="shop owner testimonies"
+                              decoding="async"
+                              loading="lazy"
+                              width="542"
+                              src="/sites/all/themes/loyversecom/images/product/back-office/en/testimonies-1.webp"
+                            />
+                          </picture>
+                        </div>
+                        <div class="item t">
+                          <p>
+                            As a shop owner, it’s important to know which items
+                            are really performing well. You might think an item
+                            is popular, but the data can tell a different story.
+                            The reports and sales visuals in Loyverse Back
+                            Office are fantastic.
+                          </p>
+                          <p><strong>Almost summer, Netherlands</strong></p>
+                        </div>
+                        <div class="item f2">
+                          <img
+                            alt="shop owner testimonies"
+                            decoding="async"
+                            loading="lazy"
+                            width="682"
+                            src="/sites/all/themes/loyversecom/images/product/back-office/testimonies-0.webp"
+                          />
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-get-started">
+                      <h3 class="title-get-started">Start with Loyverse</h3>
+                      <p class="body2">
+                        Run your business smarter with the Loyverse Back Office
+                      </p>
+                      <p>
+                        <a
+                          class="single get-started-button dash-button logged-off"
+                          href="/en/signup"
+                          >Get Started</a
+                        >
+                      </p>
+                    </section>
+
+                    <section class="products">
+                      <h3>Discover other Loyverse products</h3>
+                      <div class="grid-products">
+                        <div
+                          class="block-products pos"
+                          data-href="/download-loyverse"
+                        >
+                          <div class="ic"></div>
+                          <p><a href="/download-loyverse">Loyverse POS</a></p>
+                        </div>
+                        <div
+                          class="block-products dashboard"
+                          data-href="/dashboard"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/dashboard"
+                              >Loyverse<br />
+                              Dashboard</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products cds"
+                          data-href="/customer-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/customer-display-system"
+                              >Loyverse CDS<br />
+                              Customer Display</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products kds"
+                          data-href="/kitchen-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/kitchen-display-system"
+                              >Loyverse KDS<br />
+                              Kitchen Display</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products employee"
+                          data-href="/employee-management"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/employee-management"
+                              >Employee<br />
+                              management</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products inventory"
+                          data-href="/advanced-inventory"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/advanced-inventory"
+                              >Inventory<br />
+                              management</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["back-office",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["back-office",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","back-office","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Back Office"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

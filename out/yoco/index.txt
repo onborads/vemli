@@ -1,0 +1,299 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T3d72,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="160">
+              <div>
+                <div>
+                  <div class="yoco">
+                    <section class="main-yoco">
+                      <div class="wrapper">
+                        <div class="title-content">
+                          <h1>
+                            Card payments made easy with Loyverse and Yoco
+                          </h1>
+                          <p class="body2">
+                            Streamline your payment experience with Loyverse POS
+                            seamlessly integrated with Yoco, a leading payment
+                            provider in South Africa.
+                          </p>
+                          <p class="label">
+                            * Currently available only on iOS devices.
+                          </p>
+                          <div class="block-payment-button">
+                            <a
+                              href="https://hello.yoco.com/signup/"
+                              id="yoco-button"
+                              class="yoco-button"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >create yoco account</a
+                            >
+                            <i class="yoco-svg">
+                              <svg
+                                width="128"
+                                height="56"
+                                viewBox="0 0 128 56"
+                                fill="none"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M99.1813 0H27.9998C12.5359 0 0 12.5359 0 28C0 43.4639 12.5359 56 27.9998 56H99.1813C114.645 56 127.181 43.4641 127.181 28.0002C127.181 12.5361 114.645 0 99.1813 0Z"
+                                  fill="#00A9E0"
+                                ></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M34.0788 17.832L29.4214 25.5211L24.9652 17.832H17.2031L25.7416 32.5091V38.345H32.8425V32.5378L41.8123 17.832H34.0788Z"
+                                  fill="#FEFEFE"
+                                ></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M51.0589 32.5759C48.1377 32.5759 46.3953 31.1481 46.3953 28.2117V28.1848C46.3953 25.1136 48.1632 23.6587 51.0844 23.6587C53.98 23.6587 55.7737 25.0327 55.7737 28.2117C55.7737 31.3098 53.98 32.5759 51.0589 32.5759ZM57.1627 18.5762C55.4338 17.7465 53.4078 17.3174 51.1387 17.3174C46.492 17.3174 42.899 19.0625 40.8998 22.324C39.9274 23.926 39.4141 25.8715 39.4141 28.1603V28.2177C39.4141 33.1383 41.3591 36.2281 44.8711 37.773C46.6541 38.5455 48.7073 38.9175 51.0844 38.9175C55.7851 38.9175 59.3511 37.401 61.296 34.2255C62.2686 32.6233 62.7549 30.6492 62.7549 28.2461V28.1317C62.7549 23.5257 60.6747 20.2926 57.1627 18.5762Z"
+                                  fill="#FEFEFE"
+                                ></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M96.4847 32.5759C93.5633 32.5759 91.8211 31.1481 91.8211 28.2117V28.1848C91.8211 25.1136 93.589 23.6587 96.5102 23.6587C99.4056 23.6587 101.199 25.0327 101.199 28.2117C101.199 31.3098 99.4056 32.5759 96.4847 32.5759ZM102.588 18.5762C100.86 17.7465 98.8334 17.3174 96.5642 17.3174C91.9178 17.3174 88.3248 19.0625 86.3256 22.324C85.353 23.926 84.8398 25.8715 84.8398 28.1603V28.2177C84.8398 33.1383 86.7847 36.2281 90.2968 37.773C92.0797 38.5455 94.1329 38.9175 96.5102 38.9175C101.211 38.9175 104.777 37.401 106.722 34.2255C107.694 32.6233 108.181 30.6492 108.181 28.2461V28.1317C108.181 23.5257 106.1 20.2926 102.588 18.5762Z"
+                                  fill="#FEFEFE"
+                                ></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M75.8684 17.3174C71.2218 17.3174 67.629 19.0625 65.6298 22.324C64.6574 23.9262 64.144 25.8717 64.144 28.1603V28.2177C64.144 33.1383 66.0891 36.2283 69.601 37.7732C71.3839 38.5457 73.4371 38.9175 75.8144 38.9175C78.8983 38.9175 81.4894 38.2603 83.4592 36.9145V30.2311C83.4592 30.2311 79.9613 32.5759 76.7545 32.5759C73.8334 32.5759 71.5113 31.1483 71.5113 28.2119V28.1848C71.5113 25.1136 73.8589 23.6587 76.7802 23.6587C79.9136 23.6587 83.4592 26.004 83.4592 26.004V19.512C82.975 19.162 82.4522 18.8497 81.8925 18.5762C80.1637 17.7465 78.1376 17.3174 75.8684 17.3174Z"
+                                  fill="#FEFEFE"
+                                ></path>
+                              </svg>
+                            </i>
+                          </div>
+                        </div>
+
+                        <picture>
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 600px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/pos-system/yoco/payment-solution.webp 600w
+                            "
+                          />
+                          <img
+                            alt="Reliable payments with Loyverse POS and yoco"
+                            decoding="async"
+                            loading="lazy"
+                            class="yoco-reader"
+                            width="400"
+                            src="/sites/all/themes/loyversecom/images/pos-system/yoco/payment-solution.webp"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="smart-payment">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/pos-system/yoco/yoco-integration.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Smart payment solution"
+                              decoding="async"
+                              loading="lazy"
+                              class="left"
+                              src="/sites/all/themes/loyversecom/images/pos-system/yoco/yoco-integration.webp"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <h3>Benefits of Loyverse and Yoco integration</h3>
+                          <ul class="list">
+                            <li>Connect Yoco with Loyverse POS in minutes</li>
+                            <li>
+                              Increase the speed and accuracy at checkout with
+                              Loyverse and Yoco integrated payments, as
+                              transaction data is automatically synced with your
+                              card machine
+                            </li>
+                            <li>
+                              Monitor transactions processed via Yoco directly
+                              from the Loyverse Back Office
+                            </li>
+                            <li>
+                              Take advantage of fast fraud detection and
+                              reliable customer support, ensuring every
+                              transaction is secure and seamless
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-enhance-service">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <h3>Why choose Yoco?</h3>
+                          <ul class="list">
+                            <li>No rental fees or settlement costs</li>
+                            <li>Low transaction rates for card payments</li>
+                            <li>Portable and easy-to-use card machines</li>
+                            <li>
+                              Trusted by businesses across various industries
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/pos-system/yoco/choose-yoco.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Enhance your service with yoco"
+                              decoding="async"
+                              loading="lazy"
+                              class="right"
+                              src="/sites/all/themes/loyversecom/images/pos-system/yoco/choose-yoco.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-accept-cards">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/pos-system/yoco/smart-payment.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Smart payment solution"
+                              decoding="async"
+                              loading="lazy"
+                              class="left"
+                              src="/sites/all/themes/loyversecom/images/pos-system/yoco/smart-payment.webp"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <h3>Flexible payment options</h3>
+                          <ul class="list">
+                            <li>
+                              Accept a wide range of payment options such as
+                              Visa, Mastercard, Amex, SASSA cards, Google Pay,
+                              Apple Pay, Samsung Pay
+                            </li>
+                            <li>
+                              Offer PIN, contactless, and swipe &amp; sign
+                              payment options to suit your customers'
+                              preferences
+                            </li>
+                          </ul>
+                          <picture>
+                            <img
+                              alt="integrate yoco card readers with Loyverse POS to accept payments"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/pos-system/yoco/payment-methods.svg"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-get-started">
+                      <h3>Get started with Loyverse and Yoco</h3>
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <p class="body2b">1. Create a Loyverse account</p>
+                          <p>
+                            <a href="/en/signup">Sign up</a> for your free
+                            Loyverse account
+                          </p>
+
+                          <p class="body2b">2. Download the Loyverse POS app</p>
+                          <p>
+                            Install the
+                            <a
+                              class="appstore lpos-appstore"
+                              href="https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Loyverse POS</a
+                            >
+                            app on your iOS device
+                          </p>
+
+                          <p class="body2b">3. Connect Yoco to Loyverse</p>
+                          <p>
+                            <a
+                              href="https://hello.yoco.com/signup/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >Sign up</a
+                            >
+                            for Yoco account and receive your card reader.
+                            Follow
+                            <a
+                              href="https://help.loyverse.com/help/card-payments-yoco"
+                              target="_blank"
+                              rel="noopener"
+                              >step-by-step guide</a
+                            >
+                            to connect your Yoco card reader with the Loyverse
+                            POS.
+                          </p>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/pos-system/yoco/get-started-yoco.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Get started with Loyverse and yoco"
+                              decoding="async"
+                              loading="lazy"
+                              src="/sites/all/themes/loyversecom/images/pos-system/yoco/get-started-yoco.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["yoco",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["yoco",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","yoco","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Yoco"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

@@ -1,0 +1,428 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T4efd,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="56">
+              <div>
+                <div>
+                  <div class="multistore">
+                    <section class="main-block">
+                      <div class="wrapper">
+                        <div class="title-content">
+                          <h1>PDV Multi-magasins</h1>
+                          <p class="foreword">
+                            Développez votre entreprise facilement en ajoutant
+                            des nouveaux points de vente chaque fois que vous
+                            avez besoin
+                          </p>
+                          <p>
+                            <a class="get-started-button" href="/fr/signup"
+                              >Démarrer</a
+                            >
+                          </p>
+                        </div>
+                        <picture>
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 450px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/multi-store/en/600/main-banner.webp 450w
+                            "
+                          />
+                          <img
+                            alt="PDV Multi-magasins"
+                            src="/sites/all/themes/loyversecom/images/product/multi-store/en/main-banner.webp"
+                            width="482"
+                            height="339"
+                            class="wo-shadow multistore-img"
+                            loading="lazy"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="block-growth">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Croissance"
+                              data-entity-type=""
+                              data-entity-uuid=""
+                              class="wo-shadow"
+                              width="551"
+                              height="551"
+                              src="/sites/all/themes/loyversecom/images/product/multi-store/multistore-illustration.webp"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section-text">
+                          <h3>Croissance</h3>
+                          <p class="foreword">
+                            Développement en continue pour une chaîne puissante
+                            en analysant et multipliant les meilleures pratiques
+                            pour chaque point de vente
+                          </p>
+
+                          <ul>
+                            <li class="description">
+                              Faites évoluer votre entreprise en ajoutant tous
+                              les points de vente nécessaires en un seul clic
+                            </li>
+                            <li class="description">
+                              Il est facile de commencer par un magasin, un café
+                              ou un restaurant et de élargissez vous à plusieurs
+                            </li>
+                            <li class="description">
+                              Continuez a vous développez depuis plusieurs
+                              points de vente à des centaines
+                            </li>
+                            <li class="description">
+                              Peaufinez en permanence vos opérations
+                              commerciales et votre logistique sur la base de
+                              l'analyse des ventes consolidées de votre chaîne
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-inventory gray">
+                      <div class="wrapper">
+                        <h3>Gestion des stocks</h3>
+                        <p class="foreword">
+                          Gérez votre inventaire pour tout les magasins à partir
+                          d'un seul endroit
+                        </p>
+
+                        <picture class="img-promo">
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 478px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/multi-store/fr/600/inventory.webp 478w
+                            "
+                          />
+                          <img
+                            alt="Gestion des stocks"
+                            data-entity-type=""
+                            data-entity-uuid=""
+                            src="/sites/all/themes/loyversecom/images/product/multi-store/fr/inventory.webp"
+                          />
+                        </picture>
+
+                        <div class="section-text">
+                          <ul>
+                            <li class="description">
+                              Ajoutez vos articles à tout vos points de vente
+                              avec une fonctionnalité d'importation
+                            </li>
+                            <li class="description">
+                              Suivez votre inventaire pour tout les points de
+                              vente et commandez-les avec les bons de commande
+                            </li>
+                            <li class="description">
+                              Transfert des articles entre vos magasins
+                            </li>
+                            <li class="description">
+                              Fixer des prix différents pour les différents
+                              magasins afin de trouver la meilleure stratégie de
+                              prix
+                            </li>
+                          </ul>
+                          <p class="description">
+                            <a
+                              class="link-more-bo"
+                              href="/fr/advanced-inventory"
+                              >En savoir plus sur la gestion de stock avancé</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-employees">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <h3>Employés</h3>
+                          <p class="foreword">
+                            Suivez la performance des employés dans toute vos
+                            chaînes de magasins
+                          </p>
+                          <ul>
+                            <li class="description">
+                              Définissez l'accès de vos employés uniquement à
+                              certains magasins et aux fonctionnalité nécessaire
+                            </li>
+                            <li class="description">
+                              Vérifier la performance des employés et les
+                              récompenser en conséquence
+                            </li>
+                            <li class="description">
+                              Contrôlez les heures de travail de vos employés et
+                              utilisez ces données pour les rémunérer
+                            </li>
+                            <li class="description">
+                              Découvrez les heures ou il y a le plus d'affluence
+                              dans tous les magasins et gérez à les couvrir
+                              selon les besoins des ressources humaines
+                            </li>
+                          </ul>
+                          <p class="description">
+                            <a class="link-more" href="/fr/employee-management"
+                              >En savoir plus sur la gestion des employés</a
+                            >
+                          </p>
+                        </div>
+
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              sizes="(max-width: 600px) 461px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/multi-store/fr/600/employees.webp 461w
+                              "
+                            />
+                            <img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Employés"
+                              data-entity-type=""
+                              data-entity-uuid=""
+                              src="/sites/all/themes/loyversecom/images/product/multi-store/fr/employees.webp"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-customer gray">
+                      <div class="wrapper">
+                        <div class="section-img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              sizes="(max-width: 600px) 461px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/multi-store/fr/600/customer.webp 461w
+                              "
+                            />
+                            <img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Service clients"
+                              data-entity-type=""
+                              data-entity-uuid=""
+                              src="/sites/all/themes/loyversecom/images/product/multi-store/fr/customer.webp"
+                            />
+                          </picture>
+                        </div>
+                        <div class="section-text">
+                          <h3>Service clients</h3>
+                          <p class="foreword">
+                            Gérez une base de clients consolidée à partir de
+                            tous vos points de vente en un seul endroit
+                          </p>
+                          <ul>
+                            <li class="description">
+                              Utilisez le même système de récompense dans toutes
+                              vos chaînes de magasins/li&gt;
+                            </li>
+                            <li class="description">
+                              Récompenser les clients qui achètent régulièrement
+                              des produits à partir de n'importe quel endroit
+                            </li>
+                            <li class="description">
+                              Consultez l'historique d'achat de vos clients pour
+                              mieux les connaître
+                            </li>
+                            <li class="description">
+                              Ajouter des nouveaux clients en un click depuis
+                              n'importe quel PDV ou du Back Office
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-reporting">
+                      <div class="wrapper">
+                        <h3>Rapports</h3>
+                        <p class="foreword">
+                          Vérifiez tout les indicateurs de performance de votre
+                          chaîne de magasins en temps réel et prenez des
+                          décisions équilibrées
+                        </p>
+
+                        <picture class="img-promo">
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 478px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/multi-store/fr/600/sales-by-item.webp 478w
+                            "
+                          />
+                          <img
+                            alt="Rapports"
+                            data-entity-type=""
+                            data-entity-uuid=""
+                            src="/sites/all/themes/loyversecom/images/product/multi-store/fr/sales-by-item.webp"
+                          />
+                        </picture>
+
+                        <div class="section-text">
+                          <ul>
+                            <li class="description">
+                              Obtenez un aperçu de l'ensemble des opérations
+                              dans tous vos points de vente
+                            </li>
+                            <li class="description">
+                              Comparer les performances de vos points de vente
+                              et fixer des critères de croissance pour chacune
+                              de vos chaînes de magasins
+                            </li>
+                            <li class="description">
+                              Vérifiez les paramètres importants dans les
+                              différents magasins, tels que les ventes brutes,
+                              les ventes nettes, profit brute, et bien d'autres
+                            </li>
+                            <li class="description">
+                              Voir les meilleures produits les plus vendus et
+                              étendre votre gamme de produits avec les articles
+                              les plus vendus
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-get-started">
+                      <h3>Commencez votre parcours Multi-magasins</h3>
+                      <p>
+                        <a class="get-started-button" href="/fr/signup"
+                          >Démarrer</a
+                        >
+                      </p>
+                    </section>
+
+                    <section class="block-integrations">
+                      <h2>Intégrations populaires</h2>
+                      <div class="integrations">
+                        <div
+                          class="block accouting"
+                          data-href="/marketplace#block-views-block-marketplace-block-2"
+                        >
+                          <i class="addons qb"></i>
+                          <i class="addons xero"></i>
+                          <div class="text">Accounting</div>
+                        </div>
+
+                        <div
+                          class="block ecommerce"
+                          data-href="/marketplace#block-views-block-marketplace-block-1"
+                        >
+                          <i class="addons woo"></i>
+                          <i class="addons laz"></i>
+                          <div class="text">eCommerce</div>
+                        </div>
+
+                        <div
+                          class="block ordering"
+                          data-href="/marketplace#block-views-block-marketplace-block-8"
+                        >
+                          <i class="addons orderlina"></i>
+                          <i class="addons instalacarte"></i>
+                          <div class="text">Online ordering</div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="section-faq">
+                      <h2 class="title-frequently">Foire aux Questions</h2>
+
+                      <div
+                        class="accordion-faq"
+                        data-stats-ve="1"
+                        itemscope=""
+                        itemtype="https://schema.org/FAQPage"
+                      >
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Comment ajouter une magasin sur le compte
+                            Loyverse?<i class="arrow"></i>
+                          </h3>
+
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Pour ajouter un nouveau magasin dans le back
+                              office, accédez aux paramètres et cliquez sur le
+                              bouton « Magasins ». Cliquez sur le bouton « Ajout
+                              Magasin » pour créer un nouveau magasin.
+                              Renseignez les informations sur le nouveau magasin
+                              et enregistrez. Pour plus de détails, veuillez
+                              vous référer à
+                              <a
+                                href="https://help.loyverse.com/fr/help/how-create-and-manage-multiple"
+                                target="_blank"
+                                rel="noopener"
+                                >l'article.</a
+                              >
+                            </div>
+                          </div>
+                        </article>
+                        <article
+                          itemprop="mainEntity"
+                          itemscope=""
+                          itemtype="https://schema.org/Question"
+                        >
+                          <h3 class="question" itemprop="name">
+                            Puis-je définir des prix différents pour les mêmes
+                            articles dans différents magasins?<i
+                              class="arrow"
+                            ></i>
+                          </h3>
+
+                          <div
+                            class="answer"
+                            itemprop="acceptedAnswer"
+                            itemscope=""
+                            itemtype="https://schema.org/Answer"
+                          >
+                            <div itemprop="text">
+                              Vous pouvez gérer les paramètres de l'article pour
+                              chaque magasin. Ouvrez votre article pour
+                              l’édition, recherchez la section « Magasins » et
+                              le prix, la quantité en stock et stock faible
+                              notification.
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["fr",{"children":["multi-store-pos",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["fr",{"children":["multi-store-pos",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children","multi-store-pos","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Multi Store Pos"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

@@ -1,0 +1,1053 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:Tbabe,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-mainhomepage">
+              <div>
+                <div class="hp">
+                  <section class="hp_software">
+                    <div class="hp_software_wrapper">
+                      <div class="hp_software_text">
+                        <h1 class="hp_software_text_title">
+                          Free Point of Sale and Inventory Management Software
+                        </h1>
+
+                        <article>
+                          <picture class="hp_software_text_img"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Best Point of Sale and Till Software"
+                              height="376"
+                              src="/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"
+                              width="664"
+                          /></picture>
+
+                          <p class="hp_software_text_subtitle">
+                            Turn your smartphone or tablet into a powerful POS.
+                            Manage sales, inventory and employees with ease;
+                            engage customers and increase your revenue. Whether
+                            you have single or multiple stores, our tools help
+                            run your business.
+                          </p>
+
+                          <div class="appstores visibility">
+                            <a
+                              class="playmarket lpos-googleplay"
+                              href="https://play.google.com/store/apps/details?id=com.loyverse.sale&amp;hl=en_US&amp;referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3DhomeEN"
+                              target="_blank"
+                              rel="noopener"
+                              ><img
+                                decoding="async"
+                                loading="lazy"
+                                alt="Loyverse - Point of sale system Download Android app"
+                                height="48"
+                                src="/sites/all/themes/loyversecom/images/download-button/gplay-en.svg"
+                                width="162"
+                            /></a>
+                            <a
+                              class="appstore lpos-appstore"
+                              href="https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387?mt=8"
+                              target="_blank"
+                              rel="noopener"
+                              ><img
+                                decoding="async"
+                                loading="lazy"
+                                alt="Loyverse - Point of sale system Download iOS app"
+                                height="48"
+                                src="/sites/all/themes/loyversecom/images/download-button/appstore-en.svg"
+                                width="144"
+                            /></a>
+                          </div>
+
+                          <div class="appstores get-start">
+                            <a
+                              id="get-started"
+                              class="dash-button logged-off"
+                              href="/en/signup"
+                              >GET STARTED</a
+                            >
+                            <a
+                              id="chat-button-home"
+                              class="dash-button chat_button chat_off logged-off"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              >CHAT WITH US</a
+                            >
+                          </div>
+                        </article>
+                      </div>
+
+                      <picture class="top_movie hp_video"
+                        ><a
+                          class="playvideo"
+                          href="https://www.youtube.com/embed/WTJItiOTJz0?autoplay=1&amp;rel=0"
+                          id="vidos"
+                          ><span class="hp_wv_icon">&nbsp;</span>
+                          <span class="hp_wv_text">Watch video</span>
+                        </a>
+                        <img
+                          decoding="async"
+                          loading="lazy"
+                          alt="Point of Sale and Inventory"
+                          class="hp_video_img"
+                          height="376"
+                          src="/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"
+                          width="664"
+                      /></picture>
+                    </div>
+                  </section>
+
+                  <article>
+                    <section class="hp_empowering">
+                      <div class="hp_empowering_texts">
+                        <h2>Empowering businesses worldwide</h2>
+
+                        <p>
+                          Over 1,000,000 businesses in 170 countries have
+                          registered with Loyverse POS.
+                        </p>
+
+                        <p>Our apps are available in 30+ languages.</p>
+                      </div>
+
+                      <div class="hp_empowering_imgs">
+                        <picture
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point of Sale and Inventory "
+                            height="368"
+                            src="/sites/all/themes/loyversecom/images/home/photo1.jpg"
+                            width="368"
+                        /></picture>
+
+                        <picture class="empowering-img-margin">
+                          <source
+                            media="(max-width: 37.5rem)"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer2-600.webp
+                            "
+                          />
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Inventory Management Software"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer2-600.webp 160w,
+                              /sites/all/themes/loyversecom/images/home/customer2.webp     368w
+                            "
+                            src="/sites/all/themes/loyversecom/images/home/customer2.webp"
+                            width="368"
+                            height="368"
+                          />
+                        </picture>
+
+                        <picture>
+                          <source
+                            media="(max-width: 37.5rem)"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer3-600.webp
+                            "
+                          />
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point of Sale and Inventory"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer3-600.webp 160w,
+                              /sites/all/themes/loyversecom/images/home/customer3.webp     368w
+                            "
+                            sizes="auto"
+                            src="/sites/all/themes/loyversecom/images/home/customer3.webp"
+                            width="368"
+                            height="368"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="hp_tools">
+                      <h2 class="hp_tools_title">
+                        POS system to help your business succeed
+                      </h2>
+
+                      <div class="hp_tools_tabs" id="tab">
+                        <div class="tabs_wrapper">
+                          <a class="tab_link tabs-icons1" href="#point-of-sale"
+                            >Point of sale
+                          </a>
+                          <a class="tab_link tabs-icons1" href="#payments">
+                            Payments
+                          </a>
+                          <a
+                            class="tab_link tabs-icons2"
+                            href="#inventory-management"
+                          >
+                            Inventory management
+                          </a>
+                          <a
+                            class="tab_link tabs-icons3"
+                            href="#sales-analytics"
+                          >
+                            Sales analytics
+                          </a>
+                          <a
+                            class="tab_link tabs-icons4"
+                            href="#employee-management"
+                          >
+                            Employee management
+                          </a>
+                          <a
+                            class="tab_link tabs-icons5"
+                            href="#customer-loyalty"
+                          >
+                            CRM and customer loyalty
+                          </a>
+                          <a
+                            class="tab_link tabs-icons5"
+                            href="#multi-store-management"
+                          >
+                            Multi-store management
+                          </a>
+                          <a class="tab_link tabs-icons5" href="#integrations">
+                            Integrations
+                          </a>
+                        </div>
+                      </div>
+
+                      <article
+                        class="hp_tools_content hp_tools_pointofsale"
+                        id="point-of-sale"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Powerful and easy to use point of sale"
+                            height="369"
+                            src="/sites/all/themes/loyversecom/images/home/en/point-of-sale.webp"
+                            width="537"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">Point of sale</h3>
+
+                          <p class="hp_tools_subtitle">
+                            Transform your smartphone or tablet into an
+                            easy-to-use point of sale
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Issue printed or electronic receipts</li>
+                            <li>Apply discounts and issue refunds</li>
+                            <li>Keep recording sales even when offline</li>
+                            <li>
+                              Connect a receipt printer, barcode scanner, and
+                              cash drawer
+                            </li>
+                            <li>Connect Loyverse Customer Display app</li>
+                          </ul>
+                          <a class="link-more" href="/download-loyverse"
+                            >Explore Loyverse Point of Sale</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_payments"
+                        id="payments"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS Payment Integration"
+                            src="/sites/all/themes/loyversecom/images/home/payments.webp"
+                            width="608"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            POS payment solutions
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Seamlessly accept any method of payment your
+                            customers want
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Select one of our integrated payment providers
+                              available in 30+ countries. Integrated payments
+                              save time, ensure better accuracy and minimize
+                              errors.
+                            </li>
+                            <li>
+                              Use your preferred merchant service provider for
+                              non-integrated payments
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/payment-systems"
+                            >Explore integrated payment providers</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_inventory"
+                        id="inventory-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Inventory management"
+                            height="400"
+                            src="/sites/all/themes/loyversecom/images/home/inventory.webp"
+                            width="567"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Inventory management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Never run out of stock
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Track stock levels in real time</li>
+                            <li>Receive automatic low stock alerts</li>
+                            <li>
+                              Send orders to suppliers and track stock receipts
+                            </li>
+                            <li>Transfer stock between your stores</li>
+                            <li>Print barcode labels</li>
+                          </ul>
+                          <a class="link-more" href="/advanced-inventory"
+                            >Explore inventory management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_analytics"
+                        id="sales-analytics"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS Analytics and Reporting"
+                            height="389"
+                            src="/sites/all/themes/loyversecom/images/home/en/sales-analytics.webp"
+                            width="560"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">Sales analytics</h3>
+
+                          <p class="hp_tools_subtitle">
+                            Access your reports from a smartphone, tablet or
+                            computer anytime, anywhere
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>View revenue, average sale and profit</li>
+                            <li>
+                              Track sales trends and react to changes promptly
+                            </li>
+                            <li>Determine best-selling items and categories</li>
+                            <li>View complete sales history</li>
+                            <li>Export sales data to spreadsheets</li>
+                          </ul>
+                          <a class="link-more" href="/back-office"
+                            >Explore Loyverse Back Office</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_employee"
+                        id="employee-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point-of-Sale Employee Management"
+                            height="389"
+                            src="/sites/all/themes/loyversecom/images/home/en/employee.webp"
+                            width="520"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Employee management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Easily manage your staff and make balanced decisions
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Track sales by employee and determine best
+                              performers
+                            </li>
+                            <li>
+                              Employees clock in and out and their total work
+                              hours are calculated automatically
+                            </li>
+                            <li>
+                              Grant different levels of access to protect
+                              sensitive information
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/employee-management"
+                            >Explore employee management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_crm"
+                        id="customer-loyalty"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS System with Loyalty Program"
+                            height="488"
+                            src="/sites/all/themes/loyversecom/images/home/en/customers.webp"
+                            width="534"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            CRM and customer loyalty
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Turn once-in-a-while shoppers into regulars
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Build your customer base</li>
+                            <li>
+                              View customer purchase history to provide
+                              personalized service
+                            </li>
+                            <li>
+                              Run a loyalty program to reward customers for
+                              their recurring purchases
+                            </li>
+                            <li>Keep notes on valuable customer preferences</li>
+                          </ul>
+                          <a class="link-more" href="/loyalty-program"
+                            >Explore loyalty program</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_store"
+                        id="multi-store-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Multi-store Loyverse POS"
+                            height="385"
+                            src="/sites/all/themes/loyversecom/images/home/multistore.png"
+                            width="556"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Multi-store management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Grow your business from one to hundreds of stores
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Compare performance of your stores</li>
+                            <li>
+                              Manage items, employees and customers across
+                              multiple locations with a single account
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/multi-store-pos"
+                            >Explore multi-store management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_integrations"
+                        id="integrations"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Integrations  with Loyverse POS"
+                            height="397"
+                            src="/sites/all/themes/loyversecom/images/home/marketplace-2.webp"
+                            width="555"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Integration with Loyverse POS
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Connect third-party apps to Loyverse to keep your
+                            business running smoothly
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Sync with accounting, ecommerce, inventory
+                              management, marketing and other apps
+                            </li>
+                            <li>
+                              Use Loyverse API to develop custom integrations
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/marketplace"
+                            >Visit App Marketplace</a
+                          >
+                        </div>
+                      </article>
+                    </section>
+
+                    <section class="hp_products gray">
+                      <h3 class="hp_products_title">Our products</h3>
+
+                      <ul class="hp_products_wrapper">
+                        <li
+                          class="product our-prod1"
+                          data-href="/download-loyverse"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/download-loyverse"
+                                >Loyverse POS – Point of sale</a
+                              >
+                            </p>
+
+                            <p class="product_text">
+                              Transform your smartphone or tablet into a free
+                              point of sale
+                            </p>
+                          </div>
+                        </li>
+                        <li class="product our-prod2" data-href="/back-office">
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/back-office">Loyverse Back Office </a>
+                            </p>
+
+                            <p class="product_text">
+                              Easily manage your business in a browser from any
+                              device
+                            </p>
+                          </div>
+                        </li>
+                        <li class="product our-prod3" data-href="/dashboard">
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/dashboard">Loyverse Dashboard </a>
+                            </p>
+
+                            <p class="product_text">
+                              Instant access to your store's sales analytics and
+                              inventory anytime, anywhere
+                            </p>
+                          </div>
+                        </li>
+                        <li
+                          class="product our-prod4"
+                          data-href="/kitchen-display-system"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/kitchen-display-system"
+                                >Loyverse KDS – Kitchen Display
+                              </a>
+                            </p>
+
+                            <p class="product_text">
+                              Let your cooking staff know what to prepare from
+                              an order
+                            </p>
+                          </div>
+                        </li>
+                        <li
+                          class="product our-prod5"
+                          data-href="/customer-display-system"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/customer-display-system"
+                                >Loyverse CDS – Customer Display
+                              </a>
+                            </p>
+
+                            <p class="product_text">
+                              Display order information to your customers at the
+                              time of purchase
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_fits">
+                      <h3 class="hp_fits_title">
+                        Loyverse POS software fits just right for your business
+                      </h3>
+
+                      <div class="hp_fits_wrapper">
+                        <dl>
+                          <dt class="foodservice">&nbsp;</dt>
+                          <dt>Food &amp; drink</dt>
+                          <dd>
+                            <a href="/restaurants-pos" class="black-link"
+                              >Restaurant</a
+                            >
+                          </dd>
+                          <dd>
+                            <a href="/cafe-pos" class="black-link">Café</a>
+                          </dd>
+                          <dd>Coffee shop</dd>
+                          <dd>Fast food</dd>
+                          <dd>Pizzeria</dd>
+                          <dd><a href="/bar-pos" class="black-link">Bar</a></dd>
+                          <dd>Bakery</dd>
+                        </dl>
+
+                        <dl>
+                          <dt class="retail">&nbsp;</dt>
+                          <dt>
+                            <a href="/retail-pos" class="black-link">Retail</a>
+                          </dt>
+                          <dd>
+                            <a href="/grocery-pos" class="black-link"
+                              >Grocery store</a
+                            >
+                          </dd>
+                          <dd>Convenience store</dd>
+                          <dd>Liquor store</dd>
+                          <dd>Fashion</dd>
+                          <dd>
+                            <a href="/fashion-boutiques-pos" class="black-link"
+                              >Clothing</a
+                            >
+                          </dd>
+                          <dd>Jewelry</dd>
+                          <dd>Kiosk</dd>
+                        </dl>
+
+                        <dl>
+                          <dt class="services">&nbsp;</dt>
+                          <dt>Services</dt>
+                          <dd>Transportation</dd>
+                          <dd>Carwash</dd>
+                          <dd>Salon</dd>
+                          <dd>Rentals</dd>
+                          <dd>Hotels</dd>
+                        </dl>
+                      </div>
+                    </section>
+
+                    <section class="hp_testimonials">
+                      <h3 class="hp_testimonials_title">Testimonials</h3>
+
+                      <ul class="hp_testimonials_wrapper">
+                        <li class="testimonial testimonial_1">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Loyverse POS really has transformed"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/redshark-big.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Loyverse really has transformed the way we look at
+                              taking, tracking, and managing transactions.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>The Redshank Catering, Scotland</em>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="testimonial testimonial_2">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Loyverse system is easy to program"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/just1swap.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Loyverse system is easy to program and to use,
+                              besides it is so easy to add pictures to aid staff
+                              as well.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>Just1swap, UK </em>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="testimonial testimonial_3">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Loyverse has helped us manage our business"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/perfumeria-beniet.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Loyverse has helped us manage our business easily
+                              regardless of distance.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>Perfumeria Benie, Colombia </em>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_get_help gray">
+                      <h3 class="hp_get_help_title">Get the help you need</h3>
+
+                      <ul class="hp_get_help_wrapper">
+                        <li class="how_use">
+                          <picture class="gh_icon icon-live">&nbsp;</picture>
+
+                          <p class="title">Live chat</p>
+
+                          <p>
+                            Get lightning fast assistance 24/7 from our friendly
+                            customer support team.
+                          </p>
+                        </li>
+                        <li class="how_use">
+                          <picture class="gh_icon icon-help">&nbsp;</picture>
+
+                          <p class="title">Help center</p>
+
+                          <p>
+                            A comprehensive set of step-by-step guides in 17
+                            languages with video tutorials.
+                          </p>
+                        </li>
+                        <li class="how_use">
+                          <picture class="gh_icon icon-town">&nbsp;</picture>
+
+                          <p class="title">Community</p>
+
+                          <p>
+                            Learn from other sellers how to use Loyverse and
+                            grow your business.
+                          </p>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_lpartner">
+                      <picture class="hp_lpartner_icon">&nbsp;</picture>
+
+                      <h3 class="hp_lpartner_title">
+                        Become a Loyverse Partner
+                      </h3>
+                      <span class="hp_lpartner_slogan"
+                        >Let’s grow together and help other businesses grow
+                      </span>
+                      <span class="hp_lpartner_text">
+                        If you would like to serve local businesses and help
+                        them implement software and hardware retail solutions,
+                        fill out the
+                        <a
+                          href="https://share.hsforms.com/1qkxqlh34QZWuk7OkTru9eg14psi"
+                          target="_blank"
+                          rel="noopener"
+                          >partnership form</a
+                        >.
+                      </span>
+                    </section>
+
+                    <section class="section-faq">
+                      <div class="hp_questions_wrapper">
+                        <h2 class="title-frequently">Loyverse EPOS Q&amp;A</h2>
+
+                        <div
+                          class="accordion-faq"
+                          data-stats-ve="1"
+                          itemscope=""
+                          itemtype="https://schema.org/FAQPage"
+                        >
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              Is Loyverse POS really free? <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                <b
+                                  >You can use the Loyverse POS app for free.</b
+                                >
+                                You can add items, make sales, use analytics,
+                                and many other functionalities without any
+                                payment.<br />
+                                However, we have a set of additional features in
+                                the Back Office where additional charges will
+                                apply: Unlimited Sales History,
+                                <a href="/employee-management"
+                                  >Employee Management</a
+                                >,
+                                <a href="/advanced-inventory"
+                                  >Advanced Inventory</a
+                                >.<br />
+                                These add-on services have a 14-day free trial.
+                                Please check our
+                                <a href="/pricing">pricing page</a> for more
+                                info.
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              How to use Loyverse POS system?
+                              <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                <a
+                                  href="https://help.loyverse.com/help/gettings-starteds"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >Download and install</a
+                                >
+                                Loyverse POS on Android or iOS mobile devices
+                                from the
+                                <a
+                                  href="https://play.google.com/store/apps/details?id=com.loyverse.sale&amp;hl=en_US&amp;referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3DhomeEN"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >Play Market</a
+                                >
+                                or
+                                <a
+                                  href="https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >App Store</a
+                                >. Create your account by filling in the simple
+                                registration form.<br />
+                                Make the necessary settings in the
+                                <a
+                                  href="/back-office"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >Back Office</a
+                                >. Here, you can also manage your items,
+                                discounts, taxes, etc. as well as see reports
+                                about your sales.<br />
+                                <a
+                                  href="https://help.loyverse.com/help/items-categories"
+                                  >Add items at the POS</a
+                                >
+                                or Back Office and
+                                <a
+                                  href="https://help.loyverse.com/help/make-sales"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >start selling</a
+                                >!
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              Does Loyverse POS work offline?
+                              <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                <b>The Loyverse POS app works offline.</b> Your
+                                device can continue to make sales and work with
+                                shifts even when it is not connected to the
+                                Internet.<br />
+                                However, some features such as refunds, new
+                                customer registration, adding items, and a few
+                                other features will be unavailable or restricted
+                                while offline.<br />
+                                Check details in the help center:
+                                <a
+                                  href="https://help.loyverse.com/help/offline-work-of-pos"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >Offline Use of Loyverse POS</a
+                                >
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              What kind of hardware can work with Loyverse POS?
+                              <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                Loyverse POS app lets you connect and use
+                                barcode scanners, receipt printers, cash
+                                drawers, and other hardware. Please check the
+                                <a href="/hardware">supported hardware list</a>.
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              Does Loyverse POS have the functionality of
+                              loyalty cards? <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                Loyverse POS has a built-in
+                                <a href="/loyalty-program">loyalty program</a>
+                                that allows rewarding your regular customers for
+                                visiting your outlet. You can issue your own
+                                loyalty cards with the printed barcode. When the
+                                customer visits your store, the cashier can
+                                quickly identify him/her by
+                                <a
+                                  href="https://help.loyverse.com/help/scanning-customer-barcode"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >scanning the barcode</a
+                                >
+                                from the loyalty card with a separate barcode
+                                scanner or built-in device camera. Another way
+                                of identification of the customer is by his/her
+                                <a
+                                  href="https://help.loyverse.com/help/customer-identification"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >phone number</a
+                                >.
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </section>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="views-element-container">
+              <div
+                class="js-view-dom-id-15b1437e2ba8f28376520026a8be1cafbe7746baba393546d0f6d02bc9884c2e"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Loyverse"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

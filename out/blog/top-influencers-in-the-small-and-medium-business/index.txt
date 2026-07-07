@@ -1,0 +1,597 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T741e,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-breadcrumbs">
+              <nav role="navigation" aria-labelledby="system-breadcrumb">
+                <h2 id="system-breadcrumb" class="visually-hidden">
+                  Breadcrumb
+                </h2>
+                <ol>
+                  <li>
+                    <a href="/">Loyverse POS</a>
+                  </li>
+                  <li>
+                    <a href="https://loyverse.com/blog">Blog</a>
+                  </li>
+                </ol>
+              </nav>
+            </div>
+            <article data-history-node-id="179">
+              <div>
+                <div
+                  class="layout layout--twocol-section layout--twocol-section--67-33"
+                >
+                  <div class="layout__region layout__region--first">
+                    <div>
+                      <div>
+                        <img
+                          loading="lazy"
+                          src="/sites/default/files/styles/blog_inside_img_main/public/2021-08/15-main.jpg?itok=b-TOPuiH"
+                          width="845"
+                          height="267"
+                          alt="Top influencers in the small and medium business"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <time datetime="2020-10-31T12:00:00Z"
+                          >Sat, 10/31/2020 - 12:00</time
+                        >
+                      </div>
+                    </div>
+
+                    <div>
+                      <div>
+                        <h1>
+                          Top influencers in the small and medium business
+                        </h1>
+
+                        <p>
+                          <br />
+                          Let us start with a short history of the influencer
+                          concept. Even though the word influencer was
+                          officially introduced in the English dictionary just
+                          last year in May 2019, the concept can be traced back
+                          to a much earlier time. One of the first records about
+                          a business collaboration with an influencer is back to
+                          1760, when a potter, by the name of Wedgwood, made a
+                          tea set for the Queen of England. Since the monarchy
+                          were the influencers of their time, Wedgwood's
+                          decision to market his brand as goods with a royal
+                          seal of approval allowed it to have the luxury status
+                          the brand still enjoys today.
+                        </p>
+
+                        <p>
+                          Nowadays, with the development of technology and
+                          social media, everyone can share and receive
+                          recommendations or reviews instantly, as well as have
+                          the power to cultivate their followers and influence
+                          it.
+                        </p>
+
+                        <p><strong>What is an influencer?</strong></p>
+
+                        <p>
+                          The word influencer refers to a person or group with
+                          certain knowledge, experience, and results in a
+                          particular industry, topic area, or segment. More than
+                          this, such individuals gain many followers through
+                          social media, with whom they developed trustful
+                          relationships.
+                        </p>
+
+                        <p>
+                          In business, influencers can affect others’ buying
+                          decisions based on their authority and relationship
+                          with their audience.&nbsp;
+                        </p>
+
+                        <p>
+                          How is that possible? For instance, a brand that is
+                          looking for a way to fulfill its marketing goal may
+                          collaborate with influencers within its similar
+                          industry so that the influencers can share their brand
+                          on their blog or their social media sites.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong>Why are influencers needed? </strong>
+                        </p>
+
+                        <p>
+                          Statistics given by Forbes show that advertisements
+                          made by companies influence only 1% of millennials,
+                          and instead, most of the people focus their attention
+                          on the authenticity of the products/services itself.
+                          This means that people nowadays tend to trust what is
+                          mentioned or reviewed by those who used or experienced
+                          it or follow so-called influencers, rather than its
+                          own advertisement.
+                        </p>
+
+                        <p>
+                          Influencers have an engaged and loyal audience because
+                          they have built trust amongst their followers.&nbsp;
+                        </p>
+
+                        <p>
+                          Businesses understand how important trust is for
+                          people, and to build and expand trustful relationships
+                          with customers; it may take a lot of time. Therefore,
+                          by working with influencers, they aim to increase
+                          their lest level with the audience and reach a larger
+                          number of target customers in a shorter time.
+                        </p>
+
+                        <p>
+                          There are various categories of influencers according
+                          to the size of your business (small, medium, or large)
+                          or depending on the level of their influence
+                          (celebrities, bloggers/publishers, fans of your
+                          business, family members). Even though celebrities
+                          have the biggest number of followers, this doesn’t
+                          mean they have a very engaged audience. That's why,
+                          while choosing a suitable influencer to collaborate
+                          with your business, you need to consider the
+                          influencer’s audience and its engagement in your
+                          business area.
+                        </p>
+
+                        <p>
+                          Let us become more familiar with the influencers’ work
+                          by taking a look at the top B2B influencers!&nbsp;
+                        </p>
+
+                        <p><strong>Bob Phibbs</strong></p>
+
+                        <p>
+                          <img
+                            alt="Bob Phibbs"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Bob-Phibbs.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Recognized as one of the top retail influencers of
+                          2018, Bob Phibbs has over 30 years of business
+                          experience as a corporate officer, franchisor, and
+                          entrepreneur. He is internationally appreciated for
+                          his work as a business strategist, customer service
+                          expert, sales coach, marketing mentor, author of three
+                          books, and motivational business speaker. In an era
+                          when online sales become more and more popular, Bob
+                          works as the so-called Retail Doctor, encouraging the
+                          sales team to improve the client’s approach focusing
+                          on consumer experience and bringing an increase in
+                          sales results of 20-50%.
+                        </p>
+
+                        <p>
+                          Bob Phibbs the world’s leading expert on
+                          brick-and-mortar retailers. Clients like Bernina,
+                          Brother, Caesars Palace, Hunter Douglas, Lego, Omega,
+                          Hearts on Fire, Husqvarna, Vera Bradley, Yamaha -
+                          those are just a handful of the thousands of big and
+                          small brands who trust Bob Phibbs to motivate and
+                          train their sales team and increase their company
+                          sales.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Ann Handley</strong></p>
+
+                        <p>
+                          <img
+                            alt="Ann Handley"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Ann-Handley.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Responsible for the content of MarketingProfs,
+                          successful bloggers, and very active on social media
+                          sites, Ann Handly became one of the top influencers in
+                          digital marketing. Forbes recognizes her as &nbsp;“The
+                          Most Influential Women in Social Media” and one of the
+                          “Top 20 Female Bloggers”. She is also the author of
+                          the best-selling books, namely, “Everybody Writes” and
+                          “Content Rules.”
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Jay Bayer</strong></p>
+
+                        <p>
+                          <img
+                            alt="Jay Bayer"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Jay-Bayer.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          As president of the consultancy and media company
+                          Convince &amp; Convert, Jay Bayer guides businesses in
+                          marketing strategies. He has consulted over 700 top
+                          global brands, including Johnson &amp; Johnson, Nike,
+                          IBM, and even worked with the United Nations. As a
+                          speaker, he is a member of the Professional Speakers
+                          Hall of Fame and the Word of Mouth Marketing Hall of
+                          Fame. His Convince &amp; Convert blog is recognized by
+                          the Content Marketing Institute as the number 1
+                          Content Marketing Blog in the World.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Seth Godin</strong></p>
+
+                        <p>
+                          <img
+                            alt="Seth Godin"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Seth-Godin.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Seth’s blog is the largest blog on the internet, with
+                          seven thousand posts over the past 20 years and over
+                          one million readers. Seth Godin is also the author of
+                          19 bestsellers related to marketing and marketing
+                          practices. He is the founder of “altMBA,” &nbsp;an
+                          online leadership and management workshop where they
+                          are participated by more than 4,500 people from more
+                          than 70 countries worldwide. The “Marketing Seminar”
+                          is another educational program created by Seth, where
+                          more than 10,000 marketers participated. Through
+                          social media activity, he connects his followers to
+                          his latest Seth’s Blog posts.
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong>Rand Fishkin</strong>
+                        </p>
+
+                        <p>
+                          <img
+                            alt="Rand Fishkin"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Rand-Fishkin.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Rand Fishkin is cofounder of the company SEO Moz that
+                          focuses on search engine optimization (SEO). Rand
+                          considers that SEO is “one of the least understood and
+                          least transparent aspects of great marketing” and
+                          invests in order to simplify SEO for everyone through
+                          the company's software, education, and community. Moz
+                          became one of the leading SEO tools on the market.
+                          Rand’s two books on SEO and his SEO Moz blog became
+                          recognized widely in the field. Besides this, he is
+                          the co-founder of SparkToro that can find what (and
+                          who) your audience reads, listens to, watches,
+                          follows, shares, and talks about online. This app
+                          gives insight into the preferences and habits of your
+                          business audience.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Joe Pulizzi</strong></p>
+
+                        <p>
+                          <img
+                            alt="Joe Pulizzi"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Joe-Pulizzi.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          In 2001 Joe Pulizzi invented the term “content
+                          marketing” and later in 2011 founded the Content
+                          Marketing Institute (CMI). Joe is an entrepreneur,
+                          speaker, and author on content marketing, who believes
+                          that there is a better way for brands to market than
+                          how they’ve done it in the past. CMI is the greatest
+                          online resource for all the things that are related to
+                          content marketing. In this way, Joe has established
+                          himself as the top influencer on effective content
+                          creation. Joe Pulizzi is also considered a bestseller
+                          author with Corona Marketing, Killing Marketing,
+                          Content Inc., and Epic Content Marketing.
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Adam Grant</strong></p>
+
+                        <p>
+                          <img
+                            alt="Adam Grant"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Adam-Grant.jpeg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          He is a top professor, an organizational psychologist,
+                          and author of 4 New York Times bestselling books that
+                          have sold millions of copies and been translated into
+                          35 languages: Give and Take, Originals, Option B, and
+                          Power Moves. Adam is recognized as one of the world’s
+                          ten most influential management thinkers. His TED
+                          talks on original thinkers and givers and takers have
+                          been viewed more than 20 million times. Adam’s
+                          speaking and consulting clients include Google, the
+                          NBA, Bridgewater, and the Gates Foundation. On social
+                          media, he has more than 3 million followers.&nbsp;
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p><strong>Dave Gerhardt</strong></p>
+
+                        <p>
+                          <img
+                            alt="Dave Gerhardt"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Dave-Gerhardt.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Dave Gerhardt is one of the leading brand builders in
+                          the B2B market today. Before, he did marketing for
+                          Drift and helped to create one of the fastest-growing
+                          SaaS companies in history. Now he works as CMO for
+                          Shopify’s number one app, Privy. Dave created the
+                          Patreon marketing group, a solution for creators and
+                          artists who can get paid by fans/patrons for extra
+                          content and exclusive access. At the moment, Patreon
+                          is the solution for over 200,000 creators supported by
+                          more than 6 million patrons. Dave is also an author,
+                          and his Conversational Marketing book was one of
+                          Amazon’s top 20 business books, and it was number one
+                          in the marketing &amp; sales genres.&nbsp;
+                        </p>
+
+                        <p>
+                          <br />
+                          <strong>Houston Golden</strong>
+                        </p>
+
+                        <p>
+                          <img
+                            alt="Houston Golden"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Houston-Golden.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Houston Golden is considered the “#1 LinkedIn
+                          Marketer”. As Co-Founder and CEO of the digital agency
+                          BAMF Media. He has led growth teams and marketing
+                          campaigns for companies including Pioneer, Mindvalley,
+                          TEDx, and Volcom, and other global brands.&nbsp;
+                        </p>
+
+                        <p><strong>Ryan Deiss</strong></p>
+
+                        <p>
+                          <img
+                            alt="Ryan Deiss"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Ryan-Deiss.jpg"
+                            width="400"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          Ryan Deiss is an entrepreneur, author, and investor.
+                          He is the Founder and CEO of The Scalable Company
+                          (Scalable.co), DigitalMarketer.com, Recess.io. His
+                          company, DigitalMarketer, is the leading provider of
+                          digital marketing training and certifications. Its
+                          community has over 15,000 paid members and over half a
+                          million subscribers. Ryan is also the founder and host
+                          of the Traffic &amp; Conversion Summit, the largest
+                          digital marketing conversion conference in North
+                          America.
+                        </p>
+
+                        <p><strong>Lilach Bullock</strong></p>
+
+                        <p>
+                          <img
+                            alt="Lilach Bullock"
+                            class="img-in-blog"
+                            height="auto"
+                            src="/sites/all/themes/loyversecom/images/blog/15-Lilach-Bullock.jpg"
+                            width="390"
+                            loading="lazy"
+                          />
+                        </p>
+
+                        <p>
+                          As one of the digital marketing authorities, Lilach
+                          Bullock is very active across social media, where she
+                          links her blog posts related to digital marketing and
+                          SEO tips. She is recognized by Forbes Top 20 Women
+                          Social Media Influencers. Lilach was also named the #1
+                          Digital Marketer by Career Experts and the Social
+                          Influencer of Europe by Oracle.&nbsp;
+                        </p>
+
+                        <p><strong>Conclusion</strong></p>
+
+                        <p>
+                          This list of influencers might be filled with many
+                          other people’s names with great results in helping
+                          other businesses grow. As long as the number of
+                          influencers is constantly increasing, they bring a lot
+                          of valuable information, tips, and hints to improve,
+                          so every merchant can gain a lot for his/her
+                          business.<br />
+                          How about you? Have you ever worked with any
+                          influencers to promote your business? Who else do you
+                          think could be called the influencer for small and
+                          medium enterprises?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="layout__region layout__region--second">
+                    <div class="views-element-container">
+                      <div>Topics</div>
+
+                      <div>
+                        <div
+                          class="blogs js-view-dom-id-9aa5772c213e1064faff096eda0cc5be8a4554d1d91ba6a886afa9c2a647c834"
+                        >
+                          <div class="menu-list">
+                            <ul class="list-in">
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses"
+                                      hreflang="en"
+                                      >Best Integration platforms as a service
+                                      for small and medium businesses</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/best-software-review-websites-for-small-and-medium-business"
+                                      hreflang="en"
+                                      >Best Software Review Websites for Small
+                                      and Medium Business</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/what-makes-a-coffee-shop-successful"
+                                      hreflang="en"
+                                      >What Makes a Coffee-shop Successful?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today"
+                                      hreflang="en"
+                                      >How to Expand your Retail Business: 7
+                                      Retail Expansion Strategies to try
+                                      Today</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/grocerant-the-trend-leading-the-food-market-into-the-future"
+                                      hreflang="en"
+                                      >Grocerant - the trend leading the food
+                                      market into the future</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store"
+                                      hreflang="en"
+                                      >How to expand your business from one
+                                      coffee shop to a chain store?</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="blog-right-list-menu">
+                                <div class="views-field views-field-title">
+                                  <div class="field-content blog-menu-title">
+                                    <a
+                                      href="/blog/how-to-choose-pos-printer"
+                                      hreflang="en"
+                                      >How to Choose POS Printer</a
+                                    >
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["blog",{"children":["top-influencers-in-the-small-and-medium-business",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["top-influencers-in-the-small-and-medium-business",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","top-influencers-in-the-small-and-medium-business","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Top Influencers In The Small And Medium Business"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

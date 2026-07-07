@@ -1,0 +1,987 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:Ta214,<main class="content-section">
+        <section class="overcontent">
+          <div id="block-loyverseposfeatures">
+            <div>
+              <div class="features-head">
+                <div class="wrapper">
+                  <h1>
+                    Donnez du pouvoir à votre entreprise avec les
+                    fonctionnalités Loyverse POS
+                  </h1>
+
+                  <div class="appstores get-start">
+                    <a
+                      id="get-started"
+                      class="dash-button logged-off"
+                      href="/fr/signup"
+                      >commencez gratuitement</a
+                    >
+                    <a
+                      id="chat-button-home"
+                      class="dash-button chat_button chat_off logged-off"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >chat en direct</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-text">
+          <div class="content-textpad">
+            <div class="features_block">
+              <nav
+                itemscope=""
+                itemtype="https://schema.org/SiteNavigationElement"
+                aria-labelledby="block-featuresmenuleft-menu"
+                id="block-featuresmenuleft"
+              >
+                <div class="visually-hidden" id="block-featuresmenuleft-menu">
+                  POS Features
+                </div>
+
+                <ul class="lmenu">
+                  <li class="block-1">
+                    <a
+                      href="#the-point-of-sale"
+                      title="Description Point of Sale"
+                      >Logiciel de Caisse</a
+                    >
+                  </li>
+                  <li class="block-2">
+                    <a href="#the-inventory-management">Gestion de stocks</a>
+                  </li>
+                  <li class="block-3">
+                    <a href="#the-employee-management">Gestion des employés</a>
+                  </li>
+                  <li class="block-4">
+                    <a href="#the-sales-analytics">Analyses des ventes</a>
+                  </li>
+                  <li class="block-5">
+                    <a href="#the-crm">Programme de fidélité</a>
+                  </li>
+                  <li class="block-6">
+                    <a href="#the-restaurant">Pour bar et restaurant</a>
+                  </li>
+                  <li class="block-7">
+                    <a href="#the-credit-card">Paiements par carte de crédit</a>
+                  </li>
+                  <li class="block-8">
+                    <a href="#the-integrations">Intégrations</a>
+                  </li>
+                  <li class="block-9">
+                    <a href="#the-support">Assistance</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div id="block-featurescontentpointofsale">
+                <div>
+                  <div class="new-features">
+                    <h3 class="featurestit" id="the-point-of-sale">
+                      Logiciel de Caisse
+                    </h3>
+
+                    <div class="features mobile-fp clearfix">
+                      <div class="features-feature sell-smf">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Vendre depuis un smartphone ou une tablette
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Loyverse POS gratuit fonctionne sur iPhone, iPad,
+                          Android smartphone et tablette.
+                        </div>
+                      </div>
+
+                      <div class="features-feature multi-store">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Plusieurs emplacements
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Gérez
+                          <a href="/fr/multi-store-pos">plusieurs magasins</a>
+                          sous un seul compte. Suivez vos ventes, les
+                          inventaires des employés et clients. Tout ce que vous
+                          avez besoin de savoir a un seul endroit.
+                        </div>
+                      </div>
+
+                      <div class="features-feature receipts">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Reçu imprimé ou numérique
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Donner les reçus aux clients selon leurs préférences :
+                          imprimé ou envoyé par email.
+                        </div>
+                      </div>
+
+                      <div class="features-feature multiple-payment">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Accepter plusieurs options de paiement
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Que ce soit en espèces ou par carte, intégrée ou non,
+                          ou toute combinaison de ces options, vous aurez le
+                          choix.
+                        </div>
+                      </div>
+
+                      <div class="features-feature opentickets">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Tickets ouverts</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Créer, sauvegarder et éditer des commandes. Les
+                          clients peuvent payer quand cela leur convient.
+                        </div>
+                      </div>
+
+                      <div class="features-feature discounts">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Réductions</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Appliquez des réductions sur le reçu ou sur des
+                          articles spécifiques.
+                        </div>
+                      </div>
+
+                      <div class="features-feature refund">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Remboursements</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Rembourser l'article sélectionné ou tous les articles
+                          du reçu.
+                        </div>
+                      </div>
+
+                      <div class="features-feature item-variants">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Variantes d'article</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Condensez la liste des éléments en simplifiant leur
+                          création et leur gestion. Utile si certains produits
+                          sont disponibles en plusieurs versions telles que
+                          différentes tailles ou couleurs.
+                        </div>
+                      </div>
+
+                      <div class="features-feature modifiers">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Modificateurs d'articles
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Modifier facilement les commandes. Choisissez l'ajout
+                          des modules ou leurs préparations en un clic.
+                        </div>
+                      </div>
+
+                      <div class="features-feature cash-manage">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Gestion des espèces</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Suivre les mouvements de caisse afin de réduire les
+                          erreurs et la manipulation du personnel Loyverse.
+                        </div>
+                      </div>
+
+                      <div class="features-feature workoff">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Travailler hors connexion
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Faire des ventes avec une connexion internet faible ou
+                          instable. Toutes les données seront automatiquement
+                          synchronisées dès le rétablissement de la connexion.
+                        </div>
+                      </div>
+
+                      <div class="features-feature wbarcodes">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Codes-barres du poids
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Ajoutez des articles à une vente en scannant les
+                          codes-barres avec un poids intégré.
+                        </div>
+                      </div>
+
+                      <div class="features-feature scanning">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Numérisation facile</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Scanner les codes barres lors de la vente avec la
+                          caméra arrière intégrée dans votre appareil mobile
+                          (uniquement pour iOS).
+                        </div>
+                      </div>
+
+                      <div class="features-feature hardware">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Matériel</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Matériel pris en charge : imprimante de reçus
+                          (Ethernet ou Bluetooth), lecteur de codes-barres
+                          (Bluetooth ou USB), tiroir-caisse.
+                        </div>
+                      </div>
+
+                      <div class="features-feature customer">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Affichage client</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Affichez les informations de commande à vos clients
+                          sur un affichage numérique séparé simultanément au
+                          processus de vente.
+                        </div>
+                      </div>
+
+                      <div class="features-feature dark-theme">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Thème noir</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Utilisez le thème sombre dans un environnement
+                          faiblement éclairé pour réduire la fatigue oculaire.
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="https://loyverse.com/fr/download-loyverse"
+                          >En savoir plus sur le Logiciel de caisse</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-inventory-management">
+                      Gestion de stocks
+                    </h3>
+
+                    <div class="features clearfix">
+                      <div class="features-feature items-import">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Importation des articles
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Ajoutez rapidement des milliers d'articles à l'aide
+                          des feuilles de calcul CSV.
+                        </div>
+                      </div>
+
+                      <div class="features-feature track-inv">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Suivre l'inventaire</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Suivre le stock des produits et leurs compositions.
+                        </div>
+                      </div>
+
+                      <div class="features-feature lowstock">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Notifications de stock faibles
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Recevez chaque jour des notifications sur les faibles
+                          quantité de stock pour effectuer les commandes
+                          d'articles nécessaires à temps.
+                        </div>
+                      </div>
+
+                      <div class="features-feature purchase">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Les bons de commande</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Planifiez les achats, exportez les enregistrements
+                          vers les fournisseurs, suivez les entrées de stock et
+                          gérez les relations avec les fournisseurs.
+                        </div>
+                      </div>
+
+                      <div class="features-feature transfer">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Ordres de transfert</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Créez facilement des ordres de transfert et déplacez
+                          les stocks entre vos magasins.
+                        </div>
+                      </div>
+
+                      <div class="features-feature adjustments">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Ajustements des stocks
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Augmenter et diminuer les niveaux de stock pour les
+                          articles reçus, les dommages et les pertes.
+                        </div>
+                      </div>
+
+                      <div class="features-feature inv-counts">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Inventaires des stocks
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Effectuer l'inventaire des stocks complets ou partiels
+                          avec un scanner code-barres ou manuellement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature production">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Production</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Suivre le stock d'articles fabriqués à partir
+                          d'ingrédients.
+                        </div>
+                      </div>
+
+                      <div class="features-feature label-printing">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Impression d’étiquettes
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Imprimez les étiquettes des code-barres pour ajouter
+                          facilement des articles aux ventes, aux bons d'achat
+                          ou aux inventaires des stocks.
+                        </div>
+                      </div>
+
+                      <div class="features-feature inv-history">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Historique des stocks
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Obtenez des informations sur le flux de votre
+                          inventaire en consultant le journal des ajustements.
+                        </div>
+                      </div>
+
+                      <div class="features-feature inv-valuation">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Rapport d'évaluation des stocks
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Voir le rapport sur le coût et le bénéfice de votre
+                          inventaire.
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="/fr/advanced-inventory"
+                          >En savoir plus sur la gestion de stock avancé</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-employee-management">
+                      Gestion des Employés
+                    </h3>
+
+                    <div class="features emloyee clearfix">
+                      <div class="features-feature salesby">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Ventes par employé</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Suivre la performence individuelle des employés et
+                          prendre des décisions.
+                        </div>
+                      </div>
+
+                      <div class="features-feature smartmanage">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Gestion intelligente</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Les informations sur la charge de travail par heure
+                          permettent une gestion efficace de votre personnel.
+                        </div>
+                      </div>
+
+                      <div class="features-feature access">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Droits d'accès</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Gérer l'accès aux données sensibles et leurs
+                          fonctions.
+                        </div>
+                      </div>
+
+                      <div class="features-feature times">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Pointage</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Employés peuvent pointer lors de leurs entrée/sortie
+                          et le système calcule le total des heures.&nbsp;
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="/fr/employee-management"
+                          >En savoir plus sur la gestion des Employés</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-sales-analytics">
+                      Analyses des ventes
+                    </h3>
+
+                    <div class="features analytics clearfix">
+                      <div class="features-feature trend">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Tendance des ventes</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Suivez la croissance ou la baisse des ventes par
+                          rapport au jour, à la semaine ou au mois précédent et
+                          réagissez rapidement aux changements.
+                        </div>
+                      </div>
+
+                      <div class="features-feature popitems">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Articles populaires</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          L'analyse des ventes par article permet de déterminer
+                          les articles les plus vendus et, par conséquent, de
+                          prendre les bonnes décisions d'achat.
+                        </div>
+                      </div>
+
+                      <div class="features-feature shifts">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Périodes de travail</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Identify the cash lack at the end of the shift and
+                          track employees inaccuracy or manipulations.
+                        </div>
+                      </div>
+
+                      <div class="features-feature rechistory">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Historique des recettes
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Receipts history review allows you to monitor each
+                          transaction: sales, refunds, discounts.
+                        </div>
+                      </div>
+
+                      <div class="features-feature taxreport">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Rapport des taxes</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Browse reports on the tax amount needed to be paid and
+                          save time for their calculation.
+                        </div>
+                      </div>
+
+                      <div class="features-feature repexport">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Export des rapports</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Export des données de vente vers un tableur pour une
+                          analyse détaillée.
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="/fr/dashboard"
+                          >En savoir plus sur l'analyse des ventes</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-crm">
+                      CRM et programme de fidélisation
+                    </h3>
+
+                    <div class="features loyal clearfix">
+                      <div class="features-feature customers-db">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Base de données clients
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Analysez le nombre de visites et le montant des achats
+                          des clients pour identifier vos clients les plus
+                          fidèles.
+                        </div>
+                      </div>
+
+                      <div class="features-feature reward">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Programme de récompense points fidélité
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Motivez les clients à faire des achats récurrents en
+                          leur accordant des points bonus.
+                        </div>
+                      </div>
+
+                      <div class="features-feature crm-purchase">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Historique des achats
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Consulter l'historique des achats du client pour
+                          offrir un service personalisé.
+                        </div>
+                      </div>
+
+                      <div class="features-feature loy-cards">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Cartes de fidélité</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Identifier instantanément les clients lors d'une vente
+                          en scannant les codes-barres des cartes de fidélités.
+                        </div>
+                      </div>
+
+                      <div class="features-feature custom-address">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Adresse des clients</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Imprimez l'adresse du client à la reception afin de
+                          rationaliser les ordres de livraison.
+                        </div>
+                      </div>
+
+                      <div class="features-feature notes">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Remarques</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Prenez des notes sur les clients pour vous souvenir de
+                          leurs préférences.
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="/fr/loyalty-program"
+                          >En savoir plus sur le programme de fidélité</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-restaurant">
+                      Caractéristiques du Bar et Restaurant
+                    </h3>
+
+                    <div class="features customer clearfix">
+                      <div class="features-feature kitchen">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Imprimantes de cuisine
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Utilisez les imprimantes cuisine au café ou au
+                          restaurant pour informer le personnel de cuisine de ce
+                          qu’il faut préparer à partir d’une commande.
+                        </div>
+                      </div>
+
+                      <div class="features-feature kitchds">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Système d'affichage cuisine
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Obtenir les commandes en cuisine automatiquement,
+                          rapidement et avec moins d’erreurs. Moins de papier,
+                          moins de gâchis. Enregistrer et passer au vert.
+                        </div>
+                      </div>
+
+                      <div class="features-feature dining">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Options de restauration
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Remarquer si les clients mangent sur place, prennent
+                          leur commande a emporter ou demandent une Livraison.
+                        </div>
+                      </div>
+
+                      <div class="features-feature predefined">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Tickets prédéfinis</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Les tickets prédéfinis vous permettent d’attribuer
+                          rapidement des noms pour ouvrir des tickets. Par
+                          exemple, Tableau 1, Tableau 2, etc
+                        </div>
+                      </div>
+
+                      <div class="feature-learn-more">
+                        <a href="/fr/restaurants-pos"
+                          >En savoir plus sur le POS de Restaurant</a
+                        >
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-credit-card">
+                      Paiements par Carte de Crédit
+                    </h3>
+
+                    <div class="features customer clearfix">
+                      <div class="features-feature sumup">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            <a class="text-bold" href="/fr/sumup">SumUp</a>
+                          </h4>
+                        </div>
+
+                        <div
+                          class="feature-text link-without-a"
+                          data-href="/fr/sumup"
+                        >
+                          Disponible aux États-Unis, Finlande, Lettonie,
+                          Norvège, Slovénie, Slovaquie, République tchèque,
+                          Hongrie, Belgique, Brésil, Chili, Espagne, Irlande,
+                          Italie, Pays-Bas, Autriche, Portugal, Pologne, Suisse,
+                          Suède, Grande-Bretagne .
+                        </div>
+                      </div>
+
+                      <div class="features-feature izettle">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            <a class="text-bold" href="/fr/izettle"
+                              >PayPal Zettle</a
+                            >
+                          </h4>
+                        </div>
+
+                        <div
+                          class="feature-text link-without-a"
+                          data-href="/fr/izettle"
+                        >
+                          Disponible au Etats-Unis, Brésil, Danemark, Finlande,
+                          Grande-Bretagne, Italie, Mexique, Norvège, Espagne,
+                          Suède et Pays-Bas.
+                        </div>
+                      </div>
+
+                      <div class="features-feature tyro">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Tyro (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible uniquement en Australie.
+                        </div>
+                      </div>
+
+                      <div class="features-feature smartpay">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Shift4 (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible au Nouvelle-Zélande seulement
+                        </div>
+                      </div>
+
+                      <div class="features-feature yoco">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            <a class="text-bold" href="/yoco"
+                              >Yoco (pour iOS uniquement)</a
+                            >
+                          </h4>
+                        </div>
+
+                        <div
+                          class="feature-text link-without-a"
+                          data-href="/yoco"
+                        >
+                          Disponible en Afrique du Sud uniquement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature coiney">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            STORES Payment (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible au Japon seulement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature paygate">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">PAYGATE</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible au Japon seulement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature softbank">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            SB Payment Service (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible au Japon seulement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature kicc">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            KICC (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible en Corée seulement.
+                        </div>
+                      </div>
+
+                      <div class="features-feature nice">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            NICE정보통신 (pour iOS uniquement)
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Disponible en Corée du Sud uniquement.
+                        </div>
+                      </div>
+                      <!--<div class="feature-learn-more"><a href="payment-systems">En savoir plus sur les paiements par carte de crédit &gt;</a></div>-->
+                    </div>
+
+                    <h3 class="featurestit" id="the-integrations">
+                      Intégrations
+                    </h3>
+
+                    <div class="features customer clearfix">
+                      <div class="features-feature apps">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Applications</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Synchronisation avec la comptabilité, le commerce
+                          électronique, le marketing et d'autres
+                          applications.<br />
+                          <a href="https://loyverse.com/marketplace"
+                            >Visitez l'application Marketplace</a
+                          >
+                        </div>
+                      </div>
+
+                      <div class="features-feature api">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">API</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Développer des intégrations personnalisées en
+                          utilisant Loyverse API.<br />
+                          <a href="#" target="_blank" rel="noopener"
+                            >Voir la documentation de l'API</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3 class="featurestit" id="the-support">Assistance</h3>
+
+                    <div class="features customer clearfix">
+                      <div class="features-feature live-chat">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">
+                            Notre assistance par chat en direct 24h/24 et 7j/7
+                          </h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Éviter la file d'attente sur notre support de chat en
+                          direct. Notre équipe dédiée est à votre disposition
+                          24h/24 et 7j/7.
+                        </div>
+                      </div>
+
+                      <div class="features-feature help-center">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Centre d'aide</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Trouver des réponses à vos questions et découvrez
+                          comment utiliser le logiciel Loyverse POS. Loyverse
+                          Assistance d'aide est une base de connaissances
+                          puissante comprenant plus de 100 articles, tutoriels
+                          et vidéo guide.
+                        </div>
+                      </div>
+
+                      <div class="features-feature loyverse-community">
+                        <div class="feature-title">
+                          <h4 class="feature-title-in">Communauté Loyverse</h4>
+                        </div>
+
+                        <div class="feature-text">
+                          Demander aux utilisateurs de Loyverse leur expérience
+                          de travail et partager la vôtre, impliquez-les dans
+                          des discussions et fournisser des idées valables.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="10">
+              <div></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="undercontent">
+          <div id="block-startusingloyversepossystemnow">
+            <div>
+              <div class="bottom-form">
+                <div class="landing-form bottom-form-in">
+                  <h3 class="startuse">
+                    Commencer maintenant à utiliser Loyverse
+                  </h3>
+
+                  <p>
+                    <a class="get-started-button" href="/en/signup">Démarrer</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["fr",{"children":["features",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["fr",{"children":["features",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children","features","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Features"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

@@ -1,0 +1,786 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T8479,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="15">
+              <div>
+                <div>
+                  <div class="inventory">
+                    <section class="main-pos">
+                      <div class="main-grid-block">
+                        <div class="main-text-block">
+                          <h1 class="title">Gestion de Stock</h1>
+
+                          <p class="foreword">
+                            Robustes qui rationalisent votre entrepôt
+                          </p>
+
+                          <p>
+                            <a class="get-started-button" href="/fr/signup"
+                              >Démarrer</a
+                            >
+                          </p>
+                        </div>
+
+                        <picture>
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 600px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/inventory/fr/600/main-banner.webp 600w
+                            "
+                          />
+
+                          <img
+                            alt="Gestion de Stock Loyverse PDV - système de point de vente"
+                            src="/sites/all/themes/loyversecom/images/product/inventory/fr/main-banner.webp"
+                            class="img-main-pos"
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="section-core-features">
+                      <h2 class="title">Fonctionnalités de base</h2>
+                      <div class="grid-features">
+                        <div
+                          class="block-features purchase-orders"
+                          data-href="#bons-commandes"
+                        >
+                          <div class="ic"></div>
+                          <p><a href="#bons-commandes">Bons de Commandes</a></p>
+                        </div>
+
+                        <div
+                          class="block-features transfer-orders"
+                          data-href="#ordres-transfert"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#ordres-transfert">Ordres de transfert</a>
+                          </p>
+                        </div>
+
+                        <div
+                          class="block-features stock-adjustments"
+                          data-href="#ajustements-stock"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#ajustements-stock"
+                              >Ajustements de stock</a
+                            >
+                          </p>
+                        </div>
+
+                        <div
+                          class="block-features inventory-count"
+                          data-href="#inventaire-stocks"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#inventaire-stocks"
+                              >Inventaire des stocks</a
+                            >
+                          </p>
+                        </div>
+
+                        <div
+                          class="block-features production"
+                          data-href="#production"
+                        >
+                          <div class="ic"></div>
+                          <p><a href="#production">Production</a></p>
+                        </div>
+
+                        <div
+                          class="block-features inventory-history"
+                          data-href="#historique-stocks"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#historique-stocks"
+                              >Historique des stocks</a
+                            >
+                          </p>
+                        </div>
+
+                        <div
+                          class="block-features printing-labels"
+                          data-href="#impression-étiquettes"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#impression-étiquettes"
+                              >Impression d'étiquettes</a
+                            >
+                          </p>
+                        </div>
+
+                        <div
+                          class="block-features inventory-valuation"
+                          data-href="#rapport-évaluation-stocks"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="#rapport-évaluation-stocks"
+                              >Rapport d'évaluation des stocks</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page purchase-order"
+                      id="bons-commandes"
+                    >
+                      <div class="grid">
+                        <div class="section text">
+                          <h3 class="title-ratings title">Bons de Commandes</h3>
+                          <p>
+                            Les bons de commandes vous permettent de créer et de
+                            sauvegarder les commandes pour la fourniture de
+                            produits, d'envoyer des commandes à aux
+                            fournisseurs, de recevoir les produits et
+                            sauvegarder les informations des fournisseurs dans
+                            le système.
+                          </p>
+                          <p>
+                            Après avoir sélectionné le fournisseur et le magasin
+                            pour votre bon de commande, vous pouvez choisir
+                            l'une des options de remplissage automatique entre
+                            "Tous les articles du fournisseur" ou "Stock faible
+                            d'article du fournisseur".
+                          </p>
+                        </div>
+
+                        <div class="section img">
+                          <picture class="img">
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/purchase-order.webp 600w
+                              "
+                            />
+
+                            <img
+                              alt="Loyverse Bons de Commandes"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/purchase-order.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page transfer-orders"
+                      id="ordres-transfert"
+                    >
+                      <div class="grid">
+                        <div class="section img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/transfer-order.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Loyverse POS Ordres de transfert"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/transfer-order.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section text">
+                          <h3 class="title">Ordres de transfert</h3>
+                          <p class="features">
+                            Vous pouvez ajouter des éléments de la liste de vos
+                            articles à l'ordre de transfert. Vous verrez les
+                            informations de stock des articles choisis dans les
+                            magasins source et de destination. La commande reçue
+                            modifiera le stock dans les magasins source et de
+                            destination. Vous pouvez envoyer votre ordre de
+                            transfert par e-mail au magasin de destination et /
+                            ou le télécharger au format PDF ou CSV.
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page stock-adjustments"
+                      id="ajustements-stock"
+                    >
+                      <div class="grid">
+                        <div class="section text">
+                          <h3 class="title">Ajustements de stock</h3>
+                          <p class="features">
+                            Vous pouvez modifier le stock des produits et
+                            indiquer la raison de cet ajustement.
+                          </p>
+                          <p>
+                            Après avoir effectué l'ajustement, le stock des
+                            produits ajustés sera modifié.
+                          </p>
+                          <p>
+                            Vous verrez les détails d'ajustement du stock dans
+                            le document.
+                          </p>
+                          <p>
+                            Vous pouvez l'enregistrer en tant que fichier PDF ou
+                            CSV.
+                          </p>
+                        </div>
+
+                        <div class="section img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/stock-adjustments.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Ajustements de stock"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/stock-adjustments.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page inventory-count"
+                      id="inventaire-stocks"
+                    >
+                      <div class="grid">
+                        <div class="section img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/inventory-count.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Inventaire des stocks Loyverse PDV"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/inventory-count.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section text">
+                          <h3 class="title">Inventaire des stocks</h3>
+                          <p class="features">
+                            L'inventaire des stocks vous permet de rapprocher
+                            les stocks prévus et réels pour tous les articles ou
+                            éléments sélectionnés, de voir le montant des pertes
+                            de stocks ou des stocks excédentaires et de
+                            conserver des documents pour chaque inventaire.
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page inventory-history"
+                      id="historique-stocks"
+                    >
+                      <div class="section text">
+                        <h3 class="title">Historique des stocks</h3>
+                        <p class="features">
+                          Vous pouvez voir l'historique des stocks de tous les
+                          produits ayant subi des modifications. Vous pouvez
+                          filtrer l'historique par période, par magasin, par
+                          employé ou en raison de changements de stock, y
+                          compris les ventes et les remboursements.
+                        </p>
+                      </div>
+
+                      <div class="section img">
+                        <picture>
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 600px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/inventory/fr/600/inventory-history.webp 600w
+                            "
+                          />
+                          <img
+                            alt="Inventory history with Loyverse POS"
+                            src="/sites/all/themes/loyversecom/images/product/inventory/fr/inventory-history.webp"
+                            class="shadow w730"
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="landing-page production" id="production">
+                      <div class="grid">
+                        <div class="section text">
+                          <h3 class="title">Production</h3>
+                          <p class="features">
+                            La fonctionnalité de production peut être utile pour
+                            les articles fabriqués à l'avance et non au moment
+                            de commander.
+                          </p>
+                          <p>
+                            Par exemple, dans une boulangerie. Les articles
+                            produits peuvent être déplacés entre les magasins en
+                            utilisant les ajustements d'inventaire et les
+                            inventaires des stocks.
+                          </p>
+                        </div>
+
+                        <div class="section img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/production.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Production with Loyverse PDV"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/production.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page inventory-valuation"
+                      id="rapport-évaluation-stocks"
+                    >
+                      <div class="section text">
+                        <h3 class="title">Rapport d'évaluation des stocks</h3>
+                        <p class="features">
+                          Le rapport d'évaluation des stocks vous permet de
+                          comprendre le coût total des stocks et les bénéfices
+                          potentiels de leur vente. Vous pouvez voir le rapport
+                          à jour sur l’évaluation des stocks. Vous pouvez
+                          filtrer le rapport par catégories ou par magasins (si
+                          vous avez plusieurs magasins).
+                        </p>
+                      </div>
+                      <div class="section img">
+                        <picture>
+                          <source
+                            media="(max-width: 600px)"
+                            type="image/webp"
+                            sizes="(max-width: 600px) 600px, 100vw"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/product/inventory/fr/600/inventory-valuation-report.webp 600w
+                            "
+                          />
+                          <img
+                            alt="Rapport d'évaluation des stocks"
+                            src="/sites/all/themes/loyversecom/images/product/inventory/fr/inventory-valuation-report.webp"
+                            class="shadow w730"
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section
+                      class="landing-page printing-labels"
+                      id="impression-étiquettes"
+                    >
+                      <div class="grid">
+                        <div class="section img">
+                          <picture>
+                            <source
+                              media="(max-width: 600px)"
+                              type="image/webp"
+                              sizes="(max-width: 600px) 600px, 100vw"
+                              srcset="
+                                /sites/all/themes/loyversecom/images/product/inventory/fr/600/print-labels.webp 600w
+                              "
+                            />
+                            <img
+                              alt="Impression d'étiquettes"
+                              src="/sites/all/themes/loyversecom/images/product/inventory/fr/print-labels.webp"
+                              class="shadow"
+                              decoding="async"
+                              loading="lazy"
+                            />
+                          </picture>
+                        </div>
+
+                        <div class="section text">
+                          <h3 class="title">Impression d'étiquettes</h3>
+                          <p class="features">
+                            L'étiquette peut contenir le nom de l'élément,
+                            l'unité de Vente Consommateur , le prix et le code
+                            barres.
+                          </p>
+                          <p>
+                            Les étiquettes avec un code-barre vous permettent
+                            d'utiliser le scanner pour ajouter des éléments au
+                            ticket.
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="pricing">
+                      <div class="add-ons-option">
+                        <h2 class="title">Prix</h2>
+                        <div class="pay-buttons-mob">
+                          <div class="pay-monthly add-ons-active">
+                            <a class="pay-monthly-button"
+                              >Payer mensuellement</a
+                            >
+                          </div>
+                          <div class="pay-annually">
+                            <a class="pay-annually-button"
+                              >Payer annuellement<br /><span
+                                >2 mois gratuits</span
+                              ></a
+                            >
+                          </div>
+                        </div>
+
+                        <h3 class="title-year disableform">$250 USD/an</h3>
+
+                        <h3 class="title-month">$25 USD/mois</h3>
+
+                        <p class="per">par magasin</p>
+                      </div>
+
+                      <div class="compare-table">
+                        <div class="compare-text bg-gray" style="height: 56px">
+                          <div class="compare-title first-column">&nbsp;</div>
+
+                          <div class="compare-title second-column">Gratuit</div>
+
+                          <div class="compare-title second-column">Payant</div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Suivre l'inventaire</p>
+
+                            <p>
+                              Suivre le stock des produits et leurs compositions
+                            </p>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text bg-gray">
+                          <div class="first-column">
+                            <p>Notifications de stock faibles</p>
+
+                            <p>
+                              Recevez des notifications sur les articles qui
+                              sont bas ou en rupture de stock
+                            </p>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Importation des aticles</p>
+
+                            <p>
+                              Importer rapidement des articles à l'aide des
+                              feuilles de calcul CSV
+                            </p>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text bg-gray">
+                          <div class="first-column">
+                            <p>Bons de Commandes</p>
+
+                            <p>
+                              Planifier les achats, exporter les enregistrements
+                              vers les fournisseurs, suiver les entrées de stock
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Ordres de transfert</p>
+
+                            <p>
+                              Créez des ordres de transfert et déplacez les
+                              stocks entre vos magasins
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text bg-gray">
+                          <div class="first-column">
+                            <p>Ajustements des stocks</p>
+
+                            <p>
+                              Augmenter et diminuer les niveaux de stock pour
+                              les articles reçus, les dégâts et les pertes
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Inventaires des stocks</p>
+
+                            <p>
+                              Effectuer l'inventaire des stocks complets ou
+                              partiels avec un scanner de code-barres ou
+                              manuellement
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text bg-gray">
+                          <div class="first-column">
+                            <p>Production</p>
+
+                            <p>
+                              Suivre le stock d'articles fabriqués à partir
+                              d'ingrédients
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Impression d’étiquettes</p>
+
+                            <p>
+                              Imprimer les étiquettes du code-barres pour
+                              ajouter facilement des articles aux ventes
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text bg-gray">
+                          <div class="first-column">
+                            <p>Historique des stocks</p>
+
+                            <p>
+                              Obtenez des informations sur le flux de votre
+                              inventaire en consultant le journal des
+                              ajustements
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+
+                        <div class="compare-text">
+                          <div class="first-column">
+                            <p>Rapport d'évaluation des stocks</p>
+
+                            <p>
+                              Voir le rapport sur le coût et le bénéfice
+                              potentiel de votre inventaire
+                            </p>
+                          </div>
+
+                          <div class="second-column">&nbsp;</div>
+
+                          <div class="second-column">
+                            <div class="checkmark">&nbsp;</div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section class="block-get-started">
+                      <h4>Commencez l'essai pendant 14 jours</h4>
+
+                      <p class="trial-button">
+                        <a class="get-started-button" href="/fr/signup"
+                          >Démarrer</a
+                        >
+                      </p>
+                    </section>
+
+                    <section class="products">
+                      <h3>Les produits Loyverse</h3>
+                      <div class="grid-products">
+                        <div
+                          class="block-products pos"
+                          data-href="/fr/download-loyverse"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/download-loyverse">Loyverse PDV</a>
+                          </p>
+                        </div>
+                        <div
+                          class="block-products dashboard"
+                          data-href="/fr/dashboard"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/dashboard"
+                              >Loyverse <br />
+                              Dashboard</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products kds"
+                          data-href="/fr/kitchen-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/kitchen-display-system"
+                              >Loyverse KDS<br />
+                              Affichage de cuisine</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products cds"
+                          data-href="/fr/customer-display-system"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/customer-display-system"
+                              >Loyverse CDS<br />
+                              Affichage client</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products bo"
+                          data-href="/fr/back-office"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/back-office"
+                              >Loyverse<br />
+                              Back Office</a
+                            >
+                          </p>
+                        </div>
+                        <div
+                          class="block-products employee"
+                          data-href="/fr/employee-management"
+                        >
+                          <div class="ic"></div>
+                          <p>
+                            <a href="/fr/employee-management"
+                              >Gestion<br />
+                              des employés</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["fr",{"children":["advanced-inventory",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["fr",{"children":["advanced-inventory",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children","advanced-inventory","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Advanced Inventory"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null

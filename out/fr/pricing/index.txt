@@ -1,0 +1,655 @@
+3:I[4707,[],""]
+4:I[6423,[],""]
+2:T6fee,<main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+
+            <div id="block-pricingproduct">
+              <div>
+                <section class="pricing_wrapper">
+                  <h1 class="priceH1">Prix</h1>
+
+                  <div class="product">
+                    <hr class="borderline" />
+                    <div
+                      class="block-pricing"
+                      data-href="/fr/download-loyverse"
+                    >
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        alt="Loyverse POS - Le logiciel de caisse"
+                        class="img-size"
+                        data-entity-type=""
+                        data-entity-uuid=""
+                        width="40"
+                        height="40"
+                        src="/sites/all/themes/loyversecom/images/pricing/loyversepos-48-opt.svg"
+                      />
+                      <div class="blockText-pricing">
+                        <p class="appName">
+                          <a href="/fr/download-loyverse"
+                            >Loyverse POS — Logiciel de Caisse</a
+                          >
+                        </p>
+
+                        <p class="appExplanation">
+                          Gérer plusieurs magasins, vente analytique, gestion
+                          des stocks, programme de fidélisation
+                        </p>
+                        <p class="free">Gratuit</p>
+                      </div>
+                    </div>
+
+                    <hr class="borderline" />
+                    <div class="block-pricing" data-href="/fr/dashboard">
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        alt="Tableau de bord Loyverse Dashboard"
+                        class="img-size"
+                        data-entity-type=""
+                        data-entity-uuid=""
+                        width="40"
+                        height="40"
+                        src="/sites/all/themes/loyversecom/images/pricing/loyversedashboard-48-opt.svg"
+                      />
+                      <div class="blockText-pricing">
+                        <p class="appName">
+                          <a href="/fr/dashboard">Loyverse Dashboard</a>
+                        </p>
+
+                        <p class="appExplanation">
+                          Accès instantané à l'analyse et à l'inventaire des
+                          ventes de votre magasin
+                        </p>
+                        <p class="free">Gratuit</p>
+                      </div>
+                    </div>
+
+                    <hr class="borderline" />
+                    <div
+                      class="block-pricing"
+                      data-href="/fr/kitchen-display-system"
+                    >
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        alt="Loyverse KDS — système d’affichage de cuisine"
+                        class="img-size"
+                        data-entity-type=""
+                        data-entity-uuid=""
+                        width="40"
+                        height="40"
+                        src="/sites/all/themes/loyversecom/images/pricing/loyverseKDS-48.svg"
+                      />
+                      <div class="blockText-pricing">
+                        <p class="appName">
+                          <a href="/fr/kitchen-display-system"
+                            >Loyverse KDS — Affichage cuisine</a
+                          >
+                        </p>
+
+                        <p class="appExplanation">
+                          Informe vôtre personnel en cuisine pour la préparation
+                          d'une commande
+                        </p>
+                        <p class="free">Gratuit</p>
+                      </div>
+                    </div>
+
+                    <hr class="borderline" />
+                    <div
+                      class="block-pricing"
+                      data-href="/fr/customer-display-system"
+                    >
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        alt="Loyverse CDS — Afficheur client"
+                        class="img-size"
+                        data-entity-type=""
+                        data-entity-uuid=""
+                        width="40"
+                        height="40"
+                        src="/sites/all/themes/loyversecom/images/pricing/loyverseCDS-48.svg"
+                      />
+                      <div class="blockText-pricing">
+                        <p class="appName">
+                          <a href="/fr/customer-display-system"
+                            >Loyverse CDS — Afficheur client</a
+                          >
+                        </p>
+
+                        <p class="appExplanation">
+                          Afficher les informations des prix à vos clients
+                        </p>
+                        <p class="free">Gratuit</p>
+                      </div>
+                    </div>
+
+                    <hr class="borderline" />
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingaddonstitle">
+              <div>
+                <section class="pricing_wrapper">
+                  <div class="add-ons-option">
+                    <h2>Add-ons</h2>
+                    <p class="optional">(facultatif)</p>
+                    <div class="pay-buttons-mob">
+                      <div class="pay-monthly add-ons-active">
+                        <a class="pay-monthly-button">Payer mensuellement</a>
+                      </div>
+                      <div class="pay-annually">
+                        <a class="pay-annually-button"
+                          >Payer annuellement<br />
+                          <span>2 mois gratuits</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingaddonsunlimited">
+              <div>
+                <section class="pricing_wrapper">
+                  <div class="block-pricing block-unlimited-sales">
+                    <div class="addonUnlim">&nbsp;</div>
+                    <div class="blockTextTwo">
+                      <p class="appName">Historique des ventes illimité</p>
+
+                      <div class="price-cost clearfix">
+                        <div class="price-monthly">
+                          <p class="usd">$5 USD/mois</p>
+                          <p class="usdExplanation">
+                            par magasin<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+
+                        <div class="price-annually disableform">
+                          <p class="usd">$50 USD/an</p>
+                          <p class="usdExplanation">
+                            par magasin<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+                      </div>
+                      <p class="appExplanation">
+                        Consultez les rapports de vente pour n'importe quelle
+                        période et exportez les données vers des feuilles de
+                        calcul.
+                      </p>
+                    </div>
+                  </div>
+                  <hr class="borderline unlimited" />
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingaddonsemployee">
+              <div>
+                <section class="pricing_wrapper">
+                  <div
+                    class="block-pricing"
+                    data-href="/fr/employee-management"
+                  >
+                    <div class="addonOne">&nbsp;</div>
+                    <div class="blockTextTwo">
+                      <p class="appName">
+                        <a href="/fr/employee-management"
+                          >Gestion des Employés</a
+                        >
+                      </p>
+
+                      <div class="price-cost clearfix">
+                        <div class="price-monthly">
+                          <p class="usd">$5 USD/mois</p>
+
+                          <p class="usdExplanation">
+                            par employé<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+
+                        <div class="price-annually disableform">
+                          <p class="usd">$50 USD/an</p>
+
+                          <p class="usdExplanation">
+                            par employé<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+                      </div>
+
+                      <p class="appExplanation">
+                        Gérer les droits d’accès, suivre les fiches de présence
+                        et les ventes par employé
+                      </p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingaddonsinventory">
+              <div>
+                <section class="pricing_wrapper">
+                  <hr class="borderline" />
+
+                  <div class="block-pricing" data-href="/fr/advanced-inventory">
+                    <div class="addonTwoInv">&nbsp;</div>
+                    <div class="blockTextTwo">
+                      <p class="appName">
+                        <a href="/fr/advanced-inventory"
+                          >Gestion de Stock avancé</a
+                        >
+                      </p>
+
+                      <div class="price-cost clearfix">
+                        <div class="price-monthly">
+                          <p class="usd">$25 USD/mois *</p>
+
+                          <p class="usdExplanation">
+                            par magasin<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+
+                        <div class="price-annually disableform">
+                          <p class="usd">$250 USD/an *</p>
+
+                          <p class="usdExplanation">
+                            par magasin<br />
+                            14 jours d’essai gratuit
+                          </p>
+                        </div>
+                      </div>
+
+                      <p class="appExplanation">
+                        Créer les bons de commandes, voir le rapport
+                        d'évaluation des stocks et gérez le stock
+                      </p>
+
+                      <p class="appExplanation month">
+                        * Si vous avez plus de 3 magasins, contactez-nous pour
+                        une offre spéciale
+                      </p>
+
+                      <p class="appExplanation year disableform">
+                        * Si vous avez plus de 3 magasins, contactez-nous pour
+                        une offre spéciale
+                      </p>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingaddonsfinish">
+              <div>
+                <section class="pricing_wrapper">
+                  <hr class="borderline" />
+
+                  <div class="block-pricing support">
+                    <div class="blockTextTwo">
+                      <div>
+                        <p class="appExplanation">
+                          Tous les add-ons incluent une assistance prioritaire
+                          24h / 24 et 7j / 7 via un chat en ligne
+                        </p>
+
+                        <p class="supportExplanation">
+                          Tous les prix sont hors taxes
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+
+            <div id="block-pricingfaq">
+              <div>
+                <section class="pricing section-faq">
+                  <h2 class="title-frequently">Foire aux questions</h2>
+
+                  <div
+                    class="accordion-faq"
+                    data-stats-ve="1"
+                    itemscope=""
+                    itemtype="https://schema.org/FAQPage"
+                  >
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Comment puis-je m'abonner à des Add-ons?<i
+                          class="arrow"
+                        ></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Veuillez vous connecter au Back Office, cliquez sur le
+                          bouton "Facturation et abonnements" dans le menu
+                          Paramètres. Choisissez l'add-on que vous aimez,
+                          cliquez sur le bouton S'abonner correspondant et
+                          suivez les instructions. Pour plus de détails,
+                          veuillez vous référer
+                          <a
+                            href="https://help.loyverse.com/help/how-use-paid-services-loyverse-pos"
+                            target="_blank"
+                            >à l'article.</a
+                          >
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Quelle est la durée de la période d'essai et comment ça
+                        marche?<i class="arrow"></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Tous les add-ons ont une période d’essai gratuite de
+                          14 jours. Commencer une période d'essai ne nécessite
+                          pas de carte. Une fois que vous avez commencé la
+                          période d’essai, la page Facturation et abonnements
+                          affiche la date d’expiration de l’essai. Si vous
+                          souhaitez continuer à utiliser le service une fois la
+                          période d’essai terminée, activez l’abonnement en
+                          cliquant sur le bouton ‘Activer’.<br />
+                          <br />
+                          À tout moment, vous pouvez annuler la période d’essai
+                          en cliquant sur le bouton «Désabonnement». Pour plus
+                          de détails, veuillez vous référer
+                          <a
+                            href="https://help.loyverse.com/fr/help/how-use-paid-services-loyverse-pos"
+                            target="_blank"
+                            >à l'article.</a
+                          >
+                          TL'essai gratuit durera 14 jours et ne pourra pas être
+                          annulé, même si l'utilisateur se désabonne d'un
+                          add-ons. Si l'utilisateur se réabonne après 14 jours
+                          de la période d'essai gratuite, il ne sera plus
+                          éligible pour un essai gratuit.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Comment activer l'abonnement?<i class="arrow"></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Lorsque vous démarrez une période d’essai, vous pouvez
+                          activer l’abonnement immédiatement ou après la fin de
+                          la période d’essai. Lors de l'activation de
+                          l'abonnement, il vous sera demandé de fournir les
+                          détails de votre carte de paiement.<br />
+                          <br />
+                          Veuillez noter que le prix indiqué pour la gestion des
+                          employés est <strong>par employé</strong>, et pour
+                          l'inventaire avancé, <strong>par magasin</strong>. Si
+                          vous avez ajouté plusieurs employés ou magasins
+                          uniquement à des fins de test lors de l'essai gratuit
+                          et que vous ne souhaitez pas tous les payer, veuillez
+                          ajuster le nombre d'employés ou de magasins en
+                          fonction de vos besoins avant d'activer
+                          l'abonnement.<br />
+                          <br />
+                          Si vous activez la souscription avant la fin de la
+                          période d’essai gratuite, vous pourrez toujours
+                          utiliser le service sans payer jusqu’à la fin de la
+                          période d’essai. Votre carte sera débitée et une
+                          facture sera émise à la fin de la période l'essai.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Quelle forme de paiement est acceptée?<i
+                          class="arrow"
+                        ></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Nous acceptons actuellement les principales cartes de
+                          crédit et de débit : Visa, MasterCard, Maestro,
+                          Discover et JCB. Nous pouvons également accepter les
+                          cartes American Express (Amex) sous certaines
+                          conditions.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Pourquoi ma carte est refusée?<i class="arrow"></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Lorsque le paiement est refusée cela indique que la
+                          banque émettrice de la carte n'a pas pu traiter la
+                          transaction. S'il vous plaît contactez votre banque.
+                          Les raisons les plus courantes de refus d'une carte
+                          peuvent être que la transaction a dépassé la limite de
+                          crédit, qu'elle a été refusée en fonction de
+                          l'emplacement, que les règles de la banque en matière
+                          de fraude ont bloqué la transaction, etc. S'il vous
+                          plaît vérifier avec votre banque pour plus de détails.
+                          Lorsque vous contactez la banque, nous vous
+                          recommandons de contacter le service clientèle de
+                          second niveau de votre banque. Le service client de
+                          premier niveau peut ne pas disposer de l'accès et de
+                          la visibilité système nécessaires pour localiser les
+                          facteurs à l'origine du refus . Nous vous recommandons
+                          de préparer des informations détaillées relatives à la
+                          transaction lorsque vous appelez la banque (par
+                          exemple, le montant de la transaction, le site Web sur
+                          lequel la transaction a été effectuée et le moment de
+                          la transaction).
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Vais-je perdre mes données de vente lorsque mon compte
+                        est bloqué?<i class="arrow"></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Si, pour une raison quelconque, le paiement échoue et
+                          que le back-office est bloqué, vos données de vente ou
+                          les documents d'inventaire avancés ne seront pas
+                          perdus. De plus, le suivi des stocks continuera à
+                          fonctionner. Une fois que vous avez payé et que votre
+                          compte est débloqué, toutes les ventes et les niveaux
+                          de stock dans le back-office afficheront les
+                          informations les plus recent mise à jour.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Comment puis-je annuler mon abonnement?<i
+                          class="arrow"
+                        ></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Pour votre convenance, votre abonnement sera
+                          automatiquement renouvelé à la fin de la période de
+                          facturation. Vous pouvez facilement annuler votre
+                          abonnement à tout moment.<br />
+                          Suivez les étapes suivantes pour annuler
+                          l'abonnement:<br />
+                          1. Connectez-vous au Back Office avec l'adresse e-mail
+                          et le mot de passe du propriétaire du compte.<br />
+                          2. Allez dans Paramètres puis dans la section
+                          Facturation et abonnements.<br />
+                          3. Cliquez sur le bouton Se désabonner pour annuler un
+                          abonnement actif.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Si je cesse d'utiliser Loyverse POS ou des services
+                        payants, ma carte sera-t-elle débitée?<i
+                          class="arrow"
+                        ></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Bien que vous soyez abonné à n'importe quel
+                          abonnement, votre carte continuera d’être débitée
+                          jusqu’à votre désinscription, même si vous n’utilisez
+                          pas les add-ons ou l’application Loverse POS.<br />
+                          <br />
+                          Si vous décidez de ne pas utiliser le point de vente
+                          Loyverse, veuillez vous désabonner des abonnements de
+                          votre Back Office. Nous ne remboursons pas le montant
+                          facturé si l'abonnement est actif.
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      itemprop="mainEntity"
+                      itemscope=""
+                      itemtype="https://schema.org/Question"
+                    >
+                      <h3 class="question" itemprop="name">
+                        Puis-je arrêter les paiements récurrents ou supprimer
+                        les détails de ma carte?<i class="arrow"></i>
+                      </h3>
+
+                      <div
+                        class="answer"
+                        itemprop="acceptedAnswer"
+                        itemscope=""
+                        itemtype="https://schema.org/Answer"
+                      >
+                        <div itemprop="text">
+                          Pour interrompre les paiements récurrents ou supprimer
+                          les détails de votre carte, veuillez envoyer un email
+                          à
+                          <a href="mailto:name@email.com">help@loyverse.com</a>
+                          à partir de l'adresse email de votre compte sur
+                          Loyverse, en indiquant votre demande.
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  &nbsp;
+
+                  <p>
+                    <em
+                      >Si vous avez d'autres questions sur les abonnements et
+                      des problèmes de facturation, veuillez contacter l'équipe
+                      de support</em
+                    >
+                  </p>
+                </section>
+              </div>
+            </div>
+            <article data-history-node-id="8">
+              <div></div>
+            </article>
+          </div>
+        </section>
+      </main>0:["6gke8dVVNllu1TsJ5A2AM",[[["",{"children":["fr",{"children":["pricing",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["fr",{"children":["pricing",{"children":["__PAGE__",{},[["$L1",[null,["$","header",null,{"className":"header","itemScope":true,"itemType":"https://schema.org/WPHeader","children":[["$","div",null,{"className":"overheader","children":["$","div",null,{"className":"overheaderin","children":["$","div",null,{"className":"overheaderpad","children":["$","div",null,{"className":"rightpart overhead-lang","children":[["$","div",null,{"className":"signin","children":["$","div",null,{"id":"block-blockforsign","children":["$","div",null,{"children":["$","div",null,{"id":"href-web","children":["$","a",null,{"className":"sign","href":"/en/login","children":[["$","i",null,{"className":"icon-sign"}],"Sign in"]}]}]}]}]}],["$","div",null,{"className":"language-switcher-language-url","id":"block-languageswitcher-2","role":"navigation","children":[["$","div",null,{"className":"menu-button earth-img"}],["$","div",null,{"className":"lang-code","children":"English"}],["$","ul",null,{"className":"links","children":[["$","li",null,{"hreflang":"en","data-drupal-link-system-path":"<front>","className":"is-active","aria-current":"page","children":["$","a",null,{"href":"/","className":"language-link is-active","hreflang":"en","data-drupal-link-system-path":"<front>","aria-current":"page","children":"English"}]}],["$","li",null,{"hreflang":"fr","data-drupal-link-system-path":"<front>","children":["$","a",null,{"href":"/fr","className":"language-link","hreflang":"fr","data-drupal-link-system-path":"<front>","children":"Français"}]}]]}]]}]]}]}]}]}],["$","div",null,{"className":"headermain","children":[["$","div",null,{"className":"fr_banner_block"}],["$","div",null,{"className":"headerin","children":["$","div",null,{"className":"headerpad","children":[["$","div",null,{"id":"block-hamburgerbutton","className":"mob-hamburger","children":["$","div",null,{"children":["$","div",null,{"className":"hamburger-container nav-container-hamburger","children":[["$","input",null,{"className":"hamburger-checkbox","type":"checkbox","name":"","id":""}],["$","div",null,{"className":"hamburger-lines","children":[["$","span",null,{"className":"line line1"}],["$","span",null,{"className":"line line2"}],["$","span",null,{"className":"line line3"}]]}]]}]}]}],["$","div",null,{"id":"block-sitebranding","className":"logo-style","itemScope":true,"itemType":"https://www.schema.org/Organization","children":["$","a",null,{"href":"/","rel":"home","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/logo.svg","alt":"Loyverse POS","fetchPriority":"high","width":"142","height":"38"}]}]}],["$","div",null,{"className":"topmenu","children":[["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-topmenu-2-menu","id":"block-topmenu-2","children":[["$","div",null,{"className":"visually-hidden","id":"block-topmenu-2-menu","children":"Point of Sale"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/features","data-drupal-link-system-path":"node/10","children":"Features"}]}],["$","li",null,{"children":["$","a",null,{"href":"/hardware","data-drupal-link-system-path":"node/9","children":"Hardware"}]}],["$","li",null,{"children":["$","a",null,{"href":"/pricing","data-drupal-link-system-path":"node/8","children":"Pricing"}]}]]}]]}],["$","div",null,{"className":"views-element-container business_types","id":"block-views-block-business-types-in-header-block-1","children":[["$","div",null,{"children":"Business types"}],["$","div",null,{"children":["$","div",null,{"children":["$","div",null,{"className":"business-types-wrapper","children":["$","ul",null,{"className":"business-types-menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-producttop-menu","id":"block-producttop","children":[["$","div",null,{"id":"block-producttop-menu","children":"Products"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/download-loyverse","data-drupal-link-system-path":"node/46","children":"Loyverse POS"}]}],["$","li",null,{"children":["$","a",null,{"href":"/back-office","data-drupal-link-system-path":"node/11","children":"Back Office"}]}],["$","li",null,{"children":["$","a",null,{"href":"/dashboard","data-drupal-link-system-path":"node/12","children":"Dashboard"}]}],["$","li",null,{"children":["$","a",null,{"href":"/kitchen-display-system","data-drupal-link-system-path":"node/13","children":"Kitchen Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/customer-display-system","data-drupal-link-system-path":"node/14","children":"Customer Display"}]}],["$","li",null,{"children":["$","a",null,{"href":"/employee-management","data-drupal-link-system-path":"node/17","children":"Employee Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/multi-store-pos","data-drupal-link-system-path":"node/56","children":"Multi-Store Management"}]}],["$","li",null,{"children":["$","a",null,{"href":"/advanced-inventory","data-drupal-link-system-path":"node/15","children":"Inventory Management"}]}]]}]]}]]}],["$","div",null,{"className":"header-dash","children":["$","div",null,{"id":"block-loyversecom-getstartedfree","children":["$","div",null,{"children":["$","div",null,{"children":["$","a",null,{"className":"dash-button logged-off","href":"/en/signup","id":"get-started","children":["Get Started ",["$","span",null,{"className":"hidden-word","children":" "}]]}]}]}]}]}]]}]}]]}]]}],["$","div",null,{"children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],[["$","script","footer-script-0",{"src":"/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"}]],["$","footer",null,{"className":"footer","itemScope":true,"itemType":"https://schema.org/WPFooter","children":[["$","div",null,{"className":"footer-main","children":["$","div",null,{"className":"footer-mainin","children":["$","div",null,{"className":"footerpad","children":[["$","div",null,{"className":"footer-col fc0","children":["$","div",null,{"id":"block-loyversecom-footerlogo","children":["$","div",null,{"children":[["$","div",null,{"className":"footer-logo","children":" "}],["$","div",null,{"className":"footer-text","children":"Track sales, manage inventory, oversee your team, and build customer loyalty — all in one place."}],["$","div",null,{"className":"appstores","children":[["$","a",null,{"className":"playmarket link-googleplay","href":"https://play.google.com/store/apps/details?id=com.loyverse.sale&hl=en&referrer=utm_source%3Dloyverse.com%252F%26utm_medium%3Dweb%26utm_campaign%3Ddownload-site","target":"_blank","children":[["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS Android app","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/gplay-en.svg","width":"135","decoding":"async","loading":"lazy"}]}]," "]}]," ",["$","a",null,{"className":"appstore link-appstore","href":"https://apps.apple.com/us/app/loyverse-pos-point-of-sale/id1070865387","target":"_blank","children":[" ",["$","picture",null,{"children":["$","img",null,{"alt":"Download Loyverse POS App for iOS","data-entity-type":"","data-entity-uuid":"","height":"40","src":"/sites/all/themes/loyversecom/images/download-button/appstore-en.svg","width":"119","decoding":"async","loading":"lazy"}]}]]}]]}],["$","div",null,{"className":"footer-soc","children":[["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"fb","href":"https://www.facebook.com/loyversepos/?fref=ts","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-fb.svg","alt":"facebook","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"tw","href":"https://twitter.com/loyversepos","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-tw.svg","alt":"twitter","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"youtube","href":"https://www.youtube.com/c/LoyversePOS","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-youtube.svg","alt":"youtube","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}],["$","div",null,{"className":"foo-so","children":["$","a",null,{"className":"inst","href":"https://www.instagram.com/loyversepos/","itemProp":"sameAs","target":"_blank","rel":"nofollow noreferrer","children":["$","img",null,{"src":"/sites/all/themes/loyversecom/images/icon/foo-insta.svg","alt":"instagram","width":"48","height":"48","decoding":"async","loading":"lazy"}]}]}]]}]]}]}]}],["$","div",null,{"className":"footer-col fc1","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-1-2","children":[["$","div",null,{"className":"block-title","children":"Products"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/download-loyverse","hreflang":"en","children":"Loyverse POS"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/back-office","hreflang":"en","children":"Back Office"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/dashboard","hreflang":"en","children":"POS Dashboard"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/kitchen-display-system","hreflang":"en","children":"Kitchen Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/customer-display-system","hreflang":"en","children":"Customer Display"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/employee-management","hreflang":"en","children":"Employee Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/multi-store-pos","hreflang":"en","children":"Multi-store Management"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/advanced-inventory","hreflang":"en","children":"Inventory Management"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc2","children":[["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-2-2","children":[["$","div",null,{"className":"block-title","children":"Business types"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/grocery-pos","hreflang":"en","children":"Grocery & convenience"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/cafe-pos","hreflang":"en","children":"Café"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/restaurants-pos","hreflang":"en","children":"Restaurant"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/retail-pos","hreflang":"en","children":"Retail"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/bar-pos","hreflang":"en","children":"Bar & Pub"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/fashion-boutiques-pos","hreflang":"en","children":"Clothing & accessories"}]}]}]}]]}]}]}]]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-smallbusiness-menu","id":"block-smallbusiness","children":[["$","div",null,{"className":"visually-hidden","id":"block-smallbusiness-menu","children":"Small Business"}],["$","ul",null,{"className":"lmenu","children":["$","li",null,{"children":["$","a",null,{"href":"/small-business-pos","data-drupal-link-system-path":"node/23","children":"Small Business POS"}]}]}]]}]]}],["$","div",null,{"className":"footer-col fc3","children":["$","div",null,{"className":"views-element-container","id":"block-views-block-products-block-3-2","children":[["$","div",null,{"className":"block-title","children":"POS System"}],["$","div",null,{"children":["$","div",null,{"className":"prod-open","children":["$","ul",null,{"className":"menu","children":[["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyalty-program","hreflang":"en","children":"Loyalty Program"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/payment-systems","hreflang":"en","children":"Accept Credit Cards"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/shift4","hreflang":"en","children":"Shift4"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/sumup","hreflang":"en","children":"SumUp"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/tyro","hreflang":"en","children":"Tyro"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/izettle","hreflang":"en","children":"Zettle"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/yoco","hreflang":"en","children":"Yoco"}]}]}]}],["$","li",null,{"children":["$","div",null,{"className":"views-field views-field-title","children":["$","span",null,{"className":"field-content","children":["$","a",null,{"href":"/loyverse-pos-api","hreflang":"en","children":"Loyverse API"}]}]}]}]]}]}]}]]}]}],["$","div",null,{"className":"footer-col fc4","children":["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-loyversefooter-menu","id":"block-loyversefooter","className":"block-loyverse-footer","children":[["$","div",null,{"id":"block-loyversefooter-menu","children":"Resourses"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"/about","data-drupal-link-system-path":"node/38","children":"About"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/","children":"Community"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/blog","children":"Blog"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.town/files/category/4-media-kit/","children":"Media kit"}]}],["$","li",null,{"children":["$","a",null,{"href":"#","children":"API documentation"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.statuspage.io","children":"Status"}]}]]}]]}]}]]}]}]}],["$","div",null,{"className":"footer-copyright","children":["$","div",null,{"className":"footer-copyrightin","children":["$","div",null,{"className":"footer-copyrightpad","children":[["$","div",null,{"id":"block-c2019loyversegb","children":["$","div",null,{"children":["$","p",null,{"itemProp":"copyrightYear","children":["© 2026 Loyverse",["$","br",null,{}],"Loyverse Commerce Ltd.",["$","br",null,{}],"41 Lothbury, London, EC2R 7HF, United Kingdom"]}]}]}],["$","nav",null,{"itemScope":true,"itemType":"https://schema.org/SiteNavigationElement","aria-labelledby":"block-privacypolicy-menu","id":"block-privacypolicy","children":[["$","div",null,{"className":"visually-hidden","id":"block-privacypolicy-menu","children":"Privacy Policy"}],["$","ul",null,{"className":"lmenu","children":[["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/cookie-policy","children":"Cookie Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/data-processing-addendum","children":"Data Processing Addendum"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/privacy-policy","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-use","children":"Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/api-terms","children":"API Terms of Use"}]}],["$","li",null,{"children":["$","a",null,{"href":"https://loyverse.com/terms-third-party-integration","children":"Terms of Third-Party Integration"}]}]]}]]}]]}]}]}]]}]],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children","pricing","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","fr","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fee620fbcaddeeee.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}],["$","link",null,{"rel":"stylesheet","href":"/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback"}],["$","link",null,{"rel":"stylesheet","href":"/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"}]]}],["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}]}]]}]],null],null],["$L5",null]]]]
+5:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Pricing"}],["$","meta","3",{"name":"description","content":"Loyverse POS website"}]]
+1:null
