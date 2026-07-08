@@ -34,13 +34,14 @@ export default function Footer() {
                     </div>
                     <div className="foo-so">
                       <a
-                        className="tiktok inline-flex items-center justify-center"
+                        className="tiktok"
                         href="http://tiktok.com/@vemliit"
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
+                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px" }}
                       >
-                        <i className="fab fa-tiktok text-white text-3xl mt-2"></i>
+                        <i className="fab fa-tiktok" style={{ color: "white", fontSize: "28px" }}></i>
                       </a>
                     </div>
                     <div className="foo-so">
