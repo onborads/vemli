@@ -186,36 +186,45 @@
         }
       }
       .dc-solution .dc.products {
-        padding-bottom: 2%;
+        padding: 3% 10% 2%;
       }
       .dc-solution .dc.products img {
         max-width: 70%;
         margin: auto;
+        display: block;
+      }
+      @media (max-width: 1024px) {
+        .dc-solution .dc.products {
+          padding: 3% 6% 2%;
+        }
+      }
+      @media (max-width: 768px) {
+        .dc-solution .dc.products {
+          padding: 3% 4% 2%;
+        }
       }
       @media (max-width: 850px) {
         .dc-solution .dc.products img {
           max-width: 100%;
         }
       }
-      .dc-solution .dc.products h3 {
-        max-width: 80%;
+      .dc-solution .dc.products h3,
+      .dc-solution .dc.products h5 {
+        max-width: 100%;
         margin: auto;
-        line-height: 1.5;
-        margin-bottom: 2rem;
+        line-height: 1.7;
+        margin-bottom: 1.2rem;
+        font-size: 15px;
+        color: #444;
       }
-      .dc-solution .dc.products h3:last-child {
+      .dc-solution .dc.products h3:last-child,
+      .dc-solution .dc.products h5:last-child {
         margin-bottom: 0;
       }
       @media (max-width: 850px) {
-        .dc-solution .dc.products h3 {
-          max-width: 80%;
-          margin-bottom: 3rem;
-          text-align: center;
-        }
-      }
-      @media (max-width: 720px) {
-        .dc-solution .dc.products h3 {
-          max-width: 90%;
+        .dc-solution .dc.products h3,
+        .dc-solution .dc.products h5 {
+          margin-bottom: 1.5rem;
         }
       }
       .dc-solution .dc.ip {
@@ -1231,7 +1240,7 @@
             src="https://www.anviz.com/file/files/3238/ta-products.png"
             data-src="https://www.anviz.com/file/files/3238/ta-products.png"
           />
-          <div class="text max-1440">
+          <div class="text max-1440" style="padding-top: 2em;">
             <h5 class="mb-2">
               Security is crucial to any office or facility, every building
               needs a way to keep the space safe, and most organizations also

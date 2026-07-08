@@ -3,6 +3,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
+  <!-- Homepage -->
   <url>
     <loc>https://vemli.co/</loc>
     <lastmod>2026-06-15</lastmod>
@@ -33,13 +34,89 @@
     </image:image>
     <image:image>
       <image:loc>https://vemli.co/assets/menu_page.png</image:loc>
-      <image:caption>Menu Page</image:caption>
+      <image:caption>Menu page</image:caption>
     </image:image>
   </url>
-  <url>
-    <loc>https://vemli.co/integrations.html</loc>
-  </url>
-  <url>
-    <loc>https://vemli.co/how-it-works.html</loc>
-  </url>
+
+  <!-- Core pages -->
+  <url><loc>https://vemli.co/about/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/features/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/pricing/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/hardware/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/marketplace/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/get-started/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/anviz-attendance/</loc><priority>0.7</priority></url>
+
+  <!-- POS verticals -->
+  <url><loc>https://vemli.co/restaurants-pos/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/retail-pos/</loc><priority>0.8</priority></url>
+  <url><loc>https://vemli.co/bar-pos/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/cafe-pos/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/grocery-pos/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/small-business-pos/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/fashion-boutiques-pos/</loc><priority>0.6</priority></url>
+
+  <!-- Features / modules -->
+  <url><loc>https://vemli.co/dashboard/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/back-office/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/advanced-inventory/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/employee-management/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/loyalty-program/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/payment-systems/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/kitchen-display-system/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/customer-display-system/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/multi-store-pos/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/download-loyverse/</loc><priority>0.6</priority></url>
+
+  <!-- Payment integrations -->
+  <url><loc>https://vemli.co/izettle/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/sumup/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/shift4/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/smartpay/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/tyro/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/yoco/</loc><priority>0.5</priority></url>
+
+  <!-- Blog -->
+  <url><loc>https://vemli.co/blog/</loc><priority>0.7</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-manage-a-restaurant/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-improve-restaurant-management/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/traditional-pos-vs-cloud-based-pos/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/what-makes-a-coffee-shop-successful/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-develop-a-convenience-store/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/best-analytic-dashboards-for-small-businesses/</loc><priority>0.6</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-choose-pos-printer/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/everything-you-need-to-know-about-customer-loyalty-programs/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-attract-customers-into-a-grocery-store/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-manage-a-health-and-beauty-store-with-loyverse-pos/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-optimize-the-work-of-retail-store-in-time-of-crisis/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-to-create-and-develop-a-nail-salon-in-ghana-from-scratch-using-online-technology/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/grocerant-the-trend-leading-the-food-market-into-the-future/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/how-cafes-and-restaurants-can-survive-and-develop-in-the-time-of-quarantine/</loc><priority>0.5</priority></url>
+  <url><loc>https://vemli.co/blog/antique-cash-registers-history-review/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/top-global-coffee-events/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/top-influencers-in-the-small-and-medium-business/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-loyalty-software-programs-for-small-to-medium-businesses/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-online-ordering-delivery-services-for-small-and-medium-businesses/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-retail-blogs-for-small-and-medium-businesses/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-scheduling-systems-for-small-and-medium-business/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-software-review-websites-for-small-and-medium-business/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/export-receipts-automatically-to-google-sheets/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/get-email-notification-about-new-shift-report/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/send-loyverse-receipt-customers-pdf/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/send-receipts-to-customers-via-sms-from-pos/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/story-of-kaeme-or-how-to-create-a-new-cosmetics-brand-in-ghana/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/a-visionary-entrepreneur-runs-a-laundry-cafe-with-loyverse/</loc><priority>0.4</priority></url>
+  <url><loc>https://vemli.co/blog/alraj-family-business-history-or-how-to-sell-building-materials-with-loyverse-pos/</loc><priority>0.4</priority></url>
+
+  <!-- Legal / policy -->
+  <url><loc>https://vemli.co/privacy-policy/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/terms-use/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/cookie-policy/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/api-terms/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/data-processing-addendum/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/terms-third-party-integration/</loc><priority>0.3</priority></url>
+  <url><loc>https://vemli.co/vemli-api/</loc><priority>0.4</priority></url>
 </urlset>
