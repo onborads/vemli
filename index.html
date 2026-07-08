@@ -1,1842 +1,1631 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
   <head>
-    <meta charset="UTF-8" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WPQPDXEBV"></script>
-
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1WPQPDXEBV');
-    </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-
-    <!-- Primary Meta -->
-    <title>Vemli POS | Restaurant &amp; Retail Point of Sale System — Ghana</title>
-    <meta name="description" content="Vemli POS is a complete restaurant and retail point of sale system built for Ghanaian businesses. Manage orders, inventory, payments, staff, and get real-time analytics. Trusted by restaurants, bars, hotels, and pharmacies across Ghana." />
-    <meta name="keywords" content="POS system Ghana, restaurant POS Ghana, point of sale Ghana, retail POS, hotel POS, bar POS, inventory management Ghana, order management, payment system Ghana, Accra POS system, Kumasi restaurant software, Vemli POS" />
-    <meta name="author" content="Vemli POS" />
-    <meta name="robots" content="index, follow" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Discover the Power of Vemli POS - A Mobile Point-of-Sale System that Streamlines Sales, Inventory, and Employee Management for Small Businesses."
+    />
     <link rel="canonical" href="https://vemli.co/" />
-
-    <!-- Open Graph / Facebook -->
+    <link rel="icon" href="/public/assets/logo_dark.ico" />
+    <link rel="mask-icon" href="/public/assets/logo_white-nobg.png" />
+    <link rel="icon" sizes="32x32" href="/public/assets/logo_white-nobg.png" />
+    <meta property="og:site_name" content="Vemli" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://vemli.co/" />
-    <meta property="og:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
-    <meta property="og:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights — all in one system." />
-    <meta property="og:image" content="https://vemli.co/logo_white-nobg.png" />
-    <meta property="og:site_name" content="Vemli POS" />
-    <meta property="og:locale" content="en_GH" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://vemli.co/" />
-    <meta name="twitter:title" content="Vemli POS | Restaurant &amp; Retail POS System — Ghana" />
-    <meta name="twitter:description" content="Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights." />
-    <meta name="twitter:image" content="https://vemli.co/logo_white-nobg.png" />
-
-    <!-- Structured Data: Organization -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Vemli POS",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Complete restaurant and retail point of sale system for Ghanaian businesses. Includes order management, inventory tracking, staff performance, real-time analytics, WhatsApp and Slack notifications, and hotel PMS integration.",
-      "url": "https://vemli.co",
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Standard Plan",
-          "price": "299",
-          "priceCurrency": "GHS",
-          "description": "For retail shops and pharmacies. Up to 2 terminals."
-        },
-        {
-          "@type": "Offer",
-          "name": "Hospitality Plan",
-          "price": "400",
-          "priceCurrency": "GHS",
-          "description": "For restaurants, bars, and hotels. Up to 3 terminals."
-        }
-      ],
-      "provider": {
-        "@type": "Organization",
-        "name": "Vemli POS",
-        "url": "https://vemli.co",
-        "telephone": "+233261427273",
-        "email": "info@vemli.co",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "GH"
-        },
-        "sameAs": ["https://vemli.co"]
-      }
-    }
-    </script>
-
-    <!-- Structured Data: FAQPage -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is Vemli POS?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vemli POS is a complete restaurant and retail point of sale system built for Ghanaian businesses. It handles orders, inventory, payments, staff management, and real-time analytics."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Vemli POS work for hotels?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Vemli POS integrates with hotel management systems like Opera and Protel, allowing restaurant charges to be posted directly to a guest's hotel room folio."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does Vemli POS cost in Ghana?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vemli POS offers two plans: the Standard Plan at GH₵299/month for retail shops and pharmacies, and the Hospitality Plan at GH₵400/month for restaurants, bars, and hotels."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does Vemli POS support WhatsApp notifications?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Vemli POS sends order confirmations and payment receipts via WhatsApp, and can deliver daily sales summaries and alerts to your WhatsApp and Slack."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I use Vemli POS for multiple locations?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. The Custom Plan supports multiple branches and unlimited terminals. Contact sales for a tailored quote."
-          }
-        }
-      ]
-    }
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
-      rel="stylesheet"
+    <meta property="og:title" content="Vemli - Easy-to-Use Point of Sale" />
+    <meta property="og:description" content="Discover the Power of Vemli POS" />
+    <meta
+      property="og:image"
+      content="https://vemli.co/sites/all/themes/loyversecom/images/business/small-business/main-small-business-og.webp"
     />
-    
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    <meta property="og:image:alt" content="Vemli POS" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Vemli POS" />
+    <meta
+      name="twitter:description"
+      content="Turn your smartphone or tablet into a powerful POS."
     />
+    <meta name="twitter:site" content="@VemliPOS" />
+    <meta name="twitter:creator" content="@VemliPOS" />
+    <meta
+      name="twitter:image"
+      content="https://vemli.co/sites/all/themes/loyversecom/images/business/small-business/main-small-business-og.webp"
+    />
+    <meta name="twitter:image:alt" content="Vemli POS" />
+    <link rel="alternate" hreflang="x-default" href="https://vemli.co/" />
+    <link rel="alternate" hreflang="en" href="https://vemli.co/" />
+    <link rel="alternate" hreflang="fr" href="https://vemli.co/fr" />
+
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tag Manager -->
+
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-HQQLJ83BKE&amp;cx=c&amp;gtm=4e6711"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.googletagmanager.com/gtag/destination?id=G-HQQLJ83BKE&amp;cx=c&amp;gtm=4e6711"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://widget.intercom.io/widget/re5afjv3"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      async=""
+      src="https://consent.cookiebot.com/0053f5c5-e2d2-4680-ba5e-381807429a56/cc.js?renew=false&amp;referer=loyverse.com&amp;dnt=false&amp;init=false&amp;framework=TCFv2.3"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="https://consent.cookiebot.com/Framework/IAB/consent-sdk-2.3.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://consent.cookiebot.com/uc.js?cbid=0053f5c5-e2d2-4680-ba5e-381807429a56&amp;implementation=gtm&amp;consentmode-dataredaction=dynamic&amp;framework=TCFv2.2"
+      id="Cookiebot"
+    ></script>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtm.js?id=GTM-56X6J48"
+    ></script>
     <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ["Inter", "sans-serif"],
-              display: ["Syne", "sans-serif"],
-            },
-            colors: {
-              brand: {
-                50: "#eef5ff",
-                100: "#d9e8ff",
-                500: "#3b82f6",
-                600: "#2563eb",
-                700: "#1d4ed8",
-                900: "#1e3a8a",
-              },
-              ink: { DEFAULT: "#0a0f1e", soft: "#1e2640", muted: "#64748b" },
-              surface: { DEFAULT: "#ffffff", 2: "#f8fafc", 3: "#f1f5f9" },
-            },
-            backgroundImage: {
-              "grid-pattern":
-                "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e2e8f0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-            },
-          },
-        },
-      };
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-56X6J48");
     </script>
-    <style>
-      * { box-sizing: border-box; }
-      html { scroll-behavior: smooth; }
-      body {
-        font-family: "Inter", sans-serif;
-        background: #0b1020;
-        color: #e7ecf5;
-        overflow-x: hidden;
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-        letter-spacing: -0.011em;
+    <!-- End Google Tag Manager -->
+
+    <title>Free POS Software. Point of Sale System. Vemli POS</title>
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&amp;family=Nunito:wght@700&amp;display=fallback"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&amp;language=en&amp;theme=loyversecom&amp;include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"
+    />
+
+    <meta
+      name="robots"
+      content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <style type="text/css" id="CookieConsentStateDisplayStyles">
+      .cookieconsent-optin,
+      .cookieconsent-optin-preferences,
+      .cookieconsent-optin-statistics,
+      .cookieconsent-optin-marketing {
+        display: block;
+        display: initial;
       }
-      .font-display { font-family: "Syne", sans-serif; letter-spacing: -0.02em; }
-
-      /* ---- Soft, single-hue accents (calmer + cleaner) ---- */
-      .glow { box-shadow: 0 0 80px rgba(59,130,246,0.12); }
-      .glow-sm { box-shadow: 0 0 40px rgba(59,130,246,0.08); }
-
-      .glass {
-        background: rgba(255,255,255,0.035);
-        backdrop-filter: blur(14px);
-        border: 1px solid rgba(255,255,255,0.07);
+      .cookieconsent-optout-preferences,
+      .cookieconsent-optout-statistics,
+      .cookieconsent-optout-marketing,
+      .cookieconsent-optout {
+        display: none;
       }
-      .glass-light {
-        background: rgba(255,255,255,0.98);
-        border: 1px solid rgba(15,23,42,0.06);
-      }
-
-      /* Crisp single-direction blue gradient text */
-      .gradient-text {
-        background: linear-gradient(120deg, #7cb2ff 0%, #4f8cff 45%, #5b6bff 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-
-      /* Calmer hero backgrounds: no dotted noise, one gentle wash */
-      .hero-glow,
-      .hero-gradient {
-        background:
-          radial-gradient(ellipse 60% 45% at 50% 0%, rgba(79,140,255,0.16), transparent 70%),
-          #0b1020;
-      }
-
-      .glass-card {
-        background: rgba(255,255,255,0.035);
-        border: 1px solid rgba(255,255,255,0.07);
-        border-radius: 18px;
-        backdrop-filter: blur(4px);
-        transition: transform .35s cubic-bezier(.2,.8,.3,1), border-color .35s, background .35s, box-shadow .35s;
-      }
-      .glass-card:hover {
-        border-color: rgba(124,178,255,0.45);
-        transform: translateY(-3px);
-        background: rgba(255,255,255,0.055);
-        box-shadow: 0 18px 40px -16px rgba(0,0,0,0.5);
-      }
-
-      .pill-light {
-        background: rgba(255,255,255,0.06);
-        border: 1px solid rgba(255,255,255,0.12);
-        color: #cbd5e1;
-      }
-
-      .floating { animation: floatSoft 6s ease-in-out infinite; }
-      @keyframes floatSoft { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
-      .float { animation: floatSoft 6s ease-in-out infinite; }
-
-      /* Light sections: flat + clean, no dotted texture */
-      .section-light { background: #f7f9fc; color: #0b1020; }
-      .section-gray { background: #eef2f8; color: #0b1020; }
-
-      /* Feature rows: lighter borders, softer shadow, more air */
-      .feature-row {
-        background: #ffffff;
-        border-radius: 22px;
-        padding: 48px;
-        border: 1px solid #eef1f6;
-        box-shadow: 0 1px 2px rgba(15,23,42,0.04);
-        transition: box-shadow .3s, transform .3s, border-color .3s;
-      }
-      .feature-row:hover {
-        box-shadow: 0 24px 60px -28px rgba(37,99,235,0.28);
-        border-color: #e2e8f0;
-        transform: translateY(-3px);
-      }
-      @media (max-width: 767px) { .feature-row { padding: 28px 20px; } }
-
-      .feature-img-wrap {
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 10px 36px rgba(15,23,42,0.10);
-        border: 1px solid #eef1f6;
-        background: #f7f9fc;
-      }
-      .feature-img-wrap img { transition: transform .5s ease; }
-      .feature-row:hover .feature-img-wrap img { transform: scale(1.03); }
-
-      .feature-number {
-        font-family: 'Syne', sans-serif;
-        font-size: 12px; font-weight: 700; letter-spacing: 2px;
-        text-transform: uppercase; color: #4f8cff; opacity: .7; margin-bottom: 12px;
-      }
-      .border-glow { border: 1px solid rgba(79,140,255,0.3); }
-
-      .chat-bubble-in { animation: slideIn .3s ease; }
-      .typing-dot { animation: typingPulse 1.2s ease-in-out infinite; }
-      .typing-dot:nth-child(2) { animation-delay: .2s; }
-      .typing-dot:nth-child(3) { animation-delay: .4s; }
-      @keyframes slideIn { from { opacity:0; transform: translateY(10px);} to { opacity:1; transform: translateY(0);} }
-      @keyframes typingPulse { 0%,60%,100% { transform: translateY(0); opacity:.4;} 30% { transform: translateY(-4px); opacity:1;} }
-
-      @keyframes pulse-ring { 0% { transform: scale(1); opacity:.6;} 100% { transform: scale(1.5); opacity:0;} }
-      .pulse-ring::before {
-        content:""; position:absolute; inset:-6px; border-radius:50%;
-        border:2px solid rgba(79,140,255,0.4); animation: pulse-ring 2s ease-out infinite;
-      }
-      .stat-counter { font-variant-numeric: tabular-nums; }
-
-      .nav-blur {
-        background: rgba(11,16,32,0.72);
-        backdrop-filter: blur(20px);
-        border-bottom: 1px solid rgba(255,255,255,0.06);
-      }
-
-      /* Chat widget */
-      .chat-msg { max-width: 85%; }
-      .msg-ai { background: rgba(79,140,255,0.12); border:1px solid rgba(79,140,255,0.2); border-radius: 4px 16px 16px 16px; }
-      .msg-user { background:#2563eb; border-radius:16px 4px 16px 16px; margin-left:auto; }
-      .chip {
-        background: rgba(79,140,255,0.1); border:1px solid rgba(79,140,255,0.25);
-        border-radius:20px; padding:6px 14px; font-size:12px; color:#9ec3ff;
-        cursor:pointer; white-space:nowrap; transition: all .2s;
-      }
-      .chip:hover { background: rgba(79,140,255,0.25); border-color: rgba(79,140,255,0.5); color:#fff; }
-
-      .pill {
-        display:inline-flex; align-items:center; gap:6px; padding:5px 13px;
-        border-radius:100px; font-size:11px; font-weight:600; letter-spacing:.3px;
-      }
-      .pill-blue { background: rgba(79,140,255,0.14); color:#9ec3ff; border:1px solid rgba(79,140,255,0.25); }
-      .pill-green { background: rgba(52,211,153,0.12); color:#6ee7b7; border:1px solid rgba(52,211,153,0.25); }
-      .pill-purple { background: rgba(167,139,250,0.12); color:#c4b5fd; border:1px solid rgba(167,139,250,0.25); }
-      .pill-amber { background: rgba(251,191,36,0.12); color:#fcd34d; border:1px solid rgba(251,191,36,0.2); }
-
-      .icon-box { width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
-      .icon-blue-box { background: rgba(79,140,255,0.12); border:1px solid rgba(79,140,255,0.2); }
-      .icon-green-box { background: rgba(52,211,153,0.1); border:1px solid rgba(52,211,153,0.2); }
-      .icon-purple-box { background: rgba(167,139,250,0.1); border:1px solid rgba(167,139,250,0.2); }
-      .icon-amber-box { background: rgba(251,191,36,0.1); border:1px solid rgba(251,191,36,0.2); }
-
-      .plan-card { border-radius:20px; padding:36px; position:relative; }
-      .plan-dark { background:#0f1730; border:1px solid rgba(255,255,255,0.08); }
-      .plan-featured {
-        background: linear-gradient(140deg, #1d4ed8 0%, #1b2a72 100%);
-        border:1px solid rgba(124,178,255,0.35);
-        box-shadow: 0 24px 70px -24px rgba(37,99,235,0.45);
-      }
-      .check-item {
-        display:flex; align-items:flex-start; gap:10px; font-size:14px; padding:7px 0;
-        border-bottom:1px solid rgba(255,255,255,0.06); color: rgba(255,255,255,0.82);
-      }
-      .check-item:last-child { border-bottom:none; }
-      .check-icon { color:#34d399; font-size:16px; flex-shrink:0; margin-top:1px; }
-
-      .int-card {
-        border-radius:16px; padding:24px; border:1px solid rgba(255,255,255,0.07);
-        background: rgba(255,255,255,0.03); transition: all .3s;
-      }
-      .int-card:hover { background: rgba(255,255,255,0.06); border-color: rgba(79,140,255,0.3); transform: translateY(-2px); }
-
-      .reveal { opacity:0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
-      .reveal.visible { opacity:1; transform: translateY(0); }
-      .reveal-delay-1 { transition-delay:.1s; }
-      .reveal-delay-2 { transition-delay:.2s; }
-      .reveal-delay-3 { transition-delay:.3s; }
-
-      footer { background:#0a0f1f; color:#cbd5e1; padding:4rem 0 2rem; }
-      footer .container { max-width:1200px; margin:0 auto; padding:0 1.5rem; }
-      .footer-content { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:3rem; margin-bottom:3rem; }
-      .footer-logo {
-        display:flex; align-items:center; margin-bottom:1rem; text-decoration:none;
-        background-image:url("./logo_dark.jpeg"); background-size:contain; background-repeat:no-repeat;
-        background-position:center; width:96px; height:32px;
-      }
-      .footer-links { display:flex; flex-direction:column; gap:.75rem; }
-      .footer-links a { color:#94a3b8; text-decoration:none; transition: color .2s; }
-      .footer-links a:hover { color:#7cb2ff; }
-      .footer-bottom { text-align:center; padding-top:2rem; border-top:1px solid #1e293b; font-size:.9rem; color:#94a3b8; }
     </style>
   </head>
-  <body>
-    <!-- ═══════════════ NAV ═══════════════ -->
-    <nav class="nav-blur fixed top-0 left-0 right-0 z-50">
-      <div
-        class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
+  <body itemscope="" itemtype="https://schema.org/WebPage">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-56X6J48"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
       >
-        <a
-          id="nav-logo"
-          href="#"
-          title="Vemli POS"
-          style="
-            background-image: url(&quot;./logo_white-nobg.png&quot;);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 120px;
-            height: 40px;
-            display: block;
-            transition: filter 0.3s;
-          "
-        ></a>
-        <div class="hidden md:flex items-center gap-8">
-          <a
-            href="#features"
-            class="text-sm text-slate-400 hover:text-white transition-colors"
-            >Features</a
-          >
-          <a
-            href="#ai"
-            class="text-sm text-slate-400 hover:text-white transition-colors"
-            >Business Intelligence</a
-          >
-          <a
-            href="integrations.html"
-            class="text-sm text-slate-400 hover:text-white transition-colors"
-            >Integrations</a
-          >
-          <a
-            href="#pricing"
-            class="text-sm text-slate-400 hover:text-white transition-colors"
-            >Pricing</a
-          >
-          <a
-            href="how-it-works.html"
-            class="text-sm text-slate-400 hover:text-white transition-colors"
-            >How It Works</a
-          >
-        </div>
-        <a
-          href="#contact"
-          class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-all hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-px"
-          >Get Started</a
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="mainwrap">
+      <div class="topmenu mobile">
+        <nav
+          itemscope=""
+          itemtype="https://schema.org/SiteNavigationElement"
+          aria-labelledby="block-topmenu-3-menu"
+          id="block-topmenu-3"
         >
-      </div>
-    </nav>
-
-    <!-- ═══════════════ HERO ═══════════════ -->
-    <section
-      class="hero-glow min-h-screen flex flex-col items-center justify-center pt-28 pb-12 px-5 relative overflow-hidden"
-    >
-      <div class="relative z-10 text-center max-w-4xl mx-auto">
-        <div class="pill pill-blue mx-auto w-fit mb-6">
-          <span class="w-2 h-2 rounded-full bg-blue-400 inline-block mr-2"></span>
-          Trusted by Ghanaian businesses
-        </div>
-        <h1 class="font-display text-5xl sm:text-7xl font-extrabold leading-[1.1] tracking-tight mb-5">
-          Your business,<br /><span class="gradient-text">smarter every day</span>
-        </h1>
-        <p class="text-slate-400 text-base md:text-xl max-w-xl mx-auto mb-9 leading-relaxed">
-          Real-time sales, inventory, AI insights, and seamless payments — built for restaurants, retail, and hotels.
-        </p>
-        <div class="flex flex-wrap justify-center gap-4 mb-12">
-          <a href="#contact" class="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold px-7 py-3.5 rounded-full shadow-lg transition-all flex items-center gap-2">Start free trial
-            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
-          </a>
-          <button onclick="openVideoModal()" class="glass-card px-7 py-3.5 rounded-full text-white font-medium hover:bg-white/5 transition flex items-center gap-2">
-            <i class="fas fa-play-circle text-blue-400"></i> See it in action
-          </button>
-        </div>
-        <div class="flex flex-wrap justify-center gap-2">
-          <span class="pill pill-light"><i class="fas fa-utensils text-amber-400 mr-1"></i> Restaurants</span>
-          <span class="pill pill-light"><i class="fas fa-wine-glass-alt text-purple-400"></i> Bars</span>
-          <span class="pill pill-light"><i class="fas fa-store text-emerald-400"></i> Retail</span>
-          <span class="pill pill-light"><i class="fas fa-hotel text-amber-300"></i> Hotels</span>
-          <span class="pill pill-light"><i class="fas fa-capsules text-sky-400"></i> Pharmacies</span>
-        </div>
-      </div>
-
-      <!-- Modern dashboard mockup -->
-      <div class="relative z-10 w-full max-w-5xl mx-auto mt-14 floating px-2">
-        <div class="glass-card rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-          <div class="bg-white/5 px-5 py-3 flex items-center gap-2 border-b border-white/10">
-            <div class="w-3 h-3 rounded-full bg-red-500/70"></div>
-            <div class="w-3 h-3 rounded-full bg-yellow-500/70"></div>
-            <div class="w-3 h-3 rounded-full bg-green-500/70"></div>
-            <div class="flex-1 text-center text-xs text-slate-400 font-mono">app.vemli.co/dashboard</div>
-            <div class="text-emerald-400 text-xs"><i class="fas fa-circle text-[8px]"></i> Live</div>
-          </div>
-          <div class="p-5">
-            <div class="flex flex-wrap justify-between items-center mb-5">
-<p id="greeting" class="text-white text-sm font-semibold">
-    <i id="greeting-icon" class="mr-2"></i>
-    <span id="greeting-text"></span>, Akua
-</p>
-
-            <script>
-                const hour = new Date().getHours();
-
-                let greeting = "";
-                let iconClass = "";
-
-                if (hour < 12) {
-                    greeting = "Good morning";
-                    iconClass = "far fa-sun text-yellow-400";
-                } else if (hour < 18) {
-                    greeting = "Good afternoon";
-                    iconClass = "far fa-sun text-yellow-400";
-                } else {
-                    greeting = "Good evening";
-                    iconClass = "far fa-moon text-blue-300";
-                }
-
-                document.getElementById("greeting-text").textContent = greeting;
-                document.getElementById("greeting-icon").className = `${iconClass} mr-2`;
-            </script>              <span class="text-emerald-400 text-xs bg-emerald-400/10 px-3 py-1 rounded-full">All systems operational</span>
-                        </div>
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Today's revenue</p>
-                <p class="text-white text-2xl font-bold">GH₵4,820</p>
-                <p class="text-emerald-400 text-xs"><i class="fas fa-arrow-up"></i> +12%</p>
-              </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Orders</p>
-                <p class="text-white text-2xl font-bold">138</p>
-                <p class="text-emerald-400 text-xs"><i class="fas fa-arrow-up"></i> +8</p>
-              </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Avg. value</p>
-                <p class="text-white text-2xl font-bold">₵34.9</p>
-                <p class="text-rose-400 text-xs"><i class="fas fa-arrow-down"></i> 2%</p>
-              </div>
-              <div class="glass-card p-3 rounded-xl">
-                <p class="text-slate-400 text-xs">Top item</p>
-                <p class="text-white font-bold text-lg">Jollof Rice</p>
-                <p class="text-blue-400 text-xs">48 sold</p>
-              </div>
-            </div>
-            <div class="glass-card p-4 rounded-xl">
-              <p class="text-slate-400 text-xs mb-3">Hourly sales trend</p>
-              <div class="flex items-end gap-1 h-16">
-                <div class="flex-1 bg-blue-600/30 rounded-sm" style="height: 30%"></div>
-                <div class="flex-1 bg-blue-600/40 rounded-sm" style="height: 50%"></div>
-                <div class="flex-1 bg-blue-600/70 rounded-sm" style="height: 85%"></div>
-                <div class="flex-1 bg-blue-600/80 rounded-sm" style="height: 100%"></div>
-                <div class="flex-1 bg-blue-600/70 rounded-sm" style="height: 80%"></div>
-                <div class="flex-1 bg-blue-600/50 rounded-sm" style="height: 60%"></div>
-                <div class="flex-1 bg-blue-500 rounded-sm" style="height: 95%"></div>
-                <div class="flex-1 bg-blue-600/40 rounded-sm" style="height: 40%"></div>
-              </div>
-              <div class="flex justify-between text-[10px] text-slate-500 mt-2">
-                <span>10am</span><span>12pm</span><span>2pm</span><span>4pm</span><span>6pm</span><span>8pm</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-        <!-- ═══════════════ STATS BAND ═══════════════ -->
-    <div class="border-y border-white/6 bg-white/2">
-      <div
-        class="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
-      >
-        <div class="reveal">
-          <p class="font-display text-4xl font-bold text-white mb-1">
-            5<span class="text-blue-400">+</span>
-          </p>
-          <p class="text-slate-500 text-sm">Businesses served</p>
-        </div>
-        <div class="reveal reveal-delay-1">
-          <p class="font-display text-4xl font-bold text-white mb-1">
-            GH¢6000<span class="text-blue-400">+</span>
-          </p>
-          <p class="text-slate-500 text-sm">Transactions daily</p>
-        </div>
-        <div class="reveal reveal-delay-2">
-          <p class="font-display text-4xl font-bold text-white mb-1">
-            99<span class="text-blue-400">%</span>
-          </p>
-          <p class="text-slate-500 text-sm">System uptime</p>
-        </div>
-        <div class="reveal reveal-delay-3">
-          <p class="font-display text-4xl font-bold text-white mb-1">
-            24<span class="text-blue-400">/7</span>
-          </p>
-          <p class="text-slate-500 text-sm">Local support team</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- ═══════════════ FEATURES ═══════════════ -->
-    <section class="section-light py-28 px-6" id="features">
-      <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-20 reveal">
-          <span class="pill pill-blue mb-4 mx-auto w-fit" style="background:rgba(37,99,235,0.1);color:#2563eb;border-color:rgba(37,99,235,0.2);">✦ Features</span>
-          <h2 class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4">Everything your business needs</h2>
-          <p class="text-slate-500 text-lg max-w-lg mx-auto">From the counter to the back office — connected, live, and effortless.</p>
-        </div>
-
-        <div class="space-y-8">
-
-          <!-- Row 1 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/pos_screen.jpg" alt="Vemli POS Order Screen" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">01 — Orders</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Order & Table Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Dine-in, takeaway, delivery. Split, Merge orders, KOT, serving periods, combos, Extras and modifiers — all from one intuitive screen.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Split bills</span>
-                                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Merge bills</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Table management</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-100">Modifiers</span>
-              </div>
-            </div>
+          <div class="visually-hidden" id="block-topmenu-3-menu">
+            Point of Sale
           </div>
 
-          <!-- Row 2 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/Report dashboard.png" alt="Vemli Real-Time Analytics Dashboard" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">02 — Analytics</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Real-Time Analytics</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Live revenue, hourly breakdowns, payment methods, and item-level sales the moment a transaction happens.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Live revenue</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Hourly charts</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Item-level sales</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-blue-50 text-blue-700 border border-blue-100">Business Insights </span>
-
-
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 3 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/Inventory Management.png" alt="Vemli Inventory Management" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">03 — Inventory</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Inventory Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Track stock levels, get low-stock alerts, manage batch costs, and auto-generate opening/closing stock reports.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Low-stock alerts</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Batch costing</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Stock reports</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 4 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/Closing Stock Report.png" alt="Vemli Closing Stock Report" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">04 — Reports</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Reports & End-of-Day</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">VAT reports, profit margin analysis, end-of-day summaries, and cash drawer reconciliation — all automated.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">VAT reports</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">Profit margins</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-100">Cash reconciliation</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 5 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="feature-img-wrap">
-              <img src="./assets/kot_screen.png" alt="Vemli Kitchen Order Ticket Screen" class="w-full block" />
-            </div>
-            <div class="text-center md:text-left">
-              <p class="feature-number">05 — Kitchen</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Kitchen Display & Multi-Payment</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Kitchen tickets fire instantly to the KOT screen. Cash, mobile money, card, and split payments — every method logged with a full audit trail.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">KOT printing</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">Mobile money</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-purple-50 text-purple-700 border border-purple-100">Split payments</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 6 -->
-          <div class="reveal feature-row grid md:grid-cols-2 gap-10 items-center">
-            <div class="md:order-2 feature-img-wrap">
-              <img src="./assets/multistore.png" alt="Vemli Multi-Location Management" class="w-full block" />
-            </div>
-            <div class="md:order-1 text-center md:text-left">
-              <p class="feature-number">06 — Multi-location</p>
-              <h3 class="font-display text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">Multi-Location Management</h3>
-              <p class="text-slate-500 leading-relaxed mb-5">Run multiple branches from one account. Compare performance across locations, manage menus centrally, and get a consolidated view of your entire business.</p>
-              <div class="flex flex-wrap gap-2 justify-center md:justify-start">
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Multi-branch</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Central menu</span>
-                <span class="text-xs font-medium px-3 py-1 rounded-full bg-yellow-50 text-yellow-700 border border-yellow-100">Consolidated view</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ═══════════════ AI BUSINESS INTELLIGENCE ═══════════════ -->
-    <section class="py-28 px-6 bg-[#080d1a] relative overflow-hidden" id="ai">
-      <!-- Report dashboard as background hero image -->
-      <div class="absolute inset-0 pointer-events-none">
-        <img
-          src="./assets/Report dashboard.png"
-          alt=""
-          aria-hidden="true"
-          class="w-full h-full object-cover object-top opacity-10"
-          style="mix-blend-mode: luminosity;"
-        />
-        <div class="absolute inset-0" style="background: linear-gradient(to right, #080d1a 40%, rgba(8,13,26,0.6) 70%, #080d1a 100%);"></div>
-      </div>
-      <div
-        class="absolute inset-0 pointer-events-none"
-        style="background: radial-gradient(ellipse 60% 50% at 70% 50%, rgba(59,130,246,0.07) 0%, transparent 70%);"
-      ></div>
-
-      <div class="max-w-6xl mx-auto relative z-10">
-        <div class="grid md:grid-cols-2 gap-16 items-center">
-          <!-- Left: text -->
-          <div class="reveal">
-            <span class="pill pill-purple mb-5 w-fit"></span>
-              Business Intelligence</span
-            >
-            <h2
-              class="font-display text-4xl md:text-5xl font-extrabold text-white leading-tight mb-5"
-            >
-              Ask your business<br />anything. Instantly.
-            </h2>
-            <p class="text-slate-400 text-lg leading-relaxed mb-8">
-              Vemli understands your sales data so you don't have to dig through
-              reports. Just ask a question — in plain language — and get a
-              clear, instant answer about your business.
-            </p>
-            <div class="space-y-4">
-              <div class="flex items-start gap-3">
-                <div class="icon-box icon-purple-box mt-0.5 text-base">💬</div>
-                <div>
-                  <p class="text-white font-medium text-sm">
-                    Natural language queries
-                  </p>
-                  <p class="text-slate-500 text-sm mt-0.5">
-                    Ask exactly how you'd ask a manager — no dashboards or
-                    filters needed.
-                  </p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3">
-                <div class="icon-box icon-blue-box mt-0.5 text-base">⚡</div>
-                <div>
-                  <p class="text-white font-medium text-sm">
-                    Answers from your live data
-                  </p>
-                  <p class="text-slate-500 text-sm mt-0.5">
-                    Every answer is pulled directly from your real-time sales,
-                    inventory, and staff data.
-                  </p>
-                </div>
-              </div>
-              <div class="flex items-start gap-3">
-                <div class="icon-box icon-green-box mt-0.5 text-base">📲</div>
-                <div>
-                  <p class="text-white font-medium text-sm">
-                    Ask from anywhere
-                  </p>
-                  <p class="text-slate-500 text-sm mt-0.5">
-                    Access the business data from the dashboard or via WhatsApp
-                    and Slack — even when you're away.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Right: chat widget -->
-          <div class="reveal reveal-delay-1">
-            <div
-              class="glass rounded-2xl overflow-hidden border border-white/10 shadow-2xl"
-              style="max-width: 440px; margin: 0 auto"
-            >
-              <!-- Chat header -->
-              <div
-                class="bg-white/5 border-b border-white/8 px-5 py-4 flex items-center gap-3"
+          <ul class="lmenu">
+            <li>
+              <a href="/features" data-drupal-link-system-path="node/10"
+                >Features</a
               >
-                <div
-                  class="relative w-9 h-9 rounded-full bg-blue-600 flex items-center justify-center text-sm pulse-ring"
-                >
-                  🤖
-                </div>
-                <div>
-                  <p class="text-white text-sm font-semibold">
-                    Vemli Business Assistant
-                  </p>
-                  <p class="text-emerald-400 text-xs">
-                    ● Live — connected to your data
-                  </p>
-                </div>
-              </div>
+            </li>
+            <li>
+              <a href="/hardware" data-drupal-link-system-path="node/9"
+                >Hardware</a
+              >
+            </li>
+            <li>
+              <a href="/pricing" data-drupal-link-system-path="node/8"
+                >Pricing</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-              <!-- Messages -->
-              <div class="p-4 space-y-4 min-h-[280px]" id="chat-messages">
-                <!-- AI opening -->
-                <div class="chat-msg">
-                  <div
-                    class="msg-ai text-white text-sm px-4 py-3 leading-relaxed"
-                  >
-                    Hi Kwame 👋 I'm connected to your live sales data. Ask me
-                    anything about your business.
-                  </div>
-                  <p class="text-slate-600 text-xs mt-1 pl-1">
-                    Vemli AI · just now
-                  </p>
-                </div>
-              </div>
+        <!-- <div id="block-appmarketplace-2" class="a_mp_mob">
+          <div><a href="/marketplace">App Marketplace</a></div>
+        </div> -->
 
-              <!-- Quick question chips -->
-              <div class="px-4 pb-3">
-                <p class="text-slate-600 text-xs mb-2">Try asking:</p>
-                <div class="flex flex-wrap gap-2" id="chat-chips">
-                  <button
-                    class="chip"
-                    onclick="
-                      askQuestion(this, 'What are my top selling items today?')
-                    "
-                  >
-                    Top items today
-                  </button>
-                  <button
-                    class="chip"
-                    onclick="askQuestion(this, 'Which days are my busiest?')"
-                  >
-                    Busiest days
-                  </button>
-                  <button
-                    class="chip"
-                    onclick="
-                      askQuestion(this, 'How is my staff performing this week?')
-                    "
-                  >
-                    Staff performance
-                  </button>
-                  <button
-                    class="chip"
-                    onclick="
-                      askQuestion(this, 'What time do I make the most sales?')
-                    "
-                  >
-                    Peak sales hours
-                  </button>
-                </div>
-              </div>
-
-              <!-- Input -->
-              <div class="px-4 pb-4">
-                <div class="flex gap-2">
-                  <input
-                    id="chat-input"
-                    type="text"
-                    placeholder="Ask about your business…"
-                    class="flex-1 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-600 focus:outline-none focus:border-blue-500/50 transition-colors"
-                    onkeydown="if (event.key === 'Enter') sendChat();"
-                  />
-                  <button
-                    onclick="sendChat()"
-                    class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2.5 rounded-xl transition-colors text-sm font-medium"
-                  >
-                    <svg
-                      class="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
+        <div id="block-help-3">
+          <div>
+            <div><a class="help" href="https://help.vemli.co">Help</a></div>
           </div>
         </div>
-      </div>
-    </section>
+        <nav
+          itemscope=""
+          itemtype="https://schema.org/SiteNavigationElement"
+          aria-labelledby="block-product-top-menu"
+          id="block-product-top"
+        >
+          <div id="block-product-top-menu">Products</div>
 
-    <!-- ═══════════════ INTEGRATIONS ═══════════════ -->
-    <section class="section-gray py-28 px-6" id="integrations">
-      <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-16 reveal">
-          <span class="pill mb-4 mx-auto w-fit" style="background:rgba(37,99,235,0.08);color:#2563eb;border-color:rgba(37,99,235,0.15);">Integrations</span>
-          <h2 class="font-display text-4xl font-extrabold text-slate-900 mt-4 mb-4">Stay informed, wherever you are</h2>
-          <p class="text-slate-500 text-lg max-w-md mx-auto">Get your business updates delivered to the tools your team already uses.</p>
-        </div>
+          <ul class="lmenu">
+            <li>
+              <a
+                href="/download-loyverse"
+                data-drupal-link-system-path="node/46"
+                >Vemli POS</a
+              >
+            </li>
+            <li>
+              <a href="/back-office" data-drupal-link-system-path="node/11"
+                >Back Office</a
+              >
+            </li>
+            <li>
+              <a href="/dashboard" data-drupal-link-system-path="node/12"
+                >Dashboard</a
+              >
+            </li>
+            <li>
+              <a
+                href="/kitchen-display-system"
+                data-drupal-link-system-path="node/13"
+                >Kitchen Display</a
+              >
+            </li>
+            <li>
+              <a
+                href="/customer-display-system"
+                data-drupal-link-system-path="node/14"
+                >Customer Display</a
+              >
+            </li>
+            <li>
+              <a
+                href="/employee-management"
+                data-drupal-link-system-path="node/17"
+                >Employee Management</a
+              >
+            </li>
+            <li>
+              <a href="/multi-store-pos" data-drupal-link-system-path="node/56"
+                >Multi-Store Management</a
+              >
+            </li>
+            <li>
+              <a
+                href="/advanced-inventory"
+                data-drupal-link-system-path="node/15"
+                >Inventory Management</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-        <div class="grid md:grid-cols-2 gap-6">
-          <!-- WhatsApp -->
-          <div class="reveal bg-white rounded-2xl p-8 border border-slate-100 hover:border-green-200 hover:shadow-lg transition-all">
-            <div class="flex items-start gap-5">
-              <div class="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0" style="background:linear-gradient(135deg,#25d366,#128c7e)">
-                <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-slate-900 text-lg mb-3">WhatsApp</h3>
-                <ul class="space-y-1.5">
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-emerald-500">✓</span> Daily revenue summary & alerts</li>
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-emerald-500">✓</span> Ask business questions via chat</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slack -->
-          <div class="reveal reveal-delay-1 bg-white rounded-2xl p-8 border border-slate-100 hover:border-purple-200 hover:shadow-lg transition-all">
-            <div class="flex items-start gap-5">
-              <div class="w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 bg-[#4A154B]">
-                <svg viewBox="0 0 24 24" class="w-7 h-7" fill="none"><path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z" fill="white"/></svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-slate-900 text-lg mb-3">Slack</h3>
-                <ul class="space-y-1.5">
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-purple-500">✓</span> Real-time sales alerts to channels</li>
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-purple-500">✓</span> Shift & daily summaries for your team</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- Hotel PMS -->
-          <div class="reveal bg-white rounded-2xl p-8 border border-slate-100 hover:border-amber-200 hover:shadow-lg transition-all">
-            <div class="flex items-start gap-5">
-              <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style="background:linear-gradient(135deg,#b45309,#78350f);">🏨</div>
-              <div>
-                <h3 class="font-semibold text-slate-900 text-lg mb-3">Hotel Management Systems</h3>
-                <ul class="space-y-1.5">
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Post restaurant bills to guest rooms</li>
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-amber-500">✓</span> Works with Opera, Protel & more</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- AI Clients -->
-          <div class="reveal reveal-delay-1 bg-white rounded-2xl p-8 border border-slate-100 hover:border-violet-200 hover:shadow-lg transition-all">
-            <div class="flex items-start gap-5">
-              <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0" style="background:linear-gradient(135deg,#6d28d9,#4c1d95);">🤖</div>
-              <div>
-                <h3 class="font-semibold text-slate-900 text-lg mb-3">AI Assistant Clients</h3>
-                <ul class="space-y-1.5">
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> Works with Claude Desktop & any MCP-compatible client</li>
-                  <li class="flex items-center gap-2 text-sm text-slate-600"><span class="text-violet-500">✓</span> 40+ live business data tools exposed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!-- View More -->
-          <div class="reveal reveal-delay-2 bg-white/50 rounded-2xl p-8 border border-white/20 text-center flex flex-col items-center justify-center gap-3">
-            <div class="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl bg-white/20 text-slate-400">🔗</div>
-            <p class="text-slate-500 text-sm">QuickBooks, Sage 300, REST API & more</p>
-            <a href="/integrations.html" class="text-violet-600 hover:text-violet-700 font-medium text-sm">View all integrations →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ═══════════════ PRICING ═══════════════ -->
-<section class="py-28 px-6 bg-[#080d1a]" id="pricing">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-10 reveal">
-      <span class="pill pill-blue mb-4 mx-auto w-fit">Pricing</span>
-      <h2 class="font-display text-4xl md:text-5xl font-extrabold text-white mt-4 mb-4">Simple, honest pricing.</h2>
-      <p class="text-slate-400 text-lg max-w-md mx-auto">Pick your business type. Everything is included. No hidden fees, no per-transaction cuts.</p>
-
-      <!-- Billing toggle -->
-      <div class="flex items-center justify-center gap-3 mt-8">
-        <span id="label-monthly" class="text-sm font-medium text-white">Monthly</span>
-        <button id="billing-toggle" onclick="toggleBilling()"
-          class="relative w-12 h-6 rounded-full transition-colors duration-300 bg-blue-600 focus:outline-none">
-          <span id="toggle-knob" class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300"></span>
-        </button>
-        <span id="label-annual" class="text-sm font-medium text-slate-400">
-          Annual <span class="text-emerald-400 font-semibold text-xs ml-1">2 months free</span>
-        </span>
-      </div>
-    </div>
-
-    <div class="flex md:grid md:grid-cols-4 gap-6 max-w-6xl mx-auto overflow-x-auto pb-4 md:overflow-visible snap-x snap-mandatory md:snap-none">
-      <!-- Starter Plan -->
-      <div class="plan-card plan-dark reveal snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
-        <div class="mt-4 mb-1">
-          <p class="text-slate-400 text-sm font-medium mb-1">Starter Plan</p>
-          <div class="flex items-end gap-1 mb-0.5">
-            <span class="text-slate-500 text-xl font-light self-start mt-2">GH¢</span>
-            <span class="font-display text-6xl font-extrabold text-white leading-none" id="price-starter">149</span>
-          </div>
-          <p class="text-slate-500 text-sm" id="period-starter">per month · 1 terminal</p>
-        </div>
-        <div class="flex flex-wrap gap-1.5 my-5">
-          <span class="pill pill-light text-xs">🛍️ Small Shops</span>
-             <span class="pill pill-light text-xs">🛍️ Retail Shops</span>
-          <span class="pill pill-light text-xs">💊 Pharmacies</span>
-        </div>
-        <div class="space-y-0 mb-2">
-          <div class="check-item"><span class="check-icon">✓</span> Fast counter checkout</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product / barcode search</div>
-          <div class="check-item"><span class="check-icon">✓</span> Cash & MoMo payments</div>
-          <div class="check-item"><span class="check-icon">✓</span> Inventory & stock tracking</div>
-        </div>
-        <div class="space-y-0 hidden" id="more-starter">
-          <div class="check-item"><span class="check-icon">✓</span> Low stock alerts</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product families & categories</div>
-          <div class="check-item"><span class="check-icon">✓</span> VAT & end-of-day reports</div>
-          <div class="check-item text-slate-600"><span>✗</span> Expiry alerts</div>
-          <div class="check-item text-slate-600"><span>✗</span> Staff performance</div>
-          <div class="check-item text-slate-600"><span>✗</span> WhatsApp & Slack</div>
-          <div class="check-item text-slate-600" style="border-bottom:none"><span>✗</span> AI assistant</div>
-        </div>
-        <button onclick="toggleMore('starter')" id="btn-starter" class="text-xs text-blue-400 hover:text-blue-300 mt-2 mb-5 block">+ View more</button>
-        <a href="#contact" class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all">Get Started</a>
-      </div>
-
-
-      <!-- Standard Plan -->
-      <div class="plan-card plan-dark reveal reveal-delay-1 snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
-        <div class="mt-4 mb-1">
-          <p class="text-slate-400 text-sm font-medium mb-1">Standard Plan</p>
-          <div class="flex items-end gap-1 mb-0.5">
-            <span class="text-slate-500 text-xl font-light self-start mt-2">GH¢</span>
-            <span class="font-display text-6xl font-extrabold text-white leading-none" id="price-std">349</span>
-          </div>
-          <p class="text-slate-500 text-sm" id="period-std">per month · up to 2 terminals</p>
-        </div>
-        <div class="flex flex-wrap gap-1.5 my-5">
-          <span class="pill pill-light text-xs">🛍️ Retail Shops</span>
-          <span class="pill pill-light text-xs">💊 Pharmacies</span>
-        </div>
-        <div class="space-y-0 mb-2">
-          <div class="check-item"><span class="check-icon">✓</span> Fast counter checkout</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product / barcode search</div>
-          <div class="check-item"><span class="check-icon">✓</span> Cash, MoMo & card payments</div>
-          <div class="check-item"><span class="check-icon">✓</span> Inventory & stock tracking</div>
-        </div>
-        <div class="space-y-0 hidden" id="more-std">
-          <div class="check-item"><span class="check-icon">✓</span> Low stock & expiry alerts</div>
-          <div class="check-item"><span class="check-icon">✓</span> Opening & closing stock reports</div>
-          <div class="check-item"><span class="check-icon">✓</span> Product families & categories</div>
-          <div class="check-item"><span class="check-icon">✓</span> Staff sales performance</div>
-          <div class="check-item"><span class="check-icon">✓</span> VAT & end-of-day reports</div>
-          <div class="check-item"><span class="check-icon">✓</span> WhatsApp & Slack notifications</div>
-          <div class="check-item" style="border-bottom:none"><span class="check-icon">✓</span> AI business intelligence assistant</div>
-        </div>
-        <button onclick="toggleMore('std')" id="btn-std" class="text-xs text-blue-400 hover:text-blue-300 mt-2 mb-5 block">+ View more</button>
-        <a href="#contact" class="block bg-white/8 hover:bg-white/15 border border-white/10 text-white font-semibold text-center py-3.5 rounded-xl transition-all">Get Started</a>
-      </div>
-
-
-
-      <!-- Hospitality Plan -->
-      <div class="plan-card plan-featured reveal snap-center shrink-0 md:shrink w-[80vw] md:w-auto">
-        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2">
-          <span class="bg-blue-400 text-blue-900 text-xs font-bold px-4 py-1.5 rounded-full whitespace-nowrap">🍽️ Restaurants, Bars & Hotels</span>
-        </div>
-        <div class="mt-4 mb-1">
-          <p class="text-blue-200 text-sm font-medium mb-1">Hospitality Plan</p>
-          <div class="flex items-end gap-1 mb-0.5">
-            <span class="text-white/60 text-xl font-light self-start mt-2">GH¢</span>
-            <span class="font-display text-6xl font-extrabold text-white leading-none" id="price-hosp">599</span>
-          </div>
-          <p class="text-blue-300 text-sm" id="period-hosp">per month · up to 3 terminals</p>
-        </div>
-        <div class="flex flex-wrap gap-1.5 my-5">
-          <span class="pill text-xs" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.8);border-color:rgba(255,255,255,0.15);">🍽️ Restaurants</span>
-          <span class="pill text-xs" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.8);border-color:rgba(255,255,255,0.15);">🍺 Bars & Lounges</span>
-          <span class="pill text-xs" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.8);border-color:rgba(255,255,255,0.15);">🏨 Hotels</span>
-          <span class="pill text-xs" style="background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.8);border-color:rgba(255,255,255,0.15);">🥡 Quick Service</span>
-        </div>
-        <div class="space-y-0 mb-2">
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Table & order management</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> <strong>Split bills</strong> per table / customer</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Combos, sides & modifiers</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Kitchen order printing (KOT)</div>
-        </div>
-        <div class="space-y-0 hidden" id="more-hosp">
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Serving periods (Breakfast / Lunch / Dinner)</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Revenue centre tracking</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> Staff performance & attendance</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> VAT, end-of-day & analytics reports</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> WhatsApp & Slack notifications</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1)"><span class="check-icon">✓</span> AI business intelligence assistant</div>
-          <div class="check-item" style="border-color:rgba(255,255,255,0.1);border-bottom:none"><span class="check-icon">✓</span> Priority support</div>
-        </div>
-        <button onclick="toggleMore('hosp')" id="btn-hosp" class="text-xs text-blue-200 hover:text-white mt-2 mb-5 block">+ View more</button>
-        <a href="#contact" class="block bg-white hover:bg-blue-50 text-blue-700 font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg">Get Started</a>
-      </div>
-
-      <!-- Custom Plan -->
-      <div class="plan-card plan-dark reveal reveal-delay-1 snap-center shrink-0 md:shrink w-[80vw] md:w-auto" style="display:flex;flex-direction:column;justify-content:space-between;">
-        <div>
-          <div class="mt-4 mb-1 mt-2">
-            <p class="text-slate-400 text-sm font-medium relative -top-2">Custom Plan / One-off Payment</p>
-            <div class="flex items-end gap-1 mb-0.5 -ml-2">
-              <span class="font-display text-4xl font-extrabold text-white leading-none">Contact Sales</span>
-            </div>
-            <p class="text-slate-500 text-sm">tailored to your needs</p>
-          </div>
-          <div class="flex flex-wrap gap-1.5 my-5">
-            <span class="pill pill-light text-xs">🏢 Multi-location</span>
-            <span class="pill pill-light text-xs">🔗 API Access</span>
-          </div>
-          <div class="space-y-0 mb-2">
-            <div class="check-item"><span class="check-icon">✓</span> Everything in both plans</div>
-            <div class="check-item"><span class="check-icon">✓</span> Multiple locations / branches</div>
-            <div class="check-item"><span class="check-icon">✓</span> Unlimited terminals</div>
-            <div class="check-item"><span class="check-icon">✓</span> Custom integrations & API access</div>
-          </div>
-          <div class="space-y-0 hidden" id="more-custom">
-            <div class="check-item"><span class="check-icon">✓</span> Dedicated account manager</div>
-            <div class="check-item"><span class="check-icon">✓</span> Custom onboarding & training</div>
-            <div class="check-item" style="border-bottom:none"><span class="check-icon">✓</span> Priority SLA & support</div>
-          </div>
-          <button onclick="toggleMore('custom')" id="btn-custom" class="text-xs text-blue-400 hover:text-blue-300 mt-2 mb-5 block">+ View more</button>
-        </div>
-        <button onclick="openContactModal('Custom Enterprise Plan')"
-          class="w-full bg-amber-500 hover:bg-amber-400 text-black font-semibold text-center py-3.5 rounded-xl transition-all hover:shadow-lg hover:shadow-amber-500/25 flex items-center justify-center gap-2">
-          <i class="fas fa-phone text-sm"></i> Contact Sales
-        </button>
-      </div>
-      
-    </div>
-
-    <!-- Why diff note -->
-   <div class="glass rounded-2xl px-6 py-5 flex items-start gap-3 reveal">
-      <span class="text-lg mt-0.5">💡</span>
-      <p class="text-slate-400 text-sm leading-relaxed">
-        <span class="text-white font-medium">Why the price difference?</span>
-        The Hospitality Plan includes table management, split billing, kitchen order printing, combos, serving period analytics, and hotel PMS support — features built exclusively for food & drink service. A restaurant doing GH¢5,000/day in revenue spends more than GH¢599 on ingredients alone. The Standard Plan is purpose-built for fast counter sales at retail shops and pharmacies.
-      </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script>
-  function toggleMore(id) {
-    var el = document.getElementById('more-' + id);
-    var btn = document.getElementById('btn-' + id);
-    var hidden = el.classList.contains('hidden');
-    el.classList.toggle('hidden', !hidden);
-    btn.textContent = hidden ? '− View less' : '+ View more';
-  }
-
-  var isAnnual = true;
-  function toggleBilling() {
-    isAnnual = !isAnnual;
-    var knob = document.getElementById('toggle-knob');
-    var labelAnnual = document.getElementById('label-annual');
-    var labelMonthly = document.getElementById('label-monthly');
-    knob.style.transform = isAnnual ? 'translateX(24px)' : 'translateX(0)';
-    labelMonthly.className = 'text-sm font-medium ' + (isAnnual ? 'text-slate-400' : 'text-white');
-    labelAnnual.className = 'text-sm font-medium ' + (isAnnual ? 'text-white' : 'text-slate-400');
-    setPrices(isAnnual);
-  }
-  document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('toggle-knob').style.transform = 'translateX(24px)';
-    document.getElementById('label-monthly').className = 'text-sm font-medium text-slate-400';
-    document.getElementById('label-annual').className = 'text-sm font-medium text-white';
-    setPrices(true);
-  });
-
-  function setPrices(annual) {
-    var priceEls = ['price-starter', 'price-hosp', 'price-std'];
-    priceEls.forEach(function(id) {
-      document.getElementById(id).className = annual
-        ? 'font-display text-4xl font-extrabold text-white leading-none'
-        : 'font-display text-5xl font-extrabold text-white leading-none';
-    });
-    if (annual) {
-      document.getElementById('price-starter').textContent = '1,368';
-      document.getElementById('period-starter').textContent = 'per year · save GH¢420 · 1 terminal';
-      document.getElementById('price-hosp').textContent = '5,491';
-      document.getElementById('period-hosp').textContent = 'per year · save GH¢1,697 · up to 3 terminals';
-      document.getElementById('price-std').textContent = '3,207';
-      document.getElementById('period-std').textContent = 'per year · save GH¢981 · up to 2 terminals';
-    } else {
-      document.getElementById('price-starter').textContent = '149';
-      document.getElementById('period-starter').textContent = 'per month · 1 terminal';
-      document.getElementById('price-hosp').textContent = '599';
-      document.getElementById('period-hosp').textContent = 'per month · up to 3 terminals';
-      document.getElementById('price-std').textContent = '349';
-      document.getElementById('period-std').textContent = 'per month · up to 2 terminals';
-    }
-  }
-</script>
-    <!-- ═══════════════ CONTACT ═══════════════ -->
-    <section class="py-28 px-6 bg-white" id="contact">
-      <div class="max-w-4xl mx-auto text-center">
-        <div class="reveal">
-          <span
-            class="pill mb-5 mx-auto w-fit"
-            style="
-              background: rgba(37, 99, 235, 0.08);
-              color: #2563eb;
-              border-color: rgba(37, 99, 235, 0.15);
-            "
-          >
-            Get in touch</span
-          >
-          <h2
-            class="font-display text-4xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-4"
-          >
-            Ready to grow your business?
-          </h2>
-          <p class="text-slate-500 text-lg max-w-md mx-auto mb-12">
-            Our team is based right here in Ghana. We'll have you set up and
-            live in no time.
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-5 mb-12">
-          <a
-            href="tel:0240699506"
-            class="reveal group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
-            >
-              📞
-            </div>
-            <p
-              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
-            >
-              Call us
-            </p>
-            <p class="text-slate-800 font-semibold">0240 699 506</p>
-          </a>
-          <a
-            href="mailto:info@vemli.co"
-            class="reveal reveal-delay-1 group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
-            >
-              ✉️
-            </div>
-            <p
-              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
-            >
-              Email us
-            </p>
-            <p class="text-slate-800 font-semibold">info@vemli.co</p>
-          </a>
-          <a
-            href="http://vemli.co/"
-            class="reveal reveal-delay-2 group bg-slate-50 hover:bg-blue-50 border border-slate-100 hover:border-blue-200 rounded-2xl p-6 text-center transition-all"
-          >
-            <div
-              class="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center text-xl mx-auto mb-3 group-hover:bg-blue-200 transition-colors"
-            >
-              🌐
-            </div>
-            <p
-              class="text-xs text-slate-400 font-medium uppercase tracking-wide mb-1"
-            >
-              Website
-            </p>
-            <p class="text-slate-800 font-semibold">vemli.co</p>
-          </a>
-        </div>
-
-        <div class="reveal">
-          <a
-            href="mailto:info@vemli.co"
-            class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5 text-base"
-          >
-            Send us a message
-            <svg
-              class="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- WhatsApp Floating Button -->
-    <a
-      href="https://wa.me/233261427273?text=Hello%20Vemli%20POS%20Team,%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
-      class="whatsapp-float"
-      target="_blank"
-      aria-label="Chat on WhatsApp"
-      style="
-        position: fixed;
-        bottom: 2rem;
-        right: 2rem;
-        background: #25d366;
-        color: white;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2rem;
-        text-decoration: none;
-        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-        z-index: 100;
-        transition: all 0.3s ease;
-      "
-      onmouseover="this.style.transform = 'scale(1.1)'"
-      onmouseout="this.style.transform = 'scale(1)'"
-    >
-      <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <!-- Contact Modal -->
-    <div
-      class="modal-overlay"
-      id="contactModal"
-      style="
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-        padding: 1rem;
-      "
-    >
-      <div
-        style="
-          background: white;
-          padding: 2rem;
-          border-radius: 1rem;
-          max-width: 500px;
-          width: 100%;
-          max-height: 90vh;
-          overflow-y: auto;
-          transform: translateY(-20px);
-          transition: transform 0.4s ease;
-          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-          position: relative;
-        "
-      >
         <div
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-          "
+          class="views-element-container"
+          id="block-views-block-products-block-6"
         >
-          <h3 style="font-size: 1.8rem; font-weight: 700; color: #0f766e">
-            Contact Vemli POS Team
-          </h3>
-          <button
-            onclick="closeContactModal()"
-            style="
-              background: none;
-              border: none;
-              font-size: 1.5rem;
-              cursor: pointer;
-              color: #475569;
-              padding: 0.5rem;
-              line-height: 1;
-            "
-          >
-            ✕
-          </button>
+          <div>Business types</div>
+
+          <div>
+            <div
+              class="js-view-dom-id-847eccfc4cd8d937d73d6b1547a9fd8fdc218a3eb4fa5da3b2c12c67b79bce42"
+            >
+              <div class="prod-open">
+                <ul class="menu">
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/grocery-pos" hreflang="en"
+                          >Grocery &amp; convenience</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/cafe-pos" hreflang="en">Café</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/restaurants-pos" hreflang="en"
+                          >Restaurant</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/retail-pos" hreflang="en">Retail</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/bar-pos" hreflang="en"
+                          >Bar &amp; Pub</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fashion-boutiques-pos" hreflang="en"
+                          >Clothing &amp; accessories</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 1rem">
-          <a
-            href="#"
-            id="whatsappLink"
-            target="_blank"
-            style="
-              display: flex;
-              align-items: center;
-              gap: 1rem;
-              padding: 1.25rem;
-              border-radius: 0.75rem;
-              text-decoration: none;
-              transition: all 0.3s;
-              border: 2px solid transparent;
-              background: rgba(37, 211, 102, 0.1);
-              color: #25d366;
-            "
-          >
-            <div
-              style="
-                font-size: 1.8rem;
-                width: 50px;
-                height: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: white;
-                border-radius: 50%;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-                flex-shrink: 0;
-              "
-            >
-              <i class="fab fa-whatsapp"></i>
-            </div>
-            <div style="flex: 1">
-              <div
-                style="
-                  font-weight: 600;
-                  font-size: 1.1rem;
-                  margin-bottom: 0.25rem;
-                "
-              >
-                WhatsApp (Fastest Response)
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                Chat directly with our sales team
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                +233 24 069 9506
-              </div>
-            </div>
-            <i class="fas fa-arrow-right"></i>
-          </a>
-          <a
-            href="#"
-            id="emailLink"
-            style="
-              display: flex;
-              align-items: center;
-              gap: 1rem;
-              padding: 1.25rem;
-              border-radius: 0.75rem;
-              text-decoration: none;
-              transition: all 0.3s;
-              border: 2px solid transparent;
-              background: rgba(234, 67, 53, 0.1);
-              color: #ea4335;
-            "
-          >
-            <div
-              style="
-                font-size: 1.8rem;
-                width: 50px;
-                height: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: white;
-                border-radius: 50%;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-                flex-shrink: 0;
-              "
-            >
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div style="flex: 1">
-              <div
-                style="
-                  font-weight: 600;
-                  font-size: 1.1rem;
-                  margin-bottom: 0.25rem;
-                "
-              >
-                Email
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                Send detailed business inquiry
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                info@vemli.co
-              </div>
-            </div>
-            <i class="fas fa-arrow-right"></i>
-          </a>
-          <a
-            href="tel:+233240699506"
-            style="
-              display: flex;
-              align-items: center;
-              gap: 1rem;
-              padding: 1.25rem;
-              border-radius: 0.75rem;
-              text-decoration: none;
-              transition: all 0.3s;
-              border: 2px solid transparent;
-              background: rgba(66, 133, 244, 0.1);
-              color: #4285f4;
-            "
-          >
-            <div
-              style="
-                font-size: 1.8rem;
-                width: 50px;
-                height: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                background: white;
-                border-radius: 50%;
-                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-                flex-shrink: 0;
-              "
-            >
-              <i class="fas fa-phone"></i>
-            </div>
-            <div style="flex: 1">
-              <div
-                style="
-                  font-weight: 600;
-                  font-size: 1.1rem;
-                  margin-bottom: 0.25rem;
-                "
-              >
-                Phone Call
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                Speak with our Ghana team directly
-              </div>
-              <div style="color: #0f172a; font-size: 0.95rem">
-                +233 24 069 9506
-              </div>
-            </div>
-            <i class="fas fa-arrow-right"></i>
-          </a>
-        </div>
-        <p
-          style="
-            margin-top: 2rem;
-            text-align: center;
-            color: #475569;
-            font-size: 0.9rem;
-          "
+        <nav
+          itemscope=""
+          itemtype="https://schema.org/SiteNavigationElement"
+          aria-labelledby="block-smallbusiness-2-menu"
+          id="block-smallbusiness-2"
         >
-          We respond within 1 hour during business hours (8AM - 8PM GMT)
-        </p>
-      </div>
-    </div>
+          <div class="visually-hidden" id="block-smallbusiness-2-menu">
+            Small Business
+          </div>
 
-  <!-- ═══════════════ FOOTER ═══════════════ -->
-<footer>
-  <div class="container">
-    <div class="footer-content">
-      
-      <div>
-        <a href="index.html" class="footer-logo" title="Vemli POS"></a>
-        <p>
-          Professional POS systems for businesses since 2025.
-          Making restaurant management simple and efficient.
-        </p>
-      </div>
+          <ul class="lmenu">
+            <li>
+              <a
+                href="/small-business-pos"
+                data-drupal-link-system-path="node/23"
+                >Small Business POS</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-      <div>
-        <h4 style="color: white; margin-bottom: 1rem">Quick Links</h4>
-        <div class="footer-links">
-          <a href="index.html#pricing">Pricing</a>
-          <a href="how-it-works.html">How It Works</a>
-          <a href="index.html#features">Features</a>
-          <a
-            href="#"
-            onclick="
-              openContactModal('Vemli POS System');
-              return false;
-            "
-            >Contact Sales</a
-          >
+        <div
+          class="views-element-container"
+          id="block-views-block-products-block-3-3"
+        >
+          <div>POS System</div>
+
+          <div>
+            <div
+              class="js-view-dom-id-b73bc8fd021942b6fc3a2e283bbd8ccb8b7af4db6332d568e73c3d0f17b802bd"
+            >
+              <div class="prod-open">
+                <ul class="menu">
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/loyalty-program" hreflang="en"
+                          >Loyalty Program</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/payment-systems" hreflang="en"
+                          >Accept Credit Cards</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/shift4" hreflang="en">Shift4</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/sumup" hreflang="en">SumUp</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/tyro" hreflang="en">Tyro</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/izettle" hreflang="en">Zettle</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/yoco" hreflang="en">Yoco</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/vemli-api" hreflang="en">Vemli API</a></span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="language-switcher-language-url"
+          id="block-languageswitcher-3"
+          role="navigation"
+        >
+          <div class="menu-button earth-img"></div>
+          <div>English</div>
+
+          <ul class="links">
+            <li hreflang="id" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/id"
+                class="language-link"
+                hreflang="id"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Bahasa Indonesia</a
+              >
+            </li>
+            <li hreflang="de" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/de"
+                class="language-link"
+                hreflang="de"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Deutsch</a
+              >
+            </li>
+            <li
+              hreflang="en"
+              data-drupal-link-system-path="&lt;front&gt;"
+              class="is-active"
+              aria-current="page"
+            >
+              <a
+                href="/"
+                class="language-link is-active"
+                hreflang="en"
+                data-drupal-link-system-path="&lt;front&gt;"
+                aria-current="page"
+                >English</a
+              >
+            </li>
+            <li hreflang="es" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/es"
+                class="language-link"
+                hreflang="es"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Español</a
+              >
+            </li>
+            <li hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/fr"
+                class="language-link"
+                hreflang="fr"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Français</a
+              >
+            </li>
+            <li hreflang="it" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/it"
+                class="language-link"
+                hreflang="it"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Italiano</a
+              >
+            </li>
+            <li hreflang="pl" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/pl"
+                class="language-link"
+                hreflang="pl"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Polski</a
+              >
+            </li>
+            <li hreflang="pt-br" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/br"
+                class="language-link"
+                hreflang="pt-br"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Português (BR)</a
+              >
+            </li>
+            <li hreflang="vi" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/vn"
+                class="language-link"
+                hreflang="vi"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Tiếng Việt</a
+              >
+            </li>
+            <li hreflang="el" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/gr"
+                class="language-link"
+                hreflang="el"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >Ελληνικά</a
+              >
+            </li>
+            <li hreflang="ar" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/ar"
+                class="language-link"
+                hreflang="ar"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >اللغة العربية</a
+              >
+            </li>
+            <li hreflang="th" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/th"
+                class="language-link"
+                hreflang="th"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >ภาษาไทย</a
+              >
+            </li>
+            <li hreflang="ko" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/ko"
+                class="language-link"
+                hreflang="ko"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >한국어</a
+              >
+            </li>
+            <li hreflang="ja" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/jp"
+                class="language-link"
+                hreflang="ja"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >日本語</a
+              >
+            </li>
+            <li hreflang="zh-hant" data-drupal-link-system-path="&lt;front&gt;">
+              <a
+                href="/zh"
+                class="language-link"
+                hreflang="zh-hant"
+                data-drupal-link-system-path="&lt;front&gt;"
+                >中文 (繁體)</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="block-signintest">
+          <div>
+            <div id="href">
+              <a class="sign" href="/en/login"><strong>SIGN IN</strong></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="overlay"></div>
+      <div id="overlay-product"></div>
+      <div id="video_block">
+        <div class="popup_wrapper">
+          <div class="mobile-arrow"></div>
+          <iframe class="popup_content"></iframe>
         </div>
       </div>
 
-      <div>
-        <h4 style="color: white; margin-bottom: 1rem">Contact</h4>
-        <div class="footer-links">
-          <a href="tel:+233240699506">
-            <i class="fas fa-phone" style="margin-right: 0.5rem"></i>
-            +233 24 069 9506
-          </a>
+      <main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
 
-          <a href="mailto:info@vemli.co">
-            <i class="fas fa-envelope" style="margin-right: 0.5rem"></i>
-            info@vemli.co
-          </a>
+            <div id="block-mainhomepage">
+              <div>
+                <div class="hp">
+                  <section class="hp_software">
+                    <div class="hp_software_wrapper">
+                      <div class="hp_software_text">
+                        <h1 class="hp_software_text_title">
+                          Free Point of Sale and Inventory Management Software
+                        </h1>
 
-          <a
-            href="#"
-            onclick="
-              openContactModal('Vemli POS System');
-              return false;
-            "
-          >
-            <i class="fas fa-headset" style="margin-right: 0.5rem"></i>
-            Sales Support
-          </a>
-        </div>
-      </div>
+                        <article>
+                          <picture class="hp_software_text_img"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Best Point of Sale and Till Software"
+                              height="376"
+                              src="/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"
+                              width="664"
+                          /></picture>
 
-     <div>
-  <h4 style="color: white; margin-bottom: 1rem">Follow Us</h4>
-  <div class="footer-links">
+                          <p class="hp_software_text_subtitle">
+                            Turn your smartphone or tablet into a powerful POS.
+                            Manage sales, inventory and employees with ease;
+                            engage customers and increase your revenue. Whether
+                            you have single or multiple stores, our tools help
+                            run your business.
+                          </p>
+                        </article>
+                      </div>
 
-    <a href="https://web.facebook.com/vemliit" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-facebook-f" style="margin-right: 0.5rem; color:#1877F2;"></i>
-      Facebook
-    </a>
+                      <picture class="top_movie hp_video"
+                        ><a
+                          class="playvideo"
+                          href="https://www.youtube.com/watch?v=P3s7kDgc3Wg"
+                          id="vidos"
+                          ><span class="hp_wv_icon">&nbsp;</span>
+                          <span class="hp_wv_text">Watch video</span>
+                        </a>
+                        <img
+                          decoding="async"
+                          loading="lazy"
+                          alt="Point of Sale and Inventory"
+                          class="hp_video_img"
+                          height="376"
+                          src="/sites/all/themes/loyversecom/images/home/loyverse-pos.webp"
+                          width="664"
+                      /></picture>
+                    </div>
+                  </section>
 
-    <a href="http://tiktok.com/@vemliit" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-tiktok" style="margin-right: 0.5rem; color:#ffffff;"></i>
-      TikTok
-    </a>
+                  <article>
+                    <section class="hp_empowering">
+                      <div class="hp_empowering_texts">
+                        <h2>Empowering businesses worldwide</h2>
 
-    <a href="https://www.instagram.com/vemliit" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-instagram" style="margin-right: 0.5rem; color:#E4405F;"></i>
-      Instagram
-    </a>
-    <a href="https://www.youtube.com/@vemliit" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-youtube" style="margin-right: 0.5rem; color:#FF0000;"></i>
-      YouTube
-    </a>
+                        <p>
+                          Over 1,000,000 businesses in 170 countries have
+                          registered with Vemli POS.
+                        </p>
 
-  </div>
-</div>
+                        <p>Our apps are available in 30+ languages.</p>
+                      </div>
 
+                      <div class="hp_empowering_imgs">
+                        <picture
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point of Sale and Inventory "
+                            height="368"
+                            src="/sites/all/themes/loyversecom/images/home/photo1.jpg"
+                            width="368"
+                        /></picture>
+
+                        <picture class="empowering-img-margin">
+                          <source
+                            media="(max-width: 37.5rem)"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer2-600.webp
+                            "
+                          />
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Inventory Management Software"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer2-600.webp 160w,
+                              /sites/all/themes/loyversecom/images/home/customer2.webp     368w
+                            "
+                            src="/sites/all/themes/loyversecom/images/home/customer2.webp"
+                            width="368"
+                            height="368"
+                          />
+                        </picture>
+
+                        <picture>
+                          <source
+                            media="(max-width: 37.5rem)"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer3-600.webp
+                            "
+                          />
+                          <img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point of Sale and Inventory"
+                            srcset="
+                              /sites/all/themes/loyversecom/images/home/customer3-600.webp 160w,
+                              /sites/all/themes/loyversecom/images/home/customer3.webp     368w
+                            "
+                            sizes="auto"
+                            src="/sites/all/themes/loyversecom/images/home/customer3.webp"
+                            width="368"
+                            height="368"
+                          />
+                        </picture>
+                      </div>
+                    </section>
+
+                    <section class="hp_tools">
+                      <h2 class="hp_tools_title">
+                        POS system to help your business succeed
+                      </h2>
+
+                      <div class="hp_tools_tabs" id="tab">
+                        <div class="tabs_wrapper">
+                          <a class="tab_link tabs-icons1" href="#point-of-sale"
+                            >Point of sale
+                          </a>
+                          <a class="tab_link tabs-icons1" href="#payments">
+                            Payments
+                          </a>
+                          <a
+                            class="tab_link tabs-icons2"
+                            href="#inventory-management"
+                          >
+                            Inventory management
+                          </a>
+                          <a
+                            class="tab_link tabs-icons3"
+                            href="#sales-analytics"
+                          >
+                            Sales analytics
+                          </a>
+                          <a
+                            class="tab_link tabs-icons4"
+                            href="#employee-management"
+                          >
+                            Employee management
+                          </a>
+                          <a
+                            class="tab_link tabs-icons5"
+                            href="#customer-loyalty"
+                          >
+                            CRM and customer loyalty
+                          </a>
+                          <a
+                            class="tab_link tabs-icons5"
+                            href="#multi-store-management"
+                          >
+                            Multi-store management
+                          </a>
+                          <a class="tab_link tabs-icons5" href="#integrations">
+                            Integrations
+                          </a>
+                        </div>
+                      </div>
+
+                      <article
+                        class="hp_tools_content hp_tools_pointofsale"
+                        id="point-of-sale"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Powerful and easy to use point of sale"
+                            height="369"
+                            src="/sites/all/themes/loyversecom/images/home/en/point-of-sale.webp"
+                            width="537"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">Point of sale</h3>
+
+                          <p class="hp_tools_subtitle">
+                            Transform your smartphone or tablet into an
+                            easy-to-use point of sale
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Issue printed or electronic receipts</li>
+                            <li>Apply discounts and issue refunds</li>
+                            <li>Keep recording sales even when offline</li>
+                            <li>
+                              Connect a receipt printer, barcode scanner, and
+                              cash drawer
+                            </li>
+                            <li>Connect Vemli Customer Display app</li>
+                          </ul>
+                          <a class="link-more" href="/download-loyverse"
+                            >Explore Vemli Point of Sale</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_payments"
+                        id="payments"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS Payment Integration"
+                            src="/sites/all/themes/loyversecom/images/home/payments.webp"
+                            width="608"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            POS payment solutions
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Seamlessly accept any method of payment your
+                            customers want
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Select one of our integrated payment providers
+                              available in 30+ countries. Integrated payments
+                              save time, ensure better accuracy and minimize
+                              errors.
+                            </li>
+                            <li>
+                              Use your preferred merchant service provider for
+                              non-integrated payments
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/payment-systems"
+                            >Explore integrated payment providers</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_inventory"
+                        id="inventory-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Inventory management"
+                            height="400"
+                            src="/sites/all/themes/loyversecom/images/home/inventory.webp"
+                            width="567"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Inventory management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Never run out of stock
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Track stock levels in real time</li>
+                            <li>Receive automatic low stock alerts</li>
+                            <li>
+                              Send orders to suppliers and track stock receipts
+                            </li>
+                            <li>Transfer stock between your stores</li>
+                            <li>Print barcode labels</li>
+                          </ul>
+                          <a class="link-more" href="/advanced-inventory"
+                            >Explore inventory management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_analytics"
+                        id="sales-analytics"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS Analytics and Reporting"
+                            height="389"
+                            src="/sites/all/themes/loyversecom/images/home/en/sales-analytics.webp"
+                            width="560"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">Sales analytics</h3>
+
+                          <p class="hp_tools_subtitle">
+                            Access your reports from a smartphone, tablet or
+                            computer anytime, anywhere
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>View revenue, average sale and profit</li>
+                            <li>
+                              Track sales trends and react to changes promptly
+                            </li>
+                            <li>Determine best-selling items and categories</li>
+                            <li>View complete sales history</li>
+                            <li>Export sales data to spreadsheets</li>
+                          </ul>
+                          <a class="link-more" href="/back-office"
+                            >Explore Vemli Back Office</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_employee"
+                        id="employee-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Point-of-Sale Employee Management"
+                            height="389"
+                            src="/sites/all/themes/loyversecom/images/home/en/employee.webp"
+                            width="520"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Employee management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Easily manage your staff and make balanced decisions
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Track sales by employee and determine best
+                              performers
+                            </li>
+                            <li>
+                              Employees clock in and out and their total work
+                              hours are calculated automatically
+                            </li>
+                            <li>
+                              Grant different levels of access to protect
+                              sensitive information
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/employee-management"
+                            >Explore employee management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_crm"
+                        id="customer-loyalty"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="POS System with Loyalty Program"
+                            height="488"
+                            src="/sites/all/themes/loyversecom/images/home/en/customers.webp"
+                            width="534"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            CRM and customer loyalty
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Turn once-in-a-while shoppers into regulars
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Build your customer base</li>
+                            <li>
+                              View customer purchase history to provide
+                              personalized service
+                            </li>
+                            <li>
+                              Run a loyalty program to reward customers for
+                              their recurring purchases
+                            </li>
+                            <li>Keep notes on valuable customer preferences</li>
+                          </ul>
+                          <a class="link-more" href="/loyalty-program"
+                            >Explore loyalty program</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_store"
+                        id="multi-store-management"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Multi-store Vemli POS"
+                            height="385"
+                            src="/sites/all/themes/loyversecom/images/home/multistore.png"
+                            width="556"
+                          />
+                        </picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Multi-store management
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Grow your business from one to hundreds of stores
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>Compare performance of your stores</li>
+                            <li>
+                              Manage items, employees and customers across
+                              multiple locations with a single account
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/multi-store-pos"
+                            >Explore multi-store management</a
+                          >
+                        </div>
+                      </article>
+
+                      <article
+                        class="hp_tools_content hp_tools_integrations"
+                        id="integrations"
+                      >
+                        <picture class="hp_tools_img"
+                          ><img
+                            decoding="async"
+                            loading="lazy"
+                            alt="Integrations  with Vemli POS"
+                            height="397"
+                            src="/sites/all/themes/loyversecom/images/home/marketplace-2.webp"
+                            width="555"
+                        /></picture>
+
+                        <div class="hp_tools_block">
+                          <h3 class="hp_tools_block_title">
+                            Integration with Vemli POS
+                          </h3>
+
+                          <p class="hp_tools_subtitle">
+                            Connect third-party apps to Vemli to keep your
+                            business running smoothly
+                          </p>
+
+                          <ul class="hp_tools_text">
+                            <li>
+                              Sync with accounting, ecommerce, inventory
+                              management, marketing and other apps
+                            </li>
+                            <li>
+                              Use Vemli API to develop custom integrations
+                            </li>
+                          </ul>
+                          <a class="link-more" href="/marketplace"
+                            >Visit App Marketplace</a
+                          >
+                        </div>
+                      </article>
+                    </section>
+
+                    <section class="hp_products gray">
+                      <h3 class="hp_products_title">Our products</h3>
+
+                      <ul class="hp_products_wrapper">
+                        <li
+                          class="product our-prod1"
+                          data-href="/download-loyverse"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/download-loyverse"
+                                >Vemli POS – Point of sale</a
+                              >
+                            </p>
+
+                            <p class="product_text">
+                              Transform your smartphone or tablet into a free
+                              point of sale
+                            </p>
+                          </div>
+                        </li>
+                        <li class="product our-prod2" data-href="/back-office">
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/back-office">Vemli Back Office </a>
+                            </p>
+
+                            <p class="product_text">
+                              Easily manage your business in a browser from any
+                              device
+                            </p>
+                          </div>
+                        </li>
+                        <li class="product our-prod3" data-href="/dashboard">
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/dashboard">Vemli Dashboard </a>
+                            </p>
+
+                            <p class="product_text">
+                              Instant access to your store's sales analytics and
+                              inventory anytime, anywhere
+                            </p>
+                          </div>
+                        </li>
+                        <li
+                          class="product our-prod4"
+                          data-href="/kitchen-display-system"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/kitchen-display-system"
+                                >Vemli KDS – Kitchen Display
+                              </a>
+                            </p>
+
+                            <p class="product_text">
+                              Let your cooking staff know what to prepare from
+                              an order
+                            </p>
+                          </div>
+                        </li>
+                        <li
+                          class="product our-prod5"
+                          data-href="/customer-display-system"
+                        >
+                          <div class="product_icon">&nbsp;</div>
+
+                          <div class="product_cont">
+                            <p class="product_title">
+                              <a href="/customer-display-system"
+                                >Vemli CDS – Customer Display
+                              </a>
+                            </p>
+
+                            <p class="product_text">
+                              Display order information to your customers at the
+                              time of purchase
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_fits">
+                      <h3 class="hp_fits_title">
+                        Vemli POS software fits just right for your business
+                      </h3>
+
+                      <div class="hp_fits_wrapper">
+                        <dl>
+                          <dt class="foodservice">&nbsp;</dt>
+                          <dt>Food &amp; drink</dt>
+                          <dd>
+                            <a href="/restaurants-pos" class="black-link"
+                              >Restaurant</a
+                            >
+                          </dd>
+                          <dd>
+                            <a href="/cafe-pos" class="black-link">Café</a>
+                          </dd>
+                          <dd>Coffee shop</dd>
+                          <dd>Fast food</dd>
+                          <dd>Pizzeria</dd>
+                          <dd><a href="/bar-pos" class="black-link">Bar</a></dd>
+                          <dd>Bakery</dd>
+                        </dl>
+
+                        <dl>
+                          <dt class="retail">&nbsp;</dt>
+                          <dt>
+                            <a href="/retail-pos" class="black-link">Retail</a>
+                          </dt>
+                          <dd>
+                            <a href="/grocery-pos" class="black-link"
+                              >Grocery store</a
+                            >
+                          </dd>
+                          <dd>Convenience store</dd>
+                          <dd>Liquor store</dd>
+                          <dd>Fashion</dd>
+                          <dd>
+                            <a href="/fashion-boutiques-pos" class="black-link"
+                              >Clothing</a
+                            >
+                          </dd>
+                          <dd>Jewelry</dd>
+                          <dd>Kiosk</dd>
+                        </dl>
+
+                        <dl>
+                          <dt class="services">&nbsp;</dt>
+                          <dt>Services</dt>
+                          <dd>Transportation</dd>
+                          <dd>Carwash</dd>
+                          <dd>Salon</dd>
+                          <dd>Rentals</dd>
+                          <dd>Hotels</dd>
+                        </dl>
+                      </div>
+                    </section>
+
+                    <section class="hp_testimonials">
+                      <h3 class="hp_testimonials_title">Testimonials</h3>
+
+                      <ul class="hp_testimonials_wrapper">
+                        <li class="testimonial testimonial_1">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Vemli POS really has transformed"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/redshark-big.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Vemli really has transformed the way we look at
+                              taking, tracking, and managing transactions.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>The Redshank Catering, Scotland</em>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="testimonial testimonial_2">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Vemli system is easy to program"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/just1swap.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Vemli system is easy to program and to use,
+                              besides it is so easy to add pictures to aid staff
+                              as well.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>Just1swap, UK </em>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="testimonial testimonial_3">
+                          <picture class="gh_icon icon-live"
+                            ><img
+                              decoding="async"
+                              loading="lazy"
+                              alt="Vemli has helped us manage our business"
+                              height="80"
+                              src="/sites/all/themes/loyversecom/images/home/perfumeria-beniet.png"
+                              width="80"
+                          /></picture>
+
+                          <div class="testimonial_text">
+                            <p>
+                              Vemli has helped us manage our business easily
+                              regardless of distance.
+                            </p>
+
+                            <p class="testimonial_signature">
+                              <em>Perfumeria Benie, Colombia </em>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_get_help gray">
+                      <h3 class="hp_get_help_title">Get the help you need</h3>
+
+                      <ul class="hp_get_help_wrapper">
+                        <li class="how_use">
+                          <picture class="gh_icon icon-live">&nbsp;</picture>
+
+                          <p class="title">Live chat</p>
+
+                          <p>
+                            Get lightning fast assistance 24/7 from our friendly
+                            customer support team.
+                          </p>
+                        </li>
+                        <li class="how_use">
+                          <picture class="gh_icon icon-help">&nbsp;</picture>
+
+                          <p class="title">Help center</p>
+
+                          <p>
+                            A comprehensive set of step-by-step guides in 17
+                            languages with video tutorials.
+                          </p>
+                        </li>
+                        <li class="how_use">
+                          <picture class="gh_icon icon-town">&nbsp;</picture>
+
+                          <p class="title">Community</p>
+
+                          <p>
+                            Learn from other sellers how to use Vemli and grow
+                            your business.
+                          </p>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="hp_lpartner">
+                      <picture class="hp_lpartner_icon">&nbsp;</picture>
+
+                      <h3 class="hp_lpartner_title">Become a Vemli Partner</h3>
+                      <span class="hp_lpartner_slogan"
+                        >Let’s grow together and help other businesses grow
+                      </span>
+                      <span class="hp_lpartner_text">
+                        If you would like to serve local businesses and help
+                        them implement software and hardware retail solutions,
+                        fill out the
+                        <a
+                          href="https://share.hsforms.com/1qkxqlh34QZWuk7OkTru9eg14psi"
+                          target="_blank"
+                          rel="noopener"
+                          >partnership form</a
+                        >.
+                      </span>
+                    </section>
+
+                    <section class="section-faq">
+                      <div class="hp_questions_wrapper">
+                        <h2 class="title-frequently">Vemli EPOS Q&amp;A</h2>
+
+                        <div
+                          class="accordion-faq"
+                          data-stats-ve="1"
+                          itemscope=""
+                          itemtype="https://schema.org/FAQPage"
+                        >
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              Is Vemli POS really free? <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                <b>You can use the Vemli POS app for free.</b>
+                                You can add items, make sales, use analytics,
+                                and many other functionalities without any
+                                payment.<br />
+                                However, we have a set of additional features in
+                                the Back Office where additional charges will
+                                apply: Unlimited Sales History,
+                                <a href="/employee-management"
+                                  >Employee Management</a
+                                >,
+                                <a href="/advanced-inventory"
+                                  >Advanced Inventory</a
+                                >.<br />
+                                These add-on services have a 14-day free trial.
+                                Please check our
+                                <a href="/pricing">pricing page</a> for more
+                                info.
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              How to use Vemli POS system?
+                              <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                <a
+                                  href="https://help.vemli.co/help/gettings-starteds"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >Download and install</a
+                                >
+                                Vemli POS on Android or iOS mobile devices from
+                                the .
+                              </div>
+                            </div>
+                          </article>
+
+                          <article
+                            itemprop="mainEntity"
+                            itemscope=""
+                            itemtype="https://schema.org/Question"
+                          >
+                            <h3 class="question" itemprop="name">
+                              Does Vemli POS have the functionality of loyalty
+                              cards? <i class="arrow"></i>
+                            </h3>
+
+                            <div
+                              class="answer"
+                              itemprop="acceptedAnswer"
+                              itemscope=""
+                              itemtype="https://schema.org/Answer"
+                            >
+                              <div itemprop="text">
+                                Vemli POS has a built-in
+                                <a href="/loyalty-program">loyalty program</a>
+                                that allows rewarding your regular customers for
+                                visiting your outlet. You can issue your own
+                                loyalty cards with the printed barcode. When the
+                                customer visits your store, the cashier can
+                                quickly identify him/her by
+                                <a
+                                  href="https://help.vemli.co/help/scanning-customer-barcode"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >scanning the barcode</a
+                                >
+                                from the loyalty card with a separate barcode
+                                scanner or built-in device camera. Another way
+                                of identification of the customer is by his/her
+                                <a
+                                  href="https://help.vemli.co/help/customer-identification"
+                                  target="_blank"
+                                  rel="noopener"
+                                  >phone number</a
+                                >.
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                      </div>
+                    </section>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="views-element-container">
+              <div
+                class="js-view-dom-id-15b1437e2ba8f28376520026a8be1cafbe7746baba393546d0f6d02bc9884c2e"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
 
-    <div class="footer-bottom">
-      <p>
-        © 2026 Vemli POS. All rights reserved. Designed for Ghanaian businesses.
-      </p>
+    <script src="/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"></script>
 
-      <!-- <p style="margin-top: 0.5rem">
-        <a href="#" style="color: #f59e0b; margin: 0 0.5rem">Privacy Policy</a>
-        |
-        <a href="#" style="color: #f59e0b; margin: 0 0.5rem">Terms of Service</a>
-        |
-        <a href="#" style="color: #f59e0b; margin: 0 0.5rem">Refund Policy</a>
-      </p> -->
-    </div>
-  </div>
-</footer>
-    <script>
-      // Scroll reveal
-      const revealObserver = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((e) => {
-            if (e.isIntersecting) e.target.classList.add("visible");
-          });
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://vemli.co/#organization",
+        "name": "Vemli",
+        "legalName": "Vemli Commerce Ltd",
+        "url": "https://vemli.co",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://vemli.co/sites/all/themes/loyversecom/images/lpos-ograf.png",
+          "width": 1200,
+          "height": 630
         },
-        { threshold: 0.1 },
-      );
-      document
-        .querySelectorAll(".reveal")
-        .forEach((el) => revealObserver.observe(el));
-
-      // Chat widget
-      const chatAnswers = {
-        "What are my top selling items today?": () =>
-          `📊 **Top items today:**\n\n1. Jollof Rice — 48 sold (GH¢1,152)\n2. Grilled Chicken — 31 sold (GH¢930)\n3. Malt Drink — 67 sold (GH¢402)\n\nJollof Rice is up 18% vs last Friday. 🔥`,
-        "Which days are my busiest?": () =>
-          `📅 **Busiest days (last 30 days):**\n\n1. Friday — avg GH¢6,240/day\n2. Saturday — avg GH¢5,890/day\n3. Sunday — avg GH¢4,710/day\n\nWeekends account for 48% of your weekly revenue.`,
-        "How is my staff performing this week?": () =>
-          `👥 **Staff performance this week:**\n\n• Ama — GH¢8,420 in sales (top performer ⭐)\n• Kofi — GH¢6,180 in sales\n• Akua — GH¢5,340 in sales\n\nAverage order handled: 34/shift. Ama has the highest avg order value at GH¢38.`,
-        "What time do I make the most sales?": () =>
-          `⏰ **Peak sales hours:**\n\n🔝 12pm–2pm (lunch rush) — 34% of daily revenue\n🔝 6pm–9pm (dinner) — 28% of daily revenue\n\nYour slowest hour is 3pm–4pm. Consider a happy hour promo!`,
-      };
-
-      const customAnswers = [
-        (q) =>
-          `Looking at your data for "${q}"… Based on your sales over the last 30 days, revenue has been trending up by 14%. Your top category is food, accounting for 62% of total orders.`,
-      ];
-
-      function addMessage(html, isUser = false, delay = 0) {
-        const msgs = document.getElementById("chat-messages");
-        setTimeout(() => {
-          const wrap = document.createElement("div");
-          wrap.className = isUser ? "flex justify-end" : "";
-          const bubble = document.createElement("div");
-          bubble.className = `chat-msg chat-bubble-in`;
-          const inner = document.createElement("div");
-          inner.className = `${isUser ? "msg-user" : "msg-ai"} text-white text-sm px-4 py-3 leading-relaxed`;
-          inner.style.whiteSpace = "pre-line";
-          inner.innerHTML = html.replace(
-            /\*\*(.*?)\*\*/g,
-            "<strong>$1</strong>",
-          );
-          bubble.appendChild(inner);
-          wrap.appendChild(bubble);
-          msgs.appendChild(wrap);
-          msgs.scrollTop = msgs.scrollHeight;
-        }, delay);
+        "description": "Vemli is a free POS (point-of-sale) and inventory management software for small and medium businesses, used in retail, restaurants, cafes and service businesses worldwide.",
+        "foundingDate": "2014",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "41 Lothbury",
+          "addressLocality": "London",
+          "postalCode": "EC2R 7HF",
+          "addressCountry": "GB"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "info@vemli.co",
+            "availableLanguage": [
+              "English",
+              "Spanish",
+              "Portuguese",
+              "French",
+              "German",
+              "Italian",
+              "Thai",
+              "Korean",
+              "Japanese",
+              "Chinese",
+              "Arabic",
+              "Greek",
+              "Vietnamese",
+              "Indonesian"
+            ],
+            "areaServed": "Worldwide"
+          }
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Worldwide"
+        },
+        "knowsAbout": [
+          "Point of Sale",
+          "POS Software",
+          "Inventory Management",
+          "Retail Management",
+          "Restaurant Management",
+          "Small Business Software"
+        ],
+        "sameAs": [
+          "https://www.facebook.com/vemliit",
+          "https://twitter.com/vemliit",
+          "https://www.youtube.com/c/vemliit",
+          "https://www.instagram.com/vemliit",
+          "https://www.capterra.com/p/150632/Loyverse-POS/",
+          "https://www.linkedin.com/company/loyverse-pos",
+          "https://www.tiktok.com/@vemliit",
+          "https://www.g2.com/products/loyverse-free-pos/reviews",
+          "https://www.crunchbase.com/organization/loyverse-pos",
+          "https://www.softwareadvice.com/retail/loyverse-profile/reviews/",
+          "https://www.getapp.com/retail-consumer-services-software/a/loyverse-pos/",
+          "https://sourceforge.net/software/product/Loyverse/"
+        ]
       }
-
-      function showTyping() {
-        const msgs = document.getElementById("chat-messages");
-        const el = document.createElement("div");
-        el.id = "typing";
-        el.className = "chat-msg";
-        el.innerHTML = `<div class="msg-ai px-4 py-3 flex gap-1.5 items-center"><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div><div class="typing-dot w-1.5 h-1.5 rounded-full bg-blue-400"></div></div>`;
-        msgs.appendChild(el);
-        msgs.scrollTop = msgs.scrollHeight;
-        return el;
-      }
-
-      function askQuestion(btn, question) {
-        addMessage(question, true);
-        const typing = showTyping();
-        const msgs = document.getElementById("chat-messages");
-        setTimeout(() => {
-          typing.remove();
-          const answer = chatAnswers[question]
-            ? chatAnswers[question]()
-            : customAnswers[0](question);
-          addMessage(answer);
-          msgs.scrollTop = msgs.scrollHeight;
-        }, 1200);
-      }
-
-      function sendChat() {
-        const inp = document.getElementById("chat-input");
-        const q = inp.value.trim();
-        if (!q) return;
-        inp.value = "";
-        addMessage(q, true);
-        const typing = showTyping();
-        const msgs = document.getElementById("chat-messages");
-        const match = Object.keys(chatAnswers).find((k) =>
-          k.toLowerCase().includes(q.toLowerCase().split(" ")[0]),
-        );
-        setTimeout(() => {
-          typing.remove();
-          const answer = match ? chatAnswers[match]() : customAnswers[0](q);
-          addMessage(answer);
-          msgs.scrollTop = msgs.scrollHeight;
-        }, 1300);
-      }
-
-      // Contact modal
-      const contactModal = document.getElementById("contactModal");
-
-      function openContactModal(plan) {
-        const msg = `Hello Vemli POS Team, I'm interested in your ${plan || "Vemli POS System"}. Please share more details.`;
-        const subj = `Vemli POS Inquiry: ${plan || "Vemli POS System"}`;
-        const body = `Hello Vemli Team,\n\nI'm interested in your ${plan || "Vemli POS System"}.\n\nBusiness Name:\nType of Business:\n\nThank you!`;
-        document.getElementById("whatsappLink").href =
-          `https://wa.me/233261427273?text=${encodeURIComponent(msg)}`;
-        document.getElementById("emailLink").href =
-          `mailto:info@vemli.co?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
-        contactModal.style.opacity = "1";
-        contactModal.style.visibility = "visible";
-        contactModal.querySelector("div").style.transform = "translateY(0)";
-        document.body.style.overflow = "hidden";
-      }
-
-      function closeContactModal() {
-        contactModal.style.opacity = "0";
-        contactModal.style.visibility = "hidden";
-        contactModal.querySelector("div").style.transform = "translateY(-20px)";
-        document.body.style.overflow = "auto";
-      }
-
-      contactModal.addEventListener("click", (e) => {
-        if (e.target === contactModal) closeContactModal();
-      });
-
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") closeContactModal();
-      });
-
-      // Wire all "Get Started" / contact links to open modal
-      document.querySelectorAll('a[href="#contact"]').forEach((btn) => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          openContactModal(btn.dataset.plan);
-        });
-      });
-
-      // Logo: switch to dark on light sections, white on dark sections
-      const navLogo = document.getElementById('nav-logo');
-      const lightSections = document.querySelectorAll('.section-light, .section-gray');
-      function updateLogo() {
-        const navBottom = 64;
-        let onLight = false;
-        lightSections.forEach(sec => {
-          const r = sec.getBoundingClientRect();
-          if (r.top <= navBottom && r.bottom >= 0) onLight = true;
-        });
-        if (onLight) {
-          navLogo.style.backgroundImage = 'url("./logo_dark.jpeg")';
-          navLogo.style.mixBlendMode = 'multiply';
-          navLogo.style.filter = 'none';
-        } else {
-          navLogo.style.backgroundImage = 'url("./logo_white-nobg.png")';
-          navLogo.style.mixBlendMode = 'normal';
-          navLogo.style.filter = 'drop-shadow(0 1px 3px rgba(0,0,0,0.5))';
-        }
-      }
-      window.addEventListener('scroll', updateLogo, { passive: true });
-      updateLogo();
     </script>
-  <!-- Video Modal -->
-  <div
-    id="videoModal"
-    onclick="if(event.target===this)closeVideoModal()"
-    style="position:fixed;inset:0;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:1000;opacity:0;visibility:hidden;transition:all 0.3s ease;backdrop-filter:blur(6px);padding:1rem;"
-  >
-    <div style="position:relative;width:100%;max-width:900px;">
-      <button onclick="closeVideoModal()" style="position:absolute;top:-40px;right:0;background:none;border:none;color:white;font-size:1.8rem;cursor:pointer;line-height:1;">&times;</button>
-      <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:16px;overflow:hidden;box-shadow:0 25px 60px rgba(0,0,0,0.5);">
-        <iframe
-          id="videoFrame"
-          src=""
-          style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-  </div>
-
-  <script>
-    function openVideoModal() {
-      const modal = document.getElementById('videoModal');
-      document.getElementById('videoFrame').src = 'https://www.youtube.com/embed/P3s7kDgc3Wg';
-
-      modal.style.opacity = '1';
-      modal.style.visibility = 'visible';
-      document.body.style.overflow = 'hidden';
-    }
-    function closeVideoModal() {
-      const modal = document.getElementById('videoModal');
-      modal.style.opacity = '0';
-      modal.style.visibility = 'hidden';
-      document.getElementById('videoFrame').src = '';
-      document.body.style.overflow = 'auto';
-    }
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeVideoModal(); });
-  </script>
+    <script type="text/javascript" id="" charset="">
+      if (google_tag_manager["rm"]["11865765"](40)) {
+        var t = document.createElement("title");
+        t.innerText = google_tag_manager["rm"]["11865765"](41);
+        document.head.appendChild(t);
+        document.title = google_tag_manager["rm"]["11865765"](42);
+      }
+    </script>
+    <script type="text/javascript" id="" charset="">
+      if (google_tag_manager["rm"]["11865765"](43)) {
+        var d = document.createElement("meta");
+        d.name = "description";
+        d.content = google_tag_manager["rm"]["11865765"](44);
+        document.head.appendChild(d);
+      }
+    </script>
+    <script type="text/javascript" id="" charset="">
+      (function () {
+        var d = new URLSearchParams(window.location.search),
+          e =
+            "gclid utm_source utm_medium utm_campaign utm_term utm_content utm_id".split(
+              " ",
+            ),
+          a = [];
+        e.forEach(function (b) {
+          var c = d.get(b);
+          c && a.push(b + "\x3d" + encodeURIComponent(c));
+        });
+        a.length > 0 && localStorage.setItem("referrerUrl", a.join("\x26"));
+      })();
+    </script>
+    <iframe
+      class="CybotCookiebotHiddenIframe"
+      name="__uspapiLocator"
+      tabindex="-1"
+      role="presentation"
+      aria-hidden="true"
+      title="Blank"
+    ></iframe
+    ><iframe class="CybotCookiebotHiddenIframe" name="__tcfapiLocator"></iframe
+    ><iframe
+      class="CybotCookiebotOffscreenIframe"
+      tabindex="-1"
+      role="presentation"
+      aria-hidden="true"
+      title="Blank"
+      src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html"
+    ></iframe>
+    <script type="text/javascript" id="" charset="">
+      (function (a, e, b, f, g, c, d) {
+        a[b] =
+          a[b] ||
+          function () {
+            (a[b].q = a[b].q || []).push(arguments);
+          };
+        c = e.createElement(f);
+        c.async = 1;
+        c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dgtm2";
+        d = e.getElementsByTagName(f)[0];
+        d.parentNode.insertBefore(c, d);
+      })(window, document, "clarity", "script", "dnxfafkv7r");
+    </script>
   </body>
 </html>

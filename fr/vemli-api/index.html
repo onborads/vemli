@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="fr" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="L'API Loyverse permet aux entreprises de s'intégrer avec Loyverse POS pour automatiser les flux de travail et rationaliser les opérations."
+    />
+    <link rel="canonical" href="https://vemli.co/fr/vemli-api" />
+    <link rel="icon" href="/sites/default/files/user1/icons/favicon.ico" />
+    <link rel="mask-icon" href="/sites/default/files/user1/icons/favicon.svg" />
+    <link rel="icon" sizes="32x32" href="/sites/logos.png" />
+    <meta property="og:site_name" content="Vemli" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://vemli.co/fr/vemli-api"
+    />
+    <meta property="og:title" content="Vemli API" />
+    <meta
+      property="og:description"
+      content="Créez votre application ou votre solution web"
+    />
+    <meta
+      property="og:image"
+      content="https://vemli.co/sites/all/themes/loyversecom/images/lpos-ograf.png"
+    />
+    <meta property="og:image:alt" content="Vemli POS" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Vemli API" />
+    <meta
+      name="twitter:description"
+      content="Créez votre application ou votre solution web"
+    />
+    <meta name="twitter:site" content="@vemliit" />
+    <meta name="twitter:creator" content="@vemliit" />
+    <meta
+      name="twitter:image"
+      content="https://vemli.co/sites/all/themes/loyversecom/images/lpos-ograf.png"
+    />
+    <meta name="twitter:image:alt" content="Vemli POS" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://vemli.co/vemli-api"
+    />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="alternate"
+      hreflang="id"
+      href="https://vemli.co/id/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="de"
+      href="https://vemli.co/de/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://vemli.co/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="es"
+      href="https://vemli.co/es/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://vemli.co/fr/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="it"
+      href="https://vemli.co/it/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="pl"
+      href="https://vemli.co/pl/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="pt-br"
+      href="https://vemli.co/br/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="vi"
+      href="https://vemli.co/vn/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="el"
+      href="https://vemli.co/gr/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="ar"
+      href="https://vemli.co/ar/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="th"
+      href="https://vemli.co/th/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="ko"
+      href="https://vemli.co/ko/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="ja"
+      href="https://vemli.co/jp/vemli-api"
+    />
+    <link
+      rel="alternate"
+      hreflang="zh-hant"
+      href="https://vemli.co/zh/vemli-api"
+    />
+
+    <!-- Google Tag Manager -->
+    <script
+      type="text/javascript"
+      async=""
+      src="https://widget.intercom.io/widget/re5afjv3"
+    ></script>
+    <script
+      async=""
+      src="https://scripts.clarity.ms/0.8.66/clarity.js"
+    ></script>
+    <script
+      async=""
+      src="https://www.clarity.ms/tag/dnxfafkv7r?ref=gtm2"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-HQQLJ83BKE&amp;cx=c&amp;gtm=4e6711"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="https://consent.cookiebot.com/Framework/IAB/consent-sdk-2.3.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async=""
+      src="https://consent.cookiebot.com/uc.js?cbid=0053f5c5-e2d2-4680-ba5e-381807429a56&amp;implementation=gtm&amp;consentmode-dataredaction=dynamic&amp;framework=TCFv2.2"
+      id="Cookiebot"
+    ></script>
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtm.js?id=GTM-56X6J48"
+    ></script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-56X6J48");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>Loyverse API. Créez votre application ou votre solution web</title>
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&amp;family=Nunito:wght@700&amp;display=fallback"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&amp;language=fr&amp;theme=loyversecom&amp;include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T"
+    />
+
+    <meta
+      name="robots"
+      content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <style type="text/css" id="CookieConsentStateDisplayStyles">
+      .cookieconsent-optin,
+      .cookieconsent-optin-preferences,
+      .cookieconsent-optin-statistics,
+      .cookieconsent-optin-marketing {
+        display: block;
+        display: initial;
+      }
+      .cookieconsent-optout-preferences,
+      .cookieconsent-optout-statistics,
+      .cookieconsent-optout-marketing,
+      .cookieconsent-optout {
+        display: none;
+      }
+    </style>
+  </head>
+  <body itemscope="" itemtype="https://schema.org/WebPage">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-56X6J48"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      >
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="mainwrap">
+      <div class="topmenu mobile">
+        <nav
+          itemscope=""
+          itemtype="https://schema.org/SiteNavigationElement"
+          aria-labelledby="block-topmenu-3-menu"
+          id="block-topmenu-3"
+        >
+          <div class="visually-hidden" id="block-topmenu-3-menu">
+            Logiciel de caisse
+          </div>
+
+          <ul class="lmenu">
+            <li>
+              <a href="/fr/features" data-drupal-link-system-path="node/10"
+                >Fonctionnalites
+              </a>
+            </li>
+            <li>
+              <a href="/fr/hardware" data-drupal-link-system-path="node/9"
+                >Hardware</a
+              >
+            </li>
+            <li>
+              <a href="/fr/pricing" data-drupal-link-system-path="node/8"
+                >Prix</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div id="block-appmarketplace-2" class="a_mp_mob">
+          <div><a href="/marketplace">App Marketplace</a></div>
+        </div>
+
+        <div id="block-help-3">
+          <div>
+            <div>
+              <a class="help" href="https://help.vemli.co/fr">Aide </a>
+            </div>
+          </div>
+        </div>
+        <nav
+          itemscope=""
+          itemtype="https://schema.org/SiteNavigationElement"
+          aria-labelledby="block-product-top-menu"
+          id="block-product-top"
+        >
+          <div id="block-product-top-menu">Produits</div>
+
+          <ul class="lmenu">
+            <li>
+              <a
+                href="/fr/download-loyverse"
+                data-drupal-link-system-path="node/46"
+                >Vemli POS</a
+              >
+            </li>
+            <li>
+              <a href="/fr/back-office" data-drupal-link-system-path="node/11"
+                >Back Office</a
+              >
+            </li>
+            <li>
+              <a href="/fr/dashboard" data-drupal-link-system-path="node/12"
+                >Dashboard</a
+              >
+            </li>
+            <li>
+              <a
+                href="/fr/kitchen-display-system"
+                data-drupal-link-system-path="node/13"
+                >Système d'affichage cuisine</a
+              >
+            </li>
+            <li>
+              <a
+                href="/fr/customer-display-system"
+                data-drupal-link-system-path="node/14"
+                >Ecran d’Affichage de client</a
+              >
+            </li>
+            <li>
+              <a
+                href="/fr/employee-management"
+                data-drupal-link-system-path="node/17"
+                >Gestion des Employés</a
+              >
+            </li>
+            <li>
+              <a
+                href="/fr/multi-store-pos"
+                data-drupal-link-system-path="node/56"
+                >Gestion de plusieurs magasins</a
+              >
+            </li>
+            <li>
+              <a
+                href="/fr/advanced-inventory"
+                data-drupal-link-system-path="node/15"
+                >Gestion de Stock</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div
+          class="views-element-container"
+          id="block-views-block-products-block-6"
+        >
+          <div>Types d'entreprises</div>
+
+          <div>
+            <div
+              class="js-view-dom-id-ac465ebd97531c8c8e42960bd30a73567098a360157f6a74b008c8b9494fa310"
+            >
+              <div class="prod-open">
+                <ul class="menu">
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/grocery-pos" hreflang="fr"
+                          >Épicerie</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/restaurants-pos" hreflang="fr"
+                          >Restaurant</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/bar-pos" hreflang="fr">Bar</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/fashion-boutiques-pos" hreflang="fr"
+                          >Magasin de mode</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="views-element-container"
+          id="block-views-block-products-block-3-3"
+        >
+          <div>Point de Vente</div>
+
+          <div>
+            <div
+              class="js-view-dom-id-a3b500118febe073f41bcc2f5d9cd90bf45f18861bbbbd8e29facc41db062ebc"
+            >
+              <div class="prod-open">
+                <ul class="menu">
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/loyalty-program" hreflang="fr"
+                          >Programme de fidélité</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/payment-systems" hreflang="fr"
+                          >Acceptez les cartes de crédit</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/sumup" hreflang="fr">SumUp</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/izettle" hreflang="fr">Zettle</a></span
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="views-field views-field-title">
+                      <span class="field-content"
+                        ><a href="/fr/vemli-api" hreflang="fr"
+                          >API</a
+                        ></span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="language-switcher-language-url"
+          id="block-languageswitcher-3"
+          role="navigation"
+        >
+          <div class="menu-button earth-img"></div>
+          <div>Français</div>
+
+          <ul class="links">
+            <li hreflang="id" data-drupal-link-system-path="node/58">
+              <a
+                href="/id/vemli-api"
+                class="language-link"
+                hreflang="id"
+                data-drupal-link-system-path="node/58"
+                >Bahasa Indonesia</a
+              >
+            </li>
+            <li hreflang="de" data-drupal-link-system-path="node/58">
+              <a
+                href="/de/vemli-api"
+                class="language-link"
+                hreflang="de"
+                data-drupal-link-system-path="node/58"
+                >Deutsch</a
+              >
+            </li>
+            <li hreflang="en" data-drupal-link-system-path="node/58">
+              <a
+                href="/vemli-api"
+                class="language-link"
+                hreflang="en"
+                data-drupal-link-system-path="node/58"
+                >English</a
+              >
+            </li>
+            <li hreflang="es" data-drupal-link-system-path="node/58">
+              <a
+                href="/es/vemli-api"
+                class="language-link"
+                hreflang="es"
+                data-drupal-link-system-path="node/58"
+                >Español</a
+              >
+            </li>
+            <li
+              hreflang="fr"
+              data-drupal-link-system-path="node/58"
+              class="is-active"
+              aria-current="page"
+            >
+              <a
+                href="/fr/vemli-api"
+                class="language-link is-active"
+                hreflang="fr"
+                data-drupal-link-system-path="node/58"
+                aria-current="page"
+                >Français</a
+              >
+            </li>
+            <li hreflang="it" data-drupal-link-system-path="node/58">
+              <a
+                href="/it/vemli-api"
+                class="language-link"
+                hreflang="it"
+                data-drupal-link-system-path="node/58"
+                >Italiano</a
+              >
+            </li>
+            <li hreflang="pl" data-drupal-link-system-path="node/58">
+              <a
+                href="/pl/vemli-api"
+                class="language-link"
+                hreflang="pl"
+                data-drupal-link-system-path="node/58"
+                >Polski</a
+              >
+            </li>
+            <li hreflang="pt-br" data-drupal-link-system-path="node/58">
+              <a
+                href="/br/vemli-api"
+                class="language-link"
+                hreflang="pt-br"
+                data-drupal-link-system-path="node/58"
+                >Português (BR)</a
+              >
+            </li>
+            <li hreflang="vi" data-drupal-link-system-path="node/58">
+              <a
+                href="/vn/vemli-api"
+                class="language-link"
+                hreflang="vi"
+                data-drupal-link-system-path="node/58"
+                >Tiếng Việt</a
+              >
+            </li>
+            <li hreflang="el" data-drupal-link-system-path="node/58">
+              <a
+                href="/gr/vemli-api"
+                class="language-link"
+                hreflang="el"
+                data-drupal-link-system-path="node/58"
+                >Ελληνικά</a
+              >
+            </li>
+            <li hreflang="ar" data-drupal-link-system-path="node/58">
+              <a
+                href="/ar/vemli-api"
+                class="language-link"
+                hreflang="ar"
+                data-drupal-link-system-path="node/58"
+                >اللغة العربية</a
+              >
+            </li>
+            <li hreflang="th" data-drupal-link-system-path="node/58">
+              <a
+                href="/th/vemli-api"
+                class="language-link"
+                hreflang="th"
+                data-drupal-link-system-path="node/58"
+                >ภาษาไทย</a
+              >
+            </li>
+            <li hreflang="ko" data-drupal-link-system-path="node/58">
+              <a
+                href="/ko/vemli-api"
+                class="language-link"
+                hreflang="ko"
+                data-drupal-link-system-path="node/58"
+                >한국어</a
+              >
+            </li>
+            <li hreflang="ja" data-drupal-link-system-path="node/58">
+              <a
+                href="/jp/vemli-api"
+                class="language-link"
+                hreflang="ja"
+                data-drupal-link-system-path="node/58"
+                >日本語</a
+              >
+            </li>
+            <li hreflang="zh-hant" data-drupal-link-system-path="node/58">
+              <a
+                href="/zh/vemli-api"
+                class="language-link"
+                hreflang="zh-hant"
+                data-drupal-link-system-path="node/58"
+                >中文 (繁體)</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="block-signintest">
+          <div>
+            <div id="href">
+              <a class="sign" href="/fr/login">Se connecter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="overlay"></div>
+      <div id="overlay-product"></div>
+      <div id="video_block">
+        <div class="popup_wrapper">
+          <div class="mobile-arrow"></div>
+          <iframe class="popup_content"></iframe>
+        </div>
+      </div>
+      <!-- HEADER -->
+      <main class="content-section">
+        <section class="content-text">
+          <div class="content-textpad">
+            <div data-drupal-messages-fallback="" class="hidden"></div>
+            <article data-history-node-id="58">
+              <div>
+                <div>
+                  <section class="api">
+                    <section class="main-api-block">
+                      <div class="wrapper">
+                        <div class="section-text">
+                          <h1>Loyverse API</h1>
+
+                          <p class="body2">
+                            Développez votre application, logiciel , ou solution
+                            web qui élargit les fonctionnalités de Loyverse PDV.
+                            Intégrer les solutions existantes avec Loyverse PDV
+                            pour aider les dirigeants d'entreprises à améliorer
+                            leur activité.
+                          </p>
+                          <a
+                            class="get-started-button"
+                            href="https://vemli.co/fr/login?app=developer&amp;return_to=https:%2F%2Fdeveloper.loyverse.com%2Fapps"
+                            target="_blank"
+                            rel="noopener"
+                            >S'inscrire en tant que développeur</a
+                          >
+                        </div>
+
+                        <picture class="section-img"
+                          ><img
+                            alt="Vemli API illustration"
+                            data-entity-type=""
+                            data-entity-uuid=""
+                            src="/sites/all/themes/loyversecom/images/pos-system/api/api-main-banner.webp"
+                            width="344"
+                        /></picture>
+                      </div>
+                    </section>
+
+                    <section class="help-merchants-block">
+                      <h2>
+                        Aidez les commerçants à développer leur activité<br />
+                        grâce à la plateforme Loyverse
+                      </h2>
+
+                      <p class="body2">
+                        Élargissez les fonctionnalités de Loyverse pour répondre
+                        aux besoins accrus de votre entreprise. Créez votre
+                        application ou votre solution web et offrez-la aux
+                        utilisateurs de Loyverse. Réalisez des intégrations pour
+                        les utilisateurs de Loyverse afin de répondre à leurs
+                        demandes.
+                      </p>
+                    </section>
+
+                    <section class="api-icons-block">
+                      <ul class="wrapper">
+                        <li class="api_icon api_growth">
+                          <h4>Croissance</h4>
+
+                          <p>
+                            Aider les commerçants à développer leurs entreprises
+                            en créant des logiciels ou en connectant Loyverse à
+                            des <a href="/fr/features">outils existants</a>.
+                          </p>
+                        </li>
+                        <li class="api_icon api_analytics">
+                          <h4>Analytique</h4>
+
+                          <p>
+                            Améliorer les outils de gestion et d'analyse des
+                            données de vente afin d'améliorer la compréhension
+                            et la productivité des entreprises.
+                          </p>
+                        </li>
+                        <li class="api_icon api_bookkeeping">
+                          <h4>Tenue de livre des comptes</h4>
+
+                          <p>
+                            Intégrer le logiciel de comptabilité existant avec
+                            Loyverse pour élargir les possibilités d'affaires.
+                          </p>
+                        </li>
+                        <li class="api_icon api_items">
+                          <h4>Articles</h4>
+
+                          <p>
+                            Améliorer le processus d'ajout d'articles au PDV
+                            Loyverse en développent un logiciel spécifique.
+                          </p>
+                        </li>
+                        <li class="api_icon api_orders">
+                          <h4>Commandes</h4>
+
+                          <p>
+                            Connectez les systèmes de commande de produits en
+                            ligne ou basés sur des applications avec le PDV
+                            Loyverse pour aider les utilisateurs à recevoir et à
+                            traiter les commandes.
+                          </p>
+                        </li>
+                        <li class="api_icon api_stock">
+                          <h4>Stock</h4>
+
+                          <p>
+                            Étendre les méthodes d'hypothèses de coûts dans la
+                            <a href="/fr/advanced-inventory"
+                              >gestion des stocks</a
+                            >, telles que le FIFO.
+                          </p>
+                        </li>
+                        <li class="api_icon api_payroll">
+                          <h4>La paie</h4>
+
+                          <p>
+                            Intégrer le suivi du temps de travail des employés
+                            aux solutions de calcul des salaires et améliorer la
+                            <a href="/fr/employee-management"
+                              >gestion du personnel</a
+                            >
+                            et leur motivation au travail.
+                          </p>
+                        </li>
+                        <li class="api_icon api_customers">
+                          <h4>Clients</h4>
+
+                          <p>
+                            Développer les applications qui peuvent aider les
+                            commerçants à communiquer avec leurs clients , et
+                            améliorer l'expérience du client avec le
+                            <a href="/fr/loyalty-program"
+                              >programme de fidélité</a
+                            >
+                          </p>
+                        </li>
+                        <li class="api_icon api_scheduling">
+                          <h4>Plannification</h4>
+
+                          <p>
+                            Développer l'intégration avec le système de
+                            programmation existant , et aider à améliorer le
+                            gestion du flux de clients.
+                          </p>
+                        </li>
+                        <li class="api_icon api_erp">
+                          <h4>ERP</h4>
+
+                          <p>
+                            Aider les commerçants à gérer leur activités et à
+                            automatiser les fonctions liées à la technologie,
+                            aux services et aux ressources humaines.&nbsp;
+                          </p>
+                        </li>
+                      </ul>
+                    </section>
+
+                    <section class="resources-block">
+                      <h3>Ressources</h3>
+
+                      <ul class="wrapper">
+                        <li class="how-use">
+                          <div class="resources-icon icon-live">&nbsp;</div>
+
+                          <p class="title">Centre d'assistance</p>
+
+                          <p>
+                            En savoir plus sur les fonctionnalités de loyeverse,
+                            et la possibilité d'une meilleure intégration avec
+                            les autres applications et logiciels.
+                          </p>
+                        </li>
+                        <li class="how-use">
+                          <div class="resources-icon icon-help">&nbsp;</div>
+
+                          <p class="title">Documentation</p>
+
+                          <p>
+                            Apprenez à utiliser les ressources du compte
+                            loyverse en effectuant des requêtes HTTPS vers les
+                            URL qui représentent ces ressources.
+                          </p>
+                          <a href="#" target="_blank" rel="noopener"
+                            >Aller à la documentation</a
+                          >
+                        </li>
+                        <li class="how-use">
+                          <div class="resources-icon icon-town">&nbsp;</div>
+
+                          <p class="title">Club des développeurs</p>
+
+                          <p>
+                            Rejoignez le club de l'API dans la communauté de
+                            Loyverse Town. Participez aux activités de test des
+                            nouvelles fonctionnalités.
+                          </p>
+                          <a
+                            href="https://loyverse.town/forum/157-loyverse-api/"
+                            target="_blank"
+                            rel="noopener"
+                            >Aller au Club des développeurs</a
+                          >
+                        </li>
+                      </ul>
+                    </section>
+                  </section>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <!-- FOOTER -->
+    </div>
+
+    <script src="/sites/default/files/js/js_WoDwjuP70IDeEDsDv9Iyse4AAfjrI0vlOSY585mBbsg.js?scope=footer&amp;delta=0&amp;language=fr&amp;theme=loyversecom&amp;include=eJzLya8sSy0qTk3Oz9VPz8lPSszRLS6pzMnMS9fJQZIqT01Ky88rAQC2iBKY"></script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://vemli.co/#organization",
+        "name": "Vemli",
+        "legalName": "Vemli Commerce Ltd",
+        "url": "https://vemli.co",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://vemli.co/sites/all/themes/loyversecom/images/lpos-ograf.png",
+          "width": 1200,
+          "height": 630
+        },
+        "description": "Vemli is a free POS (point-of-sale) and inventory management software for small and medium businesses, used in retail, restaurants, cafes and service businesses worldwide.",
+        "foundingDate": "2014",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "41 Lothbury",
+          "addressLocality": "London",
+          "postalCode": "EC2R 7HF",
+          "addressCountry": "GB"
+        },
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "info@vemli.co",
+            "availableLanguage": [
+              "English",
+              "Spanish",
+              "Portuguese",
+              "French",
+              "German",
+              "Italian",
+              "Thai",
+              "Korean",
+              "Japanese",
+              "Chinese",
+              "Arabic",
+              "Greek",
+              "Vietnamese",
+              "Indonesian"
+            ],
+            "areaServed": "Worldwide"
+          }
+        ],
+        "areaServed": {
+          "@type": "Place",
+          "name": "Worldwide"
+        },
+        "knowsAbout": [
+          "Point of Sale",
+          "POS Software",
+          "Inventory Management",
+          "Retail Management",
+          "Restaurant Management",
+          "Small Business Software"
+        ],
+        "sameAs": [
+          "https://www.facebook.com/vemliit",
+          "https://twitter.com/vemliit",
+          "https://www.youtube.com/c/vemliit",
+          "https://www.instagram.com/vemliit",
+          "https://www.capterra.com/p/150632/Loyverse-POS/",
+          "https://www.linkedin.com/company/loyverse-pos",
+          "https://www.tiktok.com/@vemliit",
+          "https://www.g2.com/products/loyverse-free-pos/reviews",
+          "https://www.crunchbase.com/organization/loyverse-pos",
+          "https://www.softwareadvice.com/retail/loyverse-profile/reviews/",
+          "https://www.getapp.com/retail-consumer-services-software/a/loyverse-pos/",
+          "https://sourceforge.net/software/product/Loyverse/"
+        ]
+      }
+    </script>
+    <script type="text/javascript" id="" charset="">
+      if (google_tag_manager["rm"]["11865765"](40)) {
+        var t = document.createElement("title");
+        t.innerText = google_tag_manager["rm"]["11865765"](41);
+        document.head.appendChild(t);
+        document.title = google_tag_manager["rm"]["11865765"](42);
+      }
+    </script>
+    <script type="text/javascript" id="" charset="">
+      if (google_tag_manager["rm"]["11865765"](43)) {
+        var d = document.createElement("meta");
+        d.name = "description";
+        d.content = google_tag_manager["rm"]["11865765"](44);
+        document.head.appendChild(d);
+      }
+    </script>
+    <script type="text/javascript" id="" charset="">
+      (function () {
+        var d = new URLSearchParams(window.location.search),
+          e =
+            "gclid utm_source utm_medium utm_campaign utm_term utm_content utm_id".split(
+              " ",
+            ),
+          a = [];
+        e.forEach(function (b) {
+          var c = d.get(b);
+          c && a.push(b + "\x3d" + encodeURIComponent(c));
+        });
+        a.length > 0 && localStorage.setItem("referrerUrl", a.join("\x26"));
+      })();
+    </script>
+    <iframe
+      class="CybotCookiebotHiddenIframe"
+      name="__uspapiLocator"
+      tabindex="-1"
+      role="presentation"
+      aria-hidden="true"
+      title="Blank"
+    ></iframe
+    ><iframe class="CybotCookiebotHiddenIframe" name="__tcfapiLocator"></iframe
+    ><iframe
+      class="CybotCookiebotOffscreenIframe"
+      tabindex="-1"
+      role="presentation"
+      aria-hidden="true"
+      title="Blank"
+      src="https://consentcdn.cookiebot.com/sdk/bc-v4.min.html"
+    ></iframe>
+    <script type="text/javascript" id="" charset="">
+      (function (a, e, b, f, g, c, d) {
+        a[b] =
+          a[b] ||
+          function () {
+            (a[b].q = a[b].q || []).push(arguments);
+          };
+        c = e.createElement(f);
+        c.async = 1;
+        c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dgtm2";
+        d = e.getElementsByTagName(f)[0];
+        d.parentNode.insertBefore(c, d);
+      })(window, document, "clarity", "script", "dnxfafkv7r");
+    </script>
+  </body>
+</html>
