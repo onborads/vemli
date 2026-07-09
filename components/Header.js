@@ -225,10 +225,7 @@ export default function Header() {
 
                 <ul className="lmenu">
                   <li>
-                    <a
-                      href="/get-started"
-                      data-drupal-link-system-path="node/46"
-                    >
+                    <a href="/vemli-pos" data-drupal-link-system-path="node/46">
                       Vemli POS
                     </a>
                   </li>
