@@ -10,7 +10,7 @@ export default function Header() {
                   <div>
                     <div className="zero-menu">
                       <a
-                        href="https://loyverse.town/"
+                        href="#"
                         target="_blank"
                         rel="noopener"
                       >
@@ -226,7 +226,7 @@ export default function Header() {
                 <ul className="lmenu">
                   <li>
                     <a
-                      href="/download-loyverse"
+                      href="/get-started"
                       data-drupal-link-system-path="node/46"
                     >
                       Vemli POS

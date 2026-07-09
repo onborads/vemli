@@ -96,7 +96,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/download-loyverse" hreflang="en">
+                            <a href="/get-started" hreflang="en">
                               Vemli POS
                             </a>
                           </span>
@@ -355,13 +355,13 @@ export default function Footer() {
                     </a>
                   </li>
                   {/* <li>
-                    <a href="https://loyverse.town/">Community</a>
+                    <a href="#">Community</a>
                   </li> */}
                   {/* <li>
                     <a href="https://vemli.co/blog">Blog</a>
                   </li> */}
                   {/* <li>
-                    <a href="https://loyverse.town/files/category/4-media-kit/">
+                    <a href="#">
                       Media kit
                     </a>
                   </li> */}
