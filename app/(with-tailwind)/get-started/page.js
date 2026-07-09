@@ -7,90 +7,132 @@ export default function Page() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-white text-gray-900">
-        <div className="max-w-[640px] mx-auto px-6">
-          <div className="text-center pt-12 pb-8">
-            <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 mb-3">
-              Get{" "}
-              <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 bg-clip-text text-transparent">
-                Started
-              </span>
-            </h1>
-            <p className="text-gray-500 text-lg">
-              Choose how you would like to reach our team. We respond quickly.
-            </p>
+
+      <main className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-blue-50">
+        <section className="max-w-5xl mx-auto px-6 py-16">
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="grid md:grid-cols-2">
+              {/* Left Content */}
+              <div className="p-8 md:p-12 flex flex-col justify-center">
+                <span className="inline-flex w-fit items-center gap-2 px-4 py-2 rounded-full bg-green-50 text-green-700 text-sm font-medium mb-6">
+                  <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                  Available Now
+                </span>
+
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+                  Ready to simplify your business operations?
+                </h1>
+
+                <p className="mt-5 text-gray-600 text-lg">
+                  Get started with Vemli and let our team help you transform the
+                  way you manage sales, inventory, customers, and business
+                  growth.
+                </p>
+
+                <div className="mt-8 space-y-4">
+                  <a
+                    href="https://wa.me/2332461427273?text=Hello%20Vemli%20Core%20Team,%20I'm%20interested%20in%20your%20POS%20system."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-3 bg-green-500  text-white rounded-xl px-6 py-4 font-semibold transition shadow-lg shadow-green-200"
+                  >
+                    <i className="fab fa-whatsapp text-xl" />
+                    Chat on WhatsApp
+                  </a>
+
+                  <a
+                    href="tel:+233240699506"
+                    className="flex items-center justify-center gap-4  text-white rounded-xl px-6 py-4 font-semibold transition shadow-lg shadow-blue-200"
+                  >
+                    <i className="fas fa-phone" />
+                    Call +233 24 069 9506
+                  </a>
+
+                  <a
+                    href="mailto:info@vemli.co"
+                    className="flex items-center justify-center gap-3 border border-gray-200 hover:border-blue-400 rounded-xl px-6 py-4 font-semibold text-gray-800 transition"
+                  >
+                    <i className="fas fa-envelope text-blue-500" />
+                    info@vemli.co
+                  </a>
+                </div>
+
+                <div className="mt-8 grid grid-cols-3 gap-4 text-center">
+                  <div>
+                    <b className="block text-gray-900 text-lg">1hr</b>
+                    <span className="text-xs text-gray-500">Response</span>
+                  </div>
+
+                  <div>
+                    <b className="block text-gray-900 text-lg">8AM-8PM</b>
+                    <span className="text-xs text-gray-500">Support</span>
+                  </div>
+
+                  <div>
+                    <b className="block text-gray-900 text-lg">✓</b>
+                    <span className="text-xs text-gray-500">Trusted</span>
+                  </div>
+                </div>
+
+                {/* Contact Info Below Stats */}
+                <div className="mt-6 pt-6 border-t border-gray-200">
+                  <div className="flex items-center justify-center gap-6 text-sm">
+                    <a
+                      href="tel:+233240699506"
+                      className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition"
+                    >
+                      <i className="fas fa-phone text-blue-600" />
+                      <span className="font-medium">+233 24 069 9506</span>
+                    </a>
+                    <span className="text-gray-300">|</span>
+                    <a
+                      href="mailto:info@vemli.co"
+                      className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition"
+                    >
+                      <i className="fas fa-envelope text-blue-600" />
+                      <span className="font-medium">info@vemli.co</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Image */}
+              <div className="relative min-h-[520px] overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
+                  alt="Vemli Core POS Dashboard"
+                  className="absolute inset-0 w-full h-full object-cover object-top"
+                />
+
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-950/90 via-blue-900/20 to-transparent" />
+
+                <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur rounded-2xl p-6 shadow-xl">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="w-2 h-2 rounded-full bg-green-500" />
+                    <p className="text-sm text-blue-600 font-semibold">
+                      Vemli IT Services
+                    </p>
+                  </div>
+
+                  <h2 className="font-bold text-gray-900 text-xl">
+                    Smart Business Management
+                  </h2>
+
+                  <p className="text-sm text-gray-600 mt-2">
+                    Manage sales, inventory, customers, and reports from one
+                    powerful platform.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div className="grid gap-4 pb-12">
-            <a
-              href="https://wa.me/233240699506?text=Hello%20Vemli%20Core%20Team,%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-5 p-6 rounded-2xl border border-gray-200 bg-white shadow-sm text-left transition-all duration-300 hover:border-blue-400 hover:-translate-y-1 hover:shadow-md"
-            >
-              <div className="w-14 h-14 rounded-xl bg-emerald-50 text-emerald-600 border border-emerald-200 flex items-center justify-center text-2xl shrink-0">
-                <i className="fab fa-whatsapp"></i>
-              </div>
-              <div className="flex-1">
-                <div className="font-bold text-lg text-gray-900">
-                  WhatsApp (Fastest Response)
-                </div>
-                <div className="text-gray-500 text-sm">
-                  Chat directly with our sales team
-                </div>
-                <div className="text-gray-900 text-sm font-semibold">
-                  +233 24 069 9506
-                </div>
-              </div>
-              <i className="fas fa-arrow-right text-gray-400 text-lg shrink-0"></i>
-            </a>
-
-            <a
-              href="mailto:info@vemli.co"
-              className="flex items-center gap-5 p-6 rounded-2xl border border-gray-200 bg-white shadow-sm text-left transition-all duration-300 hover:border-blue-400 hover:-translate-y-1 hover:shadow-md"
-            >
-              <div className="w-14 h-14 rounded-xl bg-red-50 text-red-500 border border-red-200 flex items-center justify-center text-2xl shrink-0">
-                <i className="fas fa-envelope"></i>
-              </div>
-              <div className="flex-1">
-                <div className="font-bold text-lg text-gray-900">Email</div>
-                <div className="text-gray-500 text-sm">
-                  Send detailed business inquiry
-                </div>
-                <div className="text-gray-900 text-sm font-semibold">
-                  info@vemli.co
-                </div>
-              </div>
-              <i className="fas fa-arrow-right text-gray-400 text-lg shrink-0"></i>
-            </a>
-
-            <a
-              href="tel:+233240699506"
-              className="flex items-center gap-5 p-6 rounded-2xl border border-gray-200 bg-white shadow-sm text-left transition-all duration-300 hover:border-blue-400 hover:-translate-y-1 hover:shadow-md"
-            >
-              <div className="w-14 h-14 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 flex items-center justify-center text-2xl shrink-0">
-                <i className="fas fa-phone"></i>
-              </div>
-              <div className="flex-1">
-                <div className="font-bold text-lg text-gray-900">
-                  Phone Call
-                </div>
-                <div className="text-gray-500 text-sm">
-                  Speak with our Ghana team directly
-                </div>
-                <div className="text-gray-900 text-sm font-semibold">
-                  +233 24 069 9506
-                </div>
-              </div>
-              <i className="fas fa-arrow-right text-gray-400 text-lg shrink-0"></i>
-            </a>
-          </div>
-
-          <p className="text-center text-gray-400 text-sm pb-12">
-            We respond within 1 hour during business hours (8AM - 8PM GMT)
+          <br />
+          <p className="text-center text-gray-400 text-sm mt-8">
+            We're here to help you succeed.
           </p>
-        </div>
-      </div>
+        </section>
+      </main>
+
       <Footer />
     </>
   );

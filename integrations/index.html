@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integrations — Vemli Core</title>
+    <meta
+      name="description"
+      content="Connect Vemli Core to WhatsApp, Slack, hotel systems, AI assistants, Sage 300, QuickBooks, and more. Built for Ghanaian businesses."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              display: ["Syne", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: #0a0f1e;
+        color: white;
+        overflow-x: hidden;
+      }
+      .font-display {
+        font-family: "Syne", sans-serif;
+      }
+
+      .nav-blur {
+        background: rgba(10, 15, 30, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        border-radius: 100px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+      .pill-blue {
+        background: rgba(59, 130, 246, 0.15);
+        color: #93c5fd;
+        border: 1px solid rgba(59, 130, 246, 0.25);
+      }
+
+      /* Hero gradient */
+      .page-hero {
+        background:
+          radial-gradient(
+            ellipse 70% 50% at 50% 0%,
+            rgba(59, 130, 246, 0.2),
+            transparent 70%
+          ),
+          radial-gradient(
+            circle at 80% 20%,
+            rgba(167, 139, 250, 0.12),
+            transparent 60%
+          ),
+          #0a0f1e;
+      }
+
+      /* Category tabs */
+      .tab-btn {
+        padding: 8px 20px;
+        border-radius: 100px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #94a3b8;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.03);
+        cursor: pointer;
+        transition: all 0.2s;
+        white-space: nowrap;
+      }
+      .tab-btn:hover {
+        color: white;
+        border-color: rgba(255, 255, 255, 0.2);
+      }
+      .tab-btn.active {
+        background: #2563eb;
+        color: white;
+        border-color: #2563eb;
+      }
+
+      /* Integration cards */
+      .int-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+        border-radius: 20px;
+        padding: 28px;
+        transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .int-card:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(59, 130, 246, 0.35);
+        transform: translateY(-3px);
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+      }
+      .int-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        flex-shrink: 0;
+      }
+      .int-badge {
+        font-size: 10px;
+        font-weight: 600;
+        padding: 3px 9px;
+        border-radius: 100px;
+        letter-spacing: 0.3px;
+      }
+      .badge-live {
+        background: rgba(52, 211, 153, 0.12);
+        color: #6ee7b7;
+        border: 1px solid rgba(52, 211, 153, 0.25);
+      }
+      .badge-soon {
+        background: rgba(251, 191, 36, 0.1);
+        color: #fcd34d;
+        border: 1px solid rgba(251, 191, 36, 0.2);
+      }
+      .badge-custom {
+        background: rgba(167, 139, 250, 0.1);
+        color: #c4b5fd;
+        border: 1px solid rgba(167, 139, 250, 0.2);
+      }
+
+      .feature-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .feature-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 13px;
+        color: #94a3b8;
+        line-height: 1.5;
+      }
+      .feature-item .check {
+        color: #34d399;
+        flex-shrink: 0;
+        margin-top: 1px;
+        font-size: 11px;
+      }
+
+      /* CTA banner */
+      .cta-banner {
+        background: linear-gradient(
+          135deg,
+          rgba(37, 99, 235, 0.15) 0%,
+          rgba(109, 40, 217, 0.1) 100%
+        );
+        border: 1px solid rgba(59, 130, 246, 0.2);
+        border-radius: 24px;
+        padding: 48px;
+      }
+
+      /* Reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(28px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .reveal-delay-1 {
+        transition-delay: 0.08s;
+      }
+      .reveal-delay-2 {
+        transition-delay: 0.16s;
+      }
+      .reveal-delay-3 {
+        transition-delay: 0.24s;
+      }
+
+      /* Footer */
+      footer {
+        background: #0f172a;
+        color: #cbd5e1;
+        padding: 4rem 0 2rem;
+      }
+      footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 3rem;
+        margin-bottom: 3rem;
+      }
+      .footer-logo {
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        background-image: url("./logo_dark.jpeg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center left;
+        width: 96px;
+        height: 32px;
+      }
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .footer-links a {
+        color: #94a3b8;
+        text-decoration: none;
+        transition: color 0.15s;
+        font-size: 0.9rem;
+      }
+      .footer-links a:hover {
+        color: #f59e0b;
+      }
+      .footer-bottom {
+        text-align: center;
+        padding-top: 2rem;
+        border-top: 1px solid #1e293b;
+        font-size: 0.9rem;
+        color: #94a3b8;
+      }
+
+      @media (max-width: 640px) {
+        .cta-banner {
+          padding: 28px 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- WhatsApp Float -->
+    <a
+      href="https://wa.me/233261427273?text=Hello%20Vemli%20POS%20Team%2C%20I'm%20interested%20in%20your%20POS%20system.%20Please%20share%20more%20details."
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+      style="
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        background: #25d366;
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        text-decoration: none;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+        z-index: 100;
+        transition: transform 0.3s;
+      "
+      onmouseover="this.style.transform = 'scale(1.1)'"
+      onmouseout="this.style.transform = 'scale(1)'"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- NAV -->
+    <nav class="nav-blur fixed top-0 left-0 right-0 z-50">
+      <div
+        class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between"
+      >
+        <a
+          href="index.html"
+          title="Vemli Core"
+          style="
+            background-image: url(&quot;./logo_white-nobg.png&quot;);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 120px;
+            height: 40px;
+            display: block;
+            filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.5));
+          "
+        ></a>
+        <div class="hidden md:flex items-center gap-8">
+          <a
+            href="index.html#features"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Features</a
+          >
+          <a
+            href="index.html#ai"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Business Intelligence</a
+          >
+          <a
+            href="integrations.html"
+            class="text-sm text-white font-medium transition-colors"
+            >Integrations</a
+          >
+          <a
+            href="index.html#pricing"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >Pricing</a
+          >
+          <a
+            href="how-it-works.html"
+            class="text-sm text-slate-400 hover:text-white transition-colors"
+            >How It Works</a
+          >
+        </div>
+        <a
+          href="tel:+233240699506"
+          class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-all hover:shadow-lg hover:shadow-blue-600/25 hover:-translate-y-px"
+        >
+          Call Us
+        </a>
+      </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <div class="page-hero pt-32 pb-16 px-6 text-center">
+      <div class="pill pill-blue mb-5 mx-auto w-fit">Integrations</div>
+      <h1
+        class="font-display text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-5"
+      >
+        Connect Vemli Core to<br />
+        <span
+          style="
+            background: linear-gradient(135deg, #60a5fa, #a78bfa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+          "
+        >
+          the tools you already use
+        </span>
+      </h1>
+      <p
+        class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-light"
+      >
+        From WhatsApp notifications to full accounting sync with QuickBooks and
+        Sage 300 — Vemli Core fits into your existing workflow.
+      </p>
+
+      <!-- Stats row -->
+      <div class="flex flex-wrap justify-center gap-8 mt-10">
+        <div class="text-center">
+          <div class="font-display text-3xl font-extrabold text-white">8+</div>
+          <div class="text-slate-500 text-sm mt-1">Live integrations</div>
+        </div>
+        <div class="w-px bg-white/10 self-stretch hidden sm:block"></div>
+        <div class="text-center">
+          <div class="font-display text-3xl font-extrabold text-white">40+</div>
+          <div class="text-slate-500 text-sm mt-1">AI data tools</div>
+        </div>
+        <div class="w-px bg-white/10 self-stretch hidden sm:block"></div>
+        <div class="text-center">
+          <div class="font-display text-3xl font-extrabold text-white">
+            Real-time
+          </div>
+          <div class="text-slate-500 text-sm mt-1">
+            Sync across all platforms
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FILTER TABS -->
+    <div class="px-6 pb-8 max-w-5xl mx-auto">
+      <div class="flex flex-wrap gap-2 justify-center" id="tabs">
+        <button class="tab-btn active" data-cat="all">All</button>
+        <button class="tab-btn" data-cat="messaging">Messaging</button>
+        <button class="tab-btn" data-cat="accounting">Accounting & ERP</button>
+        <button class="tab-btn" data-cat="hospitality">Hospitality</button>
+        <button class="tab-btn" data-cat="ai">AI & Automation</button>
+      </div>
+    </div>
+
+    <!-- INTEGRATIONS GRID -->
+    <section class="px-6 pb-24 max-w-5xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-5" id="intGrid">
+        <!-- WhatsApp -->
+        <div class="int-card reveal" data-cat="messaging">
+          <div class="flex items-start gap-4">
+            <div
+              class="int-icon"
+              style="background: linear-gradient(135deg, #25d366, #128c7e)"
+            >
+              <svg viewBox="0 0 24 24" class="w-6 h-6 fill-white">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">WhatsApp</h3>
+                <span class="int-badge badge-live">Live</span>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Daily sales summaries, low stock alerts, and end-of-day reports
+                delivered to your WhatsApp. Ask business questions right from
+                chat.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Daily revenue summary
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Low stock notifications
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> End-of-day reports
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Ask business questions via chat
+            </div>
+          </div>
+        </div>
+
+        <!-- Slack -->
+        <div class="int-card reveal reveal-delay-1" data-cat="messaging">
+          <div class="flex items-start gap-4">
+            <div class="int-icon bg-[#4A154B]">
+              <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none">
+                <path
+                  d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">Slack</h3>
+                <span class="int-badge badge-live">Live</span>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Push real-time sales alerts and daily reports to your Slack
+                workspace. Keep your whole team in sync without leaving the
+                tools they use.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Sales milestone alerts
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Shift & daily summaries to channels
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Inventory warnings to ops team
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Ask business questions in Slack
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel PMS -->
+        <div class="int-card reveal" data-cat="hospitality">
+          <div class="flex items-start gap-4">
+            <div
+              class="int-icon"
+              style="background: linear-gradient(135deg, #b45309, #78350f)"
+            >
+              <span style="font-size: 22px">🏨</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">
+                  Hotel Management Systems
+                </h3>
+                <span class="int-badge badge-live">Live</span>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Post restaurant charges directly to a guest's hotel room — no
+                cash, no separate bill. Works with Opera, Protel, and compatible
+                PMS platforms.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Charge restaurant bills to any room
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Works with Opera, Protel & more
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Full order details posted to the
+              folio
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Seamless guest checkout experience
+            </div>
+          </div>
+        </div>
+
+        <!-- AI / MCP -->
+        <div class="int-card reveal reveal-delay-1" data-cat="ai">
+          <div class="flex items-start gap-4">
+            <div
+              class="int-icon"
+              style="background: linear-gradient(135deg, #6d28d9, #4c1d95)"
+            >
+              <span style="font-size: 22px">🤖</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">
+                  AI Assistant Clients
+                </h3>
+                <span class="int-badge badge-live">Live</span>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Connect Vemli directly to Claude Desktop or any MCP-compatible
+                client. Ask about your sales, staff, and inventory in plain
+                language — no dashboards needed.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Works with Claude Desktop, Cursor &
+              more
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Ask about sales, staff, inventory in
+              plain language
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> 40+ live business data tools exposed
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> No dashboards needed — just ask
+            </div>
+          </div>
+        </div>
+
+        <!-- QuickBooks -->
+        <div class="int-card reveal" data-cat="accounting">
+          <div class="flex items-start gap-4">
+            <div
+              class="int-icon"
+              style="background: linear-gradient(135deg, #2ca01c, #1a6e12)"
+            >
+              <span
+                style="
+                  font-size: 22px;
+                  font-weight: 800;
+                  color: white;
+                  font-family: sans-serif;
+                  line-height: 1;
+                "
+                >QB</span
+              >
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">QuickBooks</h3>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Sync daily sales, expenses, tax summaries, and payments from
+                Vemli directly into QuickBooks Online. Eliminate manual data
+                entry at end of day.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Auto-post daily sales journals
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> VAT & tax line sync
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Payment method breakdown (cash, card,
+              MoMo)
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Expense & cost of goods sync
+            </div>
+          </div>
+          <a
+            href="tel:+233240699506"
+            class="mt-auto text-sm text-blue-400 hover:text-blue-300 transition-colors"
+          >
+            Call us to set up →
+          </a>
+        </div>
+
+        <!-- Sage 300 / ERP -->
+        <div class="int-card reveal reveal-delay-1" data-cat="accounting">
+          <div class="flex items-start gap-4">
+            <div
+              class="int-icon"
+              style="background: linear-gradient(135deg, #0072ce, #003f7a)"
+            >
+              <span
+                style="
+                  font-size: 14px;
+                  font-weight: 800;
+                  color: white;
+                  font-family: sans-serif;
+                  line-height: 1;
+                  letter-spacing: -0.5px;
+                "
+                >SAGE<br />300</span
+              >
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">
+                  Sage 300 / ERP
+                </h3>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Push Vemli Core transactions into Sage 300 in real time. Built
+                for businesses that need full ERP-level financial visibility
+                across multiple locations or entities.
+              </p>
+            </div>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="check">✓</span> Real-time transaction posting to GL
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Multi-branch & cost centre support
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Accounts receivable & payable sync
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Inventory valuation updates
+            </div>
+            <div class="feature-item">
+              <span class="check">✓</span> Custom field mapping available
+            </div>
+          </div>
+          <a
+            href="tel:+233240699506"
+            class="mt-auto text-sm text-blue-400 hover:text-blue-300 transition-colors"
+          >
+            Call us to set up →
+          </a>
+        </div>
+
+        <!-- Custom / API -->
+        <div class="int-card reveal md:col-span-2" data-cat="all">
+          <div
+            class="flex flex-col sm:flex-row items-start sm:items-center gap-5"
+          >
+            <div
+              class="int-icon flex-shrink-0"
+              style="
+                background: linear-gradient(135deg, #334155, #1e293b);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+              "
+            >
+              <i class="fas fa-plug text-slate-300 text-lg"></i>
+            </div>
+            <div class="flex-1">
+              <div class="flex items-center gap-2 flex-wrap mb-1">
+                <h3 class="font-semibold text-white text-base">
+                  Custom Integration / REST API
+                </h3>
+                <span class="int-badge badge-custom">Enterprise</span>
+              </div>
+              <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">
+                Need something not on this list? Vemli exposes a full REST API
+                covering sales, inventory, staff, payments, and reports. Connect
+                any third-party system — ERP, CRM, BI tools, or a custom
+                dashboard built in-house.
+              </p>
+            </div>
+            <a
+              href="tel:+233240699506"
+              class="flex-shrink-0 bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition-all whitespace-nowrap"
+            >
+              Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="px-6 pb-24 max-w-5xl mx-auto reveal">
+      <div class="cta-banner text-center">
+        <div class="pill pill-blue mb-4 mx-auto w-fit">Ready to connect?</div>
+        <h2 class="font-display text-3xl md:text-4xl font-extrabold mb-4">
+          Set up your first integration today
+        </h2>
+        <p class="text-slate-400 text-base max-w-lg mx-auto mb-8">
+          Our team handles the setup end-to-end. Most integrations are live
+          within 24 hours.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a
+            href="tel:+233240699506"
+            class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-7 py-3.5 rounded-full transition-all hover:shadow-xl hover:shadow-blue-600/30 hover:-translate-y-0.5"
+          >
+            <i class="fas fa-phone"></i> Call Us Now
+          </a>
+          <a
+            href="how-it-works.html"
+            class="inline-flex items-center gap-2 text-slate-300 hover:text-white border border-white/10 hover:border-white/25 font-medium px-7 py-3.5 rounded-full transition-all"
+          >
+            See how it works <i class="fas fa-arrow-right text-sm"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ FOOTER ═══════════════ -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <a href="index.html" class="footer-logo" title="Vemli Core"></a>
+            <p>
+              Vemli Core brings sales, stock, finance, hospitality, and
+              automation together in one connected platform.
+            </p>
+          </div>
+
+          <div>
+            <h4 style="color: white; margin-bottom: 1rem">Quick Links</h4>
+            <div class="footer-links">
+              <a href="index.html#pricing">Pricing</a>
+              <a href="how-it-works.html">Resources</a>
+              <a href="index.html#platform">Platform</a>
+              <a href="tel:+233240699506">Contact Sales</a>
+            </div>
+          </div>
+
+          <div>
+            <h4 style="color: white; margin-bottom: 1rem">Contact</h4>
+            <div class="footer-links">
+              <a href="tel:+233240699506">
+                <i class="fas fa-phone" style="margin-right: 0.5rem"></i>
+                +233 24 069 9506
+              </a>
+
+              <a href="mailto:info@vemli.co">
+                <i class="fas fa-envelope" style="margin-right: 0.5rem"></i>
+                info@vemli.co
+              </a>
+
+              <a href="tel:+233240699506">
+                <i class="fas fa-headset" style="margin-right: 0.5rem"></i>
+                Sales Support
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 style="color: white; margin-bottom: 1rem">Follow Us</h4>
+            <div class="footer-links">
+              <a
+                href="https://web.facebook.com/vemliit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fab fa-facebook-f"
+                  style="margin-right: 0.5rem; color: #1877f2"
+                ></i>
+                Facebook
+              </a>
+
+              <a
+                href="http://tiktok.com/@vemliit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fab fa-tiktok"
+                  style="margin-right: 0.5rem; color: #ffffff"
+                ></i>
+                TikTok
+              </a>
+
+              <a
+                href="https://www.instagram.com/vemliit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fab fa-instagram"
+                  style="margin-right: 0.5rem; color: #e4405f"
+                ></i>
+                Instagram
+              </a>
+              <a
+                href="https://www.youtube.com/@vemliit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fab fa-youtube"
+                  style="margin-right: 0.5rem; color: #ff0000"
+                ></i>
+                YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2026 Vemli Core. All rights reserved. Designed for Ghanaian
+            businesses.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Scroll reveal
+      const observer = new IntersectionObserver(
+        (entries) =>
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          }),
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+
+      // Filter tabs
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".tab-btn")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          const cat = btn.dataset.cat;
+          document.querySelectorAll(".int-card").forEach((card) => {
+            const show = cat === "all" || card.dataset.cat === cat;
+            card.style.display = show ? "" : "none";
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
