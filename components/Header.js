@@ -1,11 +1,11 @@
 export default function Header() {
   return (
     <header className="header" itemScope itemType="https://schema.org/WPHeader">
-      <div className="overheader">
+      {/* <div className="overheader">
         <div className="overheaderin">
           <div className="overheaderpad">
             <div className="rightpart overhead-lang">
-              {/* <div className="signin">
+              <div className="signin">
                 <div id="block-communityandblog">
                   <div>
                     <div className="zero-menu">
@@ -29,7 +29,7 @@ export default function Header() {
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
 
               <div
                 className="language-switcher-language-url"
@@ -75,7 +75,8 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      {/* end */}
 
       <div className="headermain">
         <div className="fr_banner_block"></div>
@@ -291,6 +292,15 @@ export default function Header() {
                       Anviz Attendance
                     </a>
                   </li>
+
+                  {/* <li>
+                    <a
+                      href="/integrations"
+                      data-drupal-link-system-path="node/15"
+                    >
+                      Integrations
+                    </a>
+                  </li> */}
                 </ul>
               </nav>
             </div>
