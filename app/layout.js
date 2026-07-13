@@ -76,9 +76,9 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-        <link rel="stylesheet" href="/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
-        <link rel="stylesheet" href="/sites/all/themes/loyversecom/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback" />
-        <link rel="stylesheet" href="/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=loyversecom&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
+        <link rel="stylesheet" href="/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=vemli&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
+        <link rel="stylesheet" href="/sites/all/themes/vemli/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback" />
+        <link rel="stylesheet" href="/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=vemli&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataSoftware) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFAQ) }} />
       </head>
