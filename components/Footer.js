@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer-mainin">
           <div className="footerpad">
             <div className="footer-col fc0">
-              <div id="block-loyversecom-footerlogo">
+              <div id="block-vemli-footerlogo">
                 <div>
                   <div className="footer-logo">&nbsp;</div>
                   <div className="footer-text">
@@ -23,7 +23,7 @@ export default function Footer() {
                         rel="nofollow noreferrer"
                       >
                         <img
-                          src="/sites/all/themes/loyversecom/images/icon/foo-fb.svg"
+                          src="/sites/all/themes/vemli/images/icon/foo-fb.svg"
                           alt="facebook"
                           width="48"
                           height="48"
@@ -53,7 +53,7 @@ export default function Footer() {
                         rel="nofollow noreferrer"
                       >
                         <img
-                          src="/sites/all/themes/loyversecom/images/icon/foo-youtube.svg"
+                          src="/sites/all/themes/vemli/images/icon/foo-youtube.svg"
                           alt="youtube"
                           width="48"
                           height="48"
@@ -71,7 +71,7 @@ export default function Footer() {
                         rel="nofollow noreferrer"
                       >
                         <img
-                          src="/sites/all/themes/loyversecom/images/icon/foo-insta.svg"
+                          src="/sites/all/themes/vemli/images/icon/foo-insta.svg"
                           alt="instagram"
                           width="48"
                           height="48"
