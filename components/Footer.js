@@ -341,11 +341,7 @@ export default function Footer() {
               >
                 <div id="block-loyversefooter-menu">Resourses</div>
                 <ul className="lmenu">
-                  <li>
-                    <a href="/about" data-drupal-link-system-path="node/38">
-                      About
-                    </a>
-                  </li>
+                  
                   {/* <li>
                     <a href="#">Community</a>
                   </li> */}
