@@ -167,15 +167,7 @@ export default function Footer() {
                         </div>
                       </li>
 
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/anviz-attendance" hreflang="en">
-                              Time &amp; Attendance Solution
-                            </a>
-                          </span>
-                        </div>
-                      </li>
+                     
                     </ul>
                   </div>
                 </div>
