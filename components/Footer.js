@@ -296,21 +296,20 @@ export default function Footer() {
                         </div>
                       </li>
 
-                      {/* <li>
+                      <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/sumup" hreflang="en">
+                            <a href="/anviz-attendance" hreflang="en">
                               Time & Attendance Solution
                             </a>
                           </span>
                         </div>
-                      </li> */}
+                      </li>
                       {/* <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/tyro" hreflang="en">
-                              CCTVs & Security Cameras Installation and
-                              Maintenance
+                            <a href="/" hreflang="en">
+                              CCTV Installation & Maintenance
                             </a>
                           </span>
                         </div>
