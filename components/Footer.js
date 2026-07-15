@@ -39,9 +39,18 @@ export default function Footer() {
                         itemProp="sameAs"
                         target="_blank"
                         rel="nofollow noreferrer"
-                        style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", width: "48px", height: "48px" }}
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          width: "48px",
+                          height: "48px",
+                        }}
                       >
-                        <i className="fab fa-tiktok" style={{ color: "white", fontSize: "28px" }}></i>
+                        <i
+                          className="fab fa-tiktok"
+                          style={{ color: "white", fontSize: "28px" }}
+                        ></i>
                       </a>
                     </div>
                     <div className="foo-so">
@@ -166,8 +175,6 @@ export default function Footer() {
                           </span>
                         </div>
                       </li>
-
-                     
                     </ul>
                   </div>
                 </div>
@@ -288,15 +295,7 @@ export default function Footer() {
                           </span>
                         </div>
                       </li>
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/shift4" hreflang="en">
-                              Shift4
-                            </a>
-                          </span>
-                        </div>
-                      </li>
+
                       {/* <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
@@ -317,7 +316,7 @@ export default function Footer() {
                         </div>
                       </li> */}
 
-                      <li>
+                      {/* <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
                             <a href="/vemli-api" hreflang="en">
@@ -325,7 +324,7 @@ export default function Footer() {
                             </a>
                           </span>
                         </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -338,29 +337,7 @@ export default function Footer() {
                 aria-labelledby="block-loyversefooter-menu"
                 id="block-loyversefooter"
                 className="block-loyverse-footer"
-              >
-                <div id="block-loyversefooter-menu">Resourses</div>
-                <ul className="lmenu">
-                  
-                  {/* <li>
-                    <a href="#">Community</a>
-                  </li> */}
-                  {/* <li>
-                    <a href="https://vemli.co/blog">Blog</a>
-                  </li> */}
-                  {/* <li>
-                    <a href="#">
-                      Media kit
-                    </a>
-                  </li> */}
-                  <li>
-                    <a href="#">API documentation</a>
-                  </li>
-                  {/* <li>
-                    <a href="#">Status</a>
-                  </li> */}
-                </ul>
-              </nav>
+              ></nav>
             </div>
           </div>
         </div>
