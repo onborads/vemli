@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 html, body { margin: 0; padding: 0; }
 body { font-family: Arial, sans-serif; }
 
@@ -5,4 +7,27 @@ body { font-family: Arial, sans-serif; }
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+/* Use Font Awesome play icon for the static "Watch In Action" hero link */
+.hp_wv_icon {
+  background: none !important;
+  height: auto !important;
+  width: auto !important;
+  direction: ltr !important;
+  transform: none !important;
+  font-size: 40px !important;
+  color: #ff5b00 !important;
+  margin-inline-end: 16px !important;
+}
+.hp_wv_icon::before {
+  content: "\f04b"; /* fa-play */
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: 900 !important;
+}
+
+/* Advanced-inventory hero link sits in the text flow, so scale the icon down */
+.main-pos .hp_wv_icon {
+  font-size: 20px !important;
+  margin-inline-end: 10px !important;
 }
