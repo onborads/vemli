@@ -1,7 +1,7 @@
-import StaticPage from '@/components/StaticPage';
+import StaticPage from "@/components/StaticPage";
 
 export const metadata = {
-  title: 'Hardware',
+  title: "Hardware",
 };
 
 export default function Page() {

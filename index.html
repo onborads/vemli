@@ -138,6 +138,27 @@
         display: none;
       }
     </style>
+
+    <style>
+      .hp_empowering_imgs {
+        display: flex;
+        gap: 24px;
+      }
+
+      .hp_empowering_imgs picture {
+        display: block;
+        width: 368px;
+        height: 368px;
+        overflow: hidden;
+      }
+
+      .hp_empowering_imgs picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    </style>
   </head>
   <body itemscope="" itemtype="https://schema.org/WebPage">
     <!-- Google Tag Manager (noscript) -->
@@ -559,22 +580,23 @@
                       </div>
 
                       <div class="hp_empowering_imgs">
-                        <picture
-                          ><img
+                        <picture>
+                          <img
                             decoding="async"
                             loading="lazy"
                             alt="Point of Sale and Inventory "
                             height="368"
-                            src="/sites/all/themes/vemli/images/home/new/d6s2I.jpg"
+                            width="368"
+                            src="/sites/all/themes/vemli/images/home/new/grocery_shop.jpg"
                             sizes="auto"
-                            width="350"
-                        /></picture>
+                          />
+                        </picture>
 
                         <picture class="empowering-img-margin">
                           <source
                             media="(max-width: 37.5rem)"
                             srcset="
-                              /sites/all/themes/vemli/images/home/new/customer2-600.webp
+                              /sites/all/themes/vemli/images/home/new/pastires-shop.jpg
                             "
                           />
                           <img
@@ -582,11 +604,11 @@
                             loading="lazy"
                             alt="Inventory Management Software"
                             srcset="
-                              /sites/all/themes/vemli/images/home//new/customer2.png 260w,
-                              /sites/all/themes/vemli/images/home/new//customer2.png 368w
+                              /sites/all/themes/vemli/images/home/new/pastires-shop.jpg 260w,
+                              /sites/all/themes/vemli/images/home/new/pastires-shop.jpg 368w
                             "
                             sizes="auto"
-                            src="/sites/all/themes/vemli/images/home/new/customer2.png"
+                            src="/sites/all/themes/vemli/images/home/new/pastires-shop.jpg"
                             width="368"
                             height="368"
                           />
@@ -1127,43 +1149,6 @@
                           <dd>Hotels</dd>
                         </dl>
                       </div>
-                    </section>
-
-                    <section class="hp_get_help gray">
-                      <h3 class="hp_get_help_title">Get the help you need</h3>
-
-                      <ul class="hp_get_help_wrapper">
-                        <li class="how_use">
-                          <picture class="gh_icon icon-live">&nbsp;</picture>
-
-                          <p class="title">Live chat</p>
-
-                          <p>
-                            Get lightning fast assistance 24/7 from our friendly
-                            customer support team.
-                          </p>
-                        </li>
-                        <li class="how_use">
-                          <picture class="gh_icon icon-help">&nbsp;</picture>
-
-                          <p class="title">Help center</p>
-
-                          <p>
-                            A comprehensive set of step-by-step guides to help
-                            you get started and make the most of Vemli POS.
-                          </p>
-                        </li>
-                        <li class="how_use">
-                          <picture class="gh_icon icon-town">&nbsp;</picture>
-
-                          <p class="title">Community</p>
-
-                          <p>
-                            Learn from other sellers how to use Vemli and grow
-                            your business.
-                          </p>
-                        </li>
-                      </ul>
                     </section>
 
                     <section class="hp_lpartner">
