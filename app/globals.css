@@ -1,12 +1,49 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
-html, body { margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; scroll-behavior: smooth; }
 body { font-family: Arial, sans-serif; }
 
 .header {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+#block-hardwaremenuleft,
+#block-featuresmenuleft {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+}
+
+.hardware_block,
+.features_block {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+#block-hardwaremenuleft,
+#block-featuresmenuleft {
+  flex: 0 0 200px;
+}
+
+#block-hardwarecontentposprintersothersinmenu,
+#block-featurescontentpointofsale {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .hardware_block,
+  .features_block {
+    flex-direction: column;
+  }
+  #block-hardwaremenuleft,
+  #block-featuresmenuleft {
+    flex: none;
+    position: static;
+  }
 }
 
 /* Use Font Awesome play icon for the static "Watch In Action" hero link */
