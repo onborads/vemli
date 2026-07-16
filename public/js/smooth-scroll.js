@@ -79,6 +79,28 @@ function init() {
     } else {
       setTimeout(updateActive, 300);
     }
+  } else {
+    var firstNav = document.querySelector('#block-hardwaremenuleft a[href^="#"], #block-featuresmenuleft a[href^="#"]');
+    if (firstNav) {
+      var firstHash = firstNav.getAttribute('href');
+      history.replaceState(null, null, firstHash);
+      setTimeout(function() {
+        scrollToHash(firstHash);
+        updateActive();
+      }, 100);
+    } else {
+      var observer = new MutationObserver(function() {
+        var nav = document.querySelector('#block-hardwaremenuleft a[href^="#"], #block-featuresmenuleft a[href^="#"]');
+        if (nav) {
+          var hash = nav.getAttribute('href');
+          history.replaceState(null, null, hash);
+          scrollToHash(hash);
+          updateActive();
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    }
   }
 }
 
