@@ -3,6 +3,111 @@
 html, body { margin: 0; padding: 0; scroll-behavior: smooth; }
 body { font-family: Arial, sans-serif; }
 
+/* ── Integrations page ─────────────────────────────────────────── */
+/* Matches the rest of the site: white background, dark text, Roboto. */
+.int-page {
+  font-family: "Roboto", "Noto Sans", Arial, sans-serif;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.87);
+}
+.int-page *,
+.int-page *::before,
+.int-page *::after {
+  box-sizing: border-box;
+}
+.int-font-display {
+  font-family: "Syne", "Roboto", sans-serif;
+}
+
+/* Headings and body copy on the light theme */
+.int-page h1 {
+  color: rgba(0, 0, 0, 0.87);
+}
+.int-page .int-title {
+  color: rgba(0, 0, 0, 0.87);
+}
+.int-page .int-muted {
+  color: #4b5563;
+}
+.int-page .int-subtle {
+  color: #6b7280;
+}
+
+.int-hero-gradient {
+  background:
+    radial-gradient(ellipse 60% 45% at 50% 0%, rgba(37, 99, 235, 0.08), transparent 80%),
+    radial-gradient(circle at 70% 30%, rgba(167, 139, 250, 0.06), transparent 60%),
+    #ffffff;
+}
+
+.int-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  transition: all 0.2s ease;
+}
+.int-card:hover {
+  border-color: rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -12px rgba(0, 0, 0, 0.18);
+}
+
+.int-badge-live {
+  background: #e7f7ef;
+  color: #0f7a4d;
+  border: 1px solid #b7e4cd;
+}
+.int-badge-sync {
+  background: #eef2f7;
+  color: #475569;
+  border: 1px solid #d5dde7;
+}
+.int-badge-custom {
+  background: #efeafd;
+  color: #6b46c1;
+  border: 1px solid #d8ccf7;
+}
+
+.int-tab-btn {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #4b5563;
+  padding: 6px 18px;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.int-tab-btn:hover {
+  color: rgba(0, 0, 0, 0.87);
+  border-color: rgba(0, 0, 0, 0.28);
+}
+.int-tab-btn.active {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+.int-icon-bg {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.int-feature-check {
+  color: #0f7a4d;
+  font-size: 12px;
+  width: 18px;
+  margin-top: 1px;
+}
+/* ──────────────────────────────────────────────────────────────── */
+
 .header {
   position: sticky;
   top: 0;

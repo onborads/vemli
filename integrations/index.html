@@ -1,95 +1,79 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Integrations — Vemli Core</title>
+    <title>Integrations · Vemli Core</title>
     <meta
       name="description"
-      content="Connect Vemli Core to WhatsApp, Slack, hotel systems, AI assistants, Sage 300, QuickBooks, and more. Built for Ghanaian businesses."
+      content="Connect Vemli Core to WhatsApp, Slack, hotel systems, AI assistants, Sage 300, QuickBooks, and more."
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="./logo_dark.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Syne:wght@700;800&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ["Inter", "sans-serif"],
-              display: ["Syne", "sans-serif"],
-            },
-          },
-        },
-      };
-    </script>
     <style>
       * {
         box-sizing: border-box;
       }
       body {
         font-family: "Inter", sans-serif;
-        background: #0a0f1e;
-        color: white;
-        overflow-x: hidden;
+        background: #0b0f1a;
+        color: #f1f5f9;
       }
       .font-display {
         font-family: "Syne", sans-serif;
       }
 
-      .pill {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 4px 12px;
-        border-radius: 100px;
-        font-size: 11px;
-        font-weight: 600;
-        letter-spacing: 0.3px;
+      /* subtle card style */
+      .int-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 20px;
+        padding: 24px;
+        transition: all 0.2s ease;
       }
-      .pill-blue {
-        background: rgba(59, 130, 246, 0.15);
-        color: #93c5fd;
-        border: 1px solid rgba(59, 130, 246, 0.25);
-      }
-
-      /* Hero gradient */
-      .page-hero {
-        background:
-          radial-gradient(
-            ellipse 70% 50% at 50% 0%,
-            rgba(59, 130, 246, 0.2),
-            transparent 70%
-          ),
-          radial-gradient(
-            circle at 80% 20%,
-            rgba(167, 139, 250, 0.12),
-            transparent 60%
-          ),
-          #0a0f1e;
+      .int-card:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(255, 255, 255, 0.12);
+        transform: translateY(-2px);
+        box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
       }
 
-      /* Category tabs */
+      .badge-live {
+        background: #0b2e1f;
+        color: #7ee8b0;
+        border: 1px solid #1c4a33;
+      }
+      .badge-soon {
+        background: #2e2a0f;
+        color: #f7d96b;
+        border: 1px solid #4d401b;
+      }
+      .badge-custom {
+        background: #1e1a3a;
+        color: #c6b9ff;
+        border: 1px solid #352f5a;
+      }
+
       .tab-btn {
-        padding: 8px 20px;
-        border-radius: 100px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        color: #94a3b8;
+        padding: 6px 18px;
+        border-radius: 40px;
         font-size: 13px;
         font-weight: 500;
-        color: #94a3b8;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        background: rgba(255, 255, 255, 0.03);
+        transition: all 0.15s;
         cursor: pointer;
-        transition: all 0.2s;
-        white-space: nowrap;
       }
       .tab-btn:hover {
         color: white;
@@ -101,166 +85,100 @@
         border-color: #2563eb;
       }
 
-      /* Integration cards */
-      .int-card {
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.07);
-        border-radius: 20px;
-        padding: 28px;
-        transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-      }
-      .int-card:hover {
-        background: rgba(255, 255, 255, 0.06);
-        border-color: rgba(59, 130, 246, 0.35);
-        transform: translateY(-3px);
-        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
-      }
-      .int-icon {
-        width: 52px;
-        height: 52px;
-        border-radius: 14px;
+      .icon-bg {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 22px;
         flex-shrink: 0;
       }
-      .int-badge {
-        font-size: 10px;
-        font-weight: 600;
-        padding: 3px 9px;
-        border-radius: 100px;
-        letter-spacing: 0.3px;
-      }
-      .badge-live {
-        background: rgba(52, 211, 153, 0.12);
+
+      .feature-check {
         color: #6ee7b7;
-        border: 1px solid rgba(52, 211, 153, 0.25);
-      }
-      .badge-soon {
-        background: rgba(251, 191, 36, 0.1);
-        color: #fcd34d;
-        border: 1px solid rgba(251, 191, 36, 0.2);
-      }
-      .badge-custom {
-        background: rgba(167, 139, 250, 0.1);
-        color: #c4b5fd;
-        border: 1px solid rgba(167, 139, 250, 0.2);
-      }
-
-      .feature-list {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-      }
-      .feature-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 8px;
-        font-size: 13px;
-        color: #94a3b8;
-        line-height: 1.5;
-      }
-      .feature-item .check {
-        color: #34d399;
-        flex-shrink: 0;
+        font-size: 12px;
+        width: 18px;
         margin-top: 1px;
-        font-size: 11px;
       }
 
-      /* Reveal */
+      .hero-gradient {
+        background:
+          radial-gradient(
+            ellipse 60% 45% at 50% 0%,
+            rgba(37, 99, 235, 0.2),
+            transparent 80%
+          ),
+          radial-gradient(
+            circle at 70% 30%,
+            rgba(167, 139, 250, 0.1),
+            transparent 60%
+          ),
+          #0b0f1a;
+      }
+
+      /* reveal */
       .reveal {
         opacity: 0;
-        transform: translateY(28px);
+        transform: translateY(18px);
         transition:
-          opacity 0.6s ease,
-          transform 0.6s ease;
+          opacity 0.5s ease,
+          transform 0.5s ease;
       }
       .reveal.visible {
         opacity: 1;
         transform: translateY(0);
       }
-      .reveal-delay-1 {
-        transition-delay: 0.08s;
-      }
-      .reveal-delay-2 {
-        transition-delay: 0.16s;
-      }
-      .reveal-delay-3 {
-        transition-delay: 0.24s;
-      }
-
-      @media (max-width: 640px) {
-        .page-hero {
-          padding-bottom: 12px;
-        }
-      }
     </style>
   </head>
   <body>
-    <!-- HEADER -->
-
-    <!-- PAGE HERO -->
-    <div class="page-hero pt-8 pb-16 px-6 text-center">
-      <h1
-        class="font-display text-4xl md:text-6xl font-extrabold leading-tight tracking-tight mb-5"
-      >
-        Connect Vemli Core to<br />
-        <span
-          style="
-            background: linear-gradient(135deg, #60a5fa, #a78bfa, #34d399);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-          "
+    <!-- HERO -->
+    <section class="hero-gradient pt-10 pb-6 px-6 text-center">
+      <div class="max-w-3xl mx-auto">
+        <h1
+          class="font-display text-4xl md:text-5xl font-extrabold leading-[1.1] tracking-tight mb-4"
         >
-          the tools you already use
-        </span>
-      </h1>
-      <p
-        style="
-          color: #94a3b8;
-          font-size: 1.125rem;
-          max-width: 42rem;
-          margin: 0 auto;
-          line-height: 1.625;
-          font-weight: 300;
-          text-align: center;
-        "
-      >
-        From WhatsApp notifications to full accounting sync with QuickBooks and
-        Sage 300 — Vemli Core fits into your existing workflow.
-      </p>
+          Connect Vemli Core to<br />
+          <span
+            class="bg-gradient-to-r from-[#60a5fa] via-[#a78bfa] to-[#34d399] bg-clip-text text-transparent"
+          >
+            the tools you already use
+          </span>
+        </h1>
+        <p
+          class="text-slate-400 text-base md:text-lg max-w-2xl mx-auto leading-relaxed font-light"
+        >
+          From WhatsApp notifications to full accounting sync with QuickBooks
+          and Sage 300 — Vemli Core fits right in.
+        </p>
 
-      <!-- Stats row -->
-      <div class="flex flex-wrap justify-center gap-8 mt-10">
-        <div class="text-center">
-          <div class="font-display text-3xl font-extrabold text-white">8+</div>
-          <div class="text-slate-500 text-sm mt-1">Live integrations</div>
-        </div>
-        <div class="w-px bg-white/10 self-stretch hidden sm:block"></div>
-        <div class="text-center">
-          <div class="font-display text-3xl font-extrabold text-white">40+</div>
-          <div class="text-slate-500 text-sm mt-1">AI data tools</div>
-        </div>
-        <div class="w-px bg-white/10 self-stretch hidden sm:block"></div>
-        <div class="text-center">
-          <div class="font-display text-3xl font-extrabold text-white">
-            Real-time
+        <!-- stats -->
+        <div class="flex flex-wrap justify-center gap-6 mt-8">
+          <div>
+            <span class="font-display text-2xl font-black text-white">8+</span>
+            <span class="text-slate-500 text-sm ml-1">live integrations</span>
           </div>
-          <div class="text-slate-500 text-sm mt-1">
-            Sync across all platforms
+          <span class="hidden sm:inline text-slate-700">|</span>
+          <div>
+            <span class="font-display text-2xl font-black text-white">40+</span>
+            <span class="text-slate-500 text-sm ml-1">AI data tools</span>
+          </div>
+          <span class="hidden sm:inline text-slate-700">|</span>
+          <div>
+            <span class="font-display text-2xl font-black text-white"
+              >real‑time</span
+            >
+            <span class="text-slate-500 text-sm ml-1"
+              >sync across platforms</span
+            >
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- FILTER TABS -->
-    <div class="px-6 pb-8 max-w-5xl mx-auto">
-      <div class="flex flex-wrap gap-2 justify-center" id="tabs">
+    <!-- FILTER -->
+    <div class="px-6 pt-6 pb-8 max-w-5xl mx-auto">
+      <div class="flex flex-wrap justify-center gap-2" id="tabs">
         <button class="tab-btn active" data-cat="all">All</button>
         <button class="tab-btn" data-cat="messaging">Messaging</button>
         <button class="tab-btn" data-cat="accounting">Accounting & ERP</button>
@@ -269,46 +187,52 @@
       </div>
     </div>
 
-    <!-- INTEGRATIONS GRID -->
+    <!-- GRID -->
     <section class="px-6 pb-24 max-w-5xl mx-auto">
       <div class="grid md:grid-cols-2 gap-5" id="intGrid">
         <!-- WhatsApp -->
         <div class="int-card reveal" data-cat="messaging">
           <div class="flex items-start gap-4">
             <div
-              class="int-icon"
+              class="icon-bg"
               style="background: linear-gradient(135deg, #25d366, #128c7e)"
             >
-              <svg viewBox="0 0 24 24" class="w-6 h-6 fill-white">
+              <svg viewBox="0 0 24 24" class="w-5 h-5 fill-white">
                 <path
                   d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
                 />
               </svg>
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">WhatsApp</h3>
-                <span class="int-badge badge-live">Live</span>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white">WhatsApp</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full badge-live"
+                  >Live</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Daily sales summaries, low stock alerts, and end-of-day reports
-                delivered to your WhatsApp. Ask business questions right from
-                chat.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Daily sales summaries, low stock alerts, end-of-day reports. Ask
+                business questions right from chat.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Daily revenue summary
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Daily revenue summary</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Low stock notifications
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Low stock notifications</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> End-of-day reports
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">End-of-day reports</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Ask business questions via chat
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Ask business questions via chat</span>
             </div>
           </div>
         </div>
@@ -316,38 +240,43 @@
         <!-- Slack -->
         <div class="int-card reveal reveal-delay-1" data-cat="messaging">
           <div class="flex items-start gap-4">
-            <div class="int-icon bg-[#4A154B]">
-              <svg viewBox="0 0 24 24" class="w-6 h-6" fill="none">
+            <div class="icon-bg" style="background: #4a154b">
+              <svg viewBox="0 0 24 24" class="w-5 h-5 fill-white">
                 <path
                   d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"
-                  fill="white"
                 />
               </svg>
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">Slack</h3>
-                <span class="int-badge badge-live">Live</span>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white">Slack</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full badge-live"
+                  >Live</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Push real-time sales alerts and daily reports to your Slack
-                workspace. Keep your whole team in sync without leaving the
-                tools they use.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Real-time sales alerts and daily reports to your workspace. Keep
+                your team in sync.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Sales milestone alerts
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Sales milestone alerts</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Shift & daily summaries to channels
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Shift & daily summaries to channels</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Inventory warnings to ops team
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Inventory warnings to ops team</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Ask business questions in Slack
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Ask business questions in Slack</span>
             </div>
           </div>
         </div>
@@ -356,79 +285,86 @@
         <div class="int-card reveal" data-cat="hospitality">
           <div class="flex items-start gap-4">
             <div
-              class="int-icon"
+              class="icon-bg"
               style="background: linear-gradient(135deg, #b45309, #78350f)"
             >
-              <span style="font-size: 22px">🏨</span>
+              <span class="text-xl">🏨</span>
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">
-                  Hotel Management Systems
-                </h3>
-                <span class="int-badge badge-live">Live</span>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white"
+                  >Hotel Management Systems</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full badge-live"
+                  >Live</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Post restaurant charges directly to a guest's hotel room — no
-                cash, no separate bill. Works with Opera, Protel, and compatible
-                PMS platforms.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Post restaurant charges directly to a guest's room. Works with
+                Opera, Protel, and compatible PMS.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Charge restaurant bills to any room
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Charge restaurant bills to any room</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Works with Opera, Protel & more
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Works with Opera, Protel & more</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Full order details posted to the
-              folio
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Full order details posted to the folio</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Seamless guest checkout experience
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Seamless guest checkout experience</span>
             </div>
           </div>
         </div>
 
-        <!-- AI / MCP -->
+        <!-- AI -->
         <div class="int-card reveal reveal-delay-1" data-cat="ai">
           <div class="flex items-start gap-4">
             <div
-              class="int-icon"
+              class="icon-bg"
               style="background: linear-gradient(135deg, #6d28d9, #4c1d95)"
             >
-              <span style="font-size: 22px">🤖</span>
+              <span class="text-xl">🤖</span>
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">
-                  AI Assistant Clients
-                </h3>
-                <span class="int-badge badge-live">Live</span>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white"
+                  >AI Assistant Clients</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full badge-live"
+                  >Live</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Connect Vemli directly to Claude Desktop or any MCP-compatible
-                client. Ask about your sales, staff, and inventory in plain
-                language — no dashboards needed.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Connect to Claude Desktop or any MCP-compatible client. Ask
+                about sales, staff, inventory in plain language.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Works with Claude Desktop, Cursor &
-              more
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Claude Desktop, Cursor & more</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Ask about sales, staff, inventory in
-              plain language
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Ask about sales, staff, inventory</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> 40+ live business data tools exposed
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">40+ live business data tools</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> No dashboards needed — just ask
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">No dashboards needed — just ask</span>
             </div>
           </div>
         </div>
@@ -437,125 +373,115 @@
         <div class="int-card reveal" data-cat="accounting">
           <div class="flex items-start gap-4">
             <div
-              class="int-icon"
+              class="icon-bg"
               style="background: linear-gradient(135deg, #2ca01c, #1a6e12)"
             >
-              <span
-                style="
-                  font-size: 22px;
-                  font-weight: 800;
-                  color: white;
-                  font-family: sans-serif;
-                  line-height: 1;
-                "
-                >QB</span
-              >
+              <span class="font-black text-white text-base">QB</span>
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">QuickBooks</h3>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white">QuickBooks</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-700/50 text-slate-300 border border-slate-600"
+                  >Sync</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Sync daily sales, expenses, tax summaries, and payments from
-                Vemli directly into QuickBooks Online. Eliminate manual data
-                entry at end of day.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Sync daily sales, expenses, tax summaries, and payments directly
+                into QuickBooks Online.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Auto-post daily sales journals
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Auto-post daily sales journals</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> VAT & tax line sync
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">VAT & tax line sync</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Payment method breakdown (cash, card,
-              MoMo)
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Payment breakdown (cash, card, MoMo)</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Expense & cost of goods sync
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Expense & cost of goods sync</span>
             </div>
           </div>
         </div>
 
-        <!-- Sage 300 / ERP -->
+        <!-- Sage 300 -->
         <div class="int-card reveal reveal-delay-1" data-cat="accounting">
           <div class="flex items-start gap-4">
             <div
-              class="int-icon"
+              class="icon-bg"
               style="background: linear-gradient(135deg, #0072ce, #003f7a)"
             >
               <span
-                style="
-                  font-size: 14px;
-                  font-weight: 800;
-                  color: white;
-                  font-family: sans-serif;
-                  line-height: 1;
-                  letter-spacing: -0.5px;
-                "
+                class="font-black text-white text-[11px] leading-none tracking-tight"
                 >SAGE<br />300</span
               >
             </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">
-                  Sage 300 / ERP
-                </h3>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white">Sage 300 / ERP</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-700/50 text-slate-300 border border-slate-600"
+                  >Enterprise</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed">
-                Push Vemli Core transactions into Sage 300 in real time. Built
-                for businesses that need full ERP-level financial visibility
-                across multiple locations or entities.
+              <p class="text-slate-400 text-sm mt-0.5 leading-relaxed">
+                Push Vemli transactions into Sage 300 in real time.
+                Multi‑branch, cost centre, and full GL support.
               </p>
             </div>
           </div>
-          <div class="feature-list">
-            <div class="feature-item">
-              <span class="check">✓</span> Real-time transaction posting to GL
+          <div class="mt-3 space-y-1 text-sm text-slate-400">
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Real-time transaction posting to GL</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Multi-branch & cost centre support
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Multi-branch & cost centre support</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Accounts receivable & payable sync
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">AR/AP sync & inventory valuation</span>
             </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Inventory valuation updates
-            </div>
-            <div class="feature-item">
-              <span class="check">✓</span> Custom field mapping available
+            <div class="flex items-start">
+              <span class="feature-check">✓</span
+              ><span class="ml-2">Custom field mapping available</span>
             </div>
           </div>
         </div>
 
-        <!-- Custom / API -->
+        <!-- Custom API (full width) -->
         <div class="int-card reveal md:col-span-2" data-cat="all">
           <div
-            class="flex flex-col sm:flex-row items-start sm:items-center gap-5"
+            class="flex flex-col sm:flex-row items-start sm:items-center gap-4"
           >
             <div
-              class="int-icon flex-shrink-0"
-              style="
-                background: linear-gradient(135deg, #334155, #1e293b);
-                border: 1px solid rgba(255, 255, 255, 0.1);
-              "
+              class="icon-bg"
+              style="background: #1e293b; border: 1px solid #334155"
             >
-              <i class="fas fa-plug text-slate-300 text-lg"></i>
+              <i class="fa-solid fa-plug text-slate-300 text-lg"></i>
             </div>
-            <div class="flex-1">
-              <div class="flex items-center gap-2 flex-wrap mb-1">
-                <h3 class="font-semibold text-white text-base">
-                  Custom Integration / REST API
-                </h3>
-                <span class="int-badge badge-custom">Enterprise</span>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="font-semibold text-white"
+                  >Custom Integration / REST API</span
+                ><span
+                  class="text-[10px] font-semibold px-2 py-0.5 rounded-full badge-custom"
+                  >Enterprise</span
+                >
               </div>
-              <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">
-                Need something not on this list? Vemli exposes a full REST API
-                covering sales, inventory, staff, payments, and reports. Connect
-                any third-party system — ERP, CRM, BI tools, or a custom
-                dashboard built in-house.
+              <p class="text-slate-400 text-sm leading-relaxed">
+                Full REST API covering sales, inventory, staff, payments, and
+                reports. Connect any third‑party system — ERP, CRM, BI tools, or
+                custom dashboards.
               </p>
             </div>
           </div>
@@ -563,22 +489,21 @@
       </div>
     </section>
 
-    <!-- FOOTER -->
-
     <script>
-      // Scroll reveal
+      // reveal on scroll
       const observer = new IntersectionObserver(
-        (entries) =>
+        (entries) => {
           entries.forEach((e) => {
             if (e.isIntersecting) e.target.classList.add("visible");
-          }),
+          });
+        },
         { threshold: 0.1 },
       );
       document
         .querySelectorAll(".reveal")
         .forEach((el) => observer.observe(el));
 
-      // Filter tabs
+      // filter tabs
       document.querySelectorAll(".tab-btn").forEach((btn) => {
         btn.addEventListener("click", () => {
           document
