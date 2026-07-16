@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./tailwind.css";
-import WhatsAppButton from "@/components/VideoModal";
+import VideoModal from "@/components/VideoModal";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata = {
   title: "Vemli POS | Restaurant & Retail Point of Sale System — Ghana",
@@ -88,6 +89,7 @@ export default function RootLayout({ children }) {
         {/* Google Tag Manager (noscript) */}
         <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=G-1WPQPDXEBV" height="0" width="0" style="display:none;visibility:hidden"></iframe>` }} />
         {children}
+        <VideoModal />
         <WhatsAppButton />
       </body>
     </html>

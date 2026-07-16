@@ -1,32 +1,61 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
-const WHATSAPP_NUMBER = '2332461427273';
-const WHATSAPP_MESSAGE = encodeURIComponent("Hello Vemli Core Team, I'm interested in your POS system.");
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
+export default function VideoModal() {
+  const [open, setOpen] = useState(false);
+  const [src, setSrc] = useState('');
 
-export default function WhatsAppButton() {
   useEffect(() => {
-    const legacy = document.getElementById('vidos');
-    if (!legacy) return;
-    const onClick = (e) => {
+    const handler = (e) => {
+      const target = e.target.closest('.playvideo');
+      if (!target) return;
       e.preventDefault();
-      window.open(WHATSAPP_URL, '_blank');
+      const href = target.getAttribute('href') || '';
+      const embed = href.replace('watch?v=', 'embed/');
+      setSrc(embed);
+      setOpen(true);
+      document.body.style.overflow = 'hidden';
     };
-    legacy.addEventListener('click', onClick);
-    return () => legacy.removeEventListener('click', onClick);
+
+    document.addEventListener('click', handler);
+    return () => document.removeEventListener('click', handler);
   }, []);
 
+  const close = () => {
+    setOpen(false);
+    setSrc('');
+    document.body.style.overflow = '';
+  };
+
+  if (!open) return null;
+
   return (
-    <a
-      href={WHATSAPP_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Chat on WhatsApp"
-      className="fixed bottom-4 right-4 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 sm:h-16 sm:w-16"
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+      onClick={close}
     >
-      <i aria-hidden="true" className="fa-brands fa-whatsapp text-2xl sm:text-3xl"></i>
-    </a>
+      <div
+        className="relative w-full max-w-4xl aspect-video bg-black"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={close}
+          className="absolute -top-10 right-0 text-white text-2xl font-bold focus:outline-none"
+          aria-label="Close video"
+        >
+          &times;
+        </button>
+        {src && (
+          <iframe
+            src={src}
+            title="Watch In Action"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        )}
+      </div>
+    </div>
   );
 }
