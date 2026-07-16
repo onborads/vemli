@@ -1,88 +1,57 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [openSection, setOpenSection] = useState(null);
+
+  useEffect(() => {
+    const overlay = document.getElementById('overlay');
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+      if (overlay) overlay.classList.add('popup_active');
+    } else {
+      document.body.style.overflow = '';
+      if (overlay) overlay.classList.remove('popup_active');
+      setOpenSection(null);
+    }
+    return () => {
+      document.body.style.overflow = '';
+      if (overlay) overlay.classList.remove('popup_active');
+    };
+  }, [menuOpen]);
+
+  useEffect(() => {
+    const overlay = document.getElementById('overlay');
+    if (!overlay) return;
+    const onOverlayClick = () => setMenuOpen(false);
+    overlay.addEventListener('click', onOverlayClick);
+    return () => overlay.removeEventListener('click', onOverlayClick);
+  }, []);
+
+  const closeMenu = (e) => {
+    if (e.target.closest('a')) setMenuOpen(false);
+  };
+
+  const toggleSection = (name) => (e) => {
+    e.stopPropagation();
+    setOpenSection((prev) => (prev === name ? null : name));
+  };
+
+  const businessOpen = openSection === 'business';
+  const productsOpen = openSection === 'products';
+
   return (
     <header className="header" itemScope itemType="https://schema.org/WPHeader">
-      {/* <div className="overheader">
-        <div className="overheaderin">
-          <div className="overheaderpad">
-            <div className="rightpart overhead-lang">
-              <div className="signin">
-                <div id="block-communityandblog">
-                  <div>
-                    <div className="zero-menu">
-                      <a
-                        href="#"
-                        target="_blank"
-                        rel="noopener"
-                      >
-                        Community
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="block-blockforsign">
-                  <div>
-                    <div id="href-web">
-                      <a className="sign" href="/en/login">
-                        <i className="icon-sign"></i>Sign in
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="language-switcher-language-url"
-                id="block-languageswitcher-2"
-                role="navigation"
-              >
-                <div className="menu-button earth-img"></div>
-                <div className="lang-code">English</div>
-
-                <ul className="links">
-                  <li
-                    hreflang="en"
-                    data-drupal-link-system-path="&lt;front&gt;"
-                    className="is-active"
-                    aria-current="page"
-                  >
-                    <a
-                      href="/"
-                      className="language-link is-active"
-                      hreflang="en"
-                      data-drupal-link-system-path="&lt;front&gt;"
-                      aria-current="page"
-                    >
-                      English
-                    </a>
-                  </li>
-
-                  <li
-                    hreflang="fr"
-                    data-drupal-link-system-path="&lt;front&gt;"
-                  >
-                    <a
-                      href="/fr"
-                      className="language-link"
-                      hreflang="fr"
-                      data-drupal-link-system-path="&lt;front&gt;"
-                    >
-                      Français
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* end */}
-
       <div className="headermain">
         <div className="fr_banner_block"></div>
         <div className="headerin">
           <div className="headerpad">
-            <div id="block-hamburgerbutton" className="mob-hamburger">
+            <div
+              id="block-hamburgerbutton"
+              className="mob-hamburger"
+            >
               <div>
                 <div className="hamburger-container nav-container-hamburger">
                   <input
@@ -90,6 +59,8 @@ export default function Header() {
                     type="checkbox"
                     name=""
                     id=""
+                    checked={menuOpen}
+                    onChange={(e) => setMenuOpen(e.target.checked)}
                   />
                   <div className="hamburger-lines">
                     <span className="line line1"></span>
@@ -117,7 +88,10 @@ export default function Header() {
               </a>
             </div>
 
-            <div className="topmenu">
+            <div
+              className={`topmenu${menuOpen ? ' mobile open' : ''}`}
+              onClick={closeMenu}
+            >
               <nav
                 itemScope
                 itemType="https://schema.org/SiteNavigationElement"
@@ -148,10 +122,24 @@ export default function Header() {
               </nav>
 
               <div
-                className="views-element-container business_types"
+                className={`views-element-container business_types${businessOpen ? ' open' : ''}`}
                 id="block-views-block-business-types-in-header-block-1"
               >
-                <div>Business types</div>
+                <div
+                  className={`mob-section-toggle${businessOpen ? ' open' : ''}`}
+                  role="button"
+                  tabIndex={0}
+                  aria-expanded={businessOpen}
+                  onClick={toggleSection('business')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      toggleSection('business')(e);
+                    }
+                  }}
+                >
+                  Business types
+                </div>
 
                 <div>
                   <div>
@@ -221,8 +209,24 @@ export default function Header() {
                 itemType="https://schema.org/SiteNavigationElement"
                 aria-labelledby="block-producttop-menu"
                 id="block-producttop"
+                className={productsOpen ? 'open' : ''}
               >
-                <div id="block-producttop-menu">Products</div>
+                <div
+                  id="block-producttop-menu"
+                  className={`mob-section-toggle${productsOpen ? ' open' : ''}`}
+                  role="button"
+                  tabIndex={0}
+                  aria-expanded={productsOpen}
+                  onClick={toggleSection('products')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      toggleSection('products')(e);
+                    }
+                  }}
+                >
+                  Products
+                </div>
 
                 <ul className="lmenu">
                   <li>
@@ -292,15 +296,6 @@ export default function Header() {
                       Anviz Attendance
                     </a>
                   </li>
-
-                  {/* <li>
-                    <a
-                      href="/integrations"
-                      data-drupal-link-system-path="node/15"
-                    >
-                      Integrations
-                    </a>
-                  </li> */}
                 </ul>
               </nav>
             </div>
@@ -325,3 +320,4 @@ export default function Header() {
     </header>
   );
 }
+
