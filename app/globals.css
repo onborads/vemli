@@ -28,6 +28,12 @@ body { font-family: Arial, sans-serif; }
   flex: 0 0 200px;
 }
 
+#block-hardwaremenuleft a.active,
+#block-featuresmenuleft a.active {
+  font-weight: 700;
+  color: #000;
+}
+
 #block-hardwarecontentposprintersothersinmenu,
 #block-featurescontentpointofsale {
   flex: 1;

@@ -2,7 +2,6 @@ import "./globals.css";
 import "./tailwind.css";
 import VideoModal from "@/components/VideoModal";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata = {
   title: "Vemli POS | Restaurant & Retail Point of Sale System — Ghana",
@@ -83,7 +82,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="/sites/default/files/css/css_4AyeZIVOK6vOdrM2wPNPNf1B0sEjh8ih4C0weklEe0o.css?delta=0&language=en&theme=vemli&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
         <link rel="stylesheet" href="/sites/all/themes/vemli/css/css2.css?family=Roboto:wght@300;400;500;700&family=Nunito:wght@700&display=fallback" />
         <link rel="stylesheet" href="/sites/default/files/css/css_MWfpnXbYPHcH5RVr3X1vaEo69PpFzoaVsTovdGSV4QY.css?delta=2&language=en&theme=vemli&include=eJxNyEEOgDAIBMAPobypVWyaQEm6WMPvTTx5mcOo55IJOdz48hEg_U1Tr0U3RGofjZAIMa4FQqvLA_7czc9b5QV5rx3T" />
-        <script dangerouslySetInnerHTML={{ __html: `document.addEventListener('click',function(e){var a=e.target.closest('a[href^="#"]');if(!a)return;var r=a.getAttribute('href');if(!r||r==='#')return;var t=document.querySelector(r);if(!t)return;e.preventDefault();var n=t.getBoundingClientRect().top+window.pageYOffset-100;window.scrollTo({top:n,behavior:'smooth'});history.pushState(null,null,r);});` }} />
+        <script src="/js/smooth-scroll.js" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataSoftware) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredDataFAQ) }} />
       </head>
@@ -91,7 +90,6 @@ export default function RootLayout({ children }) {
         {/* Google Tag Manager (noscript) */}
         <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=G-1WPQPDXEBV" height="0" width="0" style="display:none;visibility:hidden"></iframe>` }} />
         {children}
-        <SmoothScroll />
         <VideoModal />
         <WhatsAppButton />
       </body>
