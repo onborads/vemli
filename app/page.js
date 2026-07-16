@@ -1,11 +1,16 @@
 import StaticPage from '@/components/StaticPage';
+import AiBusinessIntelligence from '@/components/AiBusinessIntelligence';
 
 export const metadata = { title: 'Vemli' };
 
 export default function Page() {
   return (
-    <>
-      <StaticPage sourcePath="index.html" title="Vemli" />
-    </>
+    <StaticPage
+      sourcePath="index.html"
+      title="Vemli"
+      splitMarker='<section class="hp_tools">'
+    >
+      <AiBusinessIntelligence />
+    </StaticPage>
   );
 }

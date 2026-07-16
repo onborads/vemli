@@ -118,14 +118,34 @@ function extractScriptTags(sourceFile) {
     .filter(Boolean);
 }
 
-export default function StaticPage({ sourcePath, title }) {
+export default function StaticPage({ sourcePath, title, children, splitMarker }) {
   const bodyHtml = extractBodyHtml(sourcePath);
   const stylesheetLinks = extractStylesheetLinks(sourcePath);
+
+  // When a splitMarker is provided (home page only), render `children`
+  // inline at that point in the static HTML instead of after all content.
+  if (splitMarker && children) {
+    const markerIndex = bodyHtml.indexOf(splitMarker);
+    if (markerIndex !== -1) {
+      const before = bodyHtml.slice(0, markerIndex);
+      const after = bodyHtml.slice(markerIndex);
+      return (
+        <>
+          <Header />
+          <RawHtml html={before} />
+          {children}
+          <RawHtml html={after} />
+          <Footer />
+        </>
+      );
+    }
+  }
 
   return (
     <>
       <Header />
       <RawHtml html={bodyHtml} />
+      {children}
       <Footer />
     </>
   );

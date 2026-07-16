@@ -4,6 +4,11 @@ import Footer from "@/components/Footer";
 export const metadata = { title: "Get Started | Vemli Core" };
 
 export default function Page() {
+  const now = new Date();
+  const hour = now.getHours();
+
+  const isAvailable = hour >= 8 && hour < 20;
+
   return (
     <>
       <Header />
@@ -14,9 +19,16 @@ export default function Page() {
             <div className="grid md:grid-cols-2">
               {/* Left Content */}
               <div className="p-8 md:p-12 flex flex-col justify-center">
-                <span className="inline-flex w-fit items-center gap-2 px-4 py-2 rounded-full bg-green-50 text-green-700 text-sm font-medium mb-6">
-                  <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                  Available Now
+                <span className="flex items-center gap-2">
+                  <span
+                    className={`w-2 h-2 rounded-full ${
+                      isAvailable ? "bg-green-500 animate-pulse" : "bg-gray-400"
+                    }`}
+                  />
+
+                  {isAvailable
+                    ? "Available Now"
+                    : "We're currently offline. Leave a message and we'll reply at 8:00 AM.."}
                 </span>
 
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
@@ -34,15 +46,15 @@ export default function Page() {
                     href="https://wa.me/2332461427273?text=Hello%20Vemli%20Core%20Team,%20I'm%20interested%20in%20your%20POS%20system."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-3 bg-green-500  text-white rounded-xl px-6 py-4 font-semibold transition shadow-lg shadow-green-200"
+                    className="flex items-center justify-center gap-3 border border-gray-200 hover:border-blue-400 rounded-xl px-6 py-4 font-semibold text-white transition"
                   >
-                    <i className="fab fa-whatsapp text-xl" />
+                    <i className="fab fa-whatsapp text-xl text-green-500" />
                     Chat on WhatsApp
                   </a>
 
                   <a
                     href="tel:+233240699506"
-                    className="flex items-center justify-center gap-4  text-white rounded-xl px-6 py-4 font-semibold transition shadow-lg shadow-blue-200"
+                    className="flex items-center justify-center gap-4 border border-gray-200 hover:border-blue-400 rounded-xl px-6 py-4 font-semibold text-white transition shadow-lg shadow-blue-200"
                   >
                     <i className="fas fa-phone" />
                     Call +233 24 069 9506
@@ -99,7 +111,7 @@ export default function Page() {
               {/* Right Image */}
               <div className="relative min-h-[520px] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
+                  src="/sites/all/themes/vemli/images/customer service-Photoroom.png"
                   alt="Vemli Core POS Dashboard"
                   className="absolute inset-0 w-full h-full object-cover object-top"
                 />
