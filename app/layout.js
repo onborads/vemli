@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./tailwind.css";
 import WhatsAppButton from "@/components/VideoModal";
 
 export const metadata = {

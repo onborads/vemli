@@ -148,7 +148,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/grocery-pos" hreflang="en">
+                              <a href="/grocery-pos" hrefLang="en">
                                 Grocery &amp; convenience
                               </a>
                             </span>
@@ -157,7 +157,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/cafe-pos" hreflang="en">
+                              <a href="/cafe-pos" hrefLang="en">
                                 Café
                               </a>
                             </span>
@@ -166,7 +166,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/restaurants-pos" hreflang="en">
+                              <a href="/restaurants-pos" hrefLang="en">
                                 Restaurant
                               </a>
                             </span>
@@ -175,7 +175,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/retail-pos" hreflang="en">
+                              <a href="/retail-pos" hrefLang="en">
                                 Retail
                               </a>
                             </span>
@@ -184,7 +184,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/bar-pos" hreflang="en">
+                              <a href="/bar-pos" hrefLang="en">
                                 Bar &amp; Pub
                               </a>
                             </span>
@@ -193,7 +193,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/fashion-boutiques-pos" hreflang="en">
+                              <a href="/fashion-boutiques-pos" hrefLang="en">
                                 Clothing &amp; accessories
                               </a>
                             </span>

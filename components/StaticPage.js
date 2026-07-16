@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
-import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
+import RawHtml from "./RawHtml";
 
 function readHtml(sourceFile) {
   const fullPath = path.join(process.cwd(), sourceFile);
@@ -59,14 +59,17 @@ function extractBodyHtml(sourceFile) {
   const footerMarker = bodyContent.indexOf("<!-- FOOTER -->");
 
   if (headerMarker !== -1 && footerMarker !== -1) {
-    return bodyContent
+    let content = bodyContent
       .slice(headerMarker + "<!-- HEADER -->".length, footerMarker)
-      .trim();
+      .trim()
+      .replace(/\shreflang=/gi, ' hrefLang=');
+    content = content.replace(/^<main[^>]*>/i, '').replace(/<\/main>\s*$/i, '').trim();
+    return content;
   }
 
   const mainMatch = bodyContent.match(/<main[^>]*>[\s\S]*?<\/main>/i);
   if (mainMatch) {
-    return mainMatch[0].trim();
+    return mainMatch[0].trim().replace(/\shreflang=/gi, ' hrefLang=');
   }
 
   let cleaned = bodyContent
@@ -78,6 +81,7 @@ function extractBodyHtml(sourceFile) {
 
   cleaned = cleaned.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "");
   cleaned = cleaned.replace(/<script\b[^>]*\/>/gi, "");
+  cleaned = cleaned.replace(/\shreflang=/gi, ' hrefLang=');
 
   return cleaned.trim();
 }
@@ -117,19 +121,11 @@ function extractScriptTags(sourceFile) {
 export default function StaticPage({ sourcePath, title }) {
   const bodyHtml = extractBodyHtml(sourcePath);
   const stylesheetLinks = extractStylesheetLinks(sourcePath);
-  const scriptTags = extractScriptTags(sourcePath);
 
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        {stylesheetLinks}
-      </Head>
       <Header />
-      <div className="static-page-content">
-        <div dangerouslySetInnerHTML={{ __html: bodyHtml }} />
-      </div>
-      {scriptTags}
+      <RawHtml html={bodyHtml} />
       <Footer />
     </>
   );
