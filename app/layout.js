@@ -12,6 +12,10 @@ export const metadata = {
   authors: [{ name: "Vemli POS" }],
   robots: "index, follow",
   alternates: { canonical: "https://vemli.co/" },
+  icons: {
+    icon: "/assets/favicon.png",
+    apple: "/assets/favicon-64x64.png",
+  },
   openGraph: {
     type: "website",
     url: "https://vemli.co/",
