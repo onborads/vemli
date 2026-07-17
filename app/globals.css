@@ -715,3 +715,22 @@ a.pricing-cta {
   }
 }
 
+.accordion-faq .question {
+  cursor: pointer;
+}
+
+.accordion-faq .answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-faq .question .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.accordion-faq .question.active .arrow {
+  transform: rotate(-135deg);
+}
+
