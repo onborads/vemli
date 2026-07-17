@@ -3,14 +3,19 @@
 import { useState } from "react";
 
 const GET_STARTED_URL = "/get-started";
-const CONTACT_SALES_URL  ="https://api.whatsapp.com/send/?phone=233261427273&text=Hello+Vemli+Core+Team%2C+I%27m+interested+in+your+POS+system.&type=phone_number&app_absent=0"
+const CONTACT_SALES_URL =
+  "https://api.whatsapp.com/send/?phone=233261427273&text=Hello+Vemli+Core+Team%2C+I%27m+interested+in+your+POS+system.&type=phone_number&app_absent=0";
+
+const ANNUAL_MONTHS_FREE = 1;
+const ANNUAL_BILLED_MONTHS = 12 - ANNUAL_MONTHS_FREE;
+
 const PLANS = [
   {
     id: "starter",
     name: "Starter",
     tags: ["🛍️ Retail", "💊 Pharmacy"],
-    monthly: { price: "149", period: "per month · 1 terminal" },
-    annual: { price: "1,368", period: "per year · save GH¢420 · 1 terminal" },
+    monthlyPrice: 149,
+    terminals: "1 terminal",
     features: [
       "Fast checkout",
       "Product search",
@@ -28,12 +33,10 @@ const PLANS = [
   {
     id: "growth",
     name: "Growth",
+    inheritsFrom: "Starter",
     tags: ["🛍️ Retail", "💊 Pharmacy"],
-    monthly: { price: "349", period: "per month · up to 2 terminals" },
-    annual: {
-      price: "3,207",
-      period: "per year · save GH¢981 · up to 2 terminals",
-    },
+    monthlyPrice: 349,
+    terminals: "up to 2 terminals",
     features: [
       "Faster checkout",
       "Stock visibility",
@@ -44,44 +47,45 @@ const PLANS = [
       { text: "VAT & end-of-day reports", included: true },
       { text: "Opening & closing stock reports", included: true },
       { text: "AI assistant", included: true },
-      { text: "PMS Integration add-on", included: true },
+      { text: "Basic Attendance", included: true },
+      { text: "Attendance Device add-on", included: false },
+        { text: "QuickBooks Integration", included: false },
+      { text: "Sage300 Integration", included: false },
     ],
     cta: { label: "Get Started", href: GET_STARTED_URL, style: "ghost" },
   },
   {
     id: "business",
     name: "Business",
+    inheritsFrom: "Growth",
     featured: true,
     badge: "🏨 Hospitality-ready",
     tags: ["🍽️ Restaurants", "🍺 Bars", "🏨 Hotels"],
-    monthly: { price: "599", period: "per month · up to 3 terminals" },
-    annual: {
-      price: "5,491",
-      period: "per year · save GH¢1,697 · up to 3 terminals",
-    },
+    monthlyPrice: 599,
+    terminals: "up to 3 terminals",
     features: [
       "Table & order management",
       "Split bills and modifiers",
       "KOT and service workflows",
-      "PMS Integration add-on",
     ],
     more: [
       { text: "Serving periods and analytics", included: true },
       { text: "Priority support", included: true },
       { text: "WhatsApp and Slack notifications", included: true },
-      { text: "AI assistant", included: true },
+    
+       { text: "PMS Integration add-on", included: false },
     ],
     cta: { label: "Get Started", href: GET_STARTED_URL, style: "light" },
   },
   {
     id: "enterprise",
     name: "Enterprise",
+    inheritsFrom: "Business",
     isContact: true,
     tags: ["🏢 Multi-location", "🔗 API Access"],
     contactLabel: "Contact Sales",
     contactSub: "tailored to your needs",
     features: [
-      "Everything in the core plans",
       "Multiple branches and terminals",
       "Custom integrations",
       "Premium support",
@@ -95,6 +99,26 @@ const PLANS = [
   },
 ];
 
+function formatMoney(n) {
+  return n.toLocaleString("en-GH", { maximumFractionDigits: 0 });
+}
+
+function getPricing(plan, annual) {
+  if (plan.isContact) return null;
+  if (!annual) {
+    return {
+      price: formatMoney(plan.monthlyPrice),
+      period: `per month · ${plan.terminals}`,
+    };
+  }
+  const annualTotal = plan.monthlyPrice * ANNUAL_BILLED_MONTHS;
+  const savings = plan.monthlyPrice * ANNUAL_MONTHS_FREE;
+  return {
+    price: formatMoney(annualTotal),
+    period: `per year · save GH¢${formatMoney(savings)} · ${plan.terminals}`,
+  };
+}
+
 function CheckItem({ text, included, featured }) {
   return (
     <div
@@ -105,6 +129,18 @@ function CheckItem({ text, included, featured }) {
       </span>
       {text}
     </div>
+  );
+}
+
+function InheritsLine({ from, featured }) {
+  return (
+    <p
+      className={`text-sm font-medium mb-2 ${
+        featured ? "text-blue-100" : "text-slate-300"
+      }`}
+    >
+      Everything in {from}, plus:
+    </p>
   );
 }
 
@@ -126,7 +162,7 @@ function CtaButton({ cta }) {
 
 function PlanCard({ plan, annual }) {
   const [showMore, setShowMore] = useState(false);
-  const pricing = annual ? plan.annual : plan.monthly;
+  const pricing = getPricing(plan, annual);
 
   return (
     <div
@@ -139,7 +175,6 @@ function PlanCard({ plan, annual }) {
       )}
 
       <div className="pr-card-body">
-        {/* Header / price */}
         <div className="mb-1 mt-2">
           <p
             className={`text-sm font-medium mb-1 ${
@@ -179,7 +214,6 @@ function PlanCard({ plan, annual }) {
           )}
         </div>
 
-        {/* Tags */}
         <div className="flex flex-wrap gap-1.5 my-5">
           {plan.tags.map((tag) => (
             <span
@@ -191,7 +225,10 @@ function PlanCard({ plan, annual }) {
           ))}
         </div>
 
-        {/* Features */}
+        {plan.inheritsFrom && (
+          <InheritsLine from={plan.inheritsFrom} featured={plan.featured} />
+        )}
+
         <div className="mb-1">
           {plan.features.map((f) => (
             <CheckItem key={f} text={f} included featured={plan.featured} />
@@ -244,13 +281,12 @@ export default function PricingContent() {
             Simple, honest pricing.
           </h1>
           <div className="flex justify-center">
-  <p className="text-slate-400 text-lg text-center max-w-sm">
-    Pick the level that fits your team. Everything is included with clear,
-    transparent pricing.
-  </p>
-</div>
+            <p className="text-slate-400 text-lg text-center max-w-sm">
+              Pick the level that fits your team. Everything is included with
+              clear, transparent pricing.
+            </p>
+          </div>
 
-          {/* Billing toggle */}
           <div className="flex items-center justify-center gap-3 mt-8">
             <span
               className={`text-sm font-medium ${annual ? "text-slate-400" : "text-white"}`}
@@ -276,14 +312,15 @@ export default function PricingContent() {
               className={`text-sm font-medium ${annual ? "text-white" : "text-slate-400"}`}
             >
               Annual
-              <span className="text-emerald-400 font-semibold text-xs ml-1">
-                2 months free
-              </span>
+              {annual && (
+                <span className="text-emerald-400 font-semibold text-xs ml-1">
+                  {ANNUAL_MONTHS_FREE} month free
+                </span>
+              )}
             </span>
           </div>
         </div>
 
-        {/* Plans */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {PLANS.map((plan) => (
             <div key={plan.id} className="flex">
@@ -292,7 +329,6 @@ export default function PricingContent() {
           ))}
         </div>
 
-        {/* Add-ons note */}
         <div className="pr-note rounded-2xl px-6 py-5 flex items-start gap-3 mt-8">
           <span className="text-lg mt-0.5">💡</span>
           <p className="text-slate-400 text-sm leading-relaxed">

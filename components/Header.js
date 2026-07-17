@@ -1,37 +1,37 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openSection, setOpenSection] = useState(null);
 
   useEffect(() => {
-    const overlay = document.getElementById('overlay');
+    const overlay = document.getElementById("overlay");
     if (menuOpen) {
-      document.body.style.overflow = 'hidden';
-      if (overlay) overlay.classList.add('popup_active');
+      document.body.style.overflow = "hidden";
+      if (overlay) overlay.classList.add("popup_active");
     } else {
-      document.body.style.overflow = '';
-      if (overlay) overlay.classList.remove('popup_active');
+      document.body.style.overflow = "";
+      if (overlay) overlay.classList.remove("popup_active");
       setOpenSection(null);
     }
     return () => {
-      document.body.style.overflow = '';
-      if (overlay) overlay.classList.remove('popup_active');
+      document.body.style.overflow = "";
+      if (overlay) overlay.classList.remove("popup_active");
     };
   }, [menuOpen]);
 
   useEffect(() => {
-    const overlay = document.getElementById('overlay');
+    const overlay = document.getElementById("overlay");
     if (!overlay) return;
     const onOverlayClick = () => setMenuOpen(false);
-    overlay.addEventListener('click', onOverlayClick);
-    return () => overlay.removeEventListener('click', onOverlayClick);
+    overlay.addEventListener("click", onOverlayClick);
+    return () => overlay.removeEventListener("click", onOverlayClick);
   }, []);
 
   const closeMenu = (e) => {
-    if (e.target.closest('a')) setMenuOpen(false);
+    if (e.target.closest("a")) setMenuOpen(false);
   };
 
   const toggleSection = (name) => (e) => {
@@ -39,8 +39,8 @@ export default function Header() {
     setOpenSection((prev) => (prev === name ? null : name));
   };
 
-  const businessOpen = openSection === 'business';
-  const productsOpen = openSection === 'products';
+  const businessOpen = openSection === "business";
+  const productsOpen = openSection === "products";
 
   return (
     <header className="header" itemScope itemType="https://schema.org/WPHeader">
@@ -48,10 +48,7 @@ export default function Header() {
         <div className="fr_banner_block"></div>
         <div className="headerin">
           <div className="headerpad">
-            <div
-              id="block-hamburgerbutton"
-              className="mob-hamburger"
-            >
+            <div id="block-hamburgerbutton" className="mob-hamburger">
               <div>
                 <div className="hamburger-container nav-container-hamburger">
                   <input
@@ -89,7 +86,7 @@ export default function Header() {
             </div>
 
             <div
-              className={`topmenu${menuOpen ? ' mobile open' : ''}`}
+              className={`topmenu${menuOpen ? " mobile open" : ""}`}
               onClick={closeMenu}
             >
               <nav
@@ -122,19 +119,19 @@ export default function Header() {
               </nav>
 
               <div
-                className={`views-element-container business_types${businessOpen ? ' open' : ''}`}
+                className={`views-element-container business_types${businessOpen ? " open" : ""}`}
                 id="block-views-block-business-types-in-header-block-1"
               >
                 <div
-                  className={`mob-section-toggle${businessOpen ? ' open' : ''}`}
+                  className={`mob-section-toggle${businessOpen ? " open" : ""}`}
                   role="button"
                   tabIndex={0}
                   aria-expanded={businessOpen}
-                  onClick={toggleSection('business')}
+                  onClick={toggleSection("business")}
                   onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
+                    if (e.key === "Enter" || e.key === " ") {
                       e.preventDefault();
-                      toggleSection('business')(e);
+                      toggleSection("business")(e);
                     }
                   }}
                 >
@@ -209,19 +206,19 @@ export default function Header() {
                 itemType="https://schema.org/SiteNavigationElement"
                 aria-labelledby="block-producttop-menu"
                 id="block-producttop"
-                className={productsOpen ? 'open' : ''}
+                className={productsOpen ? "open" : ""}
               >
                 <div
                   id="block-producttop-menu"
-                  className={`mob-section-toggle${productsOpen ? ' open' : ''}`}
+                  className={`mob-section-toggle${productsOpen ? " open" : ""}`}
                   role="button"
                   tabIndex={0}
                   aria-expanded={productsOpen}
-                  onClick={toggleSection('products')}
+                  onClick={toggleSection("products")}
                   onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
+                    if (e.key === "Enter" || e.key === " ") {
                       e.preventDefault();
-                      toggleSection('products')(e);
+                      toggleSection("products")(e);
                     }
                   }}
                 >
@@ -296,6 +293,15 @@ export default function Header() {
                       Anviz Attendance
                     </a>
                   </li>
+
+                  <li>
+                    <a
+                      href="/integrations"
+                      data-drupal-link-system-path="node/16"
+                    >
+                      Integrations
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -320,4 +326,3 @@ export default function Header() {
     </header>
   );
 }
-
