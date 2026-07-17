@@ -686,3 +686,32 @@ a.home-pricing-cta {
   }
 }
 
+/* Reusable mobile-only pricing CTA (e.g. get-started page). Hidden on desktop,
+   centered on mobile with the chat-button look. */
+a.pricing-cta {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  body a.dash-button.chat_button.pricing-cta {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    margin: 20px auto 0 !important;
+    text-align: center;
+    background: #fff;
+    color: #e65100;
+    border: 1px solid #e65100;
+    padding: 11px 2rem;
+    cursor: pointer;
+  }
+  body a.dash-button.chat_button.pricing-cta:hover {
+    background: #ffe0b2;
+  }
+  body a.dash-button.chat_button.pricing-cta i {
+    font-size: 16px;
+  }
+}
+

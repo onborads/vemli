@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PricingCta from "@/components/PricingCta";
 
 export const metadata = { title: "Get Started | Vemli Core" };
 
@@ -142,6 +143,8 @@ export default function Page() {
           <p className="text-center text-gray-400 text-sm mt-8">
             We're here to help you succeed.
           </p>
+
+          <PricingCta label="See our pricing" />
         </section>
       </main>
 

@@ -117,8 +117,12 @@
       }
       @media (max-width: 850px) {
         .dc-solution .dc.header-banner {
-          min-height: 680px;
-          background-position: 60%;
+          height: auto;
+          min-height: 0;
+          aspect-ratio: 2982 / 1658;
+          background-size: contain;
+          background-position: center;
+          background-color: #333;
         }
       }
       .dc-solution .dc.header-banner .circle-mark {
@@ -153,7 +157,13 @@
       }
       @media (max-width: 850px) {
         .dc-solution .dc.header-banner .info {
-          top: 80%;
+          position: absolute;
+          top: auto;
+          bottom: 12px;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100%;
+          padding: 0 15px;
         }
       }
       .dc-solution .dc.header-banner .info h1 {
@@ -167,6 +177,10 @@
       @media (max-width: 850px) {
         .dc-solution .dc.header-banner .info h3 {
           font-size: 18px;
+        }
+        .dc-solution .dc.header-banner .info h1 {
+          font-size: 22px;
+          line-height: 1.2;
         }
       }
       .dc-solution .dc.header-banner .info img {
