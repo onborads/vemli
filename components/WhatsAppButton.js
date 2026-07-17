@@ -1,6 +1,6 @@
 "use client";
 
-const WHATSAPP_NUMBER = "2332461427273";
+const WHATSAPP_NUMBER = "233261427273";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hello Vemli Core Team, I'm interested in your POS system.",
 );

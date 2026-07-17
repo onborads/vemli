@@ -43,7 +43,7 @@ export default function Page() {
 
                 <div className="mt-8 space-y-4">
                   <a
-                    href="https://wa.me/2332461427273?text=Hello%20Vemli%20Core%20Team,%20I'm%20interested%20in%20your%20POS%20system."
+                    href="https://api.whatsapp.com/send/?phone=233261427273&text=Hello+Vemli+Core+Team%2C+I%27m+interested+in+your+POS+system.&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-3 border border-gray-200 hover:border-blue-400 rounded-xl px-6 py-4 font-semibold text-white transition"

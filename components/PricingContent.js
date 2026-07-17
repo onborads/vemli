@@ -3,9 +3,7 @@
 import { useState } from "react";
 
 const GET_STARTED_URL = "/get-started";
-const CONTACT_SALES_URL =
-  "https://wa.me/2332461427273?text=Hello%20Vemli%20Core%20Team%2C%20I'm%20interested%20in%20the%20Enterprise%20plan.%20Please%20share%20more%20details.";
-
+const CONTACT_SALES_URL  ="https://api.whatsapp.com/send/?phone=233261427273&text=Hello+Vemli+Core+Team%2C+I%27m+interested+in+your+POS+system.&type=phone_number&app_absent=0"
 const PLANS = [
   {
     id: "starter",
