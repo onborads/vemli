@@ -651,3 +651,29 @@ body { font-family: Arial, sans-serif; }
   }
 }
 
+/* Hidden by default (desktop); shown only on mobile via the media query below.
+   !important beats the later global .dash-button{display:inline-block}. */
+a.home-pricing-cta {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  body a.dash-button.chat_button.home-pricing-cta {
+    display: block !important;
+    width: fit-content;
+    margin: 16px auto 24px !important;
+    text-align: center;
+    background: #fff;
+    color: #e65100;
+    border: 1px solid #e65100;
+    padding: 11px 2rem;
+    cursor: pointer;
+  }
+  body a.dash-button.chat_button.home-pricing-cta:hover {
+    background: #ffe0b2;
+  }
+  body a.dash-button.chat_button.home-pricing-cta i {
+    font-size: 16px;
+  }
+}
+
