@@ -1,107 +1,109 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
-const GET_STARTED_URL = '/get-started';
+const GET_STARTED_URL = "/get-started";
 const CONTACT_SALES_URL =
   "https://wa.me/2332461427273?text=Hello%20Vemli%20Core%20Team%2C%20I'm%20interested%20in%20the%20Enterprise%20plan.%20Please%20share%20more%20details.";
 
 const PLANS = [
   {
-    id: 'starter',
-    name: 'Starter',
-    tags: ['🛍️ Retail', '💊 Pharmacy'],
-    monthly: { price: '149', period: 'per month · 1 terminal' },
-    annual: { price: '1,368', period: 'per year · save GH¢420 · 1 terminal' },
+    id: "starter",
+    name: "Starter",
+    tags: ["🛍️ Retail", "💊 Pharmacy"],
+    monthly: { price: "149", period: "per month · 1 terminal" },
+    annual: { price: "1,368", period: "per year · save GH¢420 · 1 terminal" },
     features: [
-      'Fast checkout',
-      'Product search',
-      'Cash & MoMo payments',
-      'Inventory tracking',
+      "Fast checkout",
+      "Product search",
+      "Cash & MoMo payments",
+      "Inventory tracking",
     ],
     more: [
-      { text: 'Low stock alerts', included: true },
-      { text: 'Product categories', included: true },
-      { text: 'Sales reports', included: true },
-      { text: 'AI assistant', included: false },
+      { text: "Low stock alerts", included: true },
+      { text: "Product categories", included: true },
+      { text: "Sales reports", included: true },
+      { text: "AI assistant", included: false },
     ],
-    cta: { label: 'Get Started', href: GET_STARTED_URL, style: 'ghost' },
+    cta: { label: "Get Started", href: GET_STARTED_URL, style: "ghost" },
   },
   {
-    id: 'growth',
-    name: 'Growth',
-    tags: ['🛍️ Retail', '💊 Pharmacy'],
-    monthly: { price: '349', period: 'per month · up to 2 terminals' },
+    id: "growth",
+    name: "Growth",
+    tags: ["🛍️ Retail", "💊 Pharmacy"],
+    monthly: { price: "349", period: "per month · up to 2 terminals" },
     annual: {
-      price: '3,207',
-      period: 'per year · save GH¢981 · up to 2 terminals',
+      price: "3,207",
+      period: "per year · save GH¢981 · up to 2 terminals",
     },
     features: [
-      'Faster checkout',
-      'Stock visibility',
-      'WhatsApp & Slack alerts',
-      'Staff performance',
+      "Faster checkout",
+      "Stock visibility",
+      "WhatsApp & Slack alerts",
+      "Staff performance",
     ],
     more: [
-      { text: 'VAT & end-of-day reports', included: true },
-      { text: 'Opening & closing stock reports', included: true },
-      { text: 'AI assistant', included: true },
-      { text: 'PMS Integration add-on', included: true },
+      { text: "VAT & end-of-day reports", included: true },
+      { text: "Opening & closing stock reports", included: true },
+      { text: "AI assistant", included: true },
+      { text: "PMS Integration add-on", included: true },
     ],
-    cta: { label: 'Get Started', href: GET_STARTED_URL, style: 'ghost' },
+    cta: { label: "Get Started", href: GET_STARTED_URL, style: "ghost" },
   },
   {
-    id: 'business',
-    name: 'Business',
+    id: "business",
+    name: "Business",
     featured: true,
-    badge: '🏨 Hospitality-ready',
-    tags: ['🍽️ Restaurants', '🍺 Bars', '🏨 Hotels'],
-    monthly: { price: '599', period: 'per month · up to 3 terminals' },
+    badge: "🏨 Hospitality-ready",
+    tags: ["🍽️ Restaurants", "🍺 Bars", "🏨 Hotels"],
+    monthly: { price: "599", period: "per month · up to 3 terminals" },
     annual: {
-      price: '5,491',
-      period: 'per year · save GH¢1,697 · up to 3 terminals',
+      price: "5,491",
+      period: "per year · save GH¢1,697 · up to 3 terminals",
     },
     features: [
-      'Table & order management',
-      'Split bills and modifiers',
-      'KOT and service workflows',
-      'PMS Integration add-on',
+      "Table & order management",
+      "Split bills and modifiers",
+      "KOT and service workflows",
+      "PMS Integration add-on",
     ],
     more: [
-      { text: 'Serving periods and analytics', included: true },
-      { text: 'Priority support', included: true },
-      { text: 'WhatsApp and Slack notifications', included: true },
-      { text: 'AI assistant', included: true },
+      { text: "Serving periods and analytics", included: true },
+      { text: "Priority support", included: true },
+      { text: "WhatsApp and Slack notifications", included: true },
+      { text: "AI assistant", included: true },
     ],
-    cta: { label: 'Get Started', href: GET_STARTED_URL, style: 'light' },
+    cta: { label: "Get Started", href: GET_STARTED_URL, style: "light" },
   },
   {
-    id: 'enterprise',
-    name: 'Enterprise',
+    id: "enterprise",
+    name: "Enterprise",
     isContact: true,
-    tags: ['🏢 Multi-location', '🔗 API Access'],
-    contactLabel: 'Contact Sales',
-    contactSub: 'tailored to your needs',
+    tags: ["🏢 Multi-location", "🔗 API Access"],
+    contactLabel: "Contact Sales",
+    contactSub: "tailored to your needs",
     features: [
-      'Everything in the core plans',
-      'Multiple branches and terminals',
-      'Custom integrations',
-      'Premium support',
+      "Everything in the core plans",
+      "Multiple branches and terminals",
+      "Custom integrations",
+      "Premium support",
     ],
     more: [
-      { text: 'Dedicated onboarding', included: true },
-      { text: 'Advanced analytics', included: true },
-      { text: 'Priority SLA', included: true },
+      { text: "Dedicated onboarding", included: true },
+      { text: "Advanced analytics", included: true },
+      { text: "Priority SLA", included: true },
     ],
-    cta: { label: 'Contact Sales', href: CONTACT_SALES_URL, style: 'amber' },
+    cta: { label: "Contact Sales", href: CONTACT_SALES_URL, style: "amber" },
   },
 ];
 
 function CheckItem({ text, included, featured }) {
   return (
-    <div className={`pr-check-item${featured ? ' pr-check-item-light' : ''}${!included ? ' pr-check-muted' : ''}`}>
-      <span className={included ? 'pr-check-icon' : 'pr-check-x'}>
-        {included ? '✓' : '✗'}
+    <div
+      className={`pr-check-item${featured ? " pr-check-item-light" : ""}${!included ? " pr-check-muted" : ""}`}
+    >
+      <span className={included ? "pr-check-icon" : "pr-check-x"}>
+        {included ? "✓" : "✗"}
       </span>
       {text}
     </div>
@@ -109,14 +111,16 @@ function CheckItem({ text, included, featured }) {
 }
 
 function CtaButton({ cta }) {
-  const external = cta.href.startsWith('http');
+  const external = cta.href.startsWith("http");
   return (
     <a
       href={cta.href}
-      {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       className={`pr-cta pr-cta-${cta.style}`}
     >
-      {cta.style === 'amber' && <i className="fas fa-phone text-sm" aria-hidden="true" />}
+      {cta.style === "amber" && (
+        <i className="fas fa-phone text-sm" aria-hidden="true" />
+      )}
       {cta.label}
     </a>
   );
@@ -127,7 +131,9 @@ function PlanCard({ plan, annual }) {
   const pricing = annual ? plan.annual : plan.monthly;
 
   return (
-    <div className={`pr-card${plan.featured ? ' pr-card-featured' : ' pr-card-dark'}`}>
+    <div
+      className={`pr-card${plan.featured ? " pr-card-featured" : " pr-card-dark"}`}
+    >
       {plan.badge && (
         <div className="pr-badge">
           <span>{plan.badge}</span>
@@ -139,7 +145,7 @@ function PlanCard({ plan, annual }) {
         <div className="mb-1 mt-2">
           <p
             className={`text-sm font-medium mb-1 ${
-              plan.featured ? 'text-blue-100' : 'text-slate-400'
+              plan.featured ? "text-blue-100" : "text-slate-400"
             }`}
           >
             {plan.name}
@@ -157,7 +163,7 @@ function PlanCard({ plan, annual }) {
               <div className="flex items-end gap-1 mb-0.5 flex-nowrap">
                 <span
                   className={`text-lg font-light self-start mt-2 shrink-0 ${
-                    plan.featured ? 'text-white/60' : 'text-slate-500'
+                    plan.featured ? "text-white/60" : "text-slate-500"
                   }`}
                 >
                   GH¢
@@ -166,7 +172,9 @@ function PlanCard({ plan, annual }) {
                   {pricing.price}
                 </span>
               </div>
-              <p className={`text-sm ${plan.featured ? 'text-blue-200' : 'text-slate-500'}`}>
+              <p
+                className={`text-sm ${plan.featured ? "text-blue-200" : "text-slate-500"}`}
+              >
                 {pricing.period}
               </p>
             </>
@@ -178,7 +186,7 @@ function PlanCard({ plan, annual }) {
           {plan.tags.map((tag) => (
             <span
               key={tag}
-              className={`pr-pill text-xs ${plan.featured ? 'pr-pill-onblue' : 'pr-pill-light'}`}
+              className={`pr-pill text-xs ${plan.featured ? "pr-pill-onblue" : "pr-pill-light"}`}
             >
               {tag}
             </span>
@@ -209,11 +217,13 @@ function PlanCard({ plan, annual }) {
           type="button"
           onClick={() => setShowMore((v) => !v)}
           className={`pr-more-btn ${
-            plan.featured ? 'text-blue-200 hover:text-white' : 'text-blue-400 hover:text-blue-300'
+            plan.featured
+              ? "text-blue-200 hover:text-white"
+              : "text-blue-400 hover:text-blue-300"
           }`}
           aria-expanded={showMore}
         >
-          {showMore ? '− View less' : '+ View more'}
+          {showMore ? "− View less" : "+ View more"}
         </button>
       </div>
 
@@ -229,19 +239,23 @@ export default function PricingContent() {
     <main className="pricing-page py-24 px-6" id="pricing">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
-          <span className="pr-pill pr-pill-blue mb-4 mx-auto w-fit">Pricing</span>
+          <span className="pr-pill pr-pill-blue mb-4 mx-auto w-fit">
+            Pricing
+          </span>
           <h1 className="pr-font-display text-4xl md:text-5xl font-extrabold text-white mt-4 mb-4">
             Simple, honest pricing.
           </h1>
-          <p className="text-slate-400 text-lg max-w-md mx-auto">
-            Pick the level that fits your team. Everything is included with clear,
-            transparent pricing.
-          </p>
+          <div className="flex justify-center">
+  <p className="text-slate-400 text-lg text-center max-w-sm">
+    Pick the level that fits your team. Everything is included with clear,
+    transparent pricing.
+  </p>
+</div>
 
           {/* Billing toggle */}
           <div className="flex items-center justify-center gap-3 mt-8">
             <span
-              className={`text-sm font-medium ${annual ? 'text-slate-400' : 'text-white'}`}
+              className={`text-sm font-medium ${annual ? "text-slate-400" : "text-white"}`}
             >
               Monthly
             </span>
@@ -255,11 +269,13 @@ export default function PricingContent() {
             >
               <span
                 className="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300"
-                style={{ transform: annual ? 'translateX(24px)' : 'translateX(0)' }}
+                style={{
+                  transform: annual ? "translateX(24px)" : "translateX(0)",
+                }}
               />
             </button>
             <span
-              className={`text-sm font-medium ${annual ? 'text-white' : 'text-slate-400'}`}
+              className={`text-sm font-medium ${annual ? "text-white" : "text-slate-400"}`}
             >
               Annual
               <span className="text-emerald-400 font-semibold text-xs ml-1">
@@ -282,9 +298,10 @@ export default function PricingContent() {
         <div className="pr-note rounded-2xl px-6 py-5 flex items-start gap-3 mt-8">
           <span className="text-lg mt-0.5">💡</span>
           <p className="text-slate-400 text-sm leading-relaxed">
-            <span className="text-white font-medium">Add-ons available:</span> AI
-            Assistant, WhatsApp Assistant, PMS Integration, Advanced Analytics,
-            API Access, Extra Branches, Extra Users, and Premium Support.
+            <span className="text-white font-medium">Add-ons available:</span>{" "}
+            AI Assistant, WhatsApp Assistant, PMS Integration, Advanced
+            Analytics, API Access, Extra Branches, Extra Users, and Premium
+            Support.
           </p>
         </div>
       </div>
