@@ -19,7 +19,7 @@ const PLANS = [
     features: [
       "Fast checkout",
       "Product search",
-      "Cash & MoMo payments",
+      "Cash & Mobile Money (MTN, Vodafone, AirtelTigo)",
       "Inventory tracking",
     ],
     more: [
@@ -40,16 +40,16 @@ const PLANS = [
     features: [
       "Faster checkout",
       "Stock visibility",
-      "WhatsApp & Slack alerts",
+      "WhatsApp & Slack notifications",
       "Staff performance",
     ],
     more: [
-      { text: "VAT & end-of-day reports", included: true },
+      { text: "VAT reports & end-of-day enforcement", included: true },
       { text: "Opening & closing stock reports", included: true },
       { text: "AI assistant", included: true },
       { text: "Basic Attendance", included: true },
       { text: "Attendance Device add-on", included: false },
-        { text: "QuickBooks Integration", included: false },
+      { text: "QuickBooks Integration", included: false },
       { text: "Sage300 Integration", included: false },
     ],
     cta: { label: "Get Started", href: GET_STARTED_URL, style: "ghost" },
@@ -67,13 +67,12 @@ const PLANS = [
       "Table & order management",
       "Split bills and modifiers",
       "KOT and service workflows",
+      "Kitchen Display System (KDS)",
     ],
     more: [
       { text: "Serving periods and analytics", included: true },
       { text: "Priority support", included: true },
-      { text: "WhatsApp and Slack notifications", included: true },
-    
-       { text: "PMS Integration add-on", included: false },
+      { text: "PMS Integration add-on", included: false },
     ],
     cta: { label: "Get Started", href: GET_STARTED_URL, style: "light" },
   },
@@ -331,11 +330,19 @@ export default function PricingContent() {
 
         <div className="pr-note rounded-2xl px-6 py-5 flex items-start gap-3 mt-8">
           <span className="text-lg mt-0.5">💡</span>
-          <p className="text-slate-400 text-sm leading-relaxed">
-            <span className="text-white font-medium">Add-ons available:</span>{" "}
-            AI Assistant, WhatsApp Assistant, PMS Integration, Advanced
-            Analytics, API Access, Extra Branches, Extra Users, and Premium
-            Support.
+          <p className="text-slate-400 text-sm leading-relaxed space-y-1">
+            <span className="block">
+              <span className="text-white font-medium">Operations:</span> PMS
+              Integration, Purchase Orders, Anviz Attendance Device
+            </span>
+            <span className="block">
+              <span className="text-white font-medium">Growth:</span> AI
+              Assistant, WhatsApp Assistant, Advanced Analytics, API Access
+            </span>
+            <span className="block">
+              <span className="text-white font-medium">Scale:</span> Extra
+              Branches, Extra Users, Premium Support
+            </span>
           </p>
         </div>
       </div>
