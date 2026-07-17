@@ -35,11 +35,11 @@ export default function WhatsAppButton() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        className="whatsapp-btn fixed bottom-6 right-6 z-50 flex h-20 w-20 items-center justify-center rounded-full bg-[#25D366]/85 shadow-xl backdrop-blur-sm transition-all duration-300 hover:bg-[#25D366] hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] focus:outline-none focus:ring-4 focus:ring-green-400/50"
+        className="whatsapp-btn fixed bottom-5 right-5 md:bottom-6 md:right-6 z-50 flex h-14 w-14 md:h-20 md:w-20 items-center justify-center rounded-full bg-[#25D366]/85 shadow-xl backdrop-blur-sm transition-all duration-300 hover:bg-[#25D366] hover:shadow-[0_0_30px_rgba(37,211,102,0.6)] focus:outline-none focus:ring-4 focus:ring-green-400/50"
       >
         <i
           aria-hidden="true"
-          className="fa-brands fa-whatsapp text-5xl text-white transition-transform duration-300 hover:scale-110"
+          className="fa-brands fa-whatsapp text-3xl md:text-5xl text-white transition-transform duration-300 hover:scale-110"
         />
       </a>
     </>

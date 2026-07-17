@@ -277,15 +277,7 @@ export default function Footer() {
                 <div>
                   <div className="prod-open">
                     <ul className="menu">
-                      <li>
-                        <div className="views-field views-field-title">
-                          <span className="field-content">
-                            <a href="/loyalty-program" hrefLang="en">
-                              Loyalty Program
-                            </a>
-                          </span>
-                        </div>
-                      </li>
+                     
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
