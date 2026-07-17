@@ -536,10 +536,19 @@ body { font-family: Arial, sans-serif; }
 }
 
 @media (max-width: 640px) {
-  #chat-button-home,
-  #get-started-home {
-    padding: 8px 12px !important;
-    font-size: 12px !important;
+  .hp_software_text .appstores.get-start {
+    flex-wrap: nowrap !important;
+    gap: 6px !important;
+    margin: 16px 12px 0 !important;
+  }
+  .hp_software_text .appstores.get-start > a {
+    flex: 1 1 0;
+    max-width: none !important;
+    min-width: 0;
+    margin: 0 !important;
+    text-align: center;
+    padding: 8px 1px !important;
+    font-size: 11px !important;
     white-space: nowrap;
   }
 }
