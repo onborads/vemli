@@ -2,7 +2,30 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PricingCta from "@/components/PricingCta";
 
-export const metadata = { title: "Get Started | Vemli Core" };
+export const metadata = {
+  title: "Get Started | Vemli Core",
+  description:
+    "Contact Vemli POS to get started. Call +233 24 069 9506, email info@vemli.co, or chat on WhatsApp. Support available 8AM–8PM with 1-hour response time.",
+};
+
+const structuredDataGetStarted = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: "Get Started with Vemli POS",
+  description:
+    "Contact Vemli POS to get started. Call +233 24 069 9506, email info@vemli.co, or chat on WhatsApp.",
+  url: "https://vemli.co/get-started",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: "Vemli POS",
+    telephone: "+233240699506",
+    email: "info@vemli.co",
+    url: "https://vemli.co",
+    address: { "@type": "PostalAddress", addressCountry: "GH" },
+    contactOption:
+      "https://api.whatsapp.com/send/?phone=233261427273&text=Hello+Vemli+Core+Team%2C+I%27m+interested+in+your+POS+system.&type=phone_number&app_absent=0",
+  },
+};
 
 export default function Page() {
   const now = new Date();
@@ -12,6 +35,12 @@ export default function Page() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredDataGetStarted),
+        }}
+      />
       <Header />
 
       <main className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-blue-50">
@@ -84,27 +113,6 @@ export default function Page() {
                   <div>
                     <b className="block text-gray-900 text-lg">✓</b>
                     <span className="text-xs text-gray-500">Trusted</span>
-                  </div>
-                </div>
-
-                {/* Contact Info Below Stats */}
-                <div className="mt-6 pt-6 border-t border-gray-200">
-                  <div className="flex items-center justify-center gap-6 text-sm">
-                    <a
-                      href="tel:+233240699506"
-                      className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition"
-                    >
-                      <i className="fas fa-phone text-blue-600" />
-                      <span className="font-medium">+233 24 069 9506</span>
-                    </a>
-                    <span className="text-gray-300">|</span>
-                    <a
-                      href="mailto:info@vemli.co"
-                      className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition"
-                    >
-                      <i className="fas fa-envelope text-blue-600" />
-                      <span className="font-medium">info@vemli.co</span>
-                    </a>
                   </div>
                 </div>
               </div>
