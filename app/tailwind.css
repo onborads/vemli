@@ -1,1 +1,99 @@
 @import "tailwindcss";
+
+.hp_fits {
+  overflow: hidden;
+  padding: 40px 0;
+}
+.hp_fits_title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.hp_fits_rows {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 100%;
+}
+.hp_fits_row {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 8%,
+    black 92%,
+    transparent
+  );
+}
+.hp_fits_track {
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  animation: hp-scroll-left 45s linear infinite;
+  will-change: transform;
+}
+.hp_fits_row:hover .hp_fits_track {
+  animation-play-state: paused;
+}
+.hp_fits_pill {
+  flex: 0 0 auto;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: #f2f2f2;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.hp_fits_pill_link {
+  color: inherit;
+  text-decoration: none;
+}
+.hp_fits_row:nth-child(even) .hp_fits_track {
+  animation-name: hp-scroll-right;
+}
+@keyframes hp-scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.333%);
+  }
+}
+@keyframes hp-scroll-right {
+  from {
+    transform: translateX(-33.333%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 640px) {
+  .hp_fits_title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .hp_fits_pill {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+  .hp_fits_track {
+    gap: 8px;
+  }
+  .hp_fits_rows {
+    gap: 12px;
+  }
+  .hp_fits_row--desktop {
+    display: none;
+  }
+}
