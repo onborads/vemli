@@ -1,12 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import IntegrationsContent from "@/components/IntegrationsContent";
+import { getPageMetadata } from '@/app/lib/metadata';
 
-export const metadata = {
-  title: "Integrations",
-  description:
-    "Connect Vemli Core to WhatsApp, Slack, hotel systems, AI assistants, Sage 300, QuickBooks, and more.",
-};
+export const metadata = getPageMetadata('/integrations');
 
 export default function Page() {
   return (

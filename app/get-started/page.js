@@ -1,12 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PricingCta from "@/components/PricingCta";
+import { getPageMetadata } from '@/app/lib/metadata';
 
-export const metadata = {
-  title: "Get Started | Vemli Core",
-  description:
-    "Contact Vemli POS to get started. Call +233 24 069 9506, email info@vemli.co, or chat on WhatsApp. Support available 8AM–8PM with 1-hour response time.",
-};
+export const metadata = getPageMetadata('/get-started');
 
 const structuredDataGetStarted = {
   "@context": "https://schema.org",

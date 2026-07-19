@@ -2,10 +2,9 @@ import fs from "fs";
 import path from "path";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getPageMetadata } from '@/app/lib/metadata';
 
-export const metadata = {
-  title: "Time & Attendance Solution | Anviz",
-};
+export const metadata = getPageMetadata('/anviz-attendance');
 
 const SCOPE_RESET = `
 .anviz-scope h1,.anviz-scope h2,.anviz-scope h3,.anviz-scope h4,.anviz-scope h5,.anviz-scope h6 {

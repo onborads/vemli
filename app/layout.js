@@ -11,14 +11,12 @@ export const metadata = {
     "POS system Ghana, restaurant POS Ghana, point of sale Ghana, retail POS, hotel POS, bar POS, inventory management Ghana, order management, payment system Ghana, Accra POS system, Kumasi restaurant software, Vemli POS",
   authors: [{ name: "Vemli POS" }],
   robots: "index, follow",
-  alternates: { canonical: "https://vemli.co/" },
   icons: {
     icon: "/assets/favicon.png",
     apple: "/assets/favicon-64x64.png",
   },
   openGraph: {
     type: "website",
-    url: "https://vemli.co/",
     title: "Vemli POS | Restaurant & Retail POS System — Ghana",
     description:
       "Complete restaurant and retail POS for Ghanaian businesses. Real-time sales, inventory, staff performance, and AI-powered insights — all in one system.",
@@ -78,7 +76,6 @@ export default function RootLayout({ children }) {
         {/* Google Tag Manager */}
         <script dangerouslySetInnerHTML={{ __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','G-1WPQPDXEBV');` }} />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-        <link rel="canonical" href="https://vemli.co/" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />

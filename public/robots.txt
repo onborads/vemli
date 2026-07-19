@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /fr/
+
 
 Sitemap: https://vemli.co/sitemap.xml

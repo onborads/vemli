@@ -277,7 +277,6 @@ export default function Footer() {
                 <div>
                   <div className="prod-open">
                     <ul className="menu">
-                     
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
@@ -345,38 +344,27 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <nav
-              itemScope
-              itemType="https://schema.org/SiteNavigationElement"
-              aria-labelledby="block-privacypolicy-menu"
-              id="block-privacypolicy"
-            >
-              <div className="visually-hidden" id="block-privacypolicy-menu">
-                Privacy Policy
-              </div>
-              <ul className="lmenu">
-                <li>
-                  <a href="#">Cookie Policy</a>
-                </li>
-                <li>
-                  <a href="#">Data Processing and Privacy</a>
-                </li>
-                {/* <li>
-                  <a href="#">Privacy Policy</a>
-                </li> */}
-                {/* <li>
-                  <a href="#">Terms of Use</a>
-                </li> */}
-                {/* <li>
-                  <a href="#">#</a>
-                </li> */}
-                {/* <li>
-                  <a href="https://vemli.co/terms-third-party-integration">
-                    Terms of Third-Party Integration
-                  </a>
-                </li> */}
-              </ul>
-            </nav>
+              <nav
+                itemScope
+                itemType="https://schema.org/SiteNavigationElement"
+                aria-labelledby="block-privacypolicy-menu"
+                id="block-privacypolicy"
+              >
+                <div className="visually-hidden" id="block-privacypolicy-menu">
+                  Privacy Policy
+                </div>
+                <ul className="lmenu">
+                  <li>
+                    {/* <a href="/privacy-policy">Privacy Policy</a> */}
+                  </li>
+                  <li>
+                    {/* <a href="/terms-use">Terms of Use</a> */}
+                  </li>
+                  <li>
+                    <a href="/cookie-policy">Cookie Policy</a>
+                  </li>
+                </ul>
+              </nav>
           </div>
         </div>
       </div>

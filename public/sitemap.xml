@@ -3,125 +3,297 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
 >
-  <!-- Homepage -->
   <url>
     <loc>https://vemli.co/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>1.0</priority>
+    <changefreq>daily</changefreq>
     <image:image>
-      <image:loc>https://vemli.co/assets/pos_screen.jpg</image:loc>
-      <image:caption>POS system dashboard screen</image:caption>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/home/new/vemli-pos.png</image:loc>
+      <image:caption>Vemli POS system</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://vemli.co/assets/multistore.png</image:loc>
-      <image:caption>Multi-store management system</image:caption>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/home/new/pastires-shop.jpg</image:loc>
+      <image:caption>Retail store using Vemli POS</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://vemli.co/assets/Inventory%20Management.png</image:loc>
-      <image:caption>Inventory management dashboard</image:caption>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/home/new/grocery_shop.jpg</image:loc>
+      <image:caption>Grocery store using Vemli POS</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://vemli.co/assets/kot_screen.png</image:loc>
-      <image:caption>Kitchen order ticket system</image:caption>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/home/en/sales-analytics.png</image:loc>
+      <image:caption>Sales analytics dashboard</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://vemli.co/assets/Closing%20Stock%20Report.png</image:loc>
-      <image:caption>Closing stock report</image:caption>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/home/payment-providers.png</image:loc>
+      <image:caption>Payment providers</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://vemli.co/assets/Report%20dashboard.png</image:loc>
+      <image:loc>https://vemli.co/assets/Report-dashboard.png</image:loc>
       <image:caption>Report dashboard</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://vemli.co/assets/menu_page.png</image:loc>
-      <image:caption>Menu page</image:caption>
     </image:image>
   </url>
 
-  <!-- Core pages -->
-  <url><loc>https://vemli.co/about/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/features/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/pricing/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/hardware/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/marketplace/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/get-started/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/anviz-attendance/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/signup/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-
-  <!-- POS verticals -->
-  <url><loc>https://vemli.co/restaurants-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/retail-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-  <url><loc>https://vemli.co/bar-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/cafe-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/grocery-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/small-business-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/fashion-boutiques-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/vemli-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.8</priority></url>
-
-  <!-- Features / modules -->
-  <url><loc>https://vemli.co/dashboard/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/back-office/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/advanced-inventory/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/employee-management/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/loyalty-program/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/payment-systems/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/kitchen-display-system/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/customer-display-system/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/multi-store-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/download-loyverse/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-
-  <!-- Integrations -->
-  <url><loc>https://vemli.co/integrations/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-
-  <!-- Payment integrations -->
-  <url><loc>https://vemli.co/izettle/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/sumup/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/shift4/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/smartpay/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/tyro/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/yoco/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-
-  <!-- Blog -->
-  <url><loc>https://vemli.co/blog/</loc><lastmod>2026-07-17</lastmod><priority>0.7</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-manage-a-restaurant/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-improve-restaurant-management/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/traditional-pos-vs-cloud-based-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/what-makes-a-coffee-shop-successful/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-develop-a-convenience-store/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/best-analytic-dashboards-for-small-businesses/</loc><lastmod>2026-07-17</lastmod><priority>0.6</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-choose-pos-printer/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/everything-you-need-to-know-about-customer-loyalty-programs/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-expand-your-retail-business-7-retail-expansion-strategies-to-try-today/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-expand-your-business-from-one-coffee-shop-to-a-chain-store/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-attract-customers-into-a-grocery-store/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-manage-a-health-and-beauty-store-with-loyverse-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-optimize-the-work-of-retail-store-in-time-of-crisis/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-to-create-and-develop-a-nail-salon-in-ghana-from-scratch-using-online-technology/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/grocerant-the-trend-leading-the-food-market-into-the-future/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/how-cafes-and-restaurants-can-survive-and-develop-in-the-time-of-quarantine/</loc><lastmod>2026-07-17</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vemli.co/blog/antique-cash-registers-history-review/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/top-global-coffee-events/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/top-influencers-in-the-small-and-medium-business/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-loyalty-software-programs-for-small-to-medium-businesses/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-online-ordering-delivery-services-for-small-and-medium-businesses/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-retail-blogs-for-small-and-medium-businesses/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-scheduling-systems-for-small-and-medium-business/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-software-review-websites-for-small-and-medium-business/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/best-integration-platforms-as-a-service-for-small-and-medium-businesses/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/export-receipts-automatically-to-google-sheets/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/get-email-notification-about-new-shift-report/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/send-loyverse-receipt-customers-pdf/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/send-receipts-to-customers-via-sms-from-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/story-of-kaeme-or-how-to-create-a-new-cosmetics-brand-in-ghana/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/a-visionary-entrepreneur-runs-a-laundry-cafe-with-loyverse/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-  <url><loc>https://vemli.co/blog/alraj-family-business-history-or-how-to-sell-building-materials-with-loyverse-pos/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
-
-  <!-- Legal / policy -->
-  <url><loc>https://vemli.co/privacy-policy/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/terms-use/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/cookie-policy/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/api-terms/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/data-processing-addendum/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/terms-third-party-integration/</loc><lastmod>2026-07-17</lastmod><priority>0.3</priority></url>
-  <url><loc>https://vemli.co/vemli-api/</loc><lastmod>2026-07-17</lastmod><priority>0.4</priority></url>
+  <url>
+    <loc>https://vemli.co/features</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/get-started</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/signup</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/pricing</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/restaurants-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/restaurants/en/main-banner-restaurants.webp</image:loc>
+      <image:caption>Restaurant POS system</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/restaurants/kitchen-orders.png</image:loc>
+      <image:caption>Kitchen order management</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/restaurants/customer-loyalty.png</image:loc>
+      <image:caption>Customer loyalty program</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/retail-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/retail/en/main-retail.png</image:loc>
+      <image:caption>Retail POS system</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/retail/manage-inventory.png</image:loc>
+      <image:caption>Inventory management for retail</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/retail/relationships.png</image:loc>
+      <image:caption>Customer relationship management</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/vemli-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/integrations</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/hardware</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/default/files/inline-images/hardware.png</image:loc>
+      <image:caption>POS hardware solutions</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/dashboard</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/dashboard/en/main-dashboard.webp</image:loc>
+      <image:caption>Vemli dashboard overview</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/dashboard/en/sales-summary.webp</image:loc>
+      <image:caption>Sales summary report</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/back-office</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/back-office/en/sales-summary.webp</image:loc>
+      <image:caption>Back office sales summary</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/advanced-inventory</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/inventory/main-banner.png</image:loc>
+      <image:caption>Advanced inventory management</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/employee-management</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/employee/main-banner.jpg</image:loc>
+      <image:caption>Employee management system</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/payment-systems</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/pos-system/payments/integrated-payments.webp</image:loc>
+      <image:caption>Integrated payment solutions</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/multi-store-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/multi-store/en/main-banner.png</image:loc>
+      <image:caption>Multi-store management</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/kitchen-display-system</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/kds/kds-banner.png</image:loc>
+      <image:caption>Kitchen Display System</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/customer-display-system</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/product/cds/cds-banner-new.webp</image:loc>
+      <image:caption>Customer Display System</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/bar-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/bar/en/main-banner-bar.webp</image:loc>
+      <image:caption>Bar POS system</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/bar/sell-drinks.webp</image:loc>
+      <image:caption>Drink sales management</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/cafe-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/cafe/main-banner-cafe.webp</image:loc>
+      <image:caption>Cafe POS system</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/grocery-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/grocery/en/main-banner-grocery.webp</image:loc>
+      <image:caption>Grocery store POS</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/small-business-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/small-business/main-small-business.webp</image:loc>
+      <image:caption>Small business POS</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/fashion-boutiques-pos</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://vemli.co/sites/all/themes/vemli/images/business/clothing/main-clothing.webp</image:loc>
+      <image:caption>Fashion boutique POS</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vemli.co/anviz-attendance</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/blog</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/privacy-policy</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/cookie-policy</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/terms-use</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/terms-third-party-integration</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.3</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://vemli.co/vemli-api</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.4</priority>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

@@ -114,7 +114,7 @@ export default function AiBusinessIntelligence() {
       {/* Report dashboard as faint background */}
       <div className="absolute inset-0 pointer-events-none">
         <img
-          src="/assets/Report dashboard.png"
+          src="/assets/Report-dashboard.png"
           alt=""
           aria-hidden="true"
           className="w-full h-full object-cover object-top opacity-10"

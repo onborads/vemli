@@ -1,8 +1,7 @@
 import StaticPage from '@/components/StaticPage';
+import { getPageMetadata } from '@/app/lib/metadata';
 
-export const metadata = {
-  title: 'Advanced Inventory',
-};
+export const metadata = getPageMetadata('/advanced-inventory');
 
 export default function Page() {
   return (
