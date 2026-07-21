@@ -2,6 +2,8 @@ const SITE_NAME = "Vemli POS";
 const SITE_URL = "https://vemli.co";
 const DEFAULT_DESCRIPTION =
   "Vemli POS is a complete restaurant and retail point of sale system built for Ghanaian businesses. Manage orders, inventory, payments, staff, and get real-time analytics.";
+const HOME_IMAGE = `${SITE_URL}/vemli-pos-backdrop-1.png`;
+const DEFAULT_IMAGE = `${SITE_URL}/logo_white-nobg.png`;
 
 const pageMetadata = {
   "/": {
@@ -169,7 +171,7 @@ export function getPageMetadata(pathname) {
       url: `${SITE_URL}${pathname === "/" ? "" : pathname}`,
       title: meta.title,
       description: meta.description,
-      images: [{ url: `${SITE_URL}/logo_white-nobg.png` }],
+      images: [{ url: pathname === "/" ? HOME_IMAGE : DEFAULT_IMAGE }],
       siteName: SITE_NAME,
       locale: "en_GH",
     },
@@ -177,7 +179,7 @@ export function getPageMetadata(pathname) {
       card: "summary_large_image",
       title: meta.title,
       description: meta.description,
-      images: [`${SITE_URL}/logo_white-nobg.png`],
+      images: [pathname === "/" ? HOME_IMAGE : DEFAULT_IMAGE],
     },
   };
 }
