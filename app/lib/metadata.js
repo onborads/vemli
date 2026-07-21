@@ -164,11 +164,11 @@ export function getPageMetadata(pathname) {
     title: meta.title,
     description: meta.description,
     alternates: {
-      canonical: `${SITE_URL}${pathname === "/" ? "" : pathname}`,
+      canonical: `${SITE_URL}${pathname === "/" ? "" : pathname}/`,
     },
     openGraph: {
       type: "website",
-      url: `${SITE_URL}${pathname === "/" ? "" : pathname}`,
+      url: `${SITE_URL}${pathname === "/" ? "" : pathname}/`,
       title: meta.title,
       description: meta.description,
       images: [{ url: pathname === "/" ? HOME_IMAGE : DEFAULT_IMAGE }],

@@ -5,7 +5,7 @@
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
 >
   <url>
-    <loc>https://vemli.co/</loc>
+    <loc>https://vemli.co//</loc>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/P3s7kDgc3Wg/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>Vemli POS in Action</video:title>
@@ -44,31 +44,31 @@
   </url>
 
   <url>
-    <loc>https://vemli.co/features</loc>
+    <loc>https://vemli.co/features/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/get-started</loc>
+    <loc>https://vemli.co/get-started/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/signup</loc>
+    <loc>https://vemli.co/signup/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/pricing</loc>
+    <loc>https://vemli.co/pricing/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/restaurants-pos</loc>
+    <loc>https://vemli.co/restaurants-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -89,7 +89,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/retail-pos</loc>
+    <loc>https://vemli.co/retail-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
@@ -107,19 +107,19 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/vemli-pos</loc>
+    <loc>https://vemli.co/vemli-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/integrations</loc>
+    <loc>https://vemli.co/integrations/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/hardware</loc>
+    <loc>https://vemli.co/hardware/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -129,7 +129,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/dashboard</loc>
+    <loc>https://vemli.co/dashboard/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -145,7 +145,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/back-office</loc>
+    <loc>https://vemli.co/back-office/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -156,7 +156,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/advanced-inventory</loc>
+    <loc>https://vemli.co/advanced-inventory/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -166,7 +166,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/employee-management</loc>
+    <loc>https://vemli.co/employee-management/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -176,7 +176,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/payment-systems</loc>
+    <loc>https://vemli.co/payment-systems/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -187,7 +187,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/multi-store-pos</loc>
+    <loc>https://vemli.co/multi-store-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -198,7 +198,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/kitchen-display-system</loc>
+    <loc>https://vemli.co/kitchen-display-system/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.6</priority>
     <changefreq>weekly</changefreq>
@@ -208,7 +208,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/customer-display-system</loc>
+    <loc>https://vemli.co/customer-display-system/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.6</priority>
     <changefreq>weekly</changefreq>
@@ -218,7 +218,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/bar-pos</loc>
+    <loc>https://vemli.co/bar-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -232,7 +232,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/cafe-pos</loc>
+    <loc>https://vemli.co/cafe-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -242,7 +242,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/grocery-pos</loc>
+    <loc>https://vemli.co/grocery-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -253,7 +253,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/small-business-pos</loc>
+    <loc>https://vemli.co/small-business-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
@@ -264,7 +264,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/fashion-boutiques-pos</loc>
+    <loc>https://vemli.co/fashion-boutiques-pos/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.6</priority>
     <changefreq>weekly</changefreq>
@@ -274,43 +274,43 @@
     </image:image>
   </url>
   <url>
-    <loc>https://vemli.co/anviz-attendance</loc>
+    <loc>https://vemli.co/anviz-attendance/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/blog</loc>
+    <loc>https://vemli.co/blog/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.7</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/privacy-policy</loc>
+    <loc>https://vemli.co/privacy-policy/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/cookie-policy</loc>
+    <loc>https://vemli.co/cookie-policy/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/terms-use</loc>
+    <loc>https://vemli.co/terms-use/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/terms-third-party-integration</loc>
+    <loc>https://vemli.co/terms-third-party-integration/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>https://vemli.co/vemli-api</loc>
+    <loc>https://vemli.co/vemli-api/</loc>
     <lastmod>2026-07-19</lastmod>
     <priority>0.4</priority>
     <changefreq>weekly</changefreq>
