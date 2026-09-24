@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PricingCta from "@/components/PricingCta";
+import AvailabilityBadge from "@/components/AvailabilityBadge";
 import { getPageMetadata } from '@/app/lib/metadata';
 
 export const metadata = getPageMetadata('/get-started');
@@ -25,11 +26,6 @@ const structuredDataGetStarted = {
 };
 
 export default function Page() {
-  const now = new Date();
-  const hour = now.getHours();
-
-  const isAvailable = hour >= 8 && hour < 20;
-
   return (
     <>
       <script
@@ -46,17 +42,7 @@ export default function Page() {
             <div className="grid md:grid-cols-2">
               {/* Left Content */}
               <div className="p-8 md:p-12 flex flex-col justify-center">
-                <span className="flex items-center gap-2">
-                  <span
-                    className={`w-2 h-2 rounded-full ${
-                      isAvailable ? "bg-green-500 animate-pulse" : "bg-gray-400"
-                    }`}
-                  />
-
-                  {isAvailable
-                    ? "Available Now"
-                    : "We're currently offline. Leave a message and we'll reply at 8:00 AM.."}
-                </span>
+                <AvailabilityBadge />
 
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
                   Ready to simplify your business operations?
