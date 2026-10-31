@@ -114,7 +114,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/back-office" hrefLang="en">
+                            <a href="/pos/back-office" hrefLang="en">
                               Back Office
                             </a>
                           </span>
@@ -124,7 +124,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/kitchen-display-system" hrefLang="en">
+                            <a href="/pos/kitchen-display-system" hrefLang="en">
                               Kitchen Display
                             </a>
                           </span>
@@ -133,7 +133,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/customer-display-system" hrefLang="en">
+                            <a href="/pos/customer-display-system" hrefLang="en">
                               Customer Display
                             </a>
                           </span>
@@ -142,7 +142,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/employee-management" hrefLang="en">
+                            <a href="/pos/employee-management" hrefLang="en">
                               Employee Management
                             </a>
                           </span>
@@ -151,7 +151,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/multi-store-pos" hrefLang="en">
+                            <a href="/pos/multi-store-pos" hrefLang="en">
                               Multi-store Management
                             </a>
                           </span>
@@ -160,7 +160,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/advanced-inventory" hrefLang="en">
+                            <a href="/pos/advanced-inventory" hrefLang="en">
                               Inventory Management
                             </a>
                           </span>
@@ -169,7 +169,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/anviz-attendance" hrefLang="en">
+                            <a href="/pos/anviz-attendance" hrefLang="en">
                               Time &amp; Attendance Solution
                             </a>
                           </span>
@@ -192,7 +192,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/grocery-pos" hrefLang="en">
+                            <a href="/pos/grocery-pos" hrefLang="en">
                               Grocery &amp; convenience
                             </a>
                           </span>
@@ -201,7 +201,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/cafe-pos" hrefLang="en">
+                            <a href="/pos/cafe-pos" hrefLang="en">
                               Café
                             </a>
                           </span>
@@ -210,7 +210,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/restaurants-pos" hrefLang="en">
+                            <a href="/pos/restaurants-pos" hrefLang="en">
                               Restaurant
                             </a>
                           </span>
@@ -219,7 +219,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/retail-pos" hrefLang="en">
+                            <a href="/pos/retail-pos" hrefLang="en">
                               Retail
                             </a>
                           </span>
@@ -228,7 +228,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/bar-pos" hrefLang="en">
+                            <a href="/pos/bar-pos" hrefLang="en">
                               Bar &amp; Pub
                             </a>
                           </span>
@@ -237,7 +237,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/fashion-boutiques-pos" hrefLang="en">
+                            <a href="/pos/fashion-boutiques-pos" hrefLang="en">
                               Clothing &amp; accessories
                             </a>
                           </span>
@@ -259,7 +259,7 @@ export default function Footer() {
                 <ul className="lmenu">
                   <li>
                     <a
-                      href="/small-business-pos"
+                      href="/pos/small-business-pos"
                       data-drupal-link-system-path="node/23"
                     >
                       Small Business POS
@@ -280,7 +280,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/payment-systems" hrefLang="en">
+                            <a href="/pos/payment-systems" hrefLang="en">
                               Accept Credit Cards
                             </a>
                           </span>
@@ -290,7 +290,7 @@ export default function Footer() {
                       <li>
                         <div className="views-field views-field-title">
                           <span className="field-content">
-                            <a href="/anviz-attendance" hrefLang="en">
+                            <a href="/pos/anviz-attendance" hrefLang="en">
                               Time & Attendance Solution
                             </a>
                           </span>

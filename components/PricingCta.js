@@ -4,7 +4,7 @@
 // Tapping it navigates to the pricing page. Hidden on desktop.
 export default function PricingCta({ label = 'See our pricing' }) {
   return (
-    <a className="dash-button chat_button pricing-cta" href="/pricing">
+    <a className="dash-button chat_button pricing-cta" href="/pos/pricing">
       <i className="fa-solid fa-tag" aria-hidden="true" />
       {label}
     </a>

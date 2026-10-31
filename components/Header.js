@@ -74,7 +74,7 @@ export default function Header() {
               itemScope
               itemType="https://www.schema.org/Organization"
             >
-              <a href="/" rel="home">
+              <a href="/pos/" rel="home">
                 <img
                   src="/assets/logo_white-nobg.png"
                   alt="Vemli POS"
@@ -101,17 +101,17 @@ export default function Header() {
 
                 <ul className="lmenu">
                   <li>
-                    <a href="/features" data-drupal-link-system-path="node/10">
+                    <a href="/pos/features" data-drupal-link-system-path="node/10">
                       Features
                     </a>
                   </li>
                   <li>
-                    <a href="/hardware" data-drupal-link-system-path="node/9">
+                    <a href="/pos/hardware" data-drupal-link-system-path="node/9">
                       Hardware
                     </a>
                   </li>
                   <li>
-                    <a href="/pricing" data-drupal-link-system-path="node/8">
+                    <a href="/pos/pricing" data-drupal-link-system-path="node/8">
                       Pricing
                     </a>
                   </li>
@@ -145,7 +145,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/grocery-pos" hrefLang="en">
+                              <a href="/pos/grocery-pos" hrefLang="en">
                                 Grocery &amp; convenience
                               </a>
                             </span>
@@ -154,7 +154,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/cafe-pos" hrefLang="en">
+                              <a href="/pos/cafe-pos" hrefLang="en">
                                 Café
                               </a>
                             </span>
@@ -163,7 +163,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/restaurants-pos" hrefLang="en">
+                              <a href="/pos/restaurants-pos" hrefLang="en">
                                 Restaurant
                               </a>
                             </span>
@@ -172,7 +172,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/retail-pos" hrefLang="en">
+                              <a href="/pos/retail-pos" hrefLang="en">
                                 Retail
                               </a>
                             </span>
@@ -181,7 +181,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/bar-pos" hrefLang="en">
+                              <a href="/pos/bar-pos" hrefLang="en">
                                 Bar &amp; Pub
                               </a>
                             </span>
@@ -190,7 +190,7 @@ export default function Header() {
                         <li>
                           <div className="views-field views-field-title">
                             <span className="field-content">
-                              <a href="/fashion-boutiques-pos" hrefLang="en">
+                              <a href="/pos/fashion-boutiques-pos" hrefLang="en">
                                 Clothing &amp; accessories
                               </a>
                             </span>
@@ -227,26 +227,26 @@ export default function Header() {
 
                 <ul className="lmenu">
                   <li>
-                    <a href="/vemli-pos" data-drupal-link-system-path="node/46">
+                    <a href="/pos/vemli-pos" data-drupal-link-system-path="node/46">
                       Vemli POS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/back-office"
+                      href="/pos/back-office"
                       data-drupal-link-system-path="node/11"
                     >
                       Back Office
                     </a>
                   </li>
                   <li>
-                    <a href="/dashboard" data-drupal-link-system-path="node/12">
+                    <a href="/pos/dashboard" data-drupal-link-system-path="node/12">
                       Dashboard
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/kitchen-display-system"
+                      href="/pos/kitchen-display-system"
                       data-drupal-link-system-path="node/13"
                     >
                       Kitchen Display
@@ -254,7 +254,7 @@ export default function Header() {
                   </li>
                   <li>
                     <a
-                      href="/customer-display-system"
+                      href="/pos/customer-display-system"
                       data-drupal-link-system-path="node/14"
                     >
                       Customer Display
@@ -262,7 +262,7 @@ export default function Header() {
                   </li>
                   <li>
                     <a
-                      href="/employee-management"
+                      href="/pos/employee-management"
                       data-drupal-link-system-path="node/17"
                     >
                       Employee Management
@@ -270,7 +270,7 @@ export default function Header() {
                   </li>
                   <li>
                     <a
-                      href="/multi-store-pos"
+                      href="/pos/multi-store-pos"
                       data-drupal-link-system-path="node/56"
                     >
                       Multi-Store Management
@@ -278,7 +278,7 @@ export default function Header() {
                   </li>
                   <li>
                     <a
-                      href="/advanced-inventory"
+                      href="/pos/advanced-inventory"
                       data-drupal-link-system-path="node/15"
                     >
                       Inventory Management
@@ -287,7 +287,7 @@ export default function Header() {
 
                   <li>
                     <a
-                      href="/anviz-attendance"
+                      href="/pos/anviz-attendance"
                       data-drupal-link-system-path="node/15"
                     >
                       Anviz Attendance
@@ -296,7 +296,7 @@ export default function Header() {
 
                   <li>
                     <a
-                      href="/integrations"
+                      href="/pos/integrations"
                       data-drupal-link-system-path="node/16"
                     >
                       Integrations
