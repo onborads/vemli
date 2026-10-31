@@ -1,5 +1,7 @@
 "use client";
 
+import { usePathname } from "next/navigation";
+
 const WHATSAPP_NUMBER = "233261427273";
 const WHATSAPP_MESSAGE = encodeURIComponent(
   "Hello Vemli Core Team, I'm interested in your POS system.",
@@ -7,6 +9,9 @@ const WHATSAPP_MESSAGE = encodeURIComponent(
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`;
 
 export default function WhatsAppButton() {
+  const pathname = usePathname();
+  if (pathname === "/" || pathname.replace(/\/$/, "") === "/school") return null;
+
   return (
     <>
       <style jsx>{`

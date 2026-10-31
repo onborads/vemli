@@ -5,7 +5,7 @@
 // the pricing page.
 export default function HomePricingCta() {
   return (
-    <a className="dash-button chat_button home-pricing-cta" href="/pricing">
+    <a className="dash-button chat_button home-pricing-cta" href="/pos/pricing">
       <i className="fa-solid fa-tag" aria-hidden="true" />
       See our pricing
     </a>
