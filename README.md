@@ -103,3 +103,7 @@ The cloned output is written to `clone_site/`.
 - `node_modules/`, `.next/`, and `out/` are git-ignored.
 - The `app/layout.js` injects Google Tag Manager, structured data
   (`SoftwareApplication`, `FAQPage`), and social meta tags for SEO.
+
+
+TEST/TEMP cloudflare URL
+https://vemli.vemliservices.workers.dev
